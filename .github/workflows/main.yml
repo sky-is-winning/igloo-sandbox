@@ -1,0 +1,76 @@
+name: Update Production
+
+on:
+    push:
+        branches: [master]
+
+jobs:
+    update-production:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - uses: actions/setup-node@v2
+              with:
+                  node-version: '16'
+
+            - name: SSH into server and deploy 
+              uses: appleboy/ssh-action@v0.1.9
+              with:
+                  host: ${{ secrets.SERVER_HOST }}
+                  username: ${{ secrets.SERVER_USERNAME }}
+                  key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  port: 22
+                  script: |
+                    cd /home/cpplus/client
+                    git pull --recurse-submodules
+                    npm install
+                    npm run build
+
+    create-archive:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Install zip
+              uses: montudor/action-zip@v1
+
+            - name: Checkout repository and submodules
+              uses: actions/checkout@v2
+              with:
+                  token: ${{ secrets.MEDIA_KEY }}
+                  submodules: recursive
+                  path: client
+
+            - name: Remove .git folder to reduce file size
+              run: rm -rf client/.git
+
+            - name: Checkout server
+              uses: actions/checkout@v2
+              with:
+                  repository: clubpenguinplus/server
+                  token: ${{ secrets.MEDIA_KEY }}
+                  path: server
+
+            - name: Get version
+              id: package-version
+              uses: martinbeentjes/npm-get-version-action@main
+              with:
+                  path: 'client'
+
+            - name: Create archive folder
+              run: mkdir -p archive
+
+            - name: Zip files
+              run: zip -qq -r archive/${{ steps.package-version.outputs.current-version }}.zip server client
+
+            - name: Upload archive
+              uses: sharapeco/lftp-mirror-action@main
+              with:
+                  host: ${{ secrets.SERVER_HOST }}
+                  port: 22
+                  username: ${{ secrets.SERVER_USERNAME }}
+                  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  local_path: './archive'
+                  remote_path: '/home/cpplus/archive'

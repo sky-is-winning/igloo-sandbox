@@ -1,0 +1,947 @@
+{
+    "front": {
+        "id": "front"
+    },
+    "contents": {
+        "id": "contents",
+        "title": {
+            "text": "Contents",
+            "x": 199,
+            "y": 117
+        },
+        "index": {
+            "events": {
+                "id": "events",
+                "name": "Events",
+                "icon": "categories/5"
+            },
+            "activities": {
+                "id": "activities",
+                "name": "Activities",
+                "icon": "categories/7"
+            },
+            "games": {
+                "id": "games",
+                "name": "Games",
+                "icon": "categories/8"
+            },
+            "pins": {
+                "id": "pins",
+                "name": "Pins",
+                "icon": "categories/9001"
+            }
+        },
+        "background": {
+            "frame": "pagebgs/contents",
+            "y": 864,
+            "x": 744
+        }
+    },
+    "events": {
+        "id": "events",
+        "title": {
+            "text": "Events",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/5",
+            "x": 255,
+            "y": 120
+        },
+        "index": {
+            "characters": {
+                "id": "characters",
+                "name": "Characters",
+                "icon": "categories/6"
+            },
+            "party": {
+                "id": "party",
+                "name": "Party",
+                "icon": "categories/23"
+            }
+        },
+        "background": {
+            "frame": "pagebgs/entertainment",
+            "x": 744,
+            "y": 863
+        }
+    },
+    "characters": {
+        "id": "characters",
+        "title": {
+            "text": "Characters",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/6",
+            "x": 255,
+            "y": 120
+        },
+        "group": 6,
+        "background": {
+            "frame": "pagebgs/mascots",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 10,
+                "stamps": 1
+            },
+            {
+                "id": 11,
+                "stamps": 4
+            },
+            {
+                "id": 12,
+                "stamps": 7
+            }
+        ]
+    },
+    "party": {
+        "id": "party",
+        "title": {
+            "text": "Party",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/23",
+            "x": 255,
+            "y": 120
+        },
+        "group": 23,
+        "background": {
+            "frame": "pagebgs/party",
+            "x": 739,
+            "y": 853,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        "polaroids": [
+            {
+                "id": 30,
+                "stamps": 1
+            },
+            {
+                "id": 31,
+                "stamps": 2
+            },
+            {
+                "id": 52,
+                "stamps": 12
+            }
+        ]
+    },
+    "activities": {
+        "id": "activities",
+        "title": {
+            "text": "Activities",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/7",
+            "x": 255,
+            "y": 120
+        },
+        "group": 7,
+        "background": {
+            "frame": "pagebgs/activities",
+            "x": 744,
+            "y": 749
+        },
+        "polaroids": [
+            {
+                "id": 1,
+                "stamps": 1
+            },
+            {
+                "id": 2,
+                "stamps": 9
+            },
+            {
+                "id": 3,
+                "stamps": 17
+            }
+        ]
+    },
+    "games": {
+        "id": "games",
+        "title": {
+            "text": "Games",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/8",
+            "x": 255,
+            "y": 120
+        },
+        "index": {
+            "aqua": {
+                "id": "aqua",
+                "name": "Aqua Grabber",
+                "icon": "categories/13"
+            },
+            "astro": {
+                "id": "astro",
+                "name": "Astro Barrier",
+                "icon": "categories/14"
+            },
+            "card": {
+                "id": "card",
+                "name": "Card-Jitsu",
+                "icon": "categories/38"
+            },
+            "cjfire": {
+                "id": "cjfire",
+                "name": "Card-Jitsu Fire",
+                "icon": "categories/32"
+            },
+            "cjsnow": {
+                "id": "cjsnow",
+                "name": "Card-Jitsu Snow",
+                "icon": "categories/60"
+            },
+            "cjwater": {
+                "id": "cjwater",
+                "name": "Card-Jitsu Water",
+                "icon": "categories/34"
+            },
+            "cart": {
+                "id": "cart",
+                "name": "Cart Surfer",
+                "icon": "categories/28"
+            },
+            "waves": {
+                "id": "waves",
+                "name": "Catchin' Waves",
+                "icon": "categories/15"
+            },
+            "fishing": {
+                "id": "fishing",
+                "name": "Ice Fishing",
+                "icon": "categories/52"
+            },
+            "jpa": {
+                "id": "jpa",
+                "name": "Jet Pack Adventure",
+                "icon": "categories/11"
+            },
+            "missions": {
+                "id": "missions",
+                "name": "Missions",
+                "icon": "categories/22"
+            },
+            "pizzatron": {
+                "id": "pizzatron",
+                "name": "Pizzatron 3000",
+                "icon": "categories/54"
+            },
+            "launch": {
+                "id": "launch",
+                "name": "Puffle Launch",
+                "icon": "categories/48"
+            },
+            "rescue": {
+                "id": "rescue",
+                "name": "Puffle Rescue",
+                "icon": "categories/19"
+            },
+            "pufflescape": {
+                "id": "pufflescape",
+                "name": "Pufflescape",
+                "icon": "categories/57"
+            },
+            "smoothie": {
+                "id": "smoothie",
+                "name": "Smoothie Smash",
+                "icon": "categories/58"
+            },
+            "sysdef": {
+                "id": "sysdef",
+                "name": "System Defender",
+                "icon": "categories/46"
+            },
+            "thinice": {
+                "id": "thinice",
+                "name": "Thin Ice",
+                "icon": "categories/16"
+            },
+            "hunt": {
+                "id": "hunt",
+                "name": "Treasure Hunt",
+                "icon": "categories/56"
+            }
+        },
+        "background": {
+            "frame": "pagebgs/games",
+            "x": 744,
+            "y": 749
+        }
+    },
+    "aqua": {
+        "id": "aqua",
+        "title": {
+            "text": "Aqua Grabber",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/13",
+            "x": 255,
+            "y": 120
+        },
+        "group": 13,
+        "background": {
+            "frame": "pagebgs/aqua",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 4,
+                "stamps": 1
+            },
+            {
+                "id": 5,
+                "stamps": 10
+            },
+            {
+                "id": 6,
+                "stamps": 20
+            }
+        ]
+    },
+    "astro": {
+        "id": "astro",
+        "title": {
+            "text": "Astro Barrier",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/14",
+            "x": 255,
+            "y": 120
+        },
+        "group": 14,
+        "background": {
+            "frame": "pagebgs/astro",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 7,
+                "stamps": 1
+            },
+            {
+                "id": 8,
+                "stamps": 6
+            },
+            {
+                "id": 9,
+                "stamps": 12
+            }
+        ]
+    },
+    "card": {
+        "id": "card",
+        "title": {
+            "text": "Card-Jitsu",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/38",
+            "x": 255,
+            "y": 120
+        },
+        "group": 38,
+        "background": {
+            "frame": "pagebgs/jitsu",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 42,
+                "stamps": 1
+            },
+            {
+                "id": 43,
+                "stamps": 5
+            },
+            {
+                "id": 44,
+                "stamps": 10
+            }
+        ]
+    },
+    "cjfire": {
+        "id": "cjfire",
+        "title": {
+            "text": "Card-Jitsu Fire",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/32",
+            "x": 255,
+            "y": 120
+        },
+        "group": 32,
+        "background": {
+            "frame": "pagebgs/firejitsu",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 45,
+                "stamps": 1
+            },
+            {
+                "id": 46,
+                "stamps": 4
+            },
+            {
+                "id": 47,
+                "stamps": 8
+            }
+        ]
+    },
+    "cjsnow": {
+        "id": "cjsnow",
+        "title": {
+            "text": "Card-Jitsu Snow",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/60",
+            "x": 255,
+            "y": 120
+        },
+        "group": 60,
+        "background": {
+            "frame": "pagebgs/snowjitsu",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 77,
+                "stamps": 5
+            },
+            {
+                "id": 78,
+                "stamps": 12
+            },
+            {
+                "id": 79,
+                "stamps": 21
+            }
+        ]
+    },
+    "cjwater": {
+        "id": "cjwater",
+        "title": {
+            "text": "Card-Jitsu Water",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/34",
+            "x": 255,
+            "y": 120
+        },
+        "group": 34,
+        "background": {
+            "frame": "pagebgs/waterjitsu",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 48,
+                "stamps": 1
+            },
+            {
+                "id": 49,
+                "stamps": 4
+            },
+            {
+                "id": 50,
+                "stamps": 8
+            }
+        ]
+    },
+    "cart": {
+        "id": "cart",
+        "title": {
+            "text": "Cart Surfer",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/28",
+            "x": 255,
+            "y": 120
+        },
+        "group": 28,
+        "background": {
+            "frame": "pagebgs/surfer",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 38,
+                "stamps": 1
+            },
+            {
+                "id": 39,
+                "stamps": 6
+            },
+            {
+                "id": 40,
+                "stamps": 12
+            }
+        ]
+    },
+    "waves": {
+        "id": "waves",
+        "title": {
+            "text": "Catchin' Waves",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/15",
+            "x": 255,
+            "y": 120
+        },
+        "group": 15,
+        "background": {
+            "frame": "pagebgs/waves",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 25,
+                "stamps": 1
+            },
+            {
+                "id": 26,
+                "stamps": 10
+            },
+            {
+                "id": 27,
+                "stamps": 22
+            }
+        ]
+    },
+    "fishing": {
+        "id": "fishing",
+        "title": {
+            "text": "Ice Fishing",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/52",
+            "x": 255,
+            "y": 120
+        },
+        "group": 52,
+        "background": {
+            "frame": "pagebgs/fishing",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 62,
+                "stamps": 1
+            },
+            {
+                "id": 63,
+                "stamps": 5
+            },
+            {
+                "id": 64,
+                "stamps": 10
+            }
+        ]
+    },
+    "jpa": {
+        "id": "jpa",
+        "title": {
+            "text": "Jet Pack Adventure",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/11",
+            "x": 255,
+            "y": 120
+        },
+        "group": 11,
+        "background": {
+            "frame": "pagebgs/jetpack",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 13,
+                "stamps": 1
+            },
+            {
+                "id": 14,
+                "stamps": 7
+            },
+            {
+                "id": 15,
+                "stamps": 14
+            }
+        ]
+    },
+    "missions": {
+        "id": "missions",
+        "title": {
+            "text": "Missions",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/22",
+            "x": 255,
+            "y": 120
+        },
+        "group": 22,
+        "background": {
+            "frame": "pagebgs/missions",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 35,
+                "stamps": 1
+            },
+            {
+                "id": 36,
+                "stamps": 11
+            },
+            {
+                "id": 37,
+                "stamps": 22
+            }
+        ]
+    },
+    "pizzatron": {
+        "id": "pizzatron",
+        "title": {
+            "text": "Pizzatron 3000",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/54",
+            "x": 255,
+            "y": 120
+        },
+        "group": 54,
+        "background": {
+            "frame": "pagebgs/pizzatron",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 65,
+                "stamps": 1
+            },
+            {
+                "id": 66,
+                "stamps": 5
+            },
+            {
+                "id": 67,
+                "stamps": 10
+            }
+        ]
+    },
+    "launch": {
+        "id": "launch",
+        "title": {
+            "text": "Puffle Launch",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/48",
+            "x": 255,
+            "y": 120
+        },
+        "group": 48,
+        "background": {
+            "frame": "pagebgs/pufflelaunch",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids:": [
+            {
+                "id": 56,
+                "stamps": 1
+            },
+            {
+                "id": 57,
+                "stamps": 6
+            },
+            {
+                "id": 58,
+                "stamps": 12
+            }
+        ]
+    },
+    "rescue": {
+        "id": "rescue",
+        "title": {
+            "text": "Puffle Rescue",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/19",
+            "x": 255,
+            "y": 120
+        },
+        "group": 19,
+        "background": {
+            "frame": "pagebgs/rescue",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 33,
+                "stamps": 1
+            },
+            {
+                "id": 32,
+                "stamps": 15
+            },
+            {
+                "id": 34,
+                "stamps": 27
+            }
+        ]
+    },
+    "pufflescape": {
+        "id": "pufflescape",
+        "title": {
+            "text": "Pufflescape",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/57",
+            "x": 255,
+            "y": 120
+        },
+        "group": 57,
+        "background": {
+            "frame": "pagebgs/pufflescape",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 71,
+                "stamps": 1
+            },
+            {
+                "id": 72,
+                "stamps": 5
+            },
+            {
+                "id": 73,
+                "stamps": 11
+            }
+        ]
+    },
+    "smoothie": {
+        "id": "smoothie",
+        "title": {
+            "text": "Smoothie Smash",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/58",
+            "x": 255,
+            "y": 120
+        },
+        "group": 58,
+        "background": {
+            "frame": "pagebgs/smoothie",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 74,
+                "stamps": 1
+            },
+            {
+                "id": 75,
+                "stamps": 6
+            },
+            {
+                "id": 76,
+                "stamps": 12
+            }
+        ]
+    },
+    "sysdef": {
+        "id": "sysdef",
+        "title": {
+            "text": "System Defender",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/46",
+            "x": 255,
+            "y": 120
+        },
+        "group": 46,
+        "background": {
+            "frame": "pagebgs/defender",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 53,
+                "stamps": 1
+            },
+            {
+                "id": 54,
+                "stamps": 5
+            },
+            {
+                "id": 55,
+                "stamps": 14
+            }
+        ]
+    },
+    "thinice": {
+        "id": "thinice",
+        "title": {
+            "text": "Thin Ice",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/16",
+            "x": 255,
+            "y": 120
+        },
+        "group": 16,
+        "background": {
+            "frame": "pagebgs/thinice",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 22,
+                "stamps": 1
+            },
+            {
+                "id": 23,
+                "stamps": 5
+            },
+            {
+                "id": 24,
+                "stamps": 9
+            }
+        ]
+    },
+    "hunt": {
+        "id": "hunt",
+        "title": {
+            "text": "Treasure Hunt",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/56",
+            "x": 255,
+            "y": 120
+        },
+        "group": 56,
+        "background": {
+            "frame": "pagebgs/treasurehunt",
+            "x": 744,
+            "y": 862
+        },
+        "polaroids": [
+            {
+                "id": 68,
+                "stamps": 1
+            },
+            {
+                "id": 69,
+                "stamps": 3
+            },
+            {
+                "id": 70,
+                "stamps": 5
+            }
+        ]
+    },
+    "pins": {
+        "id": "pins",
+        "title": {
+            "text": "Pins",
+            "x": 329,
+            "y": 117
+        },
+        "icon": {
+            "frame": "categories/9001",
+            "x": 255,
+            "y": 120
+        }
+    },
+    "enabledPages": [
+        "front",
+        "contents",
+        "events",
+        "characters",
+        "party",
+        "activities",
+        "games",
+        "aqua",
+        "astro",
+        "cart",
+        "waves",
+        "fishing",
+        "jpa",
+        "pizzatron",
+        "launch",
+        "rescue",
+        "smoothie",
+        "thinice",
+        "pins"
+    ]
+}

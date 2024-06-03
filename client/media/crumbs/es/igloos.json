@@ -1,0 +1,386 @@
+{
+    "0": {
+        "name": "Quitar iglú",
+        "cost": 0
+    },
+    "1": {
+        "name": "Iglú básico",
+        "cost": 1500
+    },
+    "2": {
+        "name": "Iglú rosa",
+        "cost": 1500
+    },
+    "3": {
+        "name": "Iglú de lujo azul",
+        "cost": 4000
+    },
+    "4": {
+        "name": "Iglú rosa grande",
+        "cost": 4000
+    },
+    "5": {
+        "name": "Iglú secreto de piedra",
+        "cost": 2000
+    },
+    "6": {
+        "name": "Iglú helado",
+        "cost": 1000
+    },
+    "8": {
+        "name": "Iglú secreto de piedra de lujo",
+        "cost": 5000
+    },
+    "9": {
+        "name": "Iglú helado de lujo",
+        "cost": 3000
+    },
+    "10": {
+        "name": "Casita de bambú",
+        "cost": 3200
+    },
+    "11": {
+        "name": "Cabaña",
+        "cost": 4100
+    },
+    "12": {
+        "name": "Gimnasio",
+        "cost": 4800
+    },
+    "13": {
+        "name": "Iglú en desnivel",
+        "cost": 4600
+    },
+    "14": {
+        "name": "Iglú rosa en desnivel",
+        "cost": 4600
+    },
+    "15": {
+        "name": "Iglú burbuja de cristal",
+        "cost": 3700
+    },
+    "16": {
+        "name": "Castillo de hielo",
+        "cost": 2400
+    },
+    "17": {
+        "name": "Iglú nevado en desnivel",
+        "cost": 4600
+    },
+    "18": {
+        "name": "Pecera",
+        "cost": 2400
+    },
+    "19": {
+        "name": "Campamento",
+        "cost": 2700
+    },
+    "20": {
+        "name": "Iglú de calabaza",
+        "cost": 2700
+    },
+    "21": {
+        "name": "Iglú con patio",
+        "cost": 4200
+    },
+    "22": {
+        "name": "Palacio rosa helado",
+        "cost": 2400
+    },
+    "23": {
+        "name": "Iglú-barco",
+        "cost": 4300
+    },
+    "24": {
+        "name": "Iglú-Dojo",
+        "cost": 1300
+    },
+    "25": {
+        "name": "Casita de dulces",
+        "cost": 2100
+    },
+    "26": {
+        "name": "Iglú-restaurante",
+        "cost": 4800
+    },
+    "27": {
+        "name": "Iglú casita del árbol",
+        "cost": 4500
+    },
+    "28": {
+        "name": "Iglú-Teatro",
+        "cost": 4600
+    },
+    "29": {
+        "name": "Carpa de circo",
+        "cost": 3000
+    },
+    "30": {
+        "name": "Iglú con patio nevado",
+        "cost": 3000
+    },
+    "31": {
+        "name": "Iglú-cueva",
+        "cost": 1500
+    },
+    "32": {
+        "name": "Iglú de trébol verde",
+        "cost": 2050
+    },
+    "33": {
+        "name": "Castillo de hielo gris",
+        "cost": 2400
+    },
+    "35": {
+        "name": "Casita del bosque",
+        "cost": 2500
+    },
+    "36": {
+        "name": "Iglú majestuoso",
+        "cost": 2500
+    },
+    "37": {
+        "name": "Iglú con división",
+        "cost": 2300
+    },
+    "38": {
+        "name": "Iglú misterioso",
+        "cost": 1800
+    },
+    "39": {
+        "name": "Guarida del dragón",
+        "cost": 3000
+    },
+    "40": {
+        "name": "Bahía de la sirena",
+        "cost": 3030
+    },
+    "41": {
+        "name": "La boca de la ballena",
+        "cost": 2700
+    },
+    "42": {
+        "name": "Iglú dulce o travesura",
+        "cost": 2000
+    },
+    "43": {
+        "name": "Casita de dulces de lujo",
+        "cost": 0
+    },
+    "45": {
+        "name": "Nieve invisible",
+        "cost": 0
+    },
+    "46": {
+        "name": "Playa invisible",
+        "cost": 0
+    },
+    "47": {
+        "name": "Bosque invisible",
+        "cost": 0
+    },
+    "48": {
+        "name": "Montaña invisible",
+        "cost": 0
+    },
+    "49": {
+        "name": "Iglú naufragado",
+        "cost": 900
+    },
+    "50": {
+        "name": "Guarida silvestre",
+        "cost": 900
+    },
+    "51": {
+        "name": "Mansión medieval",
+        "cost": 1200
+    },
+    "52": {
+        "name": "Depósito",
+        "cost": 950
+    },
+    "53": {
+        "name": "Iglú de piña tropical",
+        "cost": 0
+    },
+    "54": {
+        "name": "Caverna tenebrosa",
+        "cost": 1500
+    },
+    "55": {
+        "name": "Palacio congelado",
+        "cost": 2000
+    },
+    "56": {
+        "name": "Casita de mazapán recién horneada",
+        "cost": 2500
+    },
+    "57": {
+        "name": "Iglú de superlujo",
+        "cost": 4000
+    },
+    "58": {
+        "name": "Iglú VIP con cascada",
+        "cost": 4500
+    },
+    "59": {
+        "name": "Era invisible de los dinosaurios",
+        "cost": 0
+    },
+    "60": {
+        "name": "Fuerte de árbol para puffles",
+        "cost": 0
+    },
+    "61": {
+        "name": "Iglú base secreta",
+        "cost": 1600
+    },
+    "62": {
+        "name": "Iglú Base Imperial",
+        "cost": 1000
+    },
+    "63": {
+        "name": "Iglú Todos a la playa",
+        "cost": 1500
+    },
+    "64": {
+        "name": "Iglú gimnasio",
+        "cost": 0
+    },
+    "65": {
+        "name": "Escondite mágico",
+        "cost": 1500
+    },
+    "66": {
+        "name": "Castillo tremebundo",
+        "cost": 2000
+    },
+    "67": {
+        "name": "Iglú torbellino de dulces",
+        "cost": 0
+    },
+    "68": {
+        "name": "Iglú estación de tren",
+        "cost": 1100
+    },
+    "69": {
+        "name": "Iglú carpa de La Kermés",
+        "cost": 1000
+    },
+    "70": {
+        "name": "Avión de Aero CP",
+        "cost": 1200
+    },
+    "71": {
+        "name": "Casa de árbol para puffles",
+        "cost": 1500
+    },
+    "72": {
+        "name": "##Invisible Distant Planet##",
+        "cost": 0
+    },
+    "73": {
+        "name": "Iglú esfera espacial",
+        "cost": 2000
+    },
+    "74": {
+        "name": "Iglú Estadio de fútbol invisible",
+        "cost": 0
+    },
+    "75": {
+        "name": "Iglú de autobús de la banda",
+        "cost": 1800
+    },
+    "76": {
+        "name": "Iglú Palacio de hielo",
+        "cost": 0
+    },
+    "77": {
+        "name": "Gimnasio de tiburones",
+        "cost": 1500
+    },
+    "78": {
+        "name": "Iglú de clase",
+        "cost": 0
+    },
+    "79": {
+        "name": "Iglú de caverna fantasmagórica",
+        "cost": 1800
+    },
+    "80": {
+        "name": "##Invisible Undersea##",
+        "cost": 0
+    },
+    "81": {
+        "name": "##Invisible Merry Walrus Iceberg##",
+        "cost": 0
+    },
+    "82": {
+        "name": "Escondite de Ezra",
+        "cost": 1800
+    },
+    "83": {
+        "name": "Iglú de nave espacial",
+        "cost": 0
+    },
+    "84": {
+        "name": "Escenario para shows de talentos",
+        "cost": 1500
+    },
+    "85": {
+        "name": "Casa de árbol para puffles roja",
+        "cost": 1000
+    },
+    "86": {
+        "name": "Casa de árbol para puffles naranja",
+        "cost": 1000
+    },
+    "87": {
+        "name": "Casa de árbol para puffles amarilla",
+        "cost": 1000
+    },
+    "88": {
+        "name": "Casa de árbol para puffles verde",
+        "cost": 1000
+    },
+    "89": {
+        "name": "Casa de árbol para puffles celeste",
+        "cost": 1000
+    },
+    "90": {
+        "name": "Casa de árbol para puffles violeta",
+        "cost": 1000
+    },
+    "91": {
+        "name": "Casa de árbol para puffles negra",
+        "cost": 1000
+    },
+    "92": {
+        "name": "Casa de árbol para puffles blanca",
+        "cost": 1000
+    },
+    "93": {
+        "name": "Casa de árbol para puffles café",
+        "cost": 1000
+    },
+    "94": {
+        "name": "Casa de árbol para puffles rosa",
+        "cost": 1000
+    },
+    "95": {
+        "name": "Casa de árbol para puffles dorada",
+        "cost": 1000
+    },
+    "96": {
+        "name": "Casa de árbol para puffles multicolor",
+        "cost": 1000
+    },
+    "97": {
+        "name": "Iglú de Palacio de Primavera",
+        "cost": 0
+    },
+    "98": {
+        "name": "Iglú de Teatro",
+        "cost": 1500
+    }
+}

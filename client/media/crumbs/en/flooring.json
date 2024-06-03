@@ -1,0 +1,98 @@
+{
+    "0": {
+        "name": "Floor Removal",
+        "cost": 20
+    },
+    "1": {
+        "name": "Terracotta Tile",
+        "cost": 680
+    },
+    "2": {
+        "name": "Maple Hardwood",
+        "cost": 620
+    },
+    "3": {
+        "name": "Green Carpet",
+        "cost": 530
+    },
+    "4": {
+        "name": "Burgundy Carpet",
+        "cost": 530
+    },
+    "5": {
+        "name": "Black & White Tile",
+        "cost": 510
+    },
+    "6": {
+        "name": "Linoleum",
+        "cost": 540
+    },
+    "7": {
+        "name": "Dance Floor",
+        "cost": 1000
+    },
+    "8": {
+        "name": "Painted Dance Steps",
+        "cost": 280
+    },
+    "9": {
+        "name": "Bamboo Floor",
+        "cost": 370
+    },
+    "10": {
+        "name": "Dirt & Leaves",
+        "cost": 400
+    },
+    "11": {
+        "name": "Blue Turf",
+        "cost": 530
+    },
+    "12": {
+        "name": "Whirlpool",
+        "cost": 750
+    },
+    "13": {
+        "name": "Cherry Hardwood",
+        "cost": 620
+    },
+    "14": {
+        "name": "Phony Lawn",
+        "cost": 700
+    },
+    "15": {
+        "name": "Black Carpet",
+        "cost": 530
+    },
+    "16": {
+        "name": "Dark Stone Tile",
+        "cost": 800
+    },
+    "17": {
+        "name": "Pink Carpet",
+        "cost": 530
+    },
+    "18": {
+        "name": "Sand Floor",
+        "cost": 400
+    },
+    "19": {
+        "name": "Sunny Sky Floor",
+        "cost": 530
+    },
+    "20": {
+        "name": "Cobblestone",
+        "cost": 1200
+    },
+    "21": {
+        "name": "Snowy Floor",
+        "cost": 400
+    },
+    "22": {
+        "name": "Lime Green Carpet",
+        "cost": 530
+    },
+    "23": {
+        "name": "Woven Rice Mat",
+        "cost": 750
+    }
+}

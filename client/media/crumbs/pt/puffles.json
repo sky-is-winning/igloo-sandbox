@@ -1,0 +1,3704 @@
+{
+    "0": {
+        "parent": 0,
+        "name": "Blue",
+        "color": "0x33ccff",
+        "cost": 400,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.712
+            },
+            "dig": {
+                "originX": -0.445,
+                "originY": 0.659
+            },
+            "eat": {
+                "originX": -0.84,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.181,
+                "originY": 0.347
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.424,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.16,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.665
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.876
+            },
+            "tricks/nuzzle": {
+                "originX": -0.043,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.245,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.767
+            },
+            "tricks/standonhead": {
+                "originX": -0.69,
+                "originY": 0.861
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1": {
+        "parent": 1,
+        "name": "Pink",
+        "color": "0xffccff",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.712
+            },
+            "dig": {
+                "originX": -0.281,
+                "originY": 0.789
+            },
+            "eat": {
+                "originX": -0.84,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.181,
+                "originY": 0.347
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.424,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.16,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.665
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.876
+            },
+            "tricks/nuzzle": {
+                "originX": -0.043,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.245,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.767
+            },
+            "tricks/standonhead": {
+                "originX": -0.69,
+                "originY": 0.847
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "2": {
+        "parent": 2,
+        "name": "Black",
+        "color": "0x666666",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.101,
+                "originY": 0.66
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.17,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.965,
+                "originY": 0.711
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "3": {
+        "parent": 3,
+        "name": "Green",
+        "color": "0x33cc00",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.314,
+                "originY": 0.761
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.17,
+                "originY": 0.793
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "4": {
+        "parent": 4,
+        "name": "Purple",
+        "color": "0xad5fc6",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.356,
+                "originY": 0.662
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.165,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "5": {
+        "parent": 5,
+        "name": "Red",
+        "color": "0xee4444",
+        "cost": 400,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.32,
+                "originY": 0.771
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.165,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "6": {
+        "parent": 6,
+        "name": "Yellow",
+        "color": "0xffff00",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.143,
+                "originY": 0.714
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.17,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "7": {
+        "parent": 7,
+        "name": "White",
+        "color": "0xffffee",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.146,
+                "originY": 0.639
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.165,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "8": {
+        "parent": 8,
+        "name": "Orange",
+        "color": "0xff9900",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.73
+            },
+            "dig": {
+                "originX": -0.378,
+                "originY": 0.702
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.372
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.794
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.942
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.17,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.693
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.893
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.722
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.684
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.783
+            },
+            "tricks/standonhead": {
+                "originX": -0.942,
+                "originY": 0.738
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "9": {
+        "parent": 9,
+        "name": "Brown",
+        "color": "0x72491d",
+        "cost": 800,
+        "anims": {
+            "adopt": {
+                "originX": 0.575,
+                "originY": 0.915
+            },
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.282,
+                "originY": 0.784
+            },
+            "eat": {
+                "originX": -0.819,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.341
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.17,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.765,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "10": {
+        "parent": 10,
+        "name": "Rainbow",
+        "color": "0x000000",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.758
+            },
+            "dig": {
+                "originX": 0.156,
+                "originY": 0.605
+            },
+            "eat": {
+                "originX": -0.84,
+                "originY": 0.951
+            },
+            "hotelcare/dive": {
+                "originX": -0.095,
+                "originY": 0.405
+            },
+            "hotelcare/weightlifting": {
+                "originX": -1.132,
+                "originY": 0.743
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.424,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.918
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.16,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.453,
+                "originY": 0.665
+            },
+            "tricks/jumpspin": {
+                "originX": -0.609,
+                "originY": 0.856
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.826,
+                "originY": 0.734
+            },
+            "tricks/standonhead": {
+                "originX": -0.69,
+                "originY": 0.819
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "11": {
+        "parent": 11,
+        "name": "Gold",
+        "color": "0x000000",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.222,
+                "originY": 0.69
+            },
+            "eat": {
+                "originX": -0.792,
+                "originY": 0.954
+            },
+            "hotelcare/dive": {
+                "originX": -0.182,
+                "originY": 0.342
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.812,
+                "originY": 0.762
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.417,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.941
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.175,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.431,
+                "originY": 0.673
+            },
+            "tricks/jumpspin": {
+                "originX": -0.627,
+                "originY": 0.888
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.727
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.783
+            },
+            "tricks/standonhead": {
+                "originX": -0.672,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1000": {
+        "parent": 2,
+        "name": "Black T-Rex",
+        "color": "0x666666"
+    },
+    "1001": {
+        "parent": 4,
+        "name": "Purple T-Rex",
+        "color": "0xad5fc6"
+    },
+    "1002": {
+        "parent": 5,
+        "name": "Red Triceratops",
+        "color": "0xee4444",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.813
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.733
+            },
+            "dig": {
+                "originX": 0.078,
+                "originY": 0.663
+            },
+            "eat": {
+                "originX": -0.679,
+                "originY": 0.944
+            },
+            "hotelcare/dive": {
+                "originX": -0.131,
+                "originY": 0.352
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.679,
+                "originY": 0.775
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.397,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.484,
+                "originY": 0.943
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.127,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.397,
+                "originY": 0.735
+            },
+            "tricks/jumpspin": {
+                "originX": -0.562,
+                "originY": 0.859
+            },
+            "tricks/nuzzle": {
+                "originX": -0.021,
+                "originY": 0.646
+            },
+            "tricks/roll": {
+                "originX": -0.212,
+                "originY": 0.67
+            },
+            "tricks/speak": {
+                "originX": -0.679,
+                "originY": 0.786
+            },
+            "tricks/standonhead": {
+                "originX": -0.5,
+                "originY": 0.789
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1003": {
+        "parent": 0,
+        "name": "Blue Triceratops",
+        "color": "0x33ccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.821
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.75
+            },
+            "dig": {
+                "originX": 0.078,
+                "originY": 0.658
+            },
+            "eat": {
+                "originX": -0.469,
+                "originY": 0.947
+            },
+            "hotelcare/dive": {
+                "originX": -0.116,
+                "originY": 0.399
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.415,
+                "originY": 0.823
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.39,
+                "originY": 0.544
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.484,
+                "originY": 0.946
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.127,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.333,
+                "originY": 0.739
+            },
+            "tricks/jumpspin": {
+                "originX": -0.413,
+                "originY": 0.88
+            },
+            "tricks/nuzzle": {
+                "originX": -0.005,
+                "originY": 0.724
+            },
+            "tricks/roll": {
+                "originX": -0.55,
+                "originY": 0.791
+            },
+            "tricks/speak": {
+                "originX": -0.516,
+                "originY": 0.839
+            },
+            "tricks/standonhead": {
+                "originX": -0.42,
+                "originY": 0.793
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1004": {
+        "parent": 6,
+        "name": "Yellow Stegasaurus",
+        "color": "0xffff00",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.846
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.75
+            },
+            "dig": {
+                "originX": 0.078,
+                "originY": 0.658
+            },
+            "eat": {
+                "originX": -0.469,
+                "originY": 0.947
+            },
+            "hotelcare/dive": {
+                "originX": -0.116,
+                "originY": 0.399
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.415,
+                "originY": 0.823
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.39,
+                "originY": 0.544
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.484,
+                "originY": 0.95
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.127,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.333,
+                "originY": 0.739
+            },
+            "tricks/jumpspin": {
+                "originX": -0.413,
+                "originY": 0.88
+            },
+            "tricks/nuzzle": {
+                "originX": -0.005,
+                "originY": 0.724
+            },
+            "tricks/roll": {
+                "originX": -0.161,
+                "originY": 0.691
+            },
+            "tricks/speak": {
+                "originX": -0.516,
+                "originY": 0.839
+            },
+            "tricks/standonhead": {
+                "originX": -0.42,
+                "originY": 0.804
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1005": {
+        "parent": 1,
+        "name": "Pink Stegasaurus",
+        "color": "0xffccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.813
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.733
+            },
+            "dig": {
+                "originX": 0.078,
+                "originY": 0.663
+            },
+            "eat": {
+                "originX": -0.679,
+                "originY": 0.944
+            },
+            "hotelcare/dive": {
+                "originX": -0.131,
+                "originY": 0.352
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.679,
+                "originY": 0.775
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.397,
+                "originY": 0.553
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.484,
+                "originY": 0.948
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.127,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.397,
+                "originY": 0.735
+            },
+            "tricks/jumpspin": {
+                "originX": -0.562,
+                "originY": 0.859
+            },
+            "tricks/nuzzle": {
+                "originX": -0.011,
+                "originY": 0.75
+            },
+            "tricks/roll": {
+                "originX": -0.212,
+                "originY": 0.67
+            },
+            "tricks/speak": {
+                "originX": -0.679,
+                "originY": 0.786
+            },
+            "tricks/standonhead": {
+                "originX": -0.5,
+                "originY": 0.789
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1006": {
+        "parent": 0,
+        "name": "Blue Border Collie",
+        "color": "0x33ccff",
+        "cost": 1200,
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.129,
+                "originY": 0.813
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.729
+            },
+            "dig": {
+                "originX": -0.15,
+                "originY": 0.717
+            },
+            "eat": {
+                "originX": -0.658,
+                "originY": 0.937
+            },
+            "hotelcare/dive": {
+                "originX": -0.145,
+                "originY": 0.35
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.726,
+                "originY": 0.75
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.313,
+                "originY": 0.552
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.489,
+                "originY": 0.859
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.091,
+                "originY": 0.778
+            },
+            "tricks/jumpforward": {
+                "originX": -0.386,
+                "originY": 0.669
+            },
+            "tricks/jumpspin": {
+                "originX": -0.625,
+                "originY": 0.816
+            },
+            "tricks/nuzzle": {
+                "originX": 0,
+                "originY": 0.712
+            },
+            "tricks/roll": {
+                "originX": -0.22,
+                "originY": 0.676
+            },
+            "tricks/speak": {
+                "originX": -0.689,
+                "originY": 0.74
+            },
+            "tricks/standonhead": {
+                "originX": -0.373,
+                "originY": 0.807
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1007": {
+        "parent": 8,
+        "name": "Orange Tabby Cat",
+        "color": "0xff9900",
+        "cost": 1200,
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.116,
+                "originY": 0.825
+            },
+            "eat": {
+                "originX": -0.7,
+                "originY": 0.947
+            },
+            "hotelcare/dive": {
+                "originX": -0.153,
+                "originY": 0.35
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.704,
+                "originY": 0.773
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.322,
+                "originY": 0.544
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.516,
+                "originY": 0.907
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.074,
+                "originY": 0.778
+            },
+            "tricks/jumpforward": {
+                "originX": -0.44,
+                "originY": 0.685
+            },
+            "tricks/jumpspin": {
+                "originX": -0.581,
+                "originY": 0.765
+            },
+            "tricks/nuzzle": {
+                "originX": 0.022,
+                "originY": 0.74
+            },
+            "tricks/roll": {
+                "originX": -0.217,
+                "originY": 0.676
+            },
+            "tricks/speak": {
+                "originX": -0.76,
+                "originY": 0.777
+            },
+            "tricks/standonhead": {
+                "originX": -0.351,
+                "originY": 0.856
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1008": {
+        "parent": 3,
+        "name": "Green Raccoon",
+        "color": "0x33cc00",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.729
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.675,
+                "originY": 0.944
+            },
+            "hotelcare/dive": {
+                "originX": -0.164,
+                "originY": 0.344
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.692,
+                "originY": 0.733
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.683
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.893
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.176,
+                "originY": 0.776
+            },
+            "tricks/jumpforward": {
+                "originX": -0.42,
+                "originY": 0.671
+            },
+            "tricks/jumpspin": {
+                "originX": -0.621,
+                "originY": 0.875
+            },
+            "tricks/nuzzle": {
+                "originX": -0.029,
+                "originY": 0.744
+            },
+            "tricks/roll": {
+                "originX": -0.226,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.716,
+                "originY": 0.777
+            },
+            "tricks/standonhead": {
+                "originX": -0.515,
+                "originY": 0.851
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1009": {
+        "parent": 8,
+        "name": "Orange Raccoon",
+        "color": "0xff9900",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.729
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.675,
+                "originY": 0.944
+            },
+            "hotelcare/dive": {
+                "originX": -0.164,
+                "originY": 0.344
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.692,
+                "originY": 0.733
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.683
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.893
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.176,
+                "originY": 0.778
+            },
+            "tricks/jumpforward": {
+                "originX": -0.42,
+                "originY": 0.671
+            },
+            "tricks/jumpspin": {
+                "originX": -0.621,
+                "originY": 0.875
+            },
+            "tricks/nuzzle": {
+                "originX": -0.029,
+                "originY": 0.744
+            },
+            "tricks/roll": {
+                "originX": -0.226,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.716,
+                "originY": 0.777
+            },
+            "tricks/standonhead": {
+                "originX": -0.515,
+                "originY": 0.851
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1010": {
+        "parent": 1,
+        "name": "Pink Raccoon",
+        "color": "0xffccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.729
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.675,
+                "originY": 0.944
+            },
+            "hotelcare/dive": {
+                "originX": -0.164,
+                "originY": 0.344
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.692,
+                "originY": 0.733
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.683
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.887
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.181,
+                "originY": 0.776
+            },
+            "tricks/jumpforward": {
+                "originX": -0.42,
+                "originY": 0.671
+            },
+            "tricks/jumpspin": {
+                "originX": -0.621,
+                "originY": 0.875
+            },
+            "tricks/nuzzle": {
+                "originX": -0.029,
+                "originY": 0.744
+            },
+            "tricks/roll": {
+                "originX": -0.226,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.716,
+                "originY": 0.777
+            },
+            "tricks/standonhead": {
+                "originX": -0.515,
+                "originY": 0.851
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1011": {
+        "parent": 0,
+        "name": "Blue Raccoon",
+        "color": "0x33ccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.124,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.729
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.675,
+                "originY": 0.944
+            },
+            "hotelcare/dive": {
+                "originX": -0.164,
+                "originY": 0.344
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.692,
+                "originY": 0.733
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.683
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.887
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.181,
+                "originY": 0.774
+            },
+            "tricks/jumpforward": {
+                "originX": -0.42,
+                "originY": 0.671
+            },
+            "tricks/jumpspin": {
+                "originX": -0.621,
+                "originY": 0.875
+            },
+            "tricks/nuzzle": {
+                "originX": -0.029,
+                "originY": 0.744
+            },
+            "tricks/roll": {
+                "originX": -0.226,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.716,
+                "originY": 0.777
+            },
+            "tricks/standonhead": {
+                "originX": -0.515,
+                "originY": 0.851
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1012": {
+        "parent": 3,
+        "name": "Green Rabbit",
+        "color": "0x33cc00",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.763
+            },
+            "dig": {
+                "originX": 0.209,
+                "originY": 0.497
+            },
+            "eat": {
+                "originX": -0.726,
+                "originY": 0.936
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.411
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.696,
+                "originY": 0.824
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.719
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.902
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.196,
+                "originY": 0.776
+            },
+            "tricks/jumpforward": {
+                "originX": -0.376,
+                "originY": 0.734
+            },
+            "tricks/jumpspin": {
+                "originX": -0.643,
+                "originY": 0.874
+            },
+            "tricks/nuzzle": {
+                "originX": 0.039,
+                "originY": 0.797
+            },
+            "tricks/roll": {
+                "originX": -0.206,
+                "originY": 0.809
+            },
+            "tricks/speak": {
+                "originX": -0.765,
+                "originY": 0.838
+            },
+            "tricks/standonhead": {
+                "originX": -0.613,
+                "originY": 0.759
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1013": {
+        "parent": 1,
+        "name": "Pink Rabbit",
+        "color": "0xffccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.763
+            },
+            "dig": {
+                "originX": 0.209,
+                "originY": 0.497
+            },
+            "eat": {
+                "originX": -0.726,
+                "originY": 0.936
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.411
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.696,
+                "originY": 0.824
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.719
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.902
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.196,
+                "originY": 0.776
+            },
+            "tricks/jumpforward": {
+                "originX": -0.376,
+                "originY": 0.734
+            },
+            "tricks/jumpspin": {
+                "originX": -0.643,
+                "originY": 0.874
+            },
+            "tricks/nuzzle": {
+                "originX": 0.039,
+                "originY": 0.797
+            },
+            "tricks/roll": {
+                "originX": -0.206,
+                "originY": 0.809
+            },
+            "tricks/speak": {
+                "originX": -0.765,
+                "originY": 0.838
+            },
+            "tricks/standonhead": {
+                "originX": -0.613,
+                "originY": 0.759
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1014": {
+        "parent": 7,
+        "name": "White Rabbit",
+        "color": "0xffffee",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.763
+            },
+            "dig": {
+                "originX": 0.209,
+                "originY": 0.497
+            },
+            "eat": {
+                "originX": -0.726,
+                "originY": 0.936
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.411
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.696,
+                "originY": 0.824
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.719
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.902
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.196,
+                "originY": 0.776
+            },
+            "tricks/jumpforward": {
+                "originX": -0.376,
+                "originY": 0.734
+            },
+            "tricks/jumpspin": {
+                "originX": -0.643,
+                "originY": 0.874
+            },
+            "tricks/nuzzle": {
+                "originX": 0.039,
+                "originY": 0.797
+            },
+            "tricks/roll": {
+                "originX": -0.206,
+                "originY": 0.809
+            },
+            "tricks/speak": {
+                "originX": -0.765,
+                "originY": 0.838
+            },
+            "tricks/standonhead": {
+                "originX": -0.613,
+                "originY": 0.759
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1015": {
+        "parent": 5,
+        "name": "Red Rabbit",
+        "color": "0xee4444",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.763
+            },
+            "dig": {
+                "originX": 0.209,
+                "originY": 0.497
+            },
+            "eat": {
+                "originX": -0.726,
+                "originY": 0.936
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.411
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.696,
+                "originY": 0.824
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.719
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.902
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.196,
+                "originY": 0.776
+            },
+            "tricks/jumpforward": {
+                "originX": -0.376,
+                "originY": 0.734
+            },
+            "tricks/jumpspin": {
+                "originX": -0.643,
+                "originY": 0.874
+            },
+            "tricks/nuzzle": {
+                "originX": 0.039,
+                "originY": 0.797
+            },
+            "tricks/roll": {
+                "originX": -0.206,
+                "originY": 0.809
+            },
+            "tricks/speak": {
+                "originX": -0.765,
+                "originY": 0.838
+            },
+            "tricks/standonhead": {
+                "originX": -0.613,
+                "originY": 0.759
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1016": {
+        "parent": 0,
+        "name": "Blue Deer",
+        "color": "0x33ccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.533,
+                "originY": 0.938
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.378
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.453,
+                "originY": 0.769
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.695
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.896
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.163,
+                "originY": 0.775
+            },
+            "tricks/jumpforward": {
+                "originX": -0.332,
+                "originY": 0.689
+            },
+            "tricks/jumpspin": {
+                "originX": -0.516,
+                "originY": 0.865
+            },
+            "tricks/nuzzle": {
+                "originX": 0.027,
+                "originY": 0.764
+            },
+            "tricks/roll": {
+                "originX": -0.163,
+                "originY": 0.724
+            },
+            "tricks/speak": {
+                "originX": -0.534,
+                "originY": 0.768
+            },
+            "tricks/standonhead": {
+                "originX": -0.417,
+                "originY": 0.829
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1017": {
+        "parent": 2,
+        "name": "Black Deer",
+        "color": "0x666666",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.533,
+                "originY": 0.938
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.378
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.453,
+                "originY": 0.769
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.695
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.896
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.163,
+                "originY": 0.775
+            },
+            "tricks/jumpforward": {
+                "originX": -0.332,
+                "originY": 0.689
+            },
+            "tricks/jumpspin": {
+                "originX": -0.516,
+                "originY": 0.865
+            },
+            "tricks/nuzzle": {
+                "originX": 0.027,
+                "originY": 0.764
+            },
+            "tricks/roll": {
+                "originX": -0.163,
+                "originY": 0.724
+            },
+            "tricks/speak": {
+                "originX": -0.534,
+                "originY": 0.768
+            },
+            "tricks/standonhead": {
+                "originX": -0.417,
+                "originY": 0.829
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1018": {
+        "parent": 5,
+        "name": "Red Deer",
+        "color": "0xee4444",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.533,
+                "originY": 0.938
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.378
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.453,
+                "originY": 0.769
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.695
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.896
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.163,
+                "originY": 0.775
+            },
+            "tricks/jumpforward": {
+                "originX": -0.332,
+                "originY": 0.689
+            },
+            "tricks/jumpspin": {
+                "originX": -0.516,
+                "originY": 0.865
+            },
+            "tricks/nuzzle": {
+                "originX": 0.027,
+                "originY": 0.764
+            },
+            "tricks/roll": {
+                "originX": -0.163,
+                "originY": 0.724
+            },
+            "tricks/speak": {
+                "originX": -0.534,
+                "originY": 0.768
+            },
+            "tricks/standonhead": {
+                "originX": -0.417,
+                "originY": 0.829
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1019": {
+        "parent": 4,
+        "name": "Purple Deer",
+        "color": "0xad5fc6",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.495
+            },
+            "eat": {
+                "originX": -0.533,
+                "originY": 0.938
+            },
+            "hotelcare/dive": {
+                "originX": -0.175,
+                "originY": 0.378
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.453,
+                "originY": 0.769
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.288,
+                "originY": 0.695
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.505,
+                "originY": 0.896
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.163,
+                "originY": 0.775
+            },
+            "tricks/jumpforward": {
+                "originX": -0.332,
+                "originY": 0.689
+            },
+            "tricks/jumpspin": {
+                "originX": -0.516,
+                "originY": 0.865
+            },
+            "tricks/nuzzle": {
+                "originX": 0.027,
+                "originY": 0.764
+            },
+            "tricks/roll": {
+                "originX": -0.163,
+                "originY": 0.724
+            },
+            "tricks/speak": {
+                "originX": -0.534,
+                "originY": 0.768
+            },
+            "tricks/standonhead": {
+                "originX": -0.417,
+                "originY": 0.829
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1020": {
+        "parent": 6,
+        "name": "Yellow Unicorn",
+        "color": "0xffff00",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.75
+            },
+            "dig": {
+                "originX": 0.212,
+                "originY": 0.497
+            },
+            "eat": {
+                "originX": -0.685,
+                "originY": 0.948
+            },
+            "hotelcare/dive": {
+                "originX": -0.168,
+                "originY": 0.38
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.692,
+                "originY": 0.828
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.289,
+                "originY": 0.719
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.48,
+                "originY": 0.919
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.18,
+                "originY": 0.754
+            },
+            "tricks/jumpforward": {
+                "originX": -0.253,
+                "originY": 0.728
+            },
+            "tricks/jumpspin": {
+                "originX": -0.689,
+                "originY": 0.824
+            },
+            "tricks/nuzzle": {
+                "originX": -0.029,
+                "originY": 0.791
+            },
+            "tricks/roll": {
+                "originX": -0.22,
+                "originY": 0.768
+            },
+            "tricks/speak": {
+                "originX": -0.76,
+                "originY": 0.817
+            },
+            "tricks/standonhead": {
+                "originX": -0.5,
+                "originY": 0.789
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1021": {
+        "parent": 7,
+        "name": "Snowman",
+        "color": "0xffffee",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.731
+            },
+            "dig": {
+                "originX": -0.054,
+                "originY": 0.783
+            },
+            "eat": {
+                "originX": -0.654,
+                "originY": 0.945
+            },
+            "hotelcare/dive": {
+                "originX": -0.19,
+                "originY": 0.352
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.771,
+                "originY": 0.8
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.323,
+                "originY": 0.755
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.484,
+                "originY": 0.952
+            },
+            "pufflepark/tireswing": {
+                "originX": 0.139,
+                "originY": 0.672
+            },
+            "tricks/jumpforward": {
+                "originX": -0.357,
+                "originY": 0.702
+            },
+            "tricks/jumpspin": {
+                "originX": -0.609,
+                "originY": 0.851
+            },
+            "tricks/nuzzle": {
+                "originX": -0.043,
+                "originY": 0.729
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.712
+            },
+            "tricks/speak": {
+                "originX": -0.826,
+                "originY": 0.78
+            },
+            "tricks/standonhead": {
+                "originX": -0.655,
+                "originY": 0.786
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1022": {
+        "parent": 4,
+        "name": "Ghost",
+        "color": "0xad5fc6",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": -0.517,
+                "originY": 0.874
+            },
+            "eat": {
+                "originX": -0.484,
+                "originY": 0.946
+            },
+            "hotelcare/dive": {
+                "originX": -0.195,
+                "originY": 0.477
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.47,
+                "originY": 0.596
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.441,
+                "originY": 0.948
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.185,
+                "originY": 0.795
+            },
+            "tricks/jumpforward": {
+                "originX": -0.304,
+                "originY": 0.711
+            },
+            "tricks/jumpspin": {
+                "originX": -0.534,
+                "originY": 0.882
+            },
+            "tricks/nuzzle": {
+                "originX": 0,
+                "originY": 0.79
+            },
+            "tricks/roll": {
+                "originX": -0.185,
+                "originY": 0.744
+            },
+            "tricks/speak": {
+                "originX": -0.554,
+                "originY": 0.838
+            },
+            "tricks/standonhead": {
+                "originX": -0.445,
+                "originY": 0.726
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1023": {
+        "parent": 0,
+        "name": "Crystal",
+        "color": "0x33ccff",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.138,
+                "originY": 0.72
+            },
+            "dig": {
+                "originX": -0.445,
+                "originY": 0.808
+            },
+            "eat": {
+                "originX": -0.84,
+                "originY": 0.94
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.335
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.738
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.418,
+                "originY": 0.544
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.955
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.163,
+                "originY": 0.798
+            },
+            "tricks/jumpforward": {
+                "originX": -0.442,
+                "originY": 0.677
+            },
+            "tricks/jumpspin": {
+                "originX": -0.745,
+                "originY": 0.869
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.643
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.652
+            },
+            "tricks/speak": {
+                "originX": -0.848,
+                "originY": 0.789
+            },
+            "tricks/standonhead": {
+                "originX": -0.675,
+                "originY": 0.833
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1024": {
+        "parent": 3,
+        "name": "Green Alien",
+        "color": "0x33cc00",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.107,
+                "originY": 0.755
+            },
+            "eat": {
+                "originX": -0.712,
+                "originY": 0.95
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.566
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.794
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.3,
+                "originY": 0.581
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.944
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.16,
+                "originY": 0.803
+            },
+            "tricks/jumpforward": {
+                "originX": -0.43,
+                "originY": 0.709
+            },
+            "tricks/jumpspin": {
+                "originX": -0.627,
+                "originY": 0.883
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.664
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.826,
+                "originY": 0.808
+            },
+            "tricks/standonhead": {
+                "originX": -0.693,
+                "originY": 0.815
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1025": {
+        "parent": 8,
+        "name": "Orange Alien",
+        "color": "0xff9900",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.107,
+                "originY": 0.755
+            },
+            "eat": {
+                "originX": -0.712,
+                "originY": 0.95
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.566
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.794
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.3,
+                "originY": 0.581
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.944
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.16,
+                "originY": 0.803
+            },
+            "tricks/jumpforward": {
+                "originX": -0.43,
+                "originY": 0.709
+            },
+            "tricks/jumpspin": {
+                "originX": -0.627,
+                "originY": 0.883
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.664
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.826,
+                "originY": 0.808
+            },
+            "tricks/standonhead": {
+                "originX": -0.693,
+                "originY": 0.815
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1026": {
+        "parent": 6,
+        "name": "Yellow Alien",
+        "color": "0xffff00",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.107,
+                "originY": 0.755
+            },
+            "eat": {
+                "originX": -0.712,
+                "originY": 0.95
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.566
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.794
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.3,
+                "originY": 0.581
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.944
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.165,
+                "originY": 0.805
+            },
+            "tricks/jumpforward": {
+                "originX": -0.43,
+                "originY": 0.709
+            },
+            "tricks/jumpspin": {
+                "originX": -0.627,
+                "originY": 0.883
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.664
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.826,
+                "originY": 0.808
+            },
+            "tricks/standonhead": {
+                "originX": -0.693,
+                "originY": 0.815
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    },
+    "1027": {
+        "parent": 4,
+        "name": "Purple Alien",
+        "color": "0xad5fc6",
+        "anims": {
+            "animation/celebrate": {
+                "originX": 0.12,
+                "originY": 0.807
+            },
+            "animation/splash": {
+                "originX": 0.145,
+                "originY": 0.738
+            },
+            "dig": {
+                "originX": 0.107,
+                "originY": 0.755
+            },
+            "eat": {
+                "originX": -0.712,
+                "originY": 0.95
+            },
+            "hotelcare/dive": {
+                "originX": -0.186,
+                "originY": 0.566
+            },
+            "hotelcare/weightlifting": {
+                "originX": -0.792,
+                "originY": 0.794
+            },
+            "pufflepark/hydrant": {
+                "originX": 0.3,
+                "originY": 0.581
+            },
+            "pufflepark/scratchpost": {
+                "originX": 0.511,
+                "originY": 0.944
+            },
+            "pufflepark/tireswing": {
+                "originX": -0.175,
+                "originY": 0.809
+            },
+            "tricks/jumpforward": {
+                "originX": -0.43,
+                "originY": 0.709
+            },
+            "tricks/jumpspin": {
+                "originX": -0.627,
+                "originY": 0.902
+            },
+            "tricks/nuzzle": {
+                "originX": -0.056,
+                "originY": 0.664
+            },
+            "tricks/roll": {
+                "originX": -0.239,
+                "originY": 0.708
+            },
+            "tricks/speak": {
+                "originX": -0.826,
+                "originY": 0.808
+            },
+            "tricks/standonhead": {
+                "originX": -0.693,
+                "originY": 0.815
+            }
+        },
+        "frames": {
+            "71": {
+                "end": 12
+            },
+            "72": {
+                "end": 12
+            },
+            "73": {
+                "end": 12
+            },
+            "74": {
+                "end": 12
+            },
+            "75": {
+                "end": 12
+            },
+            "76": {
+                "end": 12
+            },
+            "77": {
+                "end": 12
+            },
+            "78": {
+                "end": 12
+            },
+            "79": {
+                "end": 210
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "Destacadas": {
+        "36": "¡Cómo me haces reír!",
+        "43": "Puffles felices",
+        "62": "Vamos a pasear",
+        "217": "¡Exploremos!"
+    },
+    "Amistad": {
+        "24": "Me encanta tu nombre",
+        "25": "Qué lindo conjuntito",
+        "26": "¡Me gusta tu ropa!",
+        "32": "¡Gran amigo!",
+        "35": "¡Qué alegría verte!",
+        "56": "Hola pingüino",
+        "57": "¡Seamos amigos!",
+        "64": "Pasé de visita",
+        "88": "¡Toma un tour conmigo!",
+        "200": "¡Historias!",
+        "201": "¡Muchas gracias!"
+    },
+    "Puffles": {
+        "219": "Mejores amigos siempre",
+        "222": "¡Trae a tus puffles!",
+        "231": "¡Adoro tus puffles!"
+    },
+    "Iglú": {
+        "1": "He redecorado mi iglú",
+        "27": "Hay fiesta en mi iglú",
+        "61": "Una fiesta fabulosa",
+        "202": "¡Echa un vistazo!"
+    },
+    "Juegos": {
+        "10": "Mancala",
+        "19": "¡Gracias por jugar!",
+        "52": "Carrera de trineos",
+        "59": "4 en fila",
+        "206": "Álbum de estampillas",
+        "218": "Mis estampillas"
+    },
+    "Salas": {
+        "20": "Fuerte nevado",
+        "21": "Piscina",
+        "29": "Iceberg",
+        "30": "Lago escondido",
+        "55": "Dojo"
+    }
+}

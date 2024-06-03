@@ -1,0 +1,9 @@
+scripts/client/clubpenguinplus.js
+scripts/client/clubpenguinplus.min.js
+media/game_configs/
+*.bak
+*.zip
+*.DS_Store
+*.fla
+*.as
+*.html

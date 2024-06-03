@@ -1,0 +1,512 @@
+{
+    "0": "This JSON was manually compiled and written by the Club Penguin Plus team, using data from Bluestk's music spreadsheet, and the Club Penguin Wiki. You cannot find this data compilied like this elsewhere on the web. Please do not use without credit!",
+    "1": {
+        "name": "King of Kingston",
+        "composer": "Paul Sumpter",
+        "alternate_names": [
+            "Coffee Shop"
+        ],
+        "hq_source": "King of Kingston 60 Secs"
+    },
+    "2": {
+        "name": "Communication",
+        "composer": "Bjorn Lynne",
+        "alternate_names": [
+            "Dance Mix 1"
+        ],
+        "hq_source": "Communication (Longer Loop)"
+    },
+    "3": {
+        "name": "I've Been Delayed",
+        "composer": "TAS 1000",
+        "hq_source": "02 I_ve Been Delayed"
+    },
+    "4": {
+        "name": "Coins for Change",
+        "composer": "Norrie Henderson",
+        "hq_source": "Club Penguin - Building Safe Places (Coins For Change)-B1kRNUOZpjo"
+    },
+    "5": {
+        "name": "Crossing Over",
+        "composer": "Bjorn Lynne",
+        "alternate_names": [
+            "Dance Mix 2"
+        ]
+    },
+    "6": {
+        "name": "Jungle Jam",
+        "composer": "Chris Hendricks",
+        "hq_source": "Jungle Jam"
+    },
+    "7": {
+        "name": "Stealth",
+        "composer": "David Ingall",
+        "hq_source": "Stealth (60 Secs Version)"
+    },
+    "8": {
+        "name": "I'm a Mod",
+        "composer": "Norrie Henderson, Alex Newcombe, Jordan Chase, Derek Gieselman and Bobbi Jean Rieger",
+        "hq_source": "I_m A Mod"
+    },
+    "9": {
+        "name": "I'm a Mod (Instrumental)",
+        "composer": "Norrie Henderson",
+        "hq_source": "I_m A Mod (Instrumental)"
+    },
+    "10": {
+        "name": "Sunshine Holiday",
+        "composer": "Gayle Ellet",
+        "hq_source": "Sunshine Holiday Complete"
+    },
+    "11": {
+        "name": "Honolulu Honey",
+        "composer": "Jeremy Sherman",
+        "hq_source": "Honolulu Honey (60 Secs Version)"
+    },
+    "12": {
+        "name": "Jazzy Pizza",
+        "composer": "Chris Hendricks",
+        "hq_source": "Jazzy Pizza"
+    },
+    "13": {
+        "name": "One Very Grumpy Polar Bear",
+        "composer": "Bart Roijmans",
+        "alternate_names": [
+            "Herbert's Theme"
+        ],
+        "hq_source": "One Very Grumpy Polar Bear"
+    },
+    "14": {
+        "name": "Puffle Wild Ambience"
+    },
+    "15": {
+        "name": "Forest Adventure Part 1",
+        "composer": "Nick Bedell",
+        "alternate_names": [
+            "Forest Adventure"
+        ],
+        "hq_source": "Forest Adventure Part 1"
+    },
+    "16": {
+        "name": "Forest Adventure Part 2",
+        "composer": "Nick Bedell",
+        "hq_source": "Forest Adventure Part 2"
+    },
+    "17": {
+        "name": "Forest Adventure Part 3",
+        "composer": "Nick Bedell",
+        "hq_source": "Forest Adventure Part 3"
+    },
+    "18": {
+        "name": "Banjo Bonanza",
+        "composer": "Norrie Henderson",
+        "hq_source": "Banjo Bonanza"
+    },
+    "19": {
+        "name": "Nothing As It Seems",
+        "composer": "Norrie Henderson",
+        "hq_source": "Nothing As It Seems"
+    },
+    "20": {
+        "name": "Charlie's Here",
+        "composer": "Skip Peck",
+        "alternate_names": [
+            "Pizza Parlor"
+        ],
+        "hq_source": "CUTZ7_16_Charlie_s_Here"
+    },
+    "21": {
+        "name": "Mountain Dojo",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Ninja Battle"
+        ],
+        "hq_source": "Mountain Dojo"
+    },
+    "22": {
+        "name": "The Volcano",
+        "composer": "Chris Hendricks",
+        "hq_source": "The Volcano"
+    },
+    "23": {
+        "name": "Elite Penguin Force",
+        "composer": "Chris Hendricks (remixing Bart Roijmans)",
+        "alternate_names": [
+            "The Command Room"
+        ],
+        "hq_source": "EPF2"
+    },
+    "24": {
+        "name": "The Way of the Sensei",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "The Way of Sensei",
+            "Water Ninja 2"
+        ],
+        "hq_source": "WaterNinja2"
+    },
+    "27": {
+        "name": "Water Ninja Battle",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Water Battle"
+        ],
+        "hq_source": "Water Ninja Battle_02"
+    },
+    "28": {
+        "name": "Epic Island",
+        "composer": "David Fairfield",
+        "hq_source": "Epic Island Loop"
+    },
+    "29": {
+        "name": "Designer Look",
+        "composer": "David Fairfield",
+        "hq_source": "Igloo Designer Look"
+    },
+    "30": {
+        "name": "Space Adventure"
+    },
+    "31": {
+        "name": "Flat Baroque",
+        "composer": "Chris Hendricks and Friction Music",
+        "alternate_names": [
+            "Twelfth Fish",
+            "Twelfth Fish Theme"
+        ]
+    },
+    "32": {
+        "name": "For Great Justice",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Epic Squidzoid Fight",
+            "Superhero"
+        ]
+    },
+    "33": {
+        "name": "Pep Rally",
+        "composer": "Friction Music",
+        "alternate_names": [
+            "Team Power"
+        ]
+    },
+    "34": {
+        "name": "Egyptian Wrap",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Jumpin' Egyptian",
+            "Quest for the Golden Puffle"
+        ]
+    },
+    "35": {
+        "name": "Pterodactyl Ptune",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Pre-historic Rock"
+        ]
+    },
+    "36": {
+        "name": "Rocker Rally",
+        "composer": "Friction Music",
+        "alternate_names": [
+            "Team Blue 2"
+        ]
+    },
+    "37": {
+        "name": "Noir Noises",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Ruby's Theme",
+            "Ruby and the Ruby"
+        ]
+    },
+    "38": {
+        "name": "Planet Y",
+        "composer": "Rory O'Neill",
+        "alternate_names": [
+            "Space Adventure: Planet Y"
+        ]
+    },
+    "39": {
+        "name": "Twice Upon a Time",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Fairy Fables"
+        ]
+    },
+    "40": {
+        "name": "The Award Goes To",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Penguin Play Awards"
+        ]
+    },
+    "41": {
+        "name": "The Viking Opera",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Viking Opera"
+        ]
+    },
+    "42": {
+        "name": "Norman Swarm",
+        "composer": "Chris Hendricks"
+    },
+    "43": {
+        "name": "Monkey King",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "The Bamboo Forest"
+        ]
+    },
+    "44": {
+        "name": "Dancing Coral",
+        "composer": "Billy Martin"
+    },
+    "45": {
+        "name": "Kelp Forest",
+        "composer": "Ariel Mann"
+    },
+    "46": {
+        "name": "Mr Ray",
+        "composer": "Billy Martin"
+    },
+    "47": {
+        "name": "Ocean Exploring",
+        "composer": "Billy Martin"
+    },
+    "48": {
+        "name": "The Journey Begins",
+        "composer": "Ariel Mann"
+    },
+    "49": {
+        "name": "Captain Aaaar",
+        "composer": "Chris Hendricks"
+    },
+    "50": {
+        "name": "Welcome Home",
+        "composer": "David Fairfield"
+    },
+    "51": {
+        "name": "Chillin' At The Club",
+        "composer": "Chris Hendricks"
+    },
+    "53": {
+        "name": "Iggy Life",
+        "composer": "Allen Levy"
+    },
+    "54": {
+        "name": "Slush Rush Electro",
+        "composer": "Norrie Henderson"
+    },
+    "55": {
+        "name": "CP Music Mashup 2013",
+        "composer": "Norrie Henderson"
+    },
+    "56": {
+        "name": "CP Music Mashup 2014",
+        "composer": "Norrie Henderson"
+    },
+    "57": {
+        "name": "CP Music Mashup 2015",
+        "composer": "Toby Hulse"
+    },
+    "58": {
+        "name": "CP Music Mashup 2016",
+        "composer": "David Fairfield"
+    },
+    "100": {
+        "name": "Yessir",
+        "composer": "Brian Nimens",
+        "alternate_names": [
+            "Mind That Buoy!",
+            "Hydro Hopper Theme"
+        ]
+    },
+    "101": {
+        "name": "Organic Journey",
+        "composer": "Doug Brown",
+        "alternate_names": [
+            "Melodie du Crouton",
+            "Bean Counters Theme"
+        ]
+    },
+    "102": {
+        "name": "Renewed",
+        "composer": "Johnny Bone",
+        "alternate_names": [
+            "Southern Roundup",
+            "Puffle Roundup Theme"
+        ]
+    },
+    "103": {
+        "name": "Paris St. Germain",
+        "composer": "Jeremy Sherman",
+        "alternate_names": [
+            "Ice Fishing Theme"
+        ]
+    },
+    "104": {
+        "name": "Epic Suspense",
+        "composer": "Bjorn Lynne",
+        "alternate_names": [
+            "Cave Runner"
+        ]
+    },
+    "105": {
+        "name": "Maximum Wave",
+        "composer": "Danny Brown and Dan Wojciechowski",
+        "alternate_names": [
+            "Cart Surfer Theme"
+        ]
+    },
+    "106": {
+        "name": "Pizzatron 3000",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Pizzatron 3000 Theme"
+        ]
+    },
+    "110": {
+        "name": "Time Travellers",
+        "composer": "Thomasz Stobierski",
+        "alternate_names": [
+            "Jet Pack Adventure Theme"
+        ]
+    },
+    "111": {
+        "name": "Thin Ice",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Thin Ice Theme"
+        ]
+    },
+    "113": {
+        "name": "Catchin' Waves",
+        "composer": "Friction Music",
+        "alternate_names": [
+            "Catchin' Waves Theme"
+        ]
+    },
+    "114": {
+        "name": "Deep Reef",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Aqua Grabber Theme",
+            "Clam Waters"
+        ]
+    },
+    "115": {
+        "name": "Algae Reef",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Aqua Grabber Theme",
+            "Soda Seas"
+        ]
+    },
+    "116": {
+        "name": "Ninja Training",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Card-Jitsu Theme"
+        ]
+    },
+    "117": {
+        "name": "Sled Racing",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Sled Racing Theme"
+        ]
+    },
+    "118": {
+        "name": "Fire Path",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Card-Jitsu Fire Theme"
+        ]
+    },
+    "119": {
+        "name": "Ice Flow",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Puffle Rescue Theme",
+            "The Icelands"
+        ]
+    },
+    "120": {
+        "name": "In The Cave",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Puffle Rescue Theme",
+            "In The Caves"
+        ]
+    },
+    "121": {
+        "name": "Waterscape",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Puffle Rescue Theme",
+            "The Sea"
+        ]
+    },
+    "122": {
+        "name": "Blast Off!",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Boss Bullet Success"
+        ]
+    },
+    "123": {
+        "name": "Own The Skies",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Puffle Launch Boss"
+        ]
+    },
+    "124": {
+        "name": "Ramp It Up!",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Puffle Launch Theme"
+        ]
+    },
+    "125": {
+        "name": "Herbert Boss Battle",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Bring on the Hydra",
+            "Battle of Doom"
+        ]
+    },
+    "198": {
+        "name": "Mystic Jungle",
+        "composer": "Arial Mann"
+    },
+    "199": {
+        "name": "Destination Groove",
+        "composer": "Arial Mann"
+    },
+    "242": {
+        "name": "Mix Maestro"
+    },
+    "342": {
+        "name": "Operation Blackout"
+    },
+    "511": {
+        "name": "Ocean Voyage"
+    },
+    "520": {
+        "name": "The Command Room"
+    },
+    "596": {
+        "name": "Bulls Eye"
+    },
+    "598": {
+        "name": "Carnival Fun"
+    },
+    "650": {
+        "name": "Welcome to the Dojo"
+    },
+    "788": {
+        "name": "Fair Winds"
+    }
+}

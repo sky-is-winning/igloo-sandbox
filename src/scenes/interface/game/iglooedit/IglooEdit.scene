@@ -1,0 +1,1019 @@
+{
+    "id": "f7e65799-662a-4745-a7b1-2dd8d59e8d35",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapEnabled": true,
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "IglooEdit",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4e750e30-dbe3-4e90-905d-081a279203b7",
+            "label": "defaultControls",
+            "scope": "CLASS",
+            "x": 1426,
+            "y": 758,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "536c2427-aa97-4306-8d3e-ccbe16d7e20f",
+                    "label": "button_edit",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.callback": "() => this.chooseIglooButton()",
+                    "ShowHint.text": "editIgloo",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "edit-btn"
+                    },
+                    "y": 126
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "5aebe2f5-2ecf-43e9-a438-fdaa0213fb02",
+            "label": "controls",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "151d56f4-b183-4ee4-b5a9-78d527173e78",
+                    "label": "button_box",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "cardboardbox"
+                    },
+                    "x": 1424.9985859979595,
+                    "y": 883.0016987305266,
+                    "originY": 0.584
+                },
+                {
+                    "type": "Container",
+                    "id": "f87fe909-6788-4d95-b32a-daa67900853f",
+                    "label": "lower",
+                    "scope": "CLASS",
+                    "x": 56.99858594592661,
+                    "y": 25.001698585925624,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "10bc818a-c70f-4081-945a-60211c80aed7",
+                            "label": "music_panel",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "music-panel"
+                            }
+                        },
+                        {
+                            "type": "NinePatchContainer",
+                            "id": "eff788c7-fbe9-4749-9459-7cdfd8b0fde9",
+                            "label": "big_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.iglooMusic.visible = true",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "big-button"
+                            },
+                            "x": 35,
+                            "y": 246,
+                            "width": 80,
+                            "height": 65
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5a3fc350-450e-4bc6-b65a-2e11832a32d8",
+                            "label": "music_icon",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "music-icon"
+                            },
+                            "x": 34,
+                            "y": 246
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d710eb57-e424-478d-854b-516ad4763f01",
+                            "label": "arrow",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "arrow"
+                            },
+                            "x": 107,
+                            "y": 247
+                        },
+                        {
+                            "type": "NinePatchContainer",
+                            "id": "82cd793e-1c1b-4100-91a1-356ee5e419d8",
+                            "label": "small_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.tweenControls()",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "small-btn"
+                            },
+                            "x": 50,
+                            "y": 328,
+                            "width": 150,
+                            "height": 42,
+                            "marginLeft": 30,
+                            "marginRight": 30
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7fb482c5-a33a-495a-b5cc-a2b4265a67f4",
+                            "label": "music",
+                            "scope": "CLASS",
+                            "components": [
+                                "LocalisedString"
+                            ],
+                            "LocalisedString.id": "music",
+                            "x": 35,
+                            "y": 200,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Music",
+                            "fixedWidth": 150,
+                            "align": "center",
+                            "fontFamily": "cpBurbankSmall",
+                            "fontSize": "22px",
+                            "fontStyle": "bold",
+                            "color": "#3e83c5ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "74341179-abc6-463d-a36a-fd6bc18fb7ba",
+                            "label": "hide",
+                            "scope": "CLASS",
+                            "components": [
+                                "LocalisedString"
+                            ],
+                            "LocalisedString.id": "hide",
+                            "x": 50,
+                            "y": 328,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Hide",
+                            "fixedWidth": 150,
+                            "align": "center",
+                            "fontFamily": "cpBurbankSmall",
+                            "fontSize": "22px",
+                            "fontStyle": "bold",
+                            "color": "#3e83c5ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6bde4756-8a56-41e5-b3af-974cc9c6e04e",
+                    "label": "upper",
+                    "scope": "CLASS",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "aa0e11f4-f6b6-4c5d-b2aa-b3b0ce255d00",
+                            "label": "all",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(0)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "all-selected"
+                            },
+                            "x": 659.9985859459266,
+                            "y": 215.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "343bc315-2de5-4c57-a3c1-3000b7212c25",
+                            "label": "location",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(1)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "location"
+                            },
+                            "x": 774.9985859459266,
+                            "y": 216.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4b798c9d-dac5-4405-ae39-9e15b08e6b9c",
+                            "label": "igloos",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(2)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "igloos"
+                            },
+                            "x": 889.9985859459266,
+                            "y": 216.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2ded3721-74c6-4620-bce2-d6855cc77886",
+                            "label": "flooring",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(3)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "flooring"
+                            },
+                            "x": 1004.9985859459266,
+                            "y": 216.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f66d2822-89e9-4c71-8898-0cfd3ce6916d",
+                            "label": "room",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(4)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "room"
+                            },
+                            "x": 1119.9985859459266,
+                            "y": 216.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f2d8c54d-b9d8-4f22-aab3-b9f4243653db",
+                            "label": "wall",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(5)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "wall"
+                            },
+                            "x": 1234.9985859459266,
+                            "y": 216.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b4cb5805-2580-428c-8682-3fe6f7a56a22",
+                            "label": "pets",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.selectCategory(6)",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "pets"
+                            },
+                            "x": 1349.9985859459266,
+                            "y": 216.00169858592562
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8b5ed828-be6b-4e74-9adc-142ceb706a3b",
+                            "label": "top_bar",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "top-bar"
+                            },
+                            "x": 777.9985859459266,
+                            "y": 72.00169858592562
+                        },
+                        {
+                            "type": "Container",
+                            "id": "b83fd3d4-e0d7-4ee1-b6c1-f931d2f2e4e6",
+                            "label": "itemContainer",
+                            "scope": "CLASS"
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ba1f32de-a3cd-4496-be5e-9f159e23d5c8",
+                            "label": "rectangle_1",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "x": 1462.0000507896766,
+                            "y": 91.99999723094516,
+                            "width": 115.5,
+                            "height": 170
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9d147340-cf7c-44b2-9be1-73899ee60fd9",
+                            "label": "close_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.onSaveClick()",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "close-btn"
+                            },
+                            "x": 1466.9985859459266,
+                            "y": 48.001698585925624
+                        },
+                        {
+                            "type": "Image",
+                            "id": "952b33e3-6e64-46d8-a747-4815f93e25e5",
+                            "label": "x",
+                            "texture": {
+                                "key": "iglooedit-new",
+                                "frame": "x"
+                            },
+                            "x": 1466.9985859459266,
+                            "y": 47.001698585925624
+                        },
+                        {
+                            "type": "Container",
+                            "id": "d51496d9-dc0c-4756-8a41-555bd0386c6f",
+                            "label": "scrollBarContainer",
+                            "scope": "CLASS",
+                            "x": -0.00001392595368088223,
+                            "y": 0.0015205401127835472,
+                            "list": [
+                                {
+                                    "type": "NinePatchContainer",
+                                    "id": "0cf4b59a-b004-4d62-9c8d-e15eab6cc415",
+                                    "label": "rounded_rect",
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "rounded_rect"
+                                    },
+                                    "x": 722.0000122493237,
+                                    "y": 154.99848689180524,
+                                    "width": 1300,
+                                    "height": 32,
+                                    "marginLeft": 16,
+                                    "marginRight": 16,
+                                    "marginTop": 16,
+                                    "marginBottom": 16
+                                },
+                                {
+                                    "type": "NinePatchContainer",
+                                    "id": "b21ed0c4-e8fd-43af-a1a3-8f527bbaf8fe",
+                                    "label": "rounded_rect_1",
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "rounded_rect"
+                                    },
+                                    "x": 722.0000122493237,
+                                    "y": 154.99848689180524,
+                                    "alpha": 0.5,
+                                    "width": 1300,
+                                    "height": 32,
+                                    "marginLeft": 16,
+                                    "marginRight": 16,
+                                    "marginTop": 16,
+                                    "marginBottom": 16,
+                                    "ninePatchContainerTintFill": true
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "2f904f93-c774-429b-a7ed-3c4c5e1c0695",
+                                    "label": "circle",
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "circle"
+                                    },
+                                    "x": 87.00001224932373,
+                                    "y": 154.99848689180524
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "9f41345d-1c6e-40a8-aa7e-52e6c1a237e1",
+                                    "label": "arrow_1",
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "arrow"
+                                    },
+                                    "x": 85.00001224932373,
+                                    "y": 154.99848689180524,
+                                    "scaleX": -1
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "f260b10b-4eb0-499b-8612-e8843b79ddaf",
+                                    "label": "circle_1",
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "circle"
+                                    },
+                                    "x": 1356.0000122493238,
+                                    "y": 154.99848689180524
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "c4f4c1a9-d229-4871-83fd-0e75fe64c861",
+                                    "label": "arrow_2",
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "arrow"
+                                    },
+                                    "x": 1358.0000122493238,
+                                    "y": 154.99848689180524
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "245a78db-be61-4cda-87aa-0f51f5a4c5aa",
+                                    "label": "scroller",
+                                    "scope": "CLASS",
+                                    "x": 168.0000122493237,
+                                    "y": 154.99848689180524,
+                                    "list": [
+                                        {
+                                            "type": "NinePatchContainer",
+                                            "id": "591071ad-a275-42a2-9374-edd0cd516253",
+                                            "label": "scrollbar",
+                                            "scope": "CLASS",
+                                            "texture": {
+                                                "key": "iglooedit-new",
+                                                "frame": "rounded_rect"
+                                            },
+                                            "x": 9,
+                                            "width": 150,
+                                            "height": 32,
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 16,
+                                            "marginBottom": 16
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "cc8b6570-9820-4d45-b7fa-ac2395aa399a",
+                                            "label": "rounded_rect_thin",
+                                            "texture": {
+                                                "key": "iglooedit-new",
+                                                "frame": "rounded_rect_thin"
+                                            },
+                                            "scaleY": 0.6
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "d97bc726-acfe-4915-94c3-143dc03fe00d",
+                                            "label": "rounded_rect_thin_1",
+                                            "texture": {
+                                                "key": "iglooedit-new",
+                                                "frame": "rounded_rect_thin"
+                                            },
+                                            "x": 6,
+                                            "scaleY": 0.6
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "ff5645b6-281b-443f-af1d-b5501349e190",
+                                            "label": "rounded_rect_thin_2",
+                                            "texture": {
+                                                "key": "iglooedit-new",
+                                                "frame": "rounded_rect_thin"
+                                            },
+                                            "x": 18,
+                                            "scaleY": 0.6
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "1726be81-ce9f-455d-a684-748581a04a5a",
+                                            "label": "rounded_rect_thin_3",
+                                            "texture": {
+                                                "key": "iglooedit-new",
+                                                "frame": "rounded_rect_thin"
+                                            },
+                                            "x": 12,
+                                            "scaleY": 0.6
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "d6cf4a9b-bcc7-4de0-bd9b-d33346f4fd2b",
+                    "id": "4668eefa-869b-44f9-b5c8-824002752f00",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "iglooMusic",
+                    "scope": "CLASS",
+                    "x": 759.9985859979596,
+                    "y": 480.0016987305264,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "1b8cf0fa-f73d-4350-945a-dc2655c3a1a6",
+            "label": "chooseIgloo",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9d37d487-3da3-4609-858c-7c184f40ac73",
+                    "label": "bg",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "bg"
+                    },
+                    "x": 760,
+                    "y": 480
+                },
+                {
+                    "type": "Image",
+                    "id": "0ce30d95-bcc3-4034-b01c-c9a8772285b3",
+                    "label": "choose_igloo",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onEditClick()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "choose-igloo"
+                    },
+                    "x": 944,
+                    "y": 349
+                },
+                {
+                    "type": "Image",
+                    "id": "56601698-af3b-4e6a-abd7-6a74243c917f",
+                    "label": "toggle_panel",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "toggle-panel"
+                    },
+                    "x": 1180,
+                    "y": 349
+                },
+                {
+                    "type": "Image",
+                    "id": "ba72b0a2-b6e3-4f4c-b3aa-81561edaf3c2",
+                    "label": "toggler",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.toggleOpen()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "toggler"
+                    },
+                    "x": 1151,
+                    "y": 352
+                },
+                {
+                    "type": "Image",
+                    "id": "f87f7b0f-0e19-4f38-8a0f-71335d7ee3b9",
+                    "label": "preview_pane",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "preview-pane"
+                    },
+                    "x": 250,
+                    "y": 744
+                },
+                {
+                    "type": "Sprite",
+                    "id": "59f380ac-4616-4fc4-9caa-51f518da2f6a",
+                    "label": "plus",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "spinner0001"
+                    },
+                    "x": 250,
+                    "y": 716,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "05ab10c1-0791-42ef-8987-8dc2a4b27a24",
+                    "label": "preview_pane_1",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "preview-pane"
+                    },
+                    "x": 590,
+                    "y": 744
+                },
+                {
+                    "type": "Sprite",
+                    "id": "00ee3874-71fb-427b-9086-28b988b3b543",
+                    "label": "plus_1",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "spinner0001"
+                    },
+                    "x": 590,
+                    "y": 716,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "199c2754-848e-4b93-b6c2-1773bde820bf",
+                    "label": "preview_pane_2",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "preview-pane"
+                    },
+                    "x": 930,
+                    "y": 744
+                },
+                {
+                    "type": "Sprite",
+                    "id": "028be075-8d17-43da-aece-b2a68a1dec69",
+                    "label": "plus_2",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "spinner0001"
+                    },
+                    "x": 930,
+                    "y": 716,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "32339297-31da-437e-bfa7-1dc1c429dd85",
+                    "label": "preview_pane_3",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "preview-pane"
+                    },
+                    "x": 1269,
+                    "y": 744
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d68e1bb0-2291-4361-a441-fb05253ad14a",
+                    "label": "plus_3",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "spinner0001"
+                    },
+                    "x": 1269,
+                    "y": 716,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "60795c35-37cf-4502-a574-9c6249a40402",
+                    "label": "close_btn_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.closeChooseIgloo()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "close-btn"
+                    },
+                    "x": 1475,
+                    "y": 45
+                },
+                {
+                    "type": "Image",
+                    "id": "4657b3f7-362d-4d98-910d-918e4c798137",
+                    "label": "x_1",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "x"
+                    },
+                    "x": 1475,
+                    "y": 44
+                },
+                {
+                    "type": "Text",
+                    "id": "af8baaf1-06f9-447c-ab9f-2e2f51956de7",
+                    "label": "grandTotalLikes",
+                    "scope": "CLASS",
+                    "x": 870,
+                    "y": 151,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 100,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "72578747-b702-4a4b-91d0-187c4de7944d",
+                    "label": "title_4",
+                    "x": 870,
+                    "y": 114,
+                    "originY": 0.5,
+                    "text": "Grand Total Likes:",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "28px",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "f4aabb71-000f-471b-84d2-a0c7956cc1e1",
+                    "label": "title_5",
+                    "x": 891,
+                    "y": 263,
+                    "originY": 0.5,
+                    "text": "Your current igloo",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "28px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "bc3f29e7-9f55-44d1-9c50-1d6aa9ae58e9",
+                    "label": "title_6",
+                    "x": 1060,
+                    "y": 349,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Friends",
+                    "fixedWidth": 100,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "881d89e4-40bb-43c3-a9e9-1782374fa1be",
+                    "label": "title_7",
+                    "x": 1300,
+                    "y": 349,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Everyone",
+                    "fixedWidth": 100,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "14acd9f9-a814-4b87-ab59-71b24473f97c",
+                    "label": "title_8",
+                    "x": 944,
+                    "y": 429,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Edit",
+                    "fixedWidth": 100,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "c19fc21e-b300-4ac9-8e04-324d692058a5",
+                    "label": "title_9",
+                    "x": 1180,
+                    "y": 429,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Igloo Visitors",
+                    "fixedWidth": 250,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "da6b9a18-c3e7-4138-b933-e03ae4f658b6",
+                    "label": "currentIglooLikes",
+                    "scope": "CLASS",
+                    "x": 892,
+                    "y": 507,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 100,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "e7d69dfd-bf33-457d-90b3-63f085224f61",
+                    "label": "title_11",
+                    "x": 892,
+                    "y": 472,
+                    "originY": 0.5,
+                    "text": "Likes",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "26px",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b5749e50-ef4e-4817-9eab-73005014302d",
+                    "label": "plus_4",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "spinner0001"
+                    },
+                    "x": 480,
+                    "y": 318
+                },
+                {
+                    "type": "Text",
+                    "id": "0c833cee-7874-43f5-8e6e-22fa107c71f8",
+                    "label": "title_12",
+                    "x": 108,
+                    "y": 828,
+                    "originY": 0.5,
+                    "text": "Likes",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "20px",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "ab20cb8d-909f-4933-9512-e646eff772fe",
+                    "label": "title_13",
+                    "x": 108,
+                    "y": 853,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 100,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "e8461536-ecc0-4e38-8b84-e70255ce035b",
+                    "label": "title_14",
+                    "x": 448,
+                    "y": 853,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 100,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "b1a23d25-7de5-45ef-99ff-56df7b4a5b72",
+                    "label": "title_15",
+                    "x": 448,
+                    "y": 828,
+                    "originY": 0.5,
+                    "text": "Likes",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "20px",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "b37ec322-8074-4586-a649-645a1ee420c7",
+                    "label": "title_16",
+                    "x": 788,
+                    "y": 853,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 100,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "76758e86-2d82-46ed-a944-b76eb92e1772",
+                    "label": "title_17",
+                    "x": 788,
+                    "y": 828,
+                    "originY": 0.5,
+                    "text": "Likes",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "20px",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "689af786-9519-468b-8a56-ccf1db7755d4",
+                    "label": "title_18",
+                    "x": 1127,
+                    "y": 853,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 100,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "e45917b8-4752-47ca-bf7a-e1697fbcc79c",
+                    "label": "title_19",
+                    "x": 1127,
+                    "y": 828,
+                    "originY": 0.5,
+                    "text": "Likes",
+                    "fixedWidth": 500,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "20px",
+                    "color": "#3e83c5ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "34d81843-1671-4f46-890e-5f55f24b824b",
+            "label": "categories",
+            "objectIds": [
+                "aa0e11f4-f6b6-4c5d-b2aa-b3b0ce255d00",
+                "343bc315-2de5-4c57-a3c1-3000b7212c25",
+                "4b798c9d-dac5-4405-ae39-9e15b08e6b9c",
+                "2ded3721-74c6-4620-bce2-d6855cc77886",
+                "f66d2822-89e9-4c71-8898-0cfd3ce6916d",
+                "f2d8c54d-b9d8-4f22-aab3-b9f4243653db",
+                "b4cb5805-2580-428c-8682-3fe6f7a56a22"
+            ]
+        },
+        {
+            "id": "c9de078f-2ce1-4dc0-8c42-b8d7e1a888e0",
+            "label": "spinners",
+            "objectIds": [
+                "59f380ac-4616-4fc4-9caa-51f518da2f6a",
+                "00ee3874-71fb-427b-9086-28b988b3b543",
+                "028be075-8d17-43da-aece-b2a68a1dec69",
+                "d68e1bb0-2291-4361-a441-fb05253ad14a",
+                "b5749e50-ef4e-4817-9eab-73005014302d"
+            ]
+        },
+        {
+            "id": "60ab6e92-c625-4755-8a19-2edbb0da30fe",
+            "label": "likesText",
+            "objectIds": [
+                "ab20cb8d-909f-4933-9512-e646eff772fe",
+                "e8461536-ecc0-4e38-8b84-e70255ce035b",
+                "b37ec322-8074-4586-a649-645a1ee420c7",
+                "689af786-9519-468b-8a56-ccf1db7755d4"
+            ]
+        }
+    ]
+}

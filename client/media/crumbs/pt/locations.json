@@ -1,0 +1,34 @@
+{
+    "1": {
+        "name": "Default",
+        "cost": 0
+    },
+    "2": {
+        "name": "Beach",
+        "cost": 2800
+    },
+    "3": {
+        "name": "Forest",
+        "cost": 2700
+    },
+    "4": {
+        "name": "Mountain",
+        "cost": 2800
+    },
+    "5": {
+        "name": "Age Of Dinosaurs",
+        "cost": 0
+    },
+    "6": {
+        "name": "Distant Planet",
+        "cost": 1800
+    },
+    "7": {
+        "name": "Soccer Pitch",
+        "cost": 1800
+    },
+    "8": {
+        "name": "Undersea",
+        "cost": 1800
+    }
+}

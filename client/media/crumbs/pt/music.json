@@ -1,0 +1,318 @@
+{
+    "1": {
+        "name": "King of Kingston",
+        "composer": "Paul Sumpter",
+        "alternate_names": [
+            "Coffee Shop"
+        ]
+    },
+    "2": {
+        "name": "Communication",
+        "composer": "Bjorn Lynne",
+        "alternate_names": [
+            "Dance Mix 1"
+        ]
+    },
+    "3": {
+        "name": "I've Been Delayed",
+        "composer": "TAS 1000"
+    },
+    "4": {
+        "name": "Coins for Change",
+        "composer": "Norrie Henderson"
+    },
+    "5": {
+        "name": "Crossing Over",
+        "composer": "Bjorn Lynne",
+        "alternate_names": [
+            "Dance Mix 2"
+        ]
+    },
+    "6": {
+        "name": "Jungle Jam",
+        "composer": "Chris Hendricks"
+    },
+    "7": {
+        "name": "Stealth",
+        "composer": "David Ingall"
+    },
+    "8": {
+        "name": "I'm a Mod",
+        "composer": "Norrie Henderson, Alex Newcombe, Jordan Chase, Derek Gieselman and Bobbi Jean Rieger"
+    },
+    "9": {
+        "name": "I'm a Mod (Instrumental)",
+        "composer": "Norrie Henderson"
+    },
+    "10": {
+        "name": "Sunshine Holiday",
+        "composer": "Gayle Ellet"
+    },
+    "11": {
+        "name": "Honolulu Honey",
+        "composer": "Jeremy Sherman"
+    },
+    "12": {
+        "name": "Jazzy Pizza",
+        "composer": "Chris Hendricks"
+    },
+    "13": {
+        "name": "One Very Grumpy Polar Bear",
+        "composer": "Bart Roijmans",
+        "alternate_names": [
+            "Herbert's Theme"
+        ]
+    },
+    "14": {
+        "name": "Puffle Wild Ambience"
+    },
+    "15": {
+        "name": "Forest Adventure Part 1",
+        "composer": "Nick Bedell",
+        "alternate_names": [
+            "Forest Adventure"
+        ]
+    },
+    "16": {
+        "name": "Forest Adventure Part 2",
+        "composer": "Nick Bedell"
+    },
+    "17": {
+        "name": "Forest Adventure Part 3",
+        "composer": "Nick Bedell"
+    },
+    "18": {
+        "name": "Banjo Bonanza",
+        "composer": "Norrie Henderson"
+    },
+    "19": {
+        "name": "Nothing As It Seems",
+        "composer": "Norrie Henderson"
+    },
+    "20": {
+        "name": "Charlie's Here",
+        "composer": "Skip Peck",
+        "alternate_names": [
+            "Pizza Parlor"
+        ]
+    },
+    "21": {
+        "name": "Mountain Dojo",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Ninja Battle"
+        ]
+    },
+    "22": {
+        "name": "The Volcano",
+        "composer": "Chris Hendricks"
+    },
+    "23": {
+        "name": "Elite Penguin Force",
+        "composer": "Chris Hendricks (remixing Bart Roijmans)",
+        "alternate_names": [
+            "The Command Room"
+        ]
+    },
+    "24": {
+        "name": "The Way of the Sensei",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "The Way of Sensei",
+            "Water Ninja 2"
+        ]
+    },
+    "27": {
+        "name": "Water Ninja Battle",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Water Battle"
+        ]
+    },
+    "28": {
+        "name": "Epic Island",
+        "composer": "David Fairfield"
+    },
+    "29": {
+        "name": "Designer Look",
+        "composer": "David Fairfield"
+    },
+    "30": {
+        "name": "Space Adventure"
+    },
+    "31": {
+        "name": "Flat Baroque",
+        "composer": "Chris Hendricks and Friction Music",
+        "alternate_names": [
+            "Twelfth Fish",
+            "Twelfth Fish Theme"
+        ]
+    },
+    "32": {
+        "name": "For Great Justice",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Epic Squidzoid Fight",
+            "Superhero"
+        ]
+    },
+    "33": {
+        "name": "Pep Rally",
+        "composer": "Friction Music",
+        "alternate_names": [
+            "Team Power"
+        ]
+    },
+    "34": {
+        "name": "Egyptian Wrap",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Jumpin' Egyptian",
+            "Quest for the Golden Puffle"
+        ]
+    },
+    "35": {
+        "name": "Pterodactyl Ptune",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Pre-historic Rock"
+        ]
+    },
+    "36": {
+        "name": "Rocker Rally",
+        "composer": "Friction Music",
+        "alternate_names": [
+            "Team Blue 2"
+        ]
+    },
+    "37": {
+        "name": "Noir Noises",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Ruby's Theme",
+            "Ruby and the Ruby"
+        ]
+    },
+    "38": {
+        "name": "Planet Y",
+        "composer": "Rory O'Neill",
+        "alternate_names": [
+            "Space Adventure: Planet Y"
+        ]
+    },
+    "39": {
+        "name": "Twice Upon a Time",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Fairy Fables"
+        ]
+    },
+    "40": {
+        "name": "The Award Goes To",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Penguin Play Awards"
+        ]
+    },
+    "41": {
+        "name": "The Viking Opera",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "Viking Opera"
+        ]
+    },
+    "42": {
+        "name": "Norman Swarm",
+        "composer": "Chris Hendricks"
+    },
+    "43": {
+        "name": "Monkey King",
+        "composer": "Chris Hendricks",
+        "alternate_names": [
+            "The Bamboo Forest"
+        ]
+    },
+    "44": {
+        "name": "Dancing Coral",
+        "composer": "Billy Martin"
+    },
+    "45": {
+        "name": "Kelp Forest",
+        "composer": "Ariel Mann"
+    },
+    "46": {
+        "name": "Mr Ray",
+        "composer": "Billy Martin"
+    },
+    "47": {
+        "name": "Ocean Exploring",
+        "composer": "Billy Martin"
+    },
+    "48": {
+        "name": "The Journey Begins",
+        "composer": "Ariel Mann"
+    },
+    "49": {
+        "name": "Captain Aaaar",
+        "composer": "Chris Hendricks"
+    },
+    "50": {
+        "name": "Welcome Home",
+        "composer": "David Fairfield"
+    },
+    "51": {
+        "name": "Chillin' At The Club",
+        "composer": "Chris Hendricks"
+    },
+    "53": {
+        "name": "Iggy Life",
+        "composer": "Allen Levy"
+    },
+    "54": {
+        "name": "Slush Rush Electro",
+        "composer": "Norrie Henderson"
+    },
+    "55": {
+        "name": "CP Music Mashup 2013",
+        "composer": "Norrie Henderson"
+    },
+    "56": {
+        "name": "CP Music Mashup 2014",
+        "composer": "Norrie Henderson"
+    },
+    "57": {
+        "name": "CP Music Mashup 2015",
+        "composer": "Toby Hulse"
+    },
+    "58": {
+        "name": "CP Music Mashup 2016",
+        "composer": "David Fairfield"
+    },
+    "101": {
+        "name": "Organic Journey"
+    },
+    "242": {
+        "name": "Mix Maestro"
+    },
+    "342": {
+        "name": "Operation Blackout"
+    },
+    "511": {
+        "name": "Ocean Voyage"
+    },
+    "520": {
+        "name": "The Command Room"
+    },
+    "596": {
+        "name": "Bulls Eye"
+    },
+    "598": {
+        "name": "Carnival Fun"
+    },
+    "650": {
+        "name": "Welcome to the Dojo"
+    },
+    "788": {
+        "name": "Fair Winds"
+    }
+}

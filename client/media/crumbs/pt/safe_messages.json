@@ -1,0 +1,1560 @@
+[
+    {
+        "id": 1,
+        "name": "Olá",
+        "menu": [
+            {
+                "id": 100,
+                "name": "Olá",
+                "menu": [
+                    {
+                        "id": 101,
+                        "name": "Oi, tudo bem?"
+                    },
+                    {
+                        "id": 102,
+                        "name": "Oi, pessoal!"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Ok",
+        "menu": [
+            {
+                "id": 120,
+                "name": "Cumprimentos",
+                "menu": [
+                    {
+                        "id": 121,
+                        "name": "Olá para todo mundo!"
+                    },
+                    {
+                        "id": 122,
+                        "name": "Olá, terráqueos"
+                    }
+                ]
+            },
+            {
+                "id": 130,
+                "name": "Bem-vindo",
+                "menu": [
+                    {
+                        "id": 131,
+                        "name": "Bem-vindo ao meu iglu"
+                    },
+                    {
+                        "id": 132,
+                        "name": "Este é o meu iglu"
+                    }
+                ]
+            },
+            {
+                "id": 140,
+                "name": "Fala!"
+            },
+            {
+                "id": 150,
+                "name": "Beleza?",
+                "menu": [
+                    {
+                        "id": 151,
+                        "name": "Como é que tá?"
+                    },
+                    {
+                        "id": 152,
+                        "name": "Como andam as coisas?"
+                    },
+                    {
+                        "id": 153,
+                        "name": "Alguma novidade?"
+                    }
+                ]
+            },
+            {
+                "id": 160,
+                "name": "Bom dia",
+                "menu": [
+                    {
+                        "id": 161,
+                        "name": "Bom dia"
+                    },
+                    {
+                        "id": 162,
+                        "name": "Boa tarde"
+                    },
+                    {
+                        "id": 163,
+                        "name": "Bom descanso"
+                    },
+                    {
+                        "id": 164,
+                        "name": "Boa noite"
+                    }
+                ]
+            },
+            {
+                "id": 170,
+                "name": "Dããã",
+                "menu": [
+                    {
+                        "id": 171,
+                        "name": "Estou em pulgas!"
+                    },
+                    {
+                        "id": 172,
+                        "name": "Qualé, mermão!"
+                    },
+                    {
+                        "id": 173,
+                        "name": "Ó DE BORDO!"
+                    },
+                    {
+                        "id": 174,
+                        "name": "Entra aí, agente!"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tchau",
+        "menu": [
+            {
+                "id": 210,
+                "name": "Até",
+                "menu": [
+                    {
+                        "id": 211,
+                        "name": "Até amanhã"
+                    },
+                    {
+                        "id": 212,
+                        "name": "Valeu"
+                    }
+                ]
+            },
+            {
+                "id": 220,
+                "name": "Tchau!"
+            },
+            {
+                "id": 230,
+                "name": "Volto já"
+            },
+            {
+                "id": 240,
+                "name": "Tenho que ir"
+            },
+            {
+                "id": 250,
+                "name": "Despedida",
+                "menu": [
+                    {
+                        "id": 251,
+                        "name": "Te cuida"
+                    },
+                    {
+                        "id": 252,
+                        "name": "Bom dia pra você!"
+                    },
+                    {
+                        "id": 253,
+                        "name": "Boa sorte!"
+                    },
+                    {
+                        "id": 254,
+                        "name": "Divirta-se!"
+                    },
+                    {
+                        "id": 255,
+                        "name": "A gente se vê"
+                    },
+                    {
+                        "id": 256,
+                        "name": "Tchau tchau!"
+                    }
+                ]
+            },
+            {
+                "id": 260,
+                "name": "Paz!"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Amigo",
+        "menu": [
+            {
+                "id": 300,
+                "name": "Quer ser meu amigo?"
+            },
+            {
+                "id": 310,
+                "name": "Vem comigo",
+                "menu": [
+                    {
+                        "id": 311,
+                        "name": "Vamos para o meu iglu?"
+                    },
+                    {
+                        "id": 312,
+                        "name": "Festa no meu iglu!"
+                    }
+                ]
+            },
+            {
+                "id": 320,
+                "name": "Adorei ...",
+                "menu": [
+                    {
+                        "id": 321,
+                        "name": "Adorei sua roupa!"
+                    },
+                    {
+                        "id": 322,
+                        "name": "Adorei seu iglu!"
+                    },
+                    {
+                        "id": 323,
+                        "name": "Adorei seus puffles!"
+                    },
+                    {
+                        "id": 324,
+                        "name": "Adorei seu cabelo!"
+                    }
+                ]
+            },
+            {
+                "id": 330,
+                "name": "Obrigado",
+                "menu": [
+                    {
+                        "id": 331,
+                        "name": "Valeu pelo jogo"
+                    },
+                    {
+                        "id": 332,
+                        "name": "Obrigado pela visita"
+                    },
+                    {
+                        "id": 333,
+                        "name": "Não, obrigado"
+                    }
+                ]
+            },
+            {
+                "id": 340,
+                "name": "Sem problemas"
+            },
+            {
+                "id": 350,
+                "name": "Você é...",
+                "menu": [
+                    {
+                        "id": 351,
+                        "name": "Você é incrível!"
+                    },
+                    {
+                        "id": 352,
+                        "name": "Você é legal!"
+                    },
+                    {
+                        "id": 353,
+                        "name": "Você é engraçado!"
+                    },
+                    {
+                        "id": 354,
+                        "name": "Você é bobo!"
+                    },
+                    {
+                        "id": 355,
+                        "name": "Você é demais!"
+                    },
+                    {
+                        "id": 356,
+                        "name": "Você é um amigão!"
+                    }
+                ]
+            },
+            {
+                "id": 360,
+                "name": "Iglu",
+                "menu": [
+                    {
+                        "id": 361,
+                        "name": "Que iglu legal!"
+                    },
+                    {
+                        "id": 362,
+                        "name": "Uau, que decoração!"
+                    },
+                    {
+                        "id": 363,
+                        "name": "Bem louco esse iglu!"
+                    },
+                    {
+                        "id": 364,
+                        "name": "Adorei o seu iglu"
+                    },
+                    {
+                        "id": 365,
+                        "name": "Que festa legal!"
+                    },
+                    {
+                        "id": 366,
+                        "name": "Valeu por ter vindo à minha festa!"
+                    },
+                    {
+                        "id": 367,
+                        "name": "Acho que seus puffles estão com fome."
+                    }
+                ]
+            },
+            {
+                "id": 370,
+                "name": "Sinto muito",
+                "menu": [
+                    {
+                        "id": 371,
+                        "name": "Desculpa, mas estou ocupado"
+                    },
+                    {
+                        "id": 372,
+                        "name": "Desculpa, mas tenho que ir"
+                    },
+                    {
+                        "id": 373,
+                        "name": "Por favor, desculpa"
+                    },
+                    {
+                        "id": 374,
+                        "name": "Desculpo, sim"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Perguntas",
+        "menu": [
+            {
+                "id": 400,
+                "name": "O quê?",
+                "menu": [
+                    {
+                        "id": 401,
+                        "name": "Qual é o seu animal favorito?"
+                    },
+                    {
+                        "id": 402,
+                        "name": "Qual é seu jogo favorito?"
+                    },
+                    {
+                        "id": 403,
+                        "name": "Qual é seu esporte favorito?"
+                    },
+                    {
+                        "id": 405,
+                        "name": "Qual é sua música favorita?"
+                    },
+                    {
+                        "id": 407,
+                        "name": "Você tem algum passatempo?"
+                    }
+                ]
+            },
+            {
+                "id": 410,
+                "name": "Onde?",
+                "menu": [
+                    {
+                        "id": 412,
+                        "name": "Onde você quer ir?"
+                    },
+                    {
+                        "id": 413,
+                        "name": "Onde você está indo?"
+                    },
+                    {
+                        "id": 414,
+                        "name": "Onde você achou isso?"
+                    },
+                    {
+                        "id": 415,
+                        "name": "Onde você achou esse pin?"
+                    }
+                ]
+            },
+            {
+                "id": 420,
+                "name": "Quando?",
+                "menu": [
+                    {
+                        "id": 421,
+                        "name": "Quando é sua festa?"
+                    },
+                    {
+                        "id": 422,
+                        "name": "Quando é o ensaio?"
+                    }
+                ]
+            },
+            {
+                "id": 430,
+                "name": "Como estão as coisas?"
+            },
+            {
+                "id": 450,
+                "name": "Posso fazer um passeio?"
+            },
+            {
+                "id": 460,
+                "name": "EPF",
+                "menu": [
+                    {
+                        "id": 461,
+                        "name": "Psiu! Quero ser um agente da EPF. Onde é o QG?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Respostas",
+        "menu": [
+            {
+                "id": 10000,
+                "name": "Animais",
+                "menu": [
+                    {
+                        "id": 10100,
+                        "name": "Gatos",
+                        "menu": [
+                            {
+                                "id": 10101,
+                                "name": "Leão"
+                            },
+                            {
+                                "id": 10102,
+                                "name": "Tigre"
+                            },
+                            {
+                                "id": 10103,
+                                "name": "Leopardo"
+                            },
+                            {
+                                "id": 10104,
+                                "name": "Guepardo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10200,
+                        "name": "Cachorros",
+                        "menu": [
+                            {
+                                "id": 10201,
+                                "name": "Beagle"
+                            },
+                            {
+                                "id": 10202,
+                                "name": "Collie"
+                            },
+                            {
+                                "id": 10203,
+                                "name": "Dálmata"
+                            },
+                            {
+                                "id": 10204,
+                                "name": "Poodle"
+                            },
+                            {
+                                "id": 10205,
+                                "name": "Cocker Spaniel"
+                            },
+                            {
+                                "id": 10206,
+                                "name": "Pastor"
+                            },
+                            {
+                                "id": 10207,
+                                "name": "Terrier"
+                            },
+                            {
+                                "id": 10208,
+                                "name": "Labrador"
+                            },
+                            {
+                                "id": 10209,
+                                "name": "Lobo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10300,
+                        "name": "Cavalos"
+                    },
+                    {
+                        "id": 10400,
+                        "name": "Répteis",
+                        "menu": [
+                            {
+                                "id": 10410,
+                                "name": "Lagarto"
+                            },
+                            {
+                                "id": 10420,
+                                "name": "Tartaruga"
+                            },
+                            {
+                                "id": 10430,
+                                "name": "Cobra"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10500,
+                        "name": "Hamster"
+                    },
+                    {
+                        "id": 10600,
+                        "name": "Macaco"
+                    },
+                    {
+                        "id": 10700,
+                        "name": "Ursos"
+                    },
+                    {
+                        "id": 10800,
+                        "name": "Peixe",
+                        "menu": [
+                            {
+                                "id": 10810,
+                                "name": "Peixe Dourado"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10900,
+                        "name": "Passarinhos",
+                        "menu": [
+                            {
+                                "id": 10901,
+                                "name": "Pinguim"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11000,
+                        "name": "Elefantes"
+                    },
+                    {
+                        "id": 12000,
+                        "name": "Puffles",
+                        "menu": [
+                            {
+                                "id": 12001,
+                                "name": "Que puffles fofinhos"
+                            },
+                            {
+                                "id": 12002,
+                                "name": "Que puffles legais"
+                            },
+                            {
+                                "id": 12003,
+                                "name": "Seus puffles estão com fome"
+                            },
+                            {
+                                "id": 12004,
+                                "name": "Vamos passear com nossos puffles?"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 50000,
+                "name": "Jogos",
+                "menu": [
+                    {
+                        "id": 51100,
+                        "name": "Patrulha Espacial"
+                    },
+                    {
+                        "id": 51150,
+                        "name": "Aquagrabber"
+                    },
+                    {
+                        "id": 51300,
+                        "name": "Empilha a Pilha"
+                    },
+                    {
+                        "id": 51320,
+                        "name": "Surfe na Caçamba"
+                    },
+                    {
+                        "id": 51321,
+                        "name": "Pegando Onda"
+                    },
+                    {
+                        "id": 51330,
+                        "name": "Ligue-4"
+                    },
+                    {
+                        "id": 51200,
+                        "name": "Boiacross"
+                    },
+                    {
+                        "id": 51350,
+                        "name": "Pescaria no Gelo"
+                    },
+                    {
+                        "id": 51360,
+                        "name": "Aventura a Jato"
+                    },
+                    {
+                        "id": 51400,
+                        "name": "Mancala"
+                    }
+                ]
+            },
+            {
+                "id": 52000,
+                "name": "Mais Jogos",
+                "menu": [
+                    {
+                        "id": 51450,
+                        "name": "Pizzatron 3000"
+                    },
+                    {
+                        "id": 51500,
+                        "name": "Morro Abaixo"
+                    },
+                    {
+                        "id": 51600,
+                        "name": "Pega o Puffle"
+                    },
+                    {
+                        "id": 51700,
+                        "name": "Gelo Fino"
+                    },
+                    {
+                        "id": 51750,
+                        "name": "Caça ao Tesouro"
+                    },
+                    {
+                        "id": 100245,
+                        "name": "SoundStudio"
+                    }
+                ]
+            },
+            {
+                "id": 20000,
+                "name": "Esportes",
+                "menu": [
+                    {
+                        "id": 20100,
+                        "name": "Hóquei"
+                    },
+                    {
+                        "id": 20200,
+                        "name": "Beisebol"
+                    },
+                    {
+                        "id": 20300,
+                        "name": "Basquete"
+                    },
+                    {
+                        "id": 20400,
+                        "name": "Futebol"
+                    },
+                    {
+                        "id": 20500,
+                        "name": "Futebol"
+                    },
+                    {
+                        "id": 20600,
+                        "name": "Vôlei"
+                    },
+                    {
+                        "id": 20700,
+                        "name": "Aquáticos",
+                        "menu": [
+                            {
+                                "id": 20710,
+                                "name": "Esqui Aquático"
+                            },
+                            {
+                                "id": 20720,
+                                "name": "Wakeboard"
+                            },
+                            {
+                                "id": 20730,
+                                "name": "Esqui com Bóia"
+                            },
+                            {
+                                "id": 20740,
+                                "name": "Natação"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 20800,
+                        "name": "Inverno",
+                        "menu": [
+                            {
+                                "id": 20810,
+                                "name": "Esqui",
+                                "menu": [
+                                    {
+                                        "id": 20811,
+                                        "name": "Cross-country"
+                                    },
+                                    {
+                                        "id": 20812,
+                                        "name": "Downhill"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 20820,
+                                "name": "Trenó"
+                            },
+                            {
+                                "id": 20830,
+                                "name": "Snowboard"
+                            },
+                            {
+                                "id": 20840,
+                                "name": "Patinação"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 20900,
+                        "name": "Aventura",
+                        "menu": [
+                            {
+                                "id": 20910,
+                                "name": "Caminhada"
+                            },
+                            {
+                                "id": 20920,
+                                "name": "Escalada"
+                            },
+                            {
+                                "id": 20930,
+                                "name": "Pesca"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 40000,
+                "name": "Música",
+                "menu": [
+                    {
+                        "id": 41000,
+                        "name": "Sertanejo"
+                    },
+                    {
+                        "id": 42000,
+                        "name": "Jazz"
+                    },
+                    {
+                        "id": 43000,
+                        "name": "Rap"
+                    },
+                    {
+                        "id": 44000,
+                        "name": "Hip-Hop"
+                    },
+                    {
+                        "id": 45000,
+                        "name": "Clássica"
+                    },
+                    {
+                        "id": 46000,
+                        "name": "Pop"
+                    },
+                    {
+                        "id": 47000,
+                        "name": "Rock"
+                    },
+                    {
+                        "id": 48000,
+                        "name": "Techno"
+                    }
+                ]
+            },
+            {
+                "id": 60000,
+                "name": "Passatempos",
+                "menu": [
+                    {
+                        "id": 61000,
+                        "name": "Leitura",
+                        "menu": [
+                            {
+                                "id": 61100,
+                                "name": "Livros de Ficção"
+                            },
+                            {
+                                "id": 61200,
+                                "name": "Livros de Não-Ficção"
+                            },
+                            {
+                                "id": 61300,
+                                "name": "Quadrinhos"
+                            },
+                            {
+                                "id": 61400,
+                                "name": "Revistas"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 62000,
+                        "name": "Internet"
+                    },
+                    {
+                        "id": 63000,
+                        "name": "Dança",
+                        "menu": [
+                            {
+                                "id": 63100,
+                                "name": "Balé"
+                            },
+                            {
+                                "id": 63200,
+                                "name": "Sapateado"
+                            },
+                            {
+                                "id": 63300,
+                                "name": "Jazz"
+                            },
+                            {
+                                "id": 63400,
+                                "name": "Hip-Hop"
+                            },
+                            {
+                                "id": 63500,
+                                "name": "Dança Moderna"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 64000,
+                        "name": "Ginástica"
+                    },
+                    {
+                        "id": 65000,
+                        "name": "Artes Marciais",
+                        "menu": [
+                            {
+                                "id": 65100,
+                                "name": "Caratê"
+                            },
+                            {
+                                "id": 65200,
+                                "name": "Judô"
+                            },
+                            {
+                                "id": 65300,
+                                "name": "Taekwondo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 66000,
+                        "name": "Ouvir Música"
+                    },
+                    {
+                        "id": 67000,
+                        "name": "Aulas de Música",
+                        "menu": [
+                            {
+                                "id": 67100,
+                                "name": "Tocar Piano"
+                            },
+                            {
+                                "id": 67200,
+                                "name": "Tocar Violão"
+                            },
+                            {
+                                "id": 67300,
+                                "name": "Tocar Bateria"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 68000,
+                        "name": "Fazendo Arte"
+                    },
+                    {
+                        "id": 69000,
+                        "name": "Sair"
+                    }
+                ]
+            },
+            {
+                "id": 80000,
+                "name": "Local",
+                "menu": [
+                    {
+                        "id": 81000,
+                        "name": "Estados Unidos"
+                    },
+                    {
+                        "id": 82000,
+                        "name": "Canadá"
+                    },
+                    {
+                        "id": 82100,
+                        "name": "México"
+                    },
+                    {
+                        "id": 82200,
+                        "name": "América Central",
+                        "menu": [
+                            {
+                                "id": 82201,
+                                "name": "Costa Rica"
+                            },
+                            {
+                                "id": 82202,
+                                "name": "Haiti"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 83000,
+                        "name": "Europa",
+                        "menu": [
+                            {
+                                "id": 83010,
+                                "name": "Reino Unido",
+                                "menu": [
+                                    {
+                                        "id": 83011,
+                                        "name": "Inglaterra"
+                                    },
+                                    {
+                                        "id": 83012,
+                                        "name": "Escócia"
+                                    },
+                                    {
+                                        "id": 83013,
+                                        "name": "País de Gales"
+                                    },
+                                    {
+                                        "id": 83014,
+                                        "name": "Irlanda"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 83020,
+                                "name": "França"
+                            },
+                            {
+                                "id": 83030,
+                                "name": "Alemanha"
+                            },
+                            {
+                                "id": 83040,
+                                "name": "Espanha"
+                            },
+                            {
+                                "id": 83050,
+                                "name": "Itália"
+                            },
+                            {
+                                "id": 83060,
+                                "name": "Polônia"
+                            },
+                            {
+                                "id": 83070,
+                                "name": "Suíça"
+                            },
+                            {
+                                "id": 83080,
+                                "name": "Grécia"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 84000,
+                        "name": "Ásia",
+                        "menu": [
+                            {
+                                "id": 84010,
+                                "name": "China"
+                            },
+                            {
+                                "id": 84020,
+                                "name": "Índia"
+                            },
+                            {
+                                "id": 84030,
+                                "name": "Indonésia"
+                            },
+                            {
+                                "id": 84040,
+                                "name": "Japão"
+                            },
+                            {
+                                "id": 84050,
+                                "name": "Rússia"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 85000,
+                        "name": "Austrália",
+                        "menu": [
+                            {
+                                "id": 85010,
+                                "name": "Nova Gales do Sul"
+                            },
+                            {
+                                "id": 85020,
+                                "name": "Território do Norte"
+                            },
+                            {
+                                "id": 85030,
+                                "name": "Queensland"
+                            },
+                            {
+                                "id": 85040,
+                                "name": "Austrália do Sul"
+                            },
+                            {
+                                "id": 85050,
+                                "name": "Tasmânia"
+                            },
+                            {
+                                "id": 85060,
+                                "name": "Victoria"
+                            },
+                            {
+                                "id": 85070,
+                                "name": "Austrália Ocidental"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 86000,
+                        "name": "África"
+                    },
+                    {
+                        "id": 87000,
+                        "name": "Oriente Médio"
+                    },
+                    {
+                        "id": 88000,
+                        "name": "América do Sul",
+                        "menu": [
+                            {
+                                "id": 88010,
+                                "name": "Argentina"
+                            },
+                            {
+                                "id": 88020,
+                                "name": "Brasil"
+                            },
+                            {
+                                "id": 88030,
+                                "name": "Chile"
+                            },
+                            {
+                                "id": 88040,
+                                "name": "Uruguai"
+                            },
+                            {
+                                "id": 88050,
+                                "name": "Paraguai"
+                            },
+                            {
+                                "id": 88060,
+                                "name": "Equador"
+                            },
+                            {
+                                "id": 88070,
+                                "name": "Peru"
+                            },
+                            {
+                                "id": 88080,
+                                "name": "Colômbia"
+                            },
+                            {
+                                "id": 88090,
+                                "name": "Venezuela"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 89000,
+                        "name": "Club Penguin",
+                        "menu": [
+                            {
+                                "id": 89010,
+                                "name": "Centro",
+                                "menu": [
+                                    {
+                                        "id": 89011,
+                                        "name": "Café"
+                                    },
+                                    {
+                                        "id": 89012,
+                                        "name": "Redação"
+                                    },
+                                    {
+                                        "id": 89013,
+                                        "name": "Dance Club"
+                                    },
+                                    {
+                                        "id": 89014,
+                                        "name": "Área VIP"
+                                    },
+                                    {
+                                        "id": 89015,
+                                        "name": "Loja de Presentes"
+                                    },
+                                    {
+                                        "id": 89016,
+                                        "name": "Caldeira"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 89020,
+                                "name": "Estação de Esqui",
+                                "menu": [
+                                    {
+                                        "id": 100154,
+                                        "name": "EPF"
+                                    },
+                                    {
+                                        "id": 100326,
+                                        "name": "Cabana Puffle"
+                                    },
+                                    {
+                                        "id": 100327,
+                                        "name": "Sótão Misterioso"
+                                    },
+                                    {
+                                        "id": 89024,
+                                        "name": "Montanha"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 89030,
+                                "name": "Plaza",
+                                "menu": [
+                                    {
+                                        "id": 89031,
+                                        "name": "Pet Shop"
+                                    },
+                                    {
+                                        "id": 100330,
+                                        "name": "O Shopping"
+                                    },
+                                    {
+                                        "id": 89032,
+                                        "name": "Pizzaria"
+                                    },
+                                    {
+                                        "id": 89034,
+                                        "name": "Floresta"
+                                    },
+                                    {
+                                        "id": 89035,
+                                        "name": "Prainha"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 89040,
+                                "name": "Praia",
+                                "menu": [
+                                    {
+                                        "id": 89041,
+                                        "name": "Farol"
+                                    },
+                                    {
+                                        "id": 89042,
+                                        "name": "Posto de Observação"
+                                    },
+                                    {
+                                        "id": 89043,
+                                        "name": "Migrator"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 89050,
+                                "name": "Subterrâneo",
+                                "menu": [
+                                    {
+                                        "id": 89051,
+                                        "name": "Piscina"
+                                    },
+                                    {
+                                        "id": 89052,
+                                        "name": "Mina"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 89080,
+                                "name": "Outros",
+                                "menu": [
+                                    {
+                                        "id": 89081,
+                                        "name": "Ancoradouro"
+                                    },
+                                    {
+                                        "id": 89082,
+                                        "name": "Forte Nevado"
+                                    },
+                                    {
+                                        "id": 89083,
+                                        "name": "Estádio"
+                                    },
+                                    {
+                                        "id": 89084,
+                                        "name": "Icebergue"
+                                    },
+                                    {
+                                        "id": 89085,
+                                        "name": "Casinha da Mina"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 89086,
+                                "name": "Seu Iglu"
+                            },
+                            {
+                                "id": 89087,
+                                "name": "Meu iglu"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 90000,
+                "name": "Humor",
+                "menu": [
+                    {
+                        "id": 90100,
+                        "name": "Bom"
+                    },
+                    {
+                        "id": 90200,
+                        "name": "Ótimo!"
+                    },
+                    {
+                        "id": 90300,
+                        "name": "Beleza"
+                    },
+                    {
+                        "id": 90400,
+                        "name": "Mais ou menos"
+                    }
+                ]
+            },
+            {
+                "id": 99998,
+                "name": "Menino"
+            },
+            {
+                "id": 99999,
+                "name": "Menina"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Jogo",
+        "menu": [
+            {
+                "id": 600,
+                "name": "Quer jogar?"
+            },
+            {
+                "id": 601,
+                "name": "Quer jogar Morro Abaixo?"
+            },
+            {
+                "id": 602,
+                "name": "Quer jogar Mancala?"
+            },
+            {
+                "id": 603,
+                "name": "Quer jogar Ligue-4?"
+            },
+            {
+                "id": 604,
+                "name": "Quer jogar hóquei?"
+            },
+            {
+                "id": 620,
+                "name": "Foi um jogo legal!"
+            },
+            {
+                "id": 630,
+                "name": "Jogada de mestre!"
+            },
+            {
+                "id": 640,
+                "name": "Vamos jogar de novo?"
+            },
+            {
+                "id": 650,
+                "name": "Peguei!",
+                "menu": [
+                    {
+                        "id": 651,
+                        "name": "Peguei, tá com você!"
+                    },
+                    {
+                        "id": 652,
+                        "name": "Está com você!"
+                    }
+                ]
+            },
+            {
+                "id": 660,
+                "name": "Esconde-esconde",
+                "menu": [
+                    {
+                        "id": 661,
+                        "name": "Peguei!"
+                    },
+                    {
+                        "id": 662,
+                        "name": "Lá vou eu!"
+                    },
+                    {
+                        "id": 663,
+                        "name": "Você me achou!"
+                    },
+                    {
+                        "id": 664,
+                        "name": "10, 9, 8, 7, 6, 5, 4, 3, 2, 1!"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Atividades",
+        "menu": [
+            {
+                "id": 701,
+                "name": "Contar Piada"
+            },
+            {
+                "id": 702,
+                "name": "Dar um Passeio"
+            },
+            {
+                "id": 736,
+                "name": "Concurso",
+                "menu": [
+                    {
+                        "id": 737,
+                        "name": "Concurso no meu iglu"
+                    }
+                ]
+            },
+            {
+                "id": 738,
+                "name": "Cores!",
+                "menu": [
+                    {
+                        "id": 739,
+                        "name": "Todo mundo vermelho!"
+                    },
+                    {
+                        "id": 740,
+                        "name": "Todo mundo amarelo!"
+                    },
+                    {
+                        "id": 741,
+                        "name": "Todo mundo azul!"
+                    },
+                    {
+                        "id": 742,
+                        "name": "Todo mundo verde!"
+                    },
+                    {
+                        "id": 743,
+                        "name": "Todo mundo rosa!"
+                    },
+                    {
+                        "id": 744,
+                        "name": "Todo mundo preto!"
+                    },
+                    {
+                        "id": 745,
+                        "name": "Todo mundo roxo!"
+                    },
+                    {
+                        "id": 746,
+                        "name": "Todo mundo laranja!"
+                    }
+                ]
+            },
+            {
+                "id": 750,
+                "name": "Hora",
+                "menu": [
+                    {
+                        "id": 751,
+                        "name": "Em 5 minutos"
+                    },
+                    {
+                        "id": 752,
+                        "name": "Em 10 minutos"
+                    },
+                    {
+                        "id": 753,
+                        "name": "Em 15 minutos"
+                    },
+                    {
+                        "id": 754,
+                        "name": "Em 30 minutos"
+                    },
+                    {
+                        "id": 755,
+                        "name": "Em uma hora"
+                    },
+                    {
+                        "id": 756,
+                        "name": "Hoje"
+                    },
+                    {
+                        "id": 757,
+                        "name": "Amanhã"
+                    },
+                    {
+                        "id": 758,
+                        "name": "Ontem"
+                    }
+                ]
+            },
+            {
+                "id": 790,
+                "name": "Dias da semana",
+                "menu": [
+                    {
+                        "id": 791,
+                        "name": "Segunda "
+                    },
+                    {
+                        "id": 792,
+                        "name": "Terça"
+                    },
+                    {
+                        "id": 793,
+                        "name": "Quarta"
+                    },
+                    {
+                        "id": 794,
+                        "name": "Quinta"
+                    },
+                    {
+                        "id": 795,
+                        "name": "Sexta"
+                    },
+                    {
+                        "id": 796,
+                        "name": "Sábado"
+                    },
+                    {
+                        "id": 797,
+                        "name": "Domingo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Pode parar!",
+        "menu": [
+            {
+                "id": 801,
+                "name": "Isso não foi legal"
+            },
+            {
+                "id": 802,
+                "name": "Por favor, vai embora"
+            },
+            {
+                "id": 803,
+                "name": "Pára com isso!"
+            },
+            {
+                "id": 804,
+                "name": "Ah, deixa pra lá"
+            },
+            {
+                "id": 805,
+                "name": "Aaaaaah!"
+            },
+            {
+                "id": 806,
+                "name": "Pelas minhas penas!"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Eba!",
+        "menu": [
+            {
+                "id": 851,
+                "name": "U-huuu!"
+            },
+            {
+                "id": 852,
+                "name": "É isso aí!"
+            },
+            {
+                "id": 853,
+                "name": "Êêê!"
+            },
+            {
+                "id": 854,
+                "name": "Mandou bem!"
+            },
+            {
+                "id": 855,
+                "name": "Bom trabalho!"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Sim"
+    },
+    {
+        "id": 21,
+        "name": "Não"
+    }
+]

@@ -1,0 +1,98 @@
+{
+    "0": {
+        "name": "Remoção de Piso",
+        "cost": 20
+    },
+    "1": {
+        "name": "Piso Barra de Chocolate",
+        "cost": 680
+    },
+    "2": {
+        "name": "Piso Calda de Açúcar",
+        "cost": 620
+    },
+    "3": {
+        "name": "Carpete Verde",
+        "cost": 530
+    },
+    "4": {
+        "name": "Carpete Bombom",
+        "cost": 530
+    },
+    "5": {
+        "name": "Piso Branco e Preto",
+        "cost": 510
+    },
+    "6": {
+        "name": "Piso Diamante Azul",
+        "cost": 540
+    },
+    "7": {
+        "name": "Pista de Dança",
+        "cost": 1000
+    },
+    "8": {
+        "name": "Passos de Dança",
+        "cost": 280
+    },
+    "9": {
+        "name": "Piso de Bambu",
+        "cost": 370
+    },
+    "10": {
+        "name": "Terra e Folhas",
+        "cost": 400
+    },
+    "11": {
+        "name": "Carpete Azul do Céu",
+        "cost": 530
+    },
+    "12": {
+        "name": "Redemoinho",
+        "cost": 750
+    },
+    "13": {
+        "name": "Tábuas de Cerejeira",
+        "cost": 620
+    },
+    "14": {
+        "name": "Grama Sintética",
+        "cost": 700
+    },
+    "15": {
+        "name": "Carpete Preto",
+        "cost": 530
+    },
+    "16": {
+        "name": "Piso Chocolate Meio Amargo",
+        "cost": 800
+    },
+    "17": {
+        "name": "Carpete Rosa",
+        "cost": 530
+    },
+    "18": {
+        "name": "Areia",
+        "cost": 400
+    },
+    "19": {
+        "name": "Piso dos Sonhos",
+        "cost": 530
+    },
+    "20": {
+        "name": "Piso Pé de Moleque",
+        "cost": 1200
+    },
+    "21": {
+        "name": "Piso Nevado",
+        "cost": 400
+    },
+    "22": {
+        "name": "Carpete Verde-Limão",
+        "cost": 530
+    },
+    "23": {
+        "name": "Tapete de Ráfia Orgânica",
+        "cost": 750
+    }
+}

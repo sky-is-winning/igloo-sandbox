@@ -1,0 +1,9690 @@
+{
+    "1": {
+        "name": "Poltrona Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2": {
+        "name": "Pufe Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "3": {
+        "name": "Mesa Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "4": {
+        "name": "Penteadeira Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "5": {
+        "name": "Abajur Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "6": {
+        "name": "Sofá Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "10": {
+        "name": "Poltrona Rústica",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "11": {
+        "name": "Banco Rústico",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "12": {
+        "name": "Cômoda Rústica",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "13": {
+        "name": "Banquinho Rústico",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "14": {
+        "name": "Mesa Rústica",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "21": {
+        "name": "Poltrona Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "22": {
+        "name": "Banco Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "23": {
+        "name": "Estante Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "24": {
+        "name": "Mesa Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "25": {
+        "name": "Cadeira Azul para Deque",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "26": {
+        "name": "Abajur Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "31": {
+        "name": "Mini Pinheiro",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "32": {
+        "name": "Sofá de Café",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "33": {
+        "name": "Mesinha de Café",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "34": {
+        "name": "Saca de Café",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "41": {
+        "name": "Sofá da Sala de Leitura",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "42": {
+        "name": "Abajur da Sala de Leitura",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "43": {
+        "name": "Poltrona da Sala de Leitura",
+        "type": 1,
+        "sort": 1,
+        "cost": 560,
+        "max": 99
+    },
+    "46": {
+        "name": "Mesa de Jantar",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "47": {
+        "name": "Cadeira da Mesa de Jantar",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "51": {
+        "name": "Poltrona de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "52": {
+        "name": "Sofá de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "53": {
+        "name": "Monte de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 40,
+        "max": 99
+    },
+    "54": {
+        "name": "Mesa Gelada",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "55": {
+        "name": "Escultura de pinguim de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 850,
+        "max": 99
+    },
+    "56": {
+        "name": "Espreguiçadeira Gelada",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "57": {
+        "name": "Escultura de Cavaleiro de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 900,
+        "max": 99
+    },
+    "58": {
+        "name": "Boneco de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 405,
+        "max": 99
+    },
+    "59": {
+        "name": "Trenó",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "61": {
+        "name": "Guarda-roupa de Princesa",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "62": {
+        "name": "Penteadeira de Princesa",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "63": {
+        "name": "Trono de Princesa",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "65": {
+        "name": "Penteadeira de Sereia",
+        "type": 1,
+        "sort": 1,
+        "cost": 735,
+        "max": 99
+    },
+    "66": {
+        "name": "Cadeira de Concha",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "67": {
+        "name": "Relógio de Sereia",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "71": {
+        "name": "Geladeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "72": {
+        "name": "Churrasqueira",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "73": {
+        "name": "Fogão Elétrico",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "74": {
+        "name": "Despensa",
+        "type": 1,
+        "sort": 1,
+        "cost": 410,
+        "max": 99
+    },
+    "75": {
+        "name": "Pia de Cozinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 380,
+        "max": 99
+    },
+    "76": {
+        "name": "Cadeira Dobrável",
+        "type": 1,
+        "sort": 1,
+        "cost": 180,
+        "max": 99
+    },
+    "77": {
+        "name": "Guarda-sol",
+        "type": 1,
+        "sort": 1,
+        "cost": 130,
+        "max": 99
+    },
+    "78": {
+        "name": "Bola de Praia",
+        "type": 1,
+        "sort": 1,
+        "cost": 110,
+        "max": 99
+    },
+    "79": {
+        "name": "Baleia Inflável",
+        "type": 1,
+        "sort": 1,
+        "cost": 190,
+        "max": 99
+    },
+    "80": {
+        "name": "Dragão Inflável",
+        "type": 1,
+        "sort": 1,
+        "cost": 190,
+        "max": 99
+    },
+    "81": {
+        "name": "Sofá de Bambu",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "82": {
+        "name": "Poltrona de Bambu",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "83": {
+        "name": "Mesa de Bambu",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "84": {
+        "name": "Tocha de Bambu",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "85": {
+        "name": "Palmeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "91": {
+        "name": "Cadeira Verde de Plástico",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "92": {
+        "name": "Banco Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "93": {
+        "name": "Estante Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "94": {
+        "name": "Vaso Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "95": {
+        "name": "Espreguiçadeira Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "96": {
+        "name": "Sofá de Veludo Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "97": {
+        "name": "Poltrona Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "99": {
+        "name": "Pôster de Superherói",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "100": {
+        "name": "Cabeça de Alce",
+        "type": 2,
+        "sort": 2,
+        "cost": 2000,
+        "max": 99
+    },
+    "101": {
+        "name": "Aquário Retangular",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "102": {
+        "name": "Alto-Falante",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "103": {
+        "name": "Cacto grande",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "104": {
+        "name": "Cacto Pequeno",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "105": {
+        "name": "Armário de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "106": {
+        "name": "Mona Lisa",
+        "type": 2,
+        "sort": 2,
+        "cost": 3000,
+        "max": 99
+    },
+    "107": {
+        "name": "Cesto de Reciclagem",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "108": {
+        "name": "Capacho de Boas Vindas",
+        "type": 3,
+        "sort": 3,
+        "cost": 75,
+        "max": 99
+    },
+    "109": {
+        "name": "TV Tela Grande",
+        "type": 1,
+        "sort": 1,
+        "cost": 5000,
+        "max": 99
+    },
+    "110": {
+        "name": "Lápide",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "111": {
+        "name": "Jack da Lanterna Feliz",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "112": {
+        "name": "Jack da Lanterna Tonto",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "113": {
+        "name": "Jack da Lanterna Triste",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "114": {
+        "name": "Teia de Aranha",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "115": {
+        "name": "Jack da Lanterna Bobinho",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "116": {
+        "name": "Pufflebóbora",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "117": {
+        "name": "Caldeirão",
+        "type": 1,
+        "sort": 1,
+        "cost": 630,
+        "max": 99
+    },
+    "118": {
+        "name": "Órgão",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "119": {
+        "name": "Candelabro",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "120": {
+        "name": "Luzinhas de Abóbora",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "130": {
+        "name": "Árvore de Natal",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "131": {
+        "name": "Guirlanda de Natal",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "132": {
+        "name": "Lareira",
+        "type": 2,
+        "sort": 2,
+        "cost": 900,
+        "max": 99
+    },
+    "133": {
+        "name": "Arvorezinha de Natal",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "134": {
+        "name": "Luzinhas de Natal",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "135": {
+        "name": "Doce de Natal Gigante",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "136": {
+        "name": "Fogão à Lenha",
+        "type": 2,
+        "sort": 2,
+        "cost": 900,
+        "max": 99
+    },
+    "137": {
+        "name": "Vela",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "138": {
+        "name": "Quebra-Nozes",
+        "type": 1,
+        "sort": 1,
+        "cost": 950,
+        "max": 99
+    },
+    "139": {
+        "name": "Guirlanda para Porta",
+        "type": 2,
+        "sort": 2,
+        "cost": 750,
+        "max": 99
+    },
+    "140": {
+        "name": "Presente",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "143": {
+        "name": "Poltrona de Veludo Cinza",
+        "type": 1,
+        "sort": 1,
+        "cost": 560,
+        "max": 99
+    },
+    "144": {
+        "name": "Regador",
+        "type": 1,
+        "sort": 1,
+        "cost": 105,
+        "max": 99
+    },
+    "145": {
+        "name": "Vaso com Flores Raras",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "146": {
+        "name": "Banco de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 480,
+        "max": 99
+    },
+    "147": {
+        "name": "Ventilador",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "148": {
+        "name": "Abajur",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "149": {
+        "name": "Pinhata",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "150": {
+        "name": "Lava Lamp",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "151": {
+        "name": "Tapete Oval",
+        "type": 3,
+        "sort": 3,
+        "cost": 400,
+        "max": 99
+    },
+    "152": {
+        "name": "Tapete Retangular",
+        "type": 3,
+        "sort": 3,
+        "cost": 500,
+        "max": 99
+    },
+    "153": {
+        "name": "Cabide",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "154": {
+        "name": "Relógio do Vovô",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "155": {
+        "name": "Arte Moderna",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "156": {
+        "name": "Ursinho de Pelúcia",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "157": {
+        "name": "Escrivaninha",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "158": {
+        "name": "Quadro Pôr do Sol",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "159": {
+        "name": "TV LCD",
+        "type": 2,
+        "sort": 2,
+        "cost": 2500,
+        "max": 99
+    },
+    "160": {
+        "name": "Tapete Verde",
+        "type": 3,
+        "sort": 3,
+        "cost": 500,
+        "max": 99
+    },
+    "161": {
+        "name": "Tapete Verde Oval",
+        "type": 3,
+        "sort": 3,
+        "cost": 550,
+        "max": 99
+    },
+    "162": {
+        "name": "Planta Pequena",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "163": {
+        "name": "Fonte para Festas",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "164": {
+        "name": "Som",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "165": {
+        "name": "Caixa de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "166": {
+        "name": "Peixe Mullet",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "167": {
+        "name": "Planta Grande",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "168": {
+        "name": "Relógio de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 450,
+        "max": 99
+    },
+    "169": {
+        "name": "Tapete Mexicano",
+        "type": 3,
+        "sort": 3,
+        "cost": 550,
+        "max": 99
+    },
+    "170": {
+        "name": "Balão Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "171": {
+        "name": "Balão Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "172": {
+        "name": "Balão Amarelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "173": {
+        "name": "Balão Vermelho",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "174": {
+        "name": "Balão Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "175": {
+        "name": "Faixa para Festa",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "176": {
+        "name": "Bolo de Aniversário",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "177": {
+        "name": "Pista de Dança",
+        "type": 3,
+        "sort": 3,
+        "cost": 500,
+        "max": 99
+    },
+    "178": {
+        "name": "Jukebox",
+        "type": 1,
+        "sort": 1,
+        "cost": 775,
+        "max": 99
+    },
+    "180": {
+        "name": "Mesa com Guarda-Sol",
+        "type": 1,
+        "sort": 1,
+        "cost": 380,
+        "max": 99
+    },
+    "181": {
+        "name": "Cadeira Branca de Plástico",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "182": {
+        "name": "Cadeira para Deque",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "183": {
+        "name": "Toalha de Praia Surfe",
+        "type": 3,
+        "sort": 3,
+        "cost": 250,
+        "max": 99
+    },
+    "184": {
+        "name": "Mesa Curva",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "185": {
+        "name": "Carteira de Escola",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "186": {
+        "name": "Lousa",
+        "type": 2,
+        "sort": 2,
+        "cost": 410,
+        "max": 99
+    },
+    "187": {
+        "name": "Cadeira de Escola",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "200": {
+        "name": "Caminha Azul",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "201": {
+        "name": "Caminha Rosa",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "202": {
+        "name": "Caminha Cinza",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "203": {
+        "name": "Caminha Verde",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "204": {
+        "name": "Casa Cinza",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "205": {
+        "name": "Casa Marrom",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "206": {
+        "name": "Casa Rosa",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "207": {
+        "name": "Casa Azul",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "208": {
+        "name": "Casa Verde",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "209": {
+        "name": "Casa Roxa",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "210": {
+        "name": "Poste para Arranhar - Pequeno",
+        "type": 1,
+        "sort": 4,
+        "cost": 150,
+        "max": 99
+    },
+    "211": {
+        "name": "Arranhador Grande",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "212": {
+        "name": "Tigela para água",
+        "type": 1,
+        "sort": 4,
+        "cost": 50,
+        "max": 99
+    },
+    "213": {
+        "name": "Iglu Aquário",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "214": {
+        "name": "Garrafa de Água",
+        "type": 1,
+        "sort": 4,
+        "cost": 50,
+        "max": 99
+    },
+    "215": {
+        "name": "Rodinha",
+        "type": 1,
+        "sort": 4,
+        "cost": 150,
+        "max": 99
+    },
+    "216": {
+        "name": "Laguinho de tartaruga",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "217": {
+        "name": "Gaiola",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "218": {
+        "name": "Árvore de Puffles",
+        "type": 1,
+        "sort": 4,
+        "cost": 220,
+        "max": 99
+    },
+    "219": {
+        "name": "Barraca de Puffles",
+        "type": 1,
+        "sort": 4,
+        "cost": 460,
+        "max": 99
+    },
+    "220": {
+        "name": "Condomínio de Puffles",
+        "type": 1,
+        "sort": 4,
+        "cost": 280,
+        "max": 99
+    },
+    "221": {
+        "name": "Caminha Roxa",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "222": {
+        "name": "Caminha Vermelha",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "223": {
+        "name": "Casa Vermelha",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "224": {
+        "name": "Torre para Arranhar",
+        "type": 1,
+        "sort": 4,
+        "cost": 350,
+        "max": 99
+    },
+    "225": {
+        "name": "Prato duplo",
+        "type": 1,
+        "sort": 4,
+        "cost": 80,
+        "max": 99
+    },
+    "226": {
+        "name": "Puffiglu",
+        "type": 1,
+        "sort": 4,
+        "cost": 400,
+        "max": 99
+    },
+    "227": {
+        "name": "Caminha Amarela",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "228": {
+        "name": "Casa Amarela",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "229": {
+        "name": "Laguinho Koi",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "230": {
+        "name": "Casa Verde de Passarinho",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "231": {
+        "name": "Casa Azul de Passarinho",
+        "type": 2,
+        "sort": 2,
+        "cost": 170,
+        "max": 99
+    },
+    "232": {
+        "name": "Caminha Branca",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "233": {
+        "name": "Casa Branca",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "250": {
+        "name": "Barril",
+        "type": 1,
+        "sort": 1,
+        "cost": 320,
+        "max": 99
+    },
+    "251": {
+        "name": "Piano",
+        "type": 1,
+        "sort": 1,
+        "cost": 900,
+        "max": 99
+    },
+    "252": {
+        "name": "Banco de Piano",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "253": {
+        "name": "Luz para Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "254": {
+        "name": "Luz Dupla para Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "260": {
+        "name": "Trenzinho de brinquedo",
+        "type": 1,
+        "sort": 1,
+        "cost": 180,
+        "max": 99
+    },
+    "261": {
+        "name": "Lousinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 260,
+        "max": 99
+    },
+    "270": {
+        "name": "Poltrona Roxa de Plástico",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "271": {
+        "name": "Espreguiçadeira Roxa de Plástico",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "272": {
+        "name": "Pufe Roxo",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "273": {
+        "name": "Mesinha de Centro Roxa",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "274": {
+        "name": "Lava Lamp Roxa",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "275": {
+        "name": "Sofá Roxo",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "280": {
+        "name": "Suporte para Snowboard",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "281": {
+        "name": "Alvo para Dardo",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "282": {
+        "name": "Suporte para Esquis",
+        "type": 2,
+        "sort": 2,
+        "cost": 550,
+        "max": 99
+    },
+    "283": {
+        "name": "Flâmula Vermelha do CP",
+        "type": 2,
+        "sort": 2,
+        "cost": 170,
+        "max": 99
+    },
+    "284": {
+        "name": "Flâmula Azul do CP",
+        "type": 2,
+        "sort": 2,
+        "cost": 170,
+        "max": 99
+    },
+    "285": {
+        "name": "Pista de Atletismo - Reta",
+        "type": 3,
+        "sort": 3,
+        "cost": 80,
+        "max": 99
+    },
+    "286": {
+        "name": "Pista de Atletismo - Curva",
+        "type": 3,
+        "sort": 3,
+        "cost": 120,
+        "max": 99
+    },
+    "287": {
+        "name": "Rede de Badminton",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "288": {
+        "name": "Banco",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "289": {
+        "name": "Wickets de Críquete",
+        "type": 1,
+        "sort": 1,
+        "cost": 225,
+        "max": 99
+    },
+    "290": {
+        "name": "Tabela de Basquete",
+        "type": 2,
+        "sort": 2,
+        "cost": 320,
+        "max": 99
+    },
+    "291": {
+        "name": "Placar",
+        "type": 2,
+        "sort": 2,
+        "cost": 520,
+        "max": 99
+    },
+    "292": {
+        "name": "Gol de Hóquei",
+        "type": 1,
+        "sort": 1,
+        "cost": 360,
+        "max": 99
+    },
+    "293": {
+        "name": "Banco para Levantar Peso",
+        "type": 1,
+        "sort": 1,
+        "cost": 680,
+        "max": 99
+    },
+    "294": {
+        "name": "Esteira",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "295": {
+        "name": "Cavalo com Alça",
+        "type": 1,
+        "sort": 1,
+        "cost": 220,
+        "max": 99
+    },
+    "296": {
+        "name": "Tapetinho do Time Vermelho",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "297": {
+        "name": "Tapetinho do Time Azul",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "298": {
+        "name": "Boia",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "299": {
+        "name": "Linhas da Quadra",
+        "type": 3,
+        "sort": 3,
+        "cost": 260,
+        "max": 99
+    },
+    "300": {
+        "name": "Bola para Exercício",
+        "type": 1,
+        "sort": 1,
+        "cost": 60,
+        "max": 99
+    },
+    "301": {
+        "name": "Bicicleta Ergométrica",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "302": {
+        "name": "Home Plate",
+        "type": 3,
+        "sort": 3,
+        "cost": 150,
+        "max": 99
+    },
+    "303": {
+        "name": "Base",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "304": {
+        "name": "Globo",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "305": {
+        "name": "Baú do Tesouro",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "306": {
+        "name": "Navio Engarrafado",
+        "type": 2,
+        "sort": 2,
+        "cost": 355,
+        "max": 99
+    },
+    "307": {
+        "name": "Flamingo Rosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "308": {
+        "name": "Portinhola",
+        "type": 2,
+        "sort": 2,
+        "cost": 160,
+        "max": 99
+    },
+    "309": {
+        "name": "Leme do Capitão",
+        "type": 2,
+        "sort": 2,
+        "cost": 210,
+        "max": 99
+    },
+    "310": {
+        "name": "Mapa de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "311": {
+        "name": "Monumento aos Primeiros Pinguins",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "312": {
+        "name": "Navio Pirata",
+        "type": 1,
+        "sort": 1,
+        "cost": 525,
+        "max": 99
+    },
+    "313": {
+        "name": "Bandeira Pirata",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "314": {
+        "name": "Cadeira de Camping",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "315": {
+        "name": "Mesa de Piquenique",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "316": {
+        "name": "Lanternas",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "317": {
+        "name": "Fogueira",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "318": {
+        "name": "Saco de Dormir",
+        "type": 3,
+        "sort": 3,
+        "cost": 320,
+        "max": 99
+    },
+    "319": {
+        "name": "Beliche",
+        "type": 1,
+        "sort": 1,
+        "cost": 750,
+        "max": 99
+    },
+    "330": {
+        "name": "Mesinha de Centro Vermelha",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "331": {
+        "name": "Sofá de Veludo Vermelho",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "332": {
+        "name": "Poltrona Vermelha",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "333": {
+        "name": "Estante Vermelha",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "334": {
+        "name": "Pufe Vermelho",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "335": {
+        "name": "Cadeira para Deque Vermelha",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "336": {
+        "name": "Sol de Argila",
+        "type": 2,
+        "sort": 2,
+        "cost": 400,
+        "max": 99
+    },
+    "337": {
+        "name": "Pote de Argila",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "338": {
+        "name": "Jarra de Argila",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "339": {
+        "name": "Vaso de Argila",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "340": {
+        "name": "Vaso Mexicano",
+        "type": 1,
+        "sort": 1,
+        "cost": 320,
+        "max": 99
+    },
+    "341": {
+        "name": "Estandarte Medieval",
+        "type": 2,
+        "sort": 2,
+        "cost": 105,
+        "max": 99
+    },
+    "342": {
+        "name": "Tocha para Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 85,
+        "max": 99
+    },
+    "343": {
+        "name": "Trono Real",
+        "type": 1,
+        "sort": 1,
+        "cost": 750,
+        "max": 99
+    },
+    "344": {
+        "name": "Ficus",
+        "type": 1,
+        "sort": 1,
+        "cost": 320,
+        "max": 99
+    },
+    "345": {
+        "name": "Planta Cabeluda",
+        "type": 1,
+        "sort": 1,
+        "cost": 140,
+        "max": 99
+    },
+    "346": {
+        "name": "Floreira",
+        "type": 1,
+        "sort": 1,
+        "cost": 260,
+        "max": 99
+    },
+    "347": {
+        "name": "Aspirador",
+        "type": 1,
+        "sort": 1,
+        "cost": 280,
+        "max": 99
+    },
+    "348": {
+        "name": "Vassoura",
+        "type": 1,
+        "sort": 1,
+        "cost": 30,
+        "max": 99
+    },
+    "349": {
+        "name": "Balden e Esfregão",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "350": {
+        "name": "Bateria",
+        "type": 1,
+        "sort": 1,
+        "cost": 760,
+        "max": 99
+    },
+    "351": {
+        "name": "Sapateira",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "352": {
+        "name": "Porta CD",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "353": {
+        "name": "Microfone",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "354": {
+        "name": "Mesa de DJ",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "355": {
+        "name": "Iluminação de Show",
+        "type": 2,
+        "sort": 2,
+        "cost": 650,
+        "max": 99
+    },
+    "356": {
+        "name": "Pintura Pop Art",
+        "type": 2,
+        "sort": 2,
+        "cost": 450,
+        "max": 99
+    },
+    "357": {
+        "name": "Pintura Céu Estrelado",
+        "type": 2,
+        "sort": 2,
+        "cost": 520,
+        "max": 99
+    },
+    "358": {
+        "name": "Geladeirinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 360,
+        "max": 99
+    },
+    "359": {
+        "name": "Castelo Rosa de Plástico",
+        "type": 1,
+        "sort": 1,
+        "cost": 315,
+        "max": 99
+    },
+    "360": {
+        "name": "Marisco",
+        "type": 1,
+        "sort": 1,
+        "cost": 305,
+        "max": 99
+    },
+    "361": {
+        "name": "Algas Marinhas",
+        "type": 1,
+        "sort": 1,
+        "cost": 265,
+        "max": 99
+    },
+    "362": {
+        "name": "Poltrona Inflável",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "363": {
+        "name": "Sofá Inflável",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "364": {
+        "name": "Câmera de Segurança",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "365": {
+        "name": "Liquidificador",
+        "type": 1,
+        "sort": 1,
+        "cost": 220,
+        "max": 99
+    },
+    "366": {
+        "name": "Sofá da Roda Gigante",
+        "type": 1,
+        "sort": 1,
+        "cost": 760,
+        "max": 99
+    },
+    "367": {
+        "name": "Bola do Circo",
+        "type": 1,
+        "sort": 1,
+        "cost": 170,
+        "max": 99
+    },
+    "368": {
+        "name": "Cerquinha Branca",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "369": {
+        "name": "Gnomo pinguim",
+        "type": 1,
+        "sort": 1,
+        "cost": 220,
+        "max": 99
+    },
+    "370": {
+        "name": "Jardim",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "371": {
+        "name": "Carrinho de Mão",
+        "type": 1,
+        "sort": 1,
+        "cost": 480,
+        "max": 99
+    },
+    "372": {
+        "name": "Ondas",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "373": {
+        "name": "Estandarte Laranja",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "374": {
+        "name": "Estandarte Verde",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "375": {
+        "name": "Estandarte Roxo",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "376": {
+        "name": "Cadeira Rococó",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "377": {
+        "name": "Torre de Xadrez",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "378": {
+        "name": "Cavalo de Xadrez",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "390": {
+        "name": "Caixa Registradora",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "391": {
+        "name": "Cavalete",
+        "type": 1,
+        "sort": 1,
+        "cost": 180,
+        "max": 99
+    },
+    "392": {
+        "name": "Pôster da Penguin Band",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "393": {
+        "name": "Sofá Inflável Laranja",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "394": {
+        "name": "Poltrona Inflável Laranja",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "400": {
+        "name": "Pôster do Zeus",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "401": {
+        "name": "Pôster da Peppy",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "402": {
+        "name": "Pôster do Tate",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "403": {
+        "name": "Pôster do Espaço",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "410": {
+        "name": "Harpa",
+        "type": 1,
+        "sort": 1,
+        "cost": 840,
+        "max": 99
+    },
+    "411": {
+        "name": "Globo Espelhado",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "412": {
+        "name": "Porta-Partitura",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "413": {
+        "name": "Suporte para Violão",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "414": {
+        "name": "Palco",
+        "type": 3,
+        "sort": 3,
+        "cost": 800,
+        "max": 99
+    },
+    "415": {
+        "name": "Quarta",
+        "type": 2,
+        "sort": 2,
+        "cost": 120,
+        "max": 99
+    },
+    "416": {
+        "name": "Oitava",
+        "type": 2,
+        "sort": 2,
+        "cost": 120,
+        "max": 99
+    },
+    "417": {
+        "name": "Clave de Sol",
+        "type": 2,
+        "sort": 2,
+        "cost": 120,
+        "max": 99
+    },
+    "418": {
+        "name": "Alto-falante de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 800,
+        "max": 99
+    },
+    "420": {
+        "name": "Boia Salva-Vidas",
+        "type": 2,
+        "sort": 2,
+        "cost": 120,
+        "max": 99
+    },
+    "421": {
+        "name": "Rede",
+        "type": 2,
+        "sort": 2,
+        "cost": 425,
+        "max": 99
+    },
+    "422": {
+        "name": "Retrato do Rockhopper",
+        "type": 2,
+        "sort": 2,
+        "cost": 1100,
+        "max": 99
+    },
+    "423": {
+        "name": "Barco Salva-Vidas",
+        "type": 1,
+        "sort": 1,
+        "cost": 430,
+        "max": 99
+    },
+    "424": {
+        "name": "Roda do Leme",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "425": {
+        "name": "Ilha Deserta",
+        "type": 1,
+        "sort": 1,
+        "cost": 850,
+        "max": 99
+    },
+    "426": {
+        "name": "Faixa Coins For Change",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "430": {
+        "name": "Fogão de Aço Inoxidável",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "431": {
+        "name": "Geladeira de Aço Inoxidável",
+        "type": 1,
+        "sort": 1,
+        "cost": 750,
+        "max": 99
+    },
+    "432": {
+        "name": "Sofá de Cantinho",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "433": {
+        "name": "Sofá de Lanchonete",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "434": {
+        "name": "Máquina de Café",
+        "type": 1,
+        "sort": 1,
+        "cost": 360,
+        "max": 99
+    },
+    "435": {
+        "name": "Forno de Pizza",
+        "type": 1,
+        "sort": 1,
+        "cost": 850,
+        "max": 99
+    },
+    "440": {
+        "name": "Máquina de Pipoca",
+        "type": 1,
+        "sort": 1,
+        "cost": 1000,
+        "max": 99
+    },
+    "441": {
+        "name": "Bilheteria",
+        "type": 1,
+        "sort": 1,
+        "cost": 580,
+        "max": 99
+    },
+    "442": {
+        "name": "Tapete Vermelho",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "443": {
+        "name": "Corda de Veludo",
+        "type": 1,
+        "sort": 1,
+        "cost": 160,
+        "max": 99
+    },
+    "444": {
+        "name": "Cortina Azul",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "450": {
+        "name": "Mesa de Laboratório",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "451": {
+        "name": "Luminária",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "452": {
+        "name": "Bola de Plasma",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "453": {
+        "name": "Sismógrafo",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "454": {
+        "name": "Terminal de Controle",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "455": {
+        "name": "Quadro Olho-Vivo",
+        "type": 2,
+        "sort": 2,
+        "cost": 550,
+        "max": 99
+    },
+    "460": {
+        "name": "Luminária de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 575,
+        "max": 99
+    },
+    "461": {
+        "name": "Painel de Papel de Arroz",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "470": {
+        "name": "Fita de Natal",
+        "type": 2,
+        "sort": 2,
+        "cost": 120,
+        "max": 99
+    },
+    "471": {
+        "name": "Árvore Tortinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "472": {
+        "name": "Floco de Neve para Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "473": {
+        "name": "Poste Classudo",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "474": {
+        "name": "Meia de Natal",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "475": {
+        "name": "Rena de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "480": {
+        "name": "Parede de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "481": {
+        "name": "Parede de Neve Inclinada",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "482": {
+        "name": "Parede de Fortaleza de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "483": {
+        "name": "Arco de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "484": {
+        "name": "Torre de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "485": {
+        "name": "Gotas Congeladas",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "486": {
+        "name": "Árvore Nevada",
+        "type": 1,
+        "sort": 1,
+        "cost": 280,
+        "max": 99
+    },
+    "487": {
+        "name": "Pedrinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "488": {
+        "name": "Máscara de Pinguim",
+        "type": 2,
+        "sort": 2,
+        "cost": 400,
+        "max": 99
+    },
+    "489": {
+        "name": "Lagartixa de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "490": {
+        "name": "Cobertor Mexicano",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "491": {
+        "name": "Pesos de Nadadeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "492": {
+        "name": "Parede de Escalada",
+        "type": 1,
+        "sort": 1,
+        "cost": 1000,
+        "max": 99
+    },
+    "493": {
+        "name": "Lavadora e Secadora 2 em 1",
+        "type": 1,
+        "sort": 1,
+        "cost": 1000,
+        "max": 99
+    },
+    "494": {
+        "name": "Tapete Mapa da Ilha",
+        "type": 3,
+        "sort": 3,
+        "cost": 450,
+        "max": 99
+    },
+    "495": {
+        "name": "Tábua de Passar",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "496": {
+        "name": "Pôster Patrulha Espacial",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "497": {
+        "name": "Pôster Gelo Fino",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "500": {
+        "name": "Pôster do Puffle Amarelo",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "501": {
+        "name": "Pôster do Puffle Azul",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "502": {
+        "name": "Pôster do Puffle Vermelho",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "503": {
+        "name": "Pôster do Puffle Verde",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "504": {
+        "name": "Pôster do Puffle Preto",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "505": {
+        "name": "Pôster do Puffle Rosa",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "506": {
+        "name": "Pôster do Puffle Roxo",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "507": {
+        "name": "Pôster do Puffle Branco",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "511": {
+        "name": "Quadro Supernova",
+        "type": 2,
+        "sort": 2,
+        "cost": 400,
+        "max": 99
+    },
+    "512": {
+        "name": "Quadro do Shadow Guy",
+        "type": 2,
+        "sort": 2,
+        "cost": 400,
+        "max": 99
+    },
+    "513": {
+        "name": "Quadro da Gamma Gal",
+        "type": 2,
+        "sort": 2,
+        "cost": 400,
+        "max": 99
+    },
+    "514": {
+        "name": "Quadro de Violão",
+        "type": 2,
+        "sort": 2,
+        "cost": 450,
+        "max": 99
+    },
+    "515": {
+        "name": "Quadro de Guitarra",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "516": {
+        "name": "Mesa Formal",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "517": {
+        "name": "Cadeira Formal",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "520": {
+        "name": "Rede de Tênis",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "521": {
+        "name": "Montinho do Arremessador",
+        "type": 3,
+        "sort": 3,
+        "cost": 175,
+        "max": 99
+    },
+    "522": {
+        "name": "Quadra de Tênis",
+        "type": 3,
+        "sort": 3,
+        "cost": 700,
+        "max": 99
+    },
+    "525": {
+        "name": "Mesa para Chá",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "526": {
+        "name": "Caixa Grande",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "527": {
+        "name": "Caixa Média",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "528": {
+        "name": "Caixinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "529": {
+        "name": "Caixa Portal",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "530": {
+        "name": "Banheira de Passarinho",
+        "type": 1,
+        "sort": 1,
+        "cost": 480,
+        "max": 99
+    },
+    "531": {
+        "name": "Flores Pôr do Sol",
+        "type": 1,
+        "sort": 1,
+        "cost": 310,
+        "max": 99
+    },
+    "532": {
+        "name": "Juncos",
+        "type": 1,
+        "sort": 1,
+        "cost": 340,
+        "max": 99
+    },
+    "533": {
+        "name": "Planta Poodle",
+        "type": 1,
+        "sort": 1,
+        "cost": 430,
+        "max": 99
+    },
+    "535": {
+        "name": "Tapete Celta",
+        "type": 3,
+        "sort": 3,
+        "cost": 550,
+        "max": 99
+    },
+    "536": {
+        "name": "Espelho Ornamentado",
+        "type": 2,
+        "sort": 2,
+        "cost": 680,
+        "max": 99
+    },
+    "537": {
+        "name": "Janela do Arqueiro",
+        "type": 2,
+        "sort": 2,
+        "cost": 630,
+        "max": 99
+    },
+    "538": {
+        "name": "Brazier",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "539": {
+        "name": "Candelabro de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 140,
+        "max": 99
+    },
+    "540": {
+        "name": "Brotus Spectaculouus",
+        "type": 1,
+        "sort": 1,
+        "cost": 540,
+        "max": 99
+    },
+    "541": {
+        "name": "Plantus Fantasticus",
+        "type": 1,
+        "sort": 1,
+        "cost": 280,
+        "max": 99
+    },
+    "542": {
+        "name": "Surpresus Maximus",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "544": {
+        "name": "Palmeira Tropical",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "545": {
+        "name": "Gol de Futebol",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "546": {
+        "name": "Ruínas de Arcos de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "547": {
+        "name": "Ruínas de Paredes de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 425,
+        "max": 99
+    },
+    "548": {
+        "name": "Ruínas de Colunas de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "549": {
+        "name": "Escavação Arqueológica",
+        "type": 3,
+        "sort": 3,
+        "cost": 160,
+        "max": 99
+    },
+    "550": {
+        "name": "Gramofone",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "551": {
+        "name": "Disco Sertanejo",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "552": {
+        "name": "Disco Rock n’ Roll",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "553": {
+        "name": "Disco de Música Clássica",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "560": {
+        "name": "Janela",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "561": {
+        "name": "Armário",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "562": {
+        "name": "Cone de Segurança",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "563": {
+        "name": "Barreira de Segurança",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "564": {
+        "name": "Placa Em Obras",
+        "type": 1,
+        "sort": 1,
+        "cost": 145,
+        "max": 99
+    },
+    "565": {
+        "name": "Pista de Boliche",
+        "type": 3,
+        "sort": 3,
+        "cost": 700,
+        "max": 99
+    },
+    "566": {
+        "name": "Pino de Boliche",
+        "type": 1,
+        "sort": 1,
+        "cost": 40,
+        "max": 99
+    },
+    "567": {
+        "name": "Flâmula Verde do CP",
+        "type": 2,
+        "sort": 2,
+        "cost": 170,
+        "max": 99
+    },
+    "570": {
+        "name": "Mesa para Computador",
+        "type": 1,
+        "sort": 1,
+        "cost": 900,
+        "max": 99
+    },
+    "571": {
+        "name": "Piso Quebra-cabeça",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "572": {
+        "name": "Estante Moderna",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "573": {
+        "name": "Barraquinha de Quitutes",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "574": {
+        "name": "Girafa de Brinquedo",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "575": {
+        "name": "Puff Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "576": {
+        "name": "Mansão Mal-Assombrada de Papelão",
+        "type": 1,
+        "sort": 1,
+        "cost": 850,
+        "max": 99
+    },
+    "577": {
+        "name": "Chalé Sinistro de Papelão",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "578": {
+        "name": "Portões Horripilantes",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "579": {
+        "name": "Árvore da Floresta Sombria",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "580": {
+        "name": "Sofá Modernoso",
+        "type": 1,
+        "sort": 1,
+        "cost": 850,
+        "max": 99
+    },
+    "581": {
+        "name": "Poltrona Modernosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "582": {
+        "name": "Poltrona Afunda Penas",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "583": {
+        "name": "Aquário Oceano",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "584": {
+        "name": "Mesinha de Café",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "585": {
+        "name": "Estação de Doação",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "586": {
+        "name": "Boneco de Neve Papai Noel",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "587": {
+        "name": "Boneco de Neve de Cartola",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "588": {
+        "name": "Boneco de Neve com Cachecol",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "589": {
+        "name": "Gelinhos Luminosos",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "590": {
+        "name": "Sinos de Natal",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "591": {
+        "name": "Cadeira do Papai Noel",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "592": {
+        "name": "Poltrona de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "593": {
+        "name": "Sofá de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "594": {
+        "name": "Abajur de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "595": {
+        "name": "Mesa de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "596": {
+        "name": "HDTV",
+        "type": 2,
+        "sort": 2,
+        "cost": 1000,
+        "max": 99
+    },
+    "597": {
+        "name": "Cadeira Colonial",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "598": {
+        "name": "Mesa de Jantar Colonial",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "599": {
+        "name": "Divã de Pedra; ",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "600": {
+        "name": "Chá Esquenta-Bico",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "601": {
+        "name": "Caixa de Correio",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "602": {
+        "name": "Portãozinho para Puffles; ",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "603": {
+        "name": "Lava-Puffles",
+        "type": 1,
+        "sort": 4,
+        "cost": 450,
+        "max": 99
+    },
+    "604": {
+        "name": "Pufflebola; ",
+        "type": 1,
+        "sort": 4,
+        "cost": 150,
+        "max": 99
+    },
+    "605": {
+        "name": "Sofá de Veludo Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "606": {
+        "name": "Tapete Azul",
+        "type": 3,
+        "sort": 3,
+        "cost": 500,
+        "max": 99
+    },
+    "607": {
+        "name": "Adesivo Pescaria no Gelo",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "608": {
+        "name": "Cadeira Barril; ",
+        "type": 1,
+        "sort": 1,
+        "cost": 230,
+        "max": 99
+    },
+    "609": {
+        "name": "Trevo de Quatro Folhas",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "611": {
+        "name": "Trevinhos da Sorte",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "612": {
+        "name": "Balão da Sorte",
+        "type": 1,
+        "sort": 1,
+        "cost": 15,
+        "max": 99
+    },
+    "613": {
+        "name": "Toco de Árvore",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "614": {
+        "name": "Poltrona da Floresta",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "615": {
+        "name": "Fonte dos Desejos",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "616": {
+        "name": "Arco-íris com Pote de Ouro",
+        "type": 2,
+        "sort": 2,
+        "cost": 450,
+        "max": 99
+    },
+    "617": {
+        "name": "Cadeira Puffles Cabeluffles",
+        "type": 1,
+        "sort": 4,
+        "cost": 400,
+        "max": 99
+    },
+    "618": {
+        "name": "Casa Laranja",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "619": {
+        "name": "Caminha Laranja ",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "620": {
+        "name": "Poltrona Ameixa",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "621": {
+        "name": "Sofá de Veludo Ameixa",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "622": {
+        "name": "Estante Ameixa",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "623": {
+        "name": "Abajur Ameixa",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "624": {
+        "name": "Cortina Ameixa; ",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "625": {
+        "name": "Planta Espetada",
+        "type": 1,
+        "sort": 1,
+        "cost": 230,
+        "max": 99
+    },
+    "626": {
+        "name": "Planta Bicolor",
+        "type": 1,
+        "sort": 1,
+        "cost": 280,
+        "max": 99
+    },
+    "627": {
+        "name": "Arvorezinha Caseira",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "628": {
+        "name": "Vaso de Flores",
+        "type": 1,
+        "sort": 1,
+        "cost": 175,
+        "max": 99
+    },
+    "629": {
+        "name": "Planta Sempre-Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 240,
+        "max": 99
+    },
+    "630": {
+        "name": "Tesouro do Dragão",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "632": {
+        "name": "Cabideiro de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "633": {
+        "name": "Cabideiro Gira-Gira",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "634": {
+        "name": "Maneguim",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "635": {
+        "name": "Plaquinha Aberto-Fechado; ",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "636": {
+        "name": "Amplificador",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "637": {
+        "name": "Conga de Percussão ",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "638": {
+        "name": "Armários",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "639": {
+        "name": "Sino do Recreio",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "640": {
+        "name": "Mapa Desenrolável",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "641": {
+        "name": "Quadro Branco",
+        "type": 2,
+        "sort": 2,
+        "cost": 400,
+        "max": 99
+    },
+    "642": {
+        "name": "Flâmula Amarela do CP; ",
+        "type": 2,
+        "sort": 2,
+        "cost": 170,
+        "max": 99
+    },
+    "643": {
+        "name": "Monumento ao Puffle Curioso",
+        "type": 2,
+        "sort": 2,
+        "cost": 275,
+        "max": 99
+    },
+    "644": {
+        "name": "Bola de Cristal",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "646": {
+        "name": "Poça de Gosma",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "647": {
+        "name": "Tapete Rasgado",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "648": {
+        "name": "Montinho de Doces",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 99
+    },
+    "649": {
+        "name": "Monumento ao Vampinguim",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "650": {
+        "name": "Mesa Rococó",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "651": {
+        "name": "Cadeira Rococó",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "652": {
+        "name": "Janela Quadriculada",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "653": {
+        "name": "Lustre Ilustre",
+        "type": 2,
+        "sort": 2,
+        "cost": 600,
+        "max": 99
+    },
+    "654": {
+        "name": "Poste Decorado",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "655": {
+        "name": "Árvore de Natal",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "656": {
+        "name": "Presente",
+        "type": 1,
+        "sort": 1,
+        "cost": 170,
+        "max": 99
+    },
+    "657": {
+        "name": "Floco de Neve",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "658": {
+        "name": "Bengala Docinho",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "659": {
+        "name": "Meia de Natal",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "660": {
+        "name": "Tubos de Doação",
+        "type": 1,
+        "sort": 1,
+        "cost": 70,
+        "max": 99
+    },
+    "661": {
+        "name": "Árvores Mais Altas",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "662": {
+        "name": "Apanhador de Sonhos",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "663": {
+        "name": "Fogão Vermelho Retrô",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "664": {
+        "name": "Geladeira Vermelha Retrô",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "665": {
+        "name": "Casa Marrom",
+        "type": 1,
+        "sort": 4,
+        "cost": 500,
+        "max": 99
+    },
+    "666": {
+        "name": "Retrato do Puffle Marrom",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "667": {
+        "name": "Retrato do Puffle Azul",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "668": {
+        "name": "Retrato do Puffle Vermelho",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "669": {
+        "name": "Retrato do Puffle Verde",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "670": {
+        "name": "Retrato do Puffle Rosa",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "671": {
+        "name": "Retrato do Puffle Roxo",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "672": {
+        "name": "Retrato do Puffle Amarelo",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "673": {
+        "name": "Retrato do Puffle Branco",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "674": {
+        "name": "Retrato do Puffle Preto",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "675": {
+        "name": "Poltrona Chocomenta",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "676": {
+        "name": "Abajur de Waffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "677": {
+        "name": "Bolinho de Cacau",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "678": {
+        "name": "Marshmallow",
+        "type": 1,
+        "sort": 1,
+        "cost": 20,
+        "max": 99
+    },
+    "679": {
+        "name": "Pirulito Enroladinho",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "680": {
+        "name": "Poltrona Chocolorida",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "681": {
+        "name": "Monte de Doce",
+        "type": 1,
+        "sort": 1,
+        "cost": 10,
+        "max": 99
+    },
+    "682": {
+        "name": "Caminha Marrom",
+        "type": 1,
+        "sort": 4,
+        "cost": 250,
+        "max": 99
+    },
+    "683": {
+        "name": "Canhão Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "684": {
+        "name": "Super Canhão Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "685": {
+        "name": "Cestinha de Janela",
+        "type": 2,
+        "sort": 2,
+        "cost": 300,
+        "max": 99
+    },
+    "686": {
+        "name": "Lago com Cachoeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "687": {
+        "name": "Árvore Crescida",
+        "type": 1,
+        "sort": 1,
+        "cost": 325,
+        "max": 99
+    },
+    "688": {
+        "name": "Vaso de Barro",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "690": {
+        "name": "Retrato do Puffle Laranja",
+        "type": 2,
+        "sort": 2,
+        "cost": 80,
+        "max": 99
+    },
+    "691": {
+        "name": "Cristais",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "692": {
+        "name": "Alçapão",
+        "type": 3,
+        "sort": 3,
+        "cost": 250,
+        "max": 99
+    },
+    "693": {
+        "name": "Feno",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "694": {
+        "name": "Suporte para Armadura",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "695": {
+        "name": "Plantas Elegantes",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "696": {
+        "name": "O Tradicional Estandarte Vermelho",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "697": {
+        "name": "O Tradicional Estandarte Azul",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "698": {
+        "name": "O Tradicional Estandarte Amarelo",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "699": {
+        "name": "Vinhas",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "700": {
+        "name": "Musgo Pendurado",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "701": {
+        "name": "Tronco Musguento",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "702": {
+        "name": "Caldeirão de Sopa",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "703": {
+        "name": "Cordão de Perefutecos",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "704": {
+        "name": "Cabeça de Hidra Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "705": {
+        "name": "Cabeça de Hidra Vermelha",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "706": {
+        "name": "Cabeça de Hidra Amarela",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "707": {
+        "name": "Brilho de Palco",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "708": {
+        "name": "Muito Brilho de Palco",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "710": {
+        "name": "Estoura-Confete",
+        "type": 2,
+        "sort": 2,
+        "cost": 25,
+        "max": 99
+    },
+    "711": {
+        "name": "Bateria Dinâmica",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "712": {
+        "name": "Estojo para Violão",
+        "type": 1,
+        "sort": 1,
+        "cost": 220,
+        "max": 99
+    },
+    "713": {
+        "name": "Tapete de Dança",
+        "type": 3,
+        "sort": 3,
+        "cost": 135,
+        "max": 99
+    },
+    "714": {
+        "name": "Mesinha de Centro para Festa",
+        "type": 1,
+        "sort": 1,
+        "cost": 180,
+        "max": 99
+    },
+    "715": {
+        "name": "Extintor de Incêndio",
+        "type": 1,
+        "sort": 1,
+        "cost": 10,
+        "max": 99
+    },
+    "716": {
+        "name": "Roqueiro Radical",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "717": {
+        "name": "Total Musical",
+        "type": 2,
+        "sort": 2,
+        "cost": 225,
+        "max": 99
+    },
+    "718": {
+        "name": "Notas Elétricas",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "719": {
+        "name": "Holofote Laser",
+        "type": 2,
+        "sort": 2,
+        "cost": 145,
+        "max": 99
+    },
+    "720": {
+        "name": "Alga Pendurada",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "721": {
+        "name": "Algas Serpentinas",
+        "type": 2,
+        "sort": 2,
+        "cost": 45,
+        "max": 99
+    },
+    "722": {
+        "name": "Vinhas Dançantes",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "723": {
+        "name": "Barril de Cream Soda",
+        "type": 1,
+        "sort": 1,
+        "cost": 270,
+        "max": 99
+    },
+    "724": {
+        "name": "Arco do Castelo de Areia",
+        "type": 1,
+        "sort": 1,
+        "cost": 320,
+        "max": 99
+    },
+    "725": {
+        "name": "Muro do Castelo de Areia",
+        "type": 1,
+        "sort": 1,
+        "cost": 325,
+        "max": 99
+    },
+    "726": {
+        "name": "Rocha Ponta da Praia",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "727": {
+        "name": "Rocha Praia Deserta",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "728": {
+        "name": "X Marca o Lugar",
+        "type": 3,
+        "sort": 3,
+        "cost": 10,
+        "max": 99
+    },
+    "729": {
+        "name": "Cabeça de Tubarão",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "730": {
+        "name": "Rampa Linha Reta",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "731": {
+        "name": "Rampa Arco",
+        "type": 1,
+        "sort": 1,
+        "cost": 80,
+        "max": 99
+    },
+    "732": {
+        "name": "Rampa Caixa",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "733": {
+        "name": "Rampa Curva C",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "734": {
+        "name": "Rampa Curva S",
+        "type": 1,
+        "sort": 1,
+        "cost": 230,
+        "max": 99
+    },
+    "735": {
+        "name": "Pódio dos Vencedores",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "736": {
+        "name": "Fazedor de Sorvete",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "737": {
+        "name": "Estante de Troféus",
+        "type": 1,
+        "sort": 1,
+        "cost": 650,
+        "max": 99
+    },
+    "739": {
+        "name": "Meia Rampa",
+        "type": 3,
+        "sort": 3,
+        "cost": 400,
+        "max": 99
+    },
+    "740": {
+        "name": "Rampa Escada",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "741": {
+        "name": "Salto Livre",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "743": {
+        "name": "Rampa Vertical",
+        "type": 3,
+        "sort": 3,
+        "cost": 350,
+        "max": 99
+    },
+    "745": {
+        "name": "Caminho Molhado",
+        "type": 3,
+        "sort": 3,
+        "cost": 120,
+        "max": 99
+    },
+    "746": {
+        "name": "Caranguejo Confortável",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "747": {
+        "name": "Cerca de Festa",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "748": {
+        "name": "Lixeira Peixe Grande",
+        "type": 1,
+        "sort": 1,
+        "cost": 175,
+        "max": 99
+    },
+    "749": {
+        "name": "Muitos Balões",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "750": {
+        "name": "Bandeiras da Festa",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "751": {
+        "name": "Bloco de Feno",
+        "type": 1,
+        "sort": 1,
+        "cost": 30,
+        "max": 99
+    },
+    "752": {
+        "name": "Cream Soda",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "753": {
+        "name": "Bebedouro para Animais",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "754": {
+        "name": "Balde de Ração",
+        "type": 1,
+        "sort": 1,
+        "cost": 60,
+        "max": 99
+    },
+    "755": {
+        "name": "Palquinho de Fogo",
+        "type": 1,
+        "sort": 1,
+        "cost": 245,
+        "max": 99
+    },
+    "756": {
+        "name": "Imagem do Capitão",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "757": {
+        "name": "Barraca de Comida",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "758": {
+        "name": "Mesa do Chefe",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "760": {
+        "name": "Mesa do Escritor",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "761": {
+        "name": "A Gargalhada Fluorescente",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "762": {
+        "name": "A Surpresa Assustadora",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "763": {
+        "name": "A Lanterna que Ri",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "764": {
+        "name": "Doces ou Travessuras",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "765": {
+        "name": "Muro de Pedras",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "766": {
+        "name": "Luzinhas de Abóbora Selvagem",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "767": {
+        "name": "Fantasma Aterrorizante",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "768": {
+        "name": "Aranha Nojenta",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "769": {
+        "name": "Abóboras de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "770": {
+        "name": "Fantasmas de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "771": {
+        "name": "Morcegos de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "772": {
+        "name": "Relógio Antigo",
+        "type": 1,
+        "sort": 1,
+        "cost": 575,
+        "max": 99
+    },
+    "773": {
+        "name": "Gosma do Pântano",
+        "type": 3,
+        "sort": 3,
+        "cost": 230,
+        "max": 99
+    },
+    "774": {
+        "name": "Portal Ninja",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "775": {
+        "name": "Lanterna de Papel Verde",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "776": {
+        "name": "Caldeirão Ninja",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "777": {
+        "name": "Bambus Naturais",
+        "type": 1,
+        "sort": 1,
+        "cost": 175,
+        "max": 99
+    },
+    "778": {
+        "name": "Barraca de Lámen",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "779": {
+        "name": "Cerejeira em Papel de Arroz",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "780": {
+        "name": "Bonsai",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "781": {
+        "name": "Boneco de Treino\r\n",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "782": {
+        "name": "Lanterna de Papel Azul",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "783": {
+        "name": "Lanterna de Papel Vermelha",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "784": {
+        "name": "Lanterna de Papel Amarela",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "785": {
+        "name": "Lanterna de Papel Roxa",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "786": {
+        "name": "Tatame Desafio Ninja",
+        "type": 3,
+        "sort": 3,
+        "cost": 700,
+        "max": 4
+    },
+    "787": {
+        "name": "Poltrona",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "788": {
+        "name": "Sofá",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "790": {
+        "name": "Samambaia",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "792": {
+        "name": "Capacho",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "793": {
+        "name": "Relógio para Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "794": {
+        "name": "Sofá Biscoito de Gengibre",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "795": {
+        "name": "Cadeira Biscoito de Gengibre",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "796": {
+        "name": "Bala Bola",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "797": {
+        "name": "Árvore Muita Festa",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "798": {
+        "name": "Biscoito de Gengibre",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "799": {
+        "name": "Decoração Gelada",
+        "type": 2,
+        "sort": 2,
+        "cost": 30,
+        "max": 99
+    },
+    "800": {
+        "name": "Pirulito Arco-Íris",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "801": {
+        "name": "Decoração Estrela Cadente",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "802": {
+        "name": "Decoração de Fim de Ano",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "803": {
+        "name": "Mesinha de Café Natalina",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "804": {
+        "name": "Lareira Quentinha",
+        "type": 2,
+        "sort": 2,
+        "cost": 700,
+        "max": 99
+    },
+    "805": {
+        "name": "Pufe Coins For Change",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "806": {
+        "name": "Enfeite Colorido de Papel Coins For Change",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "807": {
+        "name": "Tanque Marítimo",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "808": {
+        "name": "Pedra Oceânica",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "809": {
+        "name": "Portal da Cidade Perdida",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "810": {
+        "name": "Baú do Tesouro",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "811": {
+        "name": "Pilar Aquamarítimo",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "812": {
+        "name": "Parede Aquamarítima",
+        "type": 1,
+        "sort": 1,
+        "cost": 425,
+        "max": 99
+    },
+    "813": {
+        "name": "Portal Aquamarítimo",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "814": {
+        "name": "Sofá das Cavernas",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "815": {
+        "name": "Poltrona das Cavernas",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "816": {
+        "name": "Fóssil de Dinossauro",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "817": {
+        "name": "Fóssil Jurássico",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "818": {
+        "name": "Mesa de Costura",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "819": {
+        "name": "Manequim",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "820": {
+        "name": "Passarela",
+        "type": 1,
+        "sort": 1,
+        "cost": 575,
+        "max": 99
+    },
+    "821": {
+        "name": "Corda de Veludo Violeta",
+        "type": 1,
+        "sort": 1,
+        "cost": 160,
+        "max": 99
+    },
+    "822": {
+        "name": "Mesa da Comissão Julgadora",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "823": {
+        "name": "Cadeira de Jurado",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "824": {
+        "name": "Biombo da Moda",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "825": {
+        "name": "Poltrona Puffle Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "826": {
+        "name": "Lanternuffle Feliz",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "827": {
+        "name": "Lanternuffle Sorridente",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "828": {
+        "name": "Lanternuffle Rabugento",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "829": {
+        "name": "Lanternuffle Brincalhão",
+        "type": 2,
+        "sort": 2,
+        "cost": 175,
+        "max": 99
+    },
+    "830": {
+        "name": "Tapete Puffle Animado",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "831": {
+        "name": "Tubos para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "832": {
+        "name": "Poltrona Puffle Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "833": {
+        "name": "Poltrona Puffle Roxa",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "834": {
+        "name": "Botão da Floresta",
+        "type": 1,
+        "sort": 1,
+        "cost": 175,
+        "max": 99
+    },
+    "835": {
+        "name": "Samambaia da Floresta",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "836": {
+        "name": "Flora Florestal",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "837": {
+        "name": "Mini Lagoa",
+        "type": 3,
+        "sort": 3,
+        "cost": 500,
+        "max": 99
+    },
+    "838": {
+        "name": "Acácia",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "839": {
+        "name": "Pedral do Deserto",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "840": {
+        "name": "Hipopótamo de Brinquedo",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "841": {
+        "name": "Zebra de Brinquedo",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "842": {
+        "name": "Balanço de Vinhas",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "843": {
+        "name": "Ponte do Destino",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "844": {
+        "name": "Cogumelo Gigante",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "845": {
+        "name": "Cogumelo Estrelado",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "846": {
+        "name": "Fonte dos Desejos",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "847": {
+        "name": "Fungo com Diversão",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "848": {
+        "name": "Nuvem Tufada",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "849": {
+        "name": "Trono Real",
+        "type": 1,
+        "sort": 1,
+        "cost": 750,
+        "max": 99
+    },
+    "850": {
+        "name": "Estátua do Scorn",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "851": {
+        "name": "Lábaro do Reino",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "852": {
+        "name": "Lábaro da Floresta das Fadas",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "853": {
+        "name": "Lábaro do Mago",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "854": {
+        "name": "Lábaro da Vila",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "855": {
+        "name": "Lábaro do Scorn",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "856": {
+        "name": "Lábaro do Céu",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "857": {
+        "name": "Lábaro do Dragão",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "858": {
+        "name": "Topiaria do Fluffy",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "859": {
+        "name": "Topiaria de Cavaleiro",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "860": {
+        "name": "Topiaria da Donzela",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "861": {
+        "name": "Vista da Cidade",
+        "type": 2,
+        "sort": 2,
+        "cost": 550,
+        "max": 99
+    },
+    "862": {
+        "name": "Cabine Telefônica",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "863": {
+        "name": "Bueiro",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "864": {
+        "name": "Latão de Lixo",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "865": {
+        "name": "Banca de Jornal",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "866": {
+        "name": "Hidrante",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "867": {
+        "name": "Poste Decorado",
+        "type": 1,
+        "sort": 1,
+        "cost": 175,
+        "max": 99
+    },
+    "868": {
+        "name": "Holofote",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "869": {
+        "name": "Barril de Lixo Tóxico",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "870": {
+        "name": "Painel Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "871": {
+        "name": "Suporte para Violão",
+        "type": 1,
+        "sort": 1,
+        "cost": 325,
+        "max": 99
+    },
+    "872": {
+        "name": "Luz Show",
+        "type": 2,
+        "sort": 2,
+        "cost": 500,
+        "max": 99
+    },
+    "873": {
+        "name": "Mesa de Som",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "874": {
+        "name": "Holofote Alto",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "875": {
+        "name": "Holofote Baixo",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "876": {
+        "name": "Câmera de Filmagem",
+        "type": 1,
+        "sort": 1,
+        "cost": 225,
+        "max": 99
+    },
+    "877": {
+        "name": "Cadeira Dançante",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "878": {
+        "name": "Cadeira de Kiwi",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "879": {
+        "name": "Banco dos Anciões Lendários",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "880": {
+        "name": "Almofada de Limão Azedo",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "881": {
+        "name": "Sofá dos Anciões Lendários",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "882": {
+        "name": "Totem de Frutas",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "883": {
+        "name": "Espreguiçadeira dos Anciões Lendários",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "884": {
+        "name": "Toldo de Palha",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "885": {
+        "name": "Cortina Frescor Cítrico",
+        "type": 2,
+        "sort": 2,
+        "cost": 65000,
+        "max": 99
+    },
+    "886": {
+        "name": "Mesa de Abacaxi",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "887": {
+        "name": "Luminária Banana-Nana",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "888": {
+        "name": "Cordão de Frutas",
+        "type": 2,
+        "sort": 2,
+        "cost": 65000,
+        "max": 99
+    },
+    "889": {
+        "name": "Sofá de Melancia",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "890": {
+        "name": "Poltrona de Maçã Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "891": {
+        "name": "Rede Tropical",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "892": {
+        "name": "Poltrona de Morango",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "893": {
+        "name": "Sofá de Banana",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "894": {
+        "name": "Armário da Vitamina",
+        "type": 1,
+        "sort": 1,
+        "cost": 65000,
+        "max": 99
+    },
+    "902": {
+        "name": "Trono Vampiresco",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "903": {
+        "name": "Divã Levado pela Escuridão",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "904": {
+        "name": "Otomana Ogra",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "905": {
+        "name": "Abajur Sombrio",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "906": {
+        "name": "Candelabro Mão e Garras",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "907": {
+        "name": "Livro da Maldição",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "908": {
+        "name": "Lua Cheia",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "909": {
+        "name": "Redemoinho do Pesadelo",
+        "type": 3,
+        "sort": 3,
+        "cost": 300,
+        "max": 99
+    },
+    "910": {
+        "name": "Janela da Aranha do Pavor",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "911": {
+        "name": "Fenda de Ectoplasma",
+        "type": 3,
+        "sort": 3,
+        "cost": 450,
+        "max": 99
+    },
+    "912": {
+        "name": "Tumba do Adorno Arrepiante",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "913": {
+        "name": "Tumba do Lamaçal",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "914": {
+        "name": "Poço de Ectoplasma",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 99
+    },
+    "915": {
+        "name": "Laser de Segurança Curto",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "916": {
+        "name": "Laser de Segurança Comprido",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "917": {
+        "name": "Herbert de Papel",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "918": {
+        "name": "Cofre",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "919": {
+        "name": "Célula de Contenção",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "920": {
+        "name": "Sirene de Emergência",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "921": {
+        "name": "Pegada Suspeita",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "922": {
+        "name": "Carro de Espião",
+        "type": 1,
+        "sort": 1,
+        "cost": 900,
+        "max": 99
+    },
+    "923": {
+        "name": "Mesa para Reuniões Secretas",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "924": {
+        "name": "Tapete Alegria de Fim de Ano",
+        "type": 3,
+        "sort": 3,
+        "cost": 250,
+        "max": 99
+    },
+    "925": {
+        "name": "Pilar Congelado",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "926": {
+        "name": "Trono Geada",
+        "type": 1,
+        "sort": 1,
+        "cost": 750,
+        "max": 99
+    },
+    "927": {
+        "name": "Arco Listras de Açúcar",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "928": {
+        "name": "Cerca Listras de Açúcar",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "929": {
+        "name": "Casa Verde Aconchegante",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "930": {
+        "name": "Casa Vermelha Aconchegante",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "931": {
+        "name": "Porta Azul Aconchegante",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "932": {
+        "name": "Locomotiva Festiva",
+        "type": 1,
+        "sort": 1,
+        "cost": 700,
+        "max": 99
+    },
+    "933": {
+        "name": "Vagão Festivo",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "934": {
+        "name": "Árvore Alegria de Fim de Ano",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "935": {
+        "name": "Chaminé Boas Festas",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "936": {
+        "name": "Telhado da Cabana",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "937": {
+        "name": "Tronco Oco",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "938": {
+        "name": "Estaca Limitante",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "939": {
+        "name": "Ponte de Lenho",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "940": {
+        "name": "Estaca Maior",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "941": {
+        "name": "Poça de Lava",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "942": {
+        "name": "Toldo de Folhas",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "943": {
+        "name": "Tanque de Lava",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "944": {
+        "name": "Escada de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "945": {
+        "name": "Degraus de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "946": {
+        "name": "Janela Copada",
+        "type": 2,
+        "sort": 2,
+        "cost": 700,
+        "max": 99
+    },
+    "947": {
+        "name": "Capim Alto",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "948": {
+        "name": "Dossel de Couro",
+        "type": 1,
+        "sort": 1,
+        "cost": 550,
+        "max": 99
+    },
+    "949": {
+        "name": "Cepo Trono",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "950": {
+        "name": "Vazão de Lava",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 99
+    },
+    "951": {
+        "name": "Vulcão Ativo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "952": {
+        "name": "Cachoeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "953": {
+        "name": "Árvore Anciã",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "954": {
+        "name": "Poltrona Festiva",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "955": {
+        "name": "Sofá Noite Feliz",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "956": {
+        "name": "Bola de Natal Brilhante",
+        "type": 2,
+        "sort": 2,
+        "cost": 0,
+        "max": 1
+    },
+    "957": {
+        "name": "Cozinha Faz-Tudo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "958": {
+        "name": "Mesa do Noel",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "959": {
+        "name": "Luzes da Era Espacial",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "960": {
+        "name": "Quadra de Basquete",
+        "type": 3,
+        "sort": 3,
+        "cost": 300,
+        "max": 99
+    },
+    "961": {
+        "name": "Grande Piano de Cauda",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "962": {
+        "name": "Picape de DJ",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "963": {
+        "name": "Controle Remoto Gigante",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "964": {
+        "name": "Balcão de Lanchonete",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "965": {
+        "name": "TV Muitas Polegadas",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "966": {
+        "name": "Marte",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "967": {
+        "name": "Terra",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "968": {
+        "name": "Cesta de Basquete",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "969": {
+        "name": "Cadeira de Diretor",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "970": {
+        "name": "Nave Espacial",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "971": {
+        "name": "Rampa Grafitada",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "972": {
+        "name": "Escada Grafitada",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "973": {
+        "name": "Caixa de Transporte de Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "974": {
+        "name": "Fliperama",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "975": {
+        "name": "Rinque de Patinação",
+        "type": 3,
+        "sort": 3,
+        "cost": 400,
+        "max": 99
+    },
+    "976": {
+        "name": "Ponte Multicor",
+        "type": 3,
+        "sort": 3,
+        "cost": 400,
+        "max": 99
+    },
+    "977": {
+        "name": "Prateleira de Pet Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "978": {
+        "name": "Balcão do Pet Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "979": {
+        "name": "Monociclo sobre Corda",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "980": {
+        "name": "Palco para Puffles",
+        "type": 3,
+        "sort": 3,
+        "cost": 300,
+        "max": 99
+    },
+    "981": {
+        "name": "Balança o Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "982": {
+        "name": "Pisca-Puffle",
+        "type": 2,
+        "sort": 2,
+        "cost": 0,
+        "max": 99
+    },
+    "983": {
+        "name": "Mesuffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "984": {
+        "name": "Clínica",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "985": {
+        "name": "Loja",
+        "type": 1,
+        "sort": 1,
+        "cost": 800,
+        "max": 99
+    },
+    "986": {
+        "name": "Máquina de Raio X",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "987": {
+        "name": "Cadeira de Hospital",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "988": {
+        "name": "Iluminação Cirúrgica Auxiliar ",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "989": {
+        "name": "Conjunto de Ferramentas Exclusivo",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "990": {
+        "name": "Corrimão Vermelho Oriental",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "991": {
+        "name": "Painel de Papel de Arroz",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "992": {
+        "name": "Papel de Arroz Floral",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "993": {
+        "name": "Caminho Pedras Superiores",
+        "type": 3,
+        "sort": 3,
+        "cost": 150,
+        "max": 99
+    },
+    "994": {
+        "name": "Arco da Tradição",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "995": {
+        "name": "Mesa de Sushi",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "996": {
+        "name": "Jardim de Pedras Mente Elevada",
+        "type": 3,
+        "sort": 3,
+        "cost": 300,
+        "max": 99
+    },
+    "997": {
+        "name": "Almofada Azul da Tranquilidade",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "998": {
+        "name": "Jogo de Chá Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "999": {
+        "name": "Móvel para Katana",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1001": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1002": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1003": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1004": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1005": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1006": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1007": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1008": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1009": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1010": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1011": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1012": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1013": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1014": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1015": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1016": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1017": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1018": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1019": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1020": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1021": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1022": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1023": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1024": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1025": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1026": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1027": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1028": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1029": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1030": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "1031": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1032": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1033": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1034": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1035": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1036": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1037": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1038": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1039": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1040": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1041": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1042": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1043": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1044": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1045": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "1050": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1051": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1052": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1053": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1054": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1055": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1056": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1057": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1058": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1059": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1060": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1061": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1062": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1063": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1064": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 375,
+        "max": 99
+    },
+    "1065": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1066": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1067": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1068": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1069": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1070": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1071": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1072": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1073": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1074": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1075": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1076": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1077": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1078": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1079": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 275,
+        "max": 99
+    },
+    "1080": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1081": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1082": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1083": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1084": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1085": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1086": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1087": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1088": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1089": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1090": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1091": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1092": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1093": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1094": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 180,
+        "max": 99
+    },
+    "1100": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1101": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1102": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1103": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1104": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1105": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1106": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1107": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1108": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1109": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1110": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1111": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1112": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1113": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1114": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "1115": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1116": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1117": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1118": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1119": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1120": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1121": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1122": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1123": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1124": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1125": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1126": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1127": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1128": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1129": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 600,
+        "max": 99
+    },
+    "1130": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1131": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1132": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1133": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1134": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1135": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1136": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1137": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1138": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1139": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1140": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1141": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1142": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1143": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1144": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "1150": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1151": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1152": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1153": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1154": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1155": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1156": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1157": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1158": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1159": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1160": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1161": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1162": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1163": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1164": {
+        "name": "Móvel do Seu Jeito",
+        "type": 1,
+        "sort": 1,
+        "cost": 475,
+        "max": 99
+    },
+    "1165": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1166": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1167": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1168": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1169": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1170": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1171": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1172": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1173": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1174": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1175": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1176": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1177": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1178": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1179": {
+        "name": "Móvel do Seu Jeito",
+        "type": 2,
+        "sort": 2,
+        "cost": 350,
+        "max": 99
+    },
+    "1181": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1182": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1183": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1184": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1185": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1186": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1187": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1188": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1189": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1190": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1191": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1192": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1193": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1194": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "1195": {
+        "name": "Móvel do Seu Jeito",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "2000": {
+        "name": "Arquibancada de Dar Medo",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2001": {
+        "name": "Bandeirinhas Verdes",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2002": {
+        "name": "Bandeirinhas Rosa",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2003": {
+        "name": "Bandeirinhas Laranja",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2004": {
+        "name": "Placar Assustador",
+        "type": 2,
+        "sort": 2,
+        "cost": 250,
+        "max": 99
+    },
+    "2005": {
+        "name": "Portal da Universidade",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "2006": {
+        "name": "Flâmula da OK",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2007": {
+        "name": "Letreiro 3D da OK",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2008": {
+        "name": "Flâmula da PNK",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2009": {
+        "name": "Letreiro 3D da PNK",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2010": {
+        "name": "Flâmula da JOX",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2011": {
+        "name": "Letreiro 3D da JOX",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2012": {
+        "name": "Mesinha Assustada",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2013": {
+        "name": "Prateleiras da Biblioteca Monstros",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2014": {
+        "name": "Lata de Sustos",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2015": {
+        "name": "Refeitório Universitário",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2016": {
+        "name": "Tapete de Escamas",
+        "type": 3,
+        "sort": 3,
+        "cost": 300,
+        "max": 99
+    },
+    "2017": {
+        "name": "Escrivaninha da Biblioteca Monstros",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2018": {
+        "name": "Coluna Olho de Monstro",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "2019": {
+        "name": "Portal da Monstros SA",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "2020": {
+        "name": "Bandeirinhas Vermelhas",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2021": {
+        "name": "Flâmula da ROR",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2022": {
+        "name": "Letreiro 3D da ROR",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2023": {
+        "name": "Som Monstruoso",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2024": {
+        "name": "Mesa de Monster Pong",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2025": {
+        "name": "Espreguiçadeira Preguiça Monstra",
+        "type": 1,
+        "sort": 1,
+        "cost": 350,
+        "max": 99
+    },
+    "2026": {
+        "name": "Painel de Parede Imperial",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2027": {
+        "name": "Tela de Radar",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2028": {
+        "name": "Estação de Limpeza de Droides",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2029": {
+        "name": "Terminal da HoloNet",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2030": {
+        "name": "Assento da Millennium Falcon",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2031": {
+        "name": "Terminal de Leitura do Sistema",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2032": {
+        "name": "Peças do Dejarik",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2033": {
+        "name": "Droide de Energia GNK",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2034": {
+        "name": "Arco Imperial",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2035": {
+        "name": "Console de Computador",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2036": {
+        "name": "Tapete dos Rebeldes",
+        "type": 3,
+        "sort": 3,
+        "cost": 150,
+        "max": 99
+    },
+    "2037": {
+        "name": "Tapete do Império",
+        "type": 3,
+        "sort": 3,
+        "cost": 150,
+        "max": 99
+    },
+    "2038": {
+        "name": "Droide Demolidor Autônomo LIN",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2039": {
+        "name": "Poltrona do Bombardeiro TIE",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "2040": {
+        "name": "Poltrona do Caça X-wing",
+        "type": 1,
+        "sort": 1,
+        "cost": 450,
+        "max": 99
+    },
+    "2041": {
+        "name": "Iglu de Tatooine",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2042": {
+        "name": "Trono Imperial",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2043": {
+        "name": "Console de Rastreamento da HoloNet",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2044": {
+        "name": "Computador do Radar",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2045": {
+        "name": "Estrela da Morte",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2046": {
+        "name": "Piscina",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2047": {
+        "name": "Painel de Surfe",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2048": {
+        "name": "Painel de Sereia",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2049": {
+        "name": "Painel de Tritão",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2050": {
+        "name": "Palco Iluminado",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2051": {
+        "name": "Bateria Praiana",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2052": {
+        "name": "Penteadeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2053": {
+        "name": "Jukebox Retrô",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2054": {
+        "name": "Colchão Inflável",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2055": {
+        "name": "Biombo",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2056": {
+        "name": "Cadeira de Salva-Vidas",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2057": {
+        "name": "Cortina de Lacinhos",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "2058": {
+        "name": "Trampolim",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2059": {
+        "name": "Boia",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2060": {
+        "name": "Balcão da Mãezona",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2061": {
+        "name": "Microfone Bela Voz",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2062": {
+        "name": "Pranchas de Surfe",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2063": {
+        "name": "Motoca",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2064": {
+        "name": "Bomba de Gasolina",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2065": {
+        "name": "Portão do Castelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2066": {
+        "name": "Torre de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2067": {
+        "name": "Torre de Observação",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2068": {
+        "name": "Entrada do Castelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2069": {
+        "name": "Mureta",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2070": {
+        "name": "Cortinas de Veludo",
+        "type": 2,
+        "sort": 2,
+        "cost": 200,
+        "max": 99
+    },
+    "2071": {
+        "name": "Janela do Ogro",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2072": {
+        "name": "Cortinas do Ogro",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2073": {
+        "name": "Mesa do Ogro",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2074": {
+        "name": "Toco da Árvore da Fada",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2075": {
+        "name": "Flor de Fada",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2076": {
+        "name": "Bigorna",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2077": {
+        "name": "Poço dos Lindos Desejos",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2078": {
+        "name": "Trono de Ouro da Realeza",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2079": {
+        "name": "Mesa das Poções",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2080": {
+        "name": "Jardim Mágico",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "2081": {
+        "name": "Canhão Real",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2082": {
+        "name": "Planta Encantada",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2083": {
+        "name": "Tampa de Barril",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2084": {
+        "name": "O Velho Pote para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2085": {
+        "name": "Pote de Olhos",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2086": {
+        "name": "Cabeça de Puffle Ogro",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2087": {
+        "name": "Coluna de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2088": {
+        "name": "Armário de Caixão",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2089": {
+        "name": "Árvore Torta",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2090": {
+        "name": "Caverna Obscura",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2091": {
+        "name": "\n",
+        "type": 3,
+        "sort": 3,
+        "cost": 170,
+        "max": 99
+    },
+    "2092": {
+        "name": "Janela Macabra",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2093": {
+        "name": "Guirlanda de Doces",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2094": {
+        "name": "Guirlanda Fantasminhas",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2095": {
+        "name": "Guirlanda Abóboras",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2096": {
+        "name": "Guirlanda Docinhos",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2097": {
+        "name": "Mini Lanternabóboras\r\n",
+        "type": 2,
+        "sort": 2,
+        "cost": 20,
+        "max": 99
+    },
+    "2098": {
+        "name": "Guirlanda Morceguitos",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2099": {
+        "name": "Decalque de Morcegos",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2100": {
+        "name": "Morcego Neon",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2101": {
+        "name": "\n",
+        "type": 2,
+        "sort": 2,
+        "cost": 20,
+        "max": 99
+    },
+    "2102": {
+        "name": "Jack da Lanterna Neon",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2103": {
+        "name": "Teia de Aranha",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2104": {
+        "name": "Lampadário em Ruínas",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "2105": {
+        "name": "Olho de Gnomo",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2106": {
+        "name": "Névoa Misteriosa",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2107": {
+        "name": "Caldeirão Borbulhante",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2108": {
+        "name": "Fossa Borbulhante",
+        "type": 3,
+        "sort": 3,
+        "cost": 200,
+        "max": 99
+    },
+    "2109": {
+        "name": "Cristal Hipnotizante",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2110": {
+        "name": "Muro Abandonado da Mina",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2111": {
+        "name": "Entrada Abandonada da Mina",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2112": {
+        "name": "Cova de Cemitério",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2113": {
+        "name": "Minifantasma",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2114": {
+        "name": "\n",
+        "type": 1,
+        "sort": 1,
+        "cost": 20,
+        "max": 99
+    },
+    "2115": {
+        "name": "Caldeirão de Doces",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2116": {
+        "name": "Tentáculos Pegajosos",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2117": {
+        "name": "Cerca de Ossos",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2118": {
+        "name": "Ossos do Ofício",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2119": {
+        "name": "Portão do Cemitério",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2120": {
+        "name": "Cerca do Cemitério",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2121": {
+        "name": "Entrada da Casa Mal-assombrada",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2122": {
+        "name": "Muro da Casa Mal-assombrada",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2123": {
+        "name": "\n",
+        "type": 1,
+        "sort": 1,
+        "cost": 20,
+        "max": 99
+    },
+    "2124": {
+        "name": "Divã do Conde",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2125": {
+        "name": "Cesta de Doces e Travessuras",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2126": {
+        "name": "Bote a Motor",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2129": {
+        "name": "Caminho Dourado",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 99
+    },
+    "2130": {
+        "name": "Poça de Lava Dourada",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "2131": {
+        "name": "Piscina de Lava Dourada",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "2132": {
+        "name": "Lustre Dourado",
+        "type": 2,
+        "sort": 2,
+        "cost": 0,
+        "max": 99
+    },
+    "2133": {
+        "name": "Boneco de Neve",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "2134": {
+        "name": "##Puffle Freedom Statue##",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "2135": {
+        "name": "Árvore Muito Nevada",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2136": {
+        "name": "Canil para Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2137": {
+        "name": "Parede de Escalada com Corda",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2138": {
+        "name": "Margem de Rio",
+        "type": 3,
+        "sort": 3,
+        "cost": 150,
+        "max": 99
+    },
+    "2139": {
+        "name": "Rochedo Congelado",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2140": {
+        "name": "Cratera de Gelo com Lava",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2141": {
+        "name": "Barraca de Primeiros Socorros",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2142": {
+        "name": "Parede de Lenha",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2143": {
+        "name": "Poste de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2144": {
+        "name": "Cabana de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2145": {
+        "name": "Luminária Doce de Natal",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2146": {
+        "name": "Relógio da Estação Boas Festas",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2147": {
+        "name": "Cantinho da Ferrovia",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "2148": {
+        "name": "Travessia da Ferrovia",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "2149": {
+        "name": "Placa de Travessia de Trem",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2150": {
+        "name": "Pedaço da Ferrovia",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "2151": {
+        "name": "Placa de Travessia da Ferrovia",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2152": {
+        "name": "Cruzamento da Ferrovia",
+        "type": 3,
+        "sort": 3,
+        "cost": 50,
+        "max": 99
+    },
+    "2153": {
+        "name": "Maleta",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2154": {
+        "name": "Mala de Viagem",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2155": {
+        "name": "Enfeite de Mesa Boas Festas",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2156": {
+        "name": "Guirlanda Boas Festas",
+        "type": 2,
+        "sort": 2,
+        "cost": 0,
+        "max": 99
+    },
+    "2157": {
+        "name": "Presente Vagão do Trem",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2158": {
+        "name": "Presente Maquinário",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2159": {
+        "name": "Banco da Estação",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2160": {
+        "name": "Banquinha de Jornal",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2161": {
+        "name": "Pedaço da Ferrovia Dourada",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 4
+    },
+    "2162": {
+        "name": "Cantinho da Ferrovia Dourada",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 4
+    },
+    "2163": {
+        "name": "Travessia da Ferrovia Dourada",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 1
+    },
+    "2164": {
+        "name": "Cruzamento da Ferrovia Dourada",
+        "type": 3,
+        "sort": 3,
+        "cost": 0,
+        "max": 1
+    },
+    "2165": {
+        "name": "Túnel da Linha Vermelha",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 1
+    },
+    "2166": {
+        "name": "Mesa Para Dois",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "2167": {
+        "name": "Túnel da Linha Verde",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 1
+    },
+    "2168": {
+        "name": "Túnel da Linha Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 1
+    },
+    "2169": {
+        "name": "Ponte Ossada",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "2170": {
+        "name": "Mesa de Vidro Vulcânico",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2171": {
+        "name": "Fazedor de Gelo Ancião 3000",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2172": {
+        "name": "Banco de Tronco Fossilizado",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2173": {
+        "name": "Fóssil do Ártico",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "2174": {
+        "name": "Sofá Confortável",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2175": {
+        "name": "Pedra Reclinável",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2176": {
+        "name": "Tapete Dente-de-Sabre",
+        "type": 3,
+        "sort": 3,
+        "cost": 100,
+        "max": 99
+    },
+    "2177": {
+        "name": "Mesa de Carapaça",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2178": {
+        "name": "Mesa Pequena de Vidro Vulcânico",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2179": {
+        "name": "Sítio de Escavação",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 1
+    },
+    "2180": {
+        "name": "Tocha Pendurada",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "2182": {
+        "name": "Arco Tubarão Fossilizado",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2183": {
+        "name": "Tricera-estátua",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2184": {
+        "name": "Portão da Pré-História",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2185": {
+        "name": "Mureta da Pré-História",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2186": {
+        "name": "Trono dos Primórdios",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2187": {
+        "name": "Cadeira Marisco",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2188": {
+        "name": "Marcas de Garras",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2189": {
+        "name": "Carrinho de Pipoca",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2190": {
+        "name": "Cavalinho do Carrossel",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2191": {
+        "name": "Barraquinha do Estoura Balão",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2192": {
+        "name": "Barraquinha Puffaminto",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2193": {
+        "name": "Barraquinha do Força no Bico",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2194": {
+        "name": "Barraquinha do Jogo da Memória",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2195": {
+        "name": "Barraquinha do Ping Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2196": {
+        "name": "Barraquinha do Cadê o Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2197": {
+        "name": "Barraquinha do Encharca o Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2198": {
+        "name": "Carrinho de Parque Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2199": {
+        "name": "Carrinho de Parque Laranja",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2200": {
+        "name": "Bilheteria",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2201": {
+        "name": "Estação de Estudos",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2202": {
+        "name": "Assento de Avião da CP Air",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2203": {
+        "name": "Poltrona de Piloto da CP Air",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2204": {
+        "name": "Estação de Check-in",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2205": {
+        "name": "Cadeira de Portão de Embarque",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2206": {
+        "name": "Painel de Aeroporto",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2207": {
+        "name": "Organizador de Fila",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2208": {
+        "name": "Poltrona de Teatro",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2209": {
+        "name": "Cortina de Palco",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2210": {
+        "name": "Arco do Palco Principal",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2211": {
+        "name": "Pedaço de Palco",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2212": {
+        "name": "Tubo Comprido para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2213": {
+        "name": "Tubo Curto para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2214": {
+        "name": "Tubo Ondulado para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2215": {
+        "name": "Tubo Comprido de Ferro para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 55,
+        "max": 99
+    },
+    "2216": {
+        "name": "Tubo Curto de Ferro para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 30,
+        "max": 99
+    },
+    "2217": {
+        "name": "Tubo Comprido para Puffles com Janelas",
+        "type": 1,
+        "sort": 1,
+        "cost": 55,
+        "max": 99
+    },
+    "2218": {
+        "name": "Tubo Curto para Puffles com Janelas",
+        "type": 1,
+        "sort": 1,
+        "cost": 30,
+        "max": 99
+    },
+    "2219": {
+        "name": "Tubo em T para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 60,
+        "max": 99
+    },
+    "2220": {
+        "name": "Tubo com 4 Saídas para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2221": {
+        "name": "Tubo Curvado para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2222": {
+        "name": "Dobra de Tubos para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2223": {
+        "name": "Caixa de Tubos para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2224": {
+        "name": "Torre de Tubos para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2225": {
+        "name": "Eixo de Tubos para Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 500,
+        "max": 99
+    },
+    "2226": {
+        "name": "Projetor de Holograma",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2227": {
+        "name": "Abajur Foguete",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2228": {
+        "name": "Banqueta do Futuro",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2229": {
+        "name": "Frente da Nave",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2230": {
+        "name": "Poltrona Galáxia Infinita",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2231": {
+        "name": "Sofá Galáxia Infinita",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2232": {
+        "name": "Luminária Interplanetária",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2233": {
+        "name": "Mesa Titânio Espacial",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2234": {
+        "name": "Projeção Futurística",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "2235": {
+        "name": "OVNI",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 99
+    },
+    "2236": {
+        "name": "Campo de Força",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2237": {
+        "name": "Gol",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2238": {
+        "name": "Arquibancadas do Estádio",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2239": {
+        "name": "Bola Poliesportiva",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2240": {
+        "name": "Prateleira de Equipamentos",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2241": {
+        "name": "Barreira de Treinamento",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2242": {
+        "name": "Armário da Equipe",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2243": {
+        "name": "Bandeira do Tubarões",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2244": {
+        "name": "Bandeira do Lulas Espaciais",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2245": {
+        "name": "Bandeira do Molho Picante",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2246": {
+        "name": "Bandeira do Fluffies",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2247": {
+        "name": "Pufe Bola de Futebol",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2248": {
+        "name": "Mesinha de Café Rústica",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2249": {
+        "name": "Mesinha de Canto Rústica",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2250": {
+        "name": "Lava-louças com Tampo de Granito",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2251": {
+        "name": "Armário de Canto com Tampo de Granito",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2252": {
+        "name": "Armário com Tampo de Granito",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2253": {
+        "name": "Pia de Granito",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2254": {
+        "name": "Armário Duplo com Tampo de Granito",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2255": {
+        "name": "Geladeira de Aço Escovado",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2256": {
+        "name": "Ilha de Cozinha com Tampo de Granito",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2257": {
+        "name": "Armários Superiores",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2258": {
+        "name": "Fogão de Aço Escovado",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2259": {
+        "name": "Banqueta de Cozinha",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2260": {
+        "name": "Armário de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2261": {
+        "name": "Armário Duplo de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "2262": {
+        "name": "Armário para Canto de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "2263": {
+        "name": "Teclado Elétrico",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2264": {
+        "name": "Amplificador Solta o Som",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2265": {
+        "name": "Mesa de Mixagem",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2266": {
+        "name": "Balanço na Varanda",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2267": {
+        "name": "Mesa de Pátio",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2268": {
+        "name": "Cadeira na Varanda",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2269": {
+        "name": "Cabine SoundStudio",
+        "type": 1,
+        "sort": 1,
+        "cost": 300,
+        "max": 1
+    },
+    "2270": {
+        "name": "Trono de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 5
+    },
+    "2271": {
+        "name": "Mesa de Jantar de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 3
+    },
+    "2272": {
+        "name": "Tapete de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 10
+    },
+    "2273": {
+        "name": "Bloco de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2274": {
+        "name": "Lareira de Pedra",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2275": {
+        "name": "Cavalinho de Madeira Colorido",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2276": {
+        "name": "Trenó para Entregas de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2277": {
+        "name": "Bola de Brincar na Praia",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2278": {
+        "name": "Balde de Areia",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2279": {
+        "name": "Protetor Solar",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2280": {
+        "name": "Guarda-Sol do Pátio",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2281": {
+        "name": "Porta Esquerda da Princesa",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2282": {
+        "name": "Porta Direita da Princesa",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2283": {
+        "name": "Abajur de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2284": {
+        "name": "Pilastra de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2285": {
+        "name": "Mesinha Lateral de Gelo",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2286": {
+        "name": "Carteira de Sala de Aula",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2287": {
+        "name": "Cadeira de Sala de Aula",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2288": {
+        "name": "Armário da UCP",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2289": {
+        "name": "Mesa de Professor",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2290": {
+        "name": "Estante Clássica",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2291": {
+        "name": "Lousa com Rodinhas",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2292": {
+        "name": "Balcão da Cantina",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2293": {
+        "name": "Bola Mágica de Cristal",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2294": {
+        "name": "Lareira Assustadora",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2295": {
+        "name": "Caixa de Correio Antiga",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2296": {
+        "name": "Cortinas de Abóbora Selvagem",
+        "type": 2,
+        "sort": 2,
+        "cost": 150,
+        "max": 99
+    },
+    "2297": {
+        "name": "Arbusto de Puffitos",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2298": {
+        "name": "Casa Puffle da Floresta",
+        "type": 1,
+        "sort": 1,
+        "cost": 120,
+        "max": 99
+    },
+    "2299": {
+        "name": "Casa da Árvore Puffle da Floresta",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2300": {
+        "name": "Caverna Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2301": {
+        "name": "Mesa Puffle Rústica",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2302": {
+        "name": "Balanço Puffle de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2303": {
+        "name": "Barril de Pirata",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2304": {
+        "name": "Cordas de Navio",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2305": {
+        "name": "Espicha de Vela",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2306": {
+        "name": "Convés de Navio",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2307": {
+        "name": "Mastro",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2308": {
+        "name": "Proa de Navio Esquerda",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2309": {
+        "name": "Proa de Navio Direita",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2310": {
+        "name": "Cesto da Gávea Dianteiro",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2311": {
+        "name": "Cesto da Gávea Traseiro",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2312": {
+        "name": "Casco de Navio Lateral",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2313": {
+        "name": "Casco de Navio Quina",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2314": {
+        "name": "Trampolim de Pirata",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2315": {
+        "name": "Baú do Tesouro Caranguejo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "2316": {
+        "name": "Timão de Navio",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2317": {
+        "name": "Bengala Doce de Cristal",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2318": {
+        "name": "Guirlanda do Cubo de Gelo",
+        "type": 2,
+        "sort": 2,
+        "cost": 75,
+        "max": 99
+    },
+    "2319": {
+        "name": "Poltrona Ornamental Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2320": {
+        "name": "Escultura de Neve de Morsa Feliz",
+        "type": 1,
+        "sort": 1,
+        "cost": 250,
+        "max": 99
+    },
+    "2321": {
+        "name": "Vaso de Poinsétia",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2322": {
+        "name": "Banquete Fluffy Festivo",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2323": {
+        "name": "Mesa do Fabricante de Brinquedos",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2324": {
+        "name": "Árvore de Morsa Feliz",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2325": {
+        "name": "Enfeite de Morsa Feliz",
+        "type": 2,
+        "sort": 2,
+        "cost": 100,
+        "max": 99
+    },
+    "2326": {
+        "name": "Baia do Estábulo",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2327": {
+        "name": "Speeder Bike",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 50
+    },
+    "2328": {
+        "name": "Assentos da Nave",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "2329": {
+        "name": "Condutor Droide",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2330": {
+        "name": "Banco da Nave",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2331": {
+        "name": "Painel da Nave",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2332": {
+        "name": "Holoprojetor Imperial",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2333": {
+        "name": "Caixote de Suprimentos do Império",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2334": {
+        "name": "Bancada do Ezra",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "2335": {
+        "name": "Tapete Mapa Rebelde",
+        "type": 3,
+        "sort": 3,
+        "cost": 150,
+        "max": 99
+    },
+    "2336": {
+        "name": "Plataforma dos Jurados",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2337": {
+        "name": "Coluna Floresta Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 80,
+        "max": 99
+    },
+    "2338": {
+        "name": "Estátua Floresta Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2339": {
+        "name": "Escultura Floresta Puffle",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2340": {
+        "name": "Banquinho de Tronco",
+        "type": 1,
+        "sort": 1,
+        "cost": 25,
+        "max": 99
+    },
+    "2341": {
+        "name": "Cômoda de Tronco",
+        "type": 1,
+        "sort": 1,
+        "cost": 80,
+        "max": 99
+    },
+    "2342": {
+        "name": "Estante de Tronco",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "2343": {
+        "name": "Poltrona de Tronco",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2344": {
+        "name": "Mesa de Tronco",
+        "type": 1,
+        "sort": 1,
+        "cost": 150,
+        "max": 99
+    },
+    "2345": {
+        "name": "Arbusto Multipuffitos",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2346": {
+        "name": "Arbusto Grande Multipuffitos",
+        "type": 1,
+        "sort": 1,
+        "cost": 80,
+        "max": 99
+    },
+    "2347": {
+        "name": "Estante de TV preta",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "2348": {
+        "name": "Estante de TV cinza",
+        "type": 1,
+        "sort": 1,
+        "cost": 400,
+        "max": 99
+    },
+    "2349": {
+        "name": "Sofá Preto de Desenho",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2350": {
+        "name": "Sofá Marrom de Desenho",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2351": {
+        "name": "Sofá Vermelho de Desenho",
+        "type": 1,
+        "sort": 1,
+        "cost": 200,
+        "max": 99
+    },
+    "2352": {
+        "name": "Multi Estante Preta",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2353": {
+        "name": "Multi Estante de Madeira",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2354": {
+        "name": "Alto-Falante de Parede",
+        "type": 2,
+        "sort": 2,
+        "cost": 50,
+        "max": 99
+    },
+    "2355": {
+        "name": "Alto-Falante Surround",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2356": {
+        "name": "Alto-Falante de Torre",
+        "type": 1,
+        "sort": 1,
+        "cost": 80,
+        "max": 99
+    },
+    "2357": {
+        "name": "Vaso de Flores Primaveris",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2358": {
+        "name": "Vaso Designer",
+        "type": 1,
+        "sort": 1,
+        "cost": 50,
+        "max": 99
+    },
+    "2359": {
+        "name": "Baú de Figurino",
+        "type": 1,
+        "sort": 1,
+        "cost": 75,
+        "max": 99
+    },
+    "2360": {
+        "name": "Switch Box 3000",
+        "type": 1,
+        "sort": 1,
+        "cost": 100,
+        "max": 99
+    },
+    "2361": {
+        "name": "Piano Meia Cauda",
+        "type": 1,
+        "sort": 1,
+        "cost": 125,
+        "max": 99
+    },
+    "10076": {
+        "name": "Cadeira Dobrável",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10077": {
+        "name": "Guarda-sol",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10079": {
+        "name": "Baleia Inflável",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10156": {
+        "name": "Ursinho de Pelúcia",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10157": {
+        "name": "Escrivaninha",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10185": {
+        "name": "Carteira de Escola",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "10187": {
+        "name": "Cadeira de Escola",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "10214": {
+        "name": "Garrafa de Água",
+        "type": 4,
+        "sort": 4,
+        "cost": 0,
+        "max": 99
+    },
+    "10219": {
+        "name": "Barraca de Puffles",
+        "type": 1,
+        "sort": 4,
+        "cost": 0,
+        "max": 99
+    },
+    "10220": {
+        "name": "Condomínio de Puffles",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10229": {
+        "name": "Lagoa do Urso",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10293": {
+        "name": "Banco para Levantar Peso",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10304": {
+        "name": "Globo",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "10425": {
+        "name": "Ilha Deserta",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10540": {
+        "name": "Brotus Spectaculouus",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10544": {
+        "name": "Palmeira Tropical",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10545": {
+        "name": "Gol de Futebol",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10573": {
+        "name": "Barraquinha de Quitutes",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10656": {
+        "name": "Presente",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10701": {
+        "name": "Poste para Urso Arranhar ",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10737": {
+        "name": "Estante de Troféus",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10774": {
+        "name": "Portal Ninja R",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10778": {
+        "name": "Barraca de Lámen R",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10781": {
+        "name": "Boneco de Treino R",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10832": {
+        "name": "Poltrona Puffle Azul",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10915": {
+        "name": "Laser de Segurança Curto",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10941": {
+        "name": "Poça de Lava",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "10982": {
+        "name": "Pisca-Puffle",
+        "type": 2,
+        "sort": 2,
+        "cost": 0,
+        "max": 99
+    },
+    "12035": {
+        "name": "Console de Computador",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "12062": {
+        "name": "Pranchas de Surfe",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "12114": {
+        "name": "Jack da Lanterna Assustador",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "12123": {
+        "name": "A Cadeira do Conde",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 1
+    },
+    "12127": {
+        "name": "Troféu Leitor da Revista do CP",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "12128": {
+        "name": "Troféu Estrela da Revista CP",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "12129": {
+        "name": "Boneca Russa",
+        "type": 1,
+        "sort": 1,
+        "cost": 0,
+        "max": 99
+    },
+    "12156": {
+        "name": "Guirlanda Boas Festas",
+        "type": 2,
+        "sort": 2,
+        "cost": 0,
+        "max": 99
+    }
+}

@@ -1,0 +1,81 @@
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fb="http://ogp.me/ns/fb#"
+    xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#"
+    xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_cawUUwTb6FTEpTC7UYZQwdcaTVHlWORZjZlFNt1mXNc.css" media="all" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/sites/play.clubpenguin.com/themes/snowball/favicon.ico"
+        type="image/vnd.microsoft.icon" />
+    <title>Play Now! | Club Penguin Plus</title>
+    <link rel="alternate" type="application/rss+xml" title="Club Penguin - What's New"
+        href="https://www.clubpenguin.com/whats-new/feed/all" />
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_cawUUwTb6FTEpTC7UYZQwdcaTVHlWORZjZlFNt1mXNc.css" media="all" />
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_5FxwTVZs9EtbjcExytQ5ndQqt-X7PFwK3mD2o7QXYH0.css" media="all" />
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_Ithmjuj4ePlnkLrL_GIuS3TsGEoCIelrKOCUPBOfhJ8.css" media="all" />
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_6sGcdaud_kk5LWaaq4lZk2ZLw8uneQM4wYx5rg2QgOM.css" media="all" />
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_9Heh1u--mIfOomnfZC-JIjM3PxmkhjTogDetvyuVnMU.css" media="all" />
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_5AoaSUlnRluwt_SO1GRzTQdCdcJf0Aw-MqGesNvp_6Y.css" media="all" />
+    <!--[if lte IE 9]>
+			<link type="text/css" rel="stylesheet" href="/sites/play.clubpenguin.com/themes/club_penguin/css/ie-lte-9.css?om3jak" media="all"/>
+			<![endif]-->
+    <!--[if (lt IE 9)&(!IEMobile)]>
+			<link type="text/css" rel="stylesheet" href="/sites/default/files/css/css__vb7XZfXeuRXjYmfY6lNTg-jy-9kxy0K07AXHAQnnDQ.css" media="all"/>
+			<![endif]-->
+    <link type="text/css" rel="stylesheet"
+        href="/sites/default/files/css/css_lpn3saPwnh0DOdveZjtLNqWuVLzzK8A98rurOUMUo0s.css" media="all" />
+    <script src="/client/scripts/lib/webfont.js"></script>
+    <script>
+        var script = document.createElement("script");
+        script.src = `/client/scripts/client/clubpenguinplus.min.js?v=${Date.now().toString()}`, document.getElementsByTagName("HEAD")[0].appendChild(script)
+    </script>
+</head>
+
+<body class="html not-front not-logged-in page-play full-page-flow i18n-en context-play snowball">
+    <input type="text" id='dummyForMobileKeyboard'
+        style='position: absolute; top: -100px; left: -100px; width: 1px; height: 1px; opacity: 0;' />
+
+    <div id="game" class="game" style="width: auto; height:100%; margin: auto;"></div>
+        
+    <script>
+        var dummyBox = document.getElementById('dummyForMobileKeyboard');
+        dummyBox.onkeyup = () => {
+            processKey()
+        }
+
+        function processKey() {
+            dummyBox = document.getElementById('dummyForMobileKeyboard');
+            var e = new KeyboardEvent('keydown', {
+                bubbles: true,
+                cancelable: true,
+                keyCode: dummyBox.value.charCodeAt(dummyBox.value.length - 1),
+                key: dummyBox.value.substring(dummyBox.value.length - 1),
+            });
+            document.onkeydown(e);
+            dummyBox.remove()
+            var newDummy = document.createElement('input')
+            newDummy.type = 'text'
+            newDummy.id = 'dummyForMobileKeyboard'
+            newDummy.style = 'position: absolute; top: -100px; left: -100px; width: 1px; height: 1px; opacity: 0;'
+            document.body.appendChild(newDummy)
+            newDummy.focus()
+            newDummy.onkeyup = () => {
+                processKey()
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+{
+    "id": "886592a3-40db-4a06-9296-c3ffc97cc243",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [
+            "yukon/client/media/interface/menus/load/load-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Load",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a57c75e9-6bb6-4de4-99aa-f0fac23f918f",
+            "label": "bg",
+            "components": [
+                "Interactive"
+            ],
+            "texture": {
+                "key": "load",
+                "frame": "bg"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "73ae9e2b-b3b4-4afa-85ef-a3e092d47342",
+            "label": "cart",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "load",
+                "frame": "penguin3_0001"
+            },
+            "x": 760,
+            "y": 363,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "711b288d-23aa-437d-82a7-d87b144fa9af",
+            "label": "pizza",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "load",
+                "frame": "penguin2_0001"
+            },
+            "x": 760,
+            "y": 262,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "5db6d7ce-9d00-480d-8a45-03f9c9a095da",
+            "label": "shovel",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "load",
+                "frame": "penguin1_0001"
+            },
+            "x": 760,
+            "y": 384,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "24b69e84-4ff6-4c48-ac0f-9a7f011c3b5c",
+            "label": "logo",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "logo",
+                "frame": "tween0001"
+            },
+            "x": 762,
+            "y": 418,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "9e988d46-ca41-47f5-aebc-25d44ed6b54b",
+            "label": "bar",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "load",
+                "frame": "beam_0001"
+            },
+            "x": 760,
+            "y": 611
+        },
+        {
+            "type": "Sprite",
+            "id": "fab30d32-77eb-4780-941d-dba5444c50bc",
+            "label": "spinner",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "load",
+                "frame": "load_0001"
+            },
+            "x": 674,
+            "y": 611,
+            "scaleX": 0.35,
+            "scaleY": 0.35
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

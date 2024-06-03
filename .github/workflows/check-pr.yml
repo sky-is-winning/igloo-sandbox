@@ -1,0 +1,28 @@
+name: Check PR
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  check-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout updated version
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Checkout current version
+        uses: actions/checkout@v2
+        with:
+          ref: 'master'
+          path: currentversion
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Check version update
+        run: npm run check-version

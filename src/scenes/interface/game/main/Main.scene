@@ -1,0 +1,61 @@
+{
+    "id": "6a706849-068e-4444-a72e-8fdc26d261cf",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapEnabled": true,
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "Main",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "188d6944-ef9f-4160-ae5b-55ba22831852",
+            "label": "blocker",
+            "scope": "CLASS",
+            "components": [
+                "Interactive"
+            ],
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "width": 1520,
+            "height": 960
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "6d0777ae-7687-4502-acff-240765385cc7",
+            "label": "hideOnSleep",
+            "objectIds": [
+                "9770a528-0c5a-4720-a6db-eabd53c787e1",
+                "9acd4a58-cbf9-4751-b96a-2822f121af9c",
+                "9774c68e-f80f-4832-8d58-7c3ce94f98fd",
+                "4904443b-abe1-429f-9557-f064db674790"
+            ]
+        },
+        {
+            "id": "c47ecdce-73c8-4b8c-acc9-e8d189e71810",
+            "label": "interfaceList",
+            "objectIds": [
+                "6dca3f2a-91a7-4ed4-8cf2-5a0ddf89d4c9",
+                "4040e412-ba63-4812-bbe9-fc4ba0f76672"
+            ]
+        }
+    ]
+}

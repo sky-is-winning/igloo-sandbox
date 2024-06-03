@@ -1,0 +1,382 @@
+{
+    "id": "d6cf4a9b-bcc7-4de0-bd9b-d33346f4fd2b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 56,
+        "snapHeight": 56,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4e0718fd-22be-4c04-a02b-3bc66e3f302d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "c1a39cb7-0456-440d-bd05-bc612858fa23",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "9352768e-eaab-408e-a20b-267cab711c8e",
+                    "label": "igloo_music_selected",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "igloo-music-selected"
+                    },
+                    "y": -370
+                },
+                {
+                    "type": "NinePatchContainer",
+                    "id": "b3e28a9b-7313-4368-9480-d2984383210b",
+                    "label": "music_bg",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "music-bg"
+                    },
+                    "y": 16,
+                    "width": 800,
+                    "height": 700
+                },
+                {
+                    "type": "Image",
+                    "id": "3fd873f1-521f-42b9-a1f0-f6acab233bbd",
+                    "label": "blueButton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.visible = false",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "close-btn"
+                    },
+                    "x": 352,
+                    "y": -290
+                },
+                {
+                    "type": "Image",
+                    "id": "12fa2a50-5c92-4064-9d18-149cacf22324",
+                    "label": "blueX",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "x"
+                    },
+                    "x": 352,
+                    "y": -292
+                },
+                {
+                    "type": "Text",
+                    "id": "4f4513f6-89fa-46f1-9698-7602b2d8341e",
+                    "label": "title",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "music",
+                    "x": -68,
+                    "y": -297,
+                    "originX": 0.5,
+                    "text": "Igloo Music",
+                    "fixedWidth": 600,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "4e560add-06d6-496a-998f-98b939c1e835",
+                    "label": "title_1",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "music",
+                    "x": -174,
+                    "y": -384,
+                    "originX": 0.5,
+                    "text": "Igloo Music",
+                    "fixedWidth": 330,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "55d93e85-c1a1-49a1-b342-4ffecb89ee7a",
+                    "label": "title_2",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "soundstudio",
+                    "x": 175,
+                    "y": -384,
+                    "originX": 0.5,
+                    "text": "SoundStudio",
+                    "fixedWidth": 330,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "95eba9f2-b181-4d61-b836-c3c8812f8799",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem",
+                    "x": -200,
+                    "y": -200
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "42d6e17c-e632-4bf7-897c-162cd8b3b111",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_1",
+                    "x": 200,
+                    "y": -200
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "640fb3fb-4cf1-49a5-be41-b08ede657e6a",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_2",
+                    "x": -200,
+                    "y": -130
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "ab9b3c79-c780-4177-a7dc-6ad633b9d11d",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_3",
+                    "x": 200,
+                    "y": -130
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "3a16f30b-b993-4c08-bbeb-3ff157a6d63b",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_4",
+                    "x": -200,
+                    "y": 10
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "e99f5c10-1fbd-4374-8a08-14ad625baa87",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_5",
+                    "x": 200,
+                    "y": 10
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "3f902bfd-981b-4a04-8585-2ae8d3ae65f0",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_6",
+                    "x": -200,
+                    "y": -60
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "df81d8f8-5799-490d-a59d-26de2e16e4b5",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_7",
+                    "x": 200,
+                    "y": -60
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "f63e1c11-e98b-4f0f-b12e-c0cdb33396e2",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_8",
+                    "x": -200,
+                    "y": 290
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "8600616f-dc21-4871-be8d-f8ecf8b1a303",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_9",
+                    "x": 200,
+                    "y": 290
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "a5c57bc0-0682-40c7-afa4-f8c5f78eb568",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_10",
+                    "x": -200,
+                    "y": 220
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "cb2da60a-7326-4c01-b93a-c397c648fbdd",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_11",
+                    "x": 200,
+                    "y": 220
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "269db93a-e70d-4265-b41c-cb2f7cc6dd15",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_12",
+                    "x": -200,
+                    "y": 150
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "b93666bc-cab7-440e-a92a-d1aab5819c1c",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_13",
+                    "x": -200,
+                    "y": 80
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "9e20d157-4966-4666-8b7c-576fc4414278",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_14",
+                    "x": 200,
+                    "y": 80
+                },
+                {
+                    "prefabId": "c49be0bf-73b5-433c-b20f-425fc5789895",
+                    "id": "06a0519d-475e-48bf-b45c-a745ac0ebfa1",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "musicItem_15",
+                    "x": 200,
+                    "y": 150
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2875e79e-ef08-4c7a-a5c8-4e46e14a9569",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.soundStudioMode()",
+                    "x": 174,
+                    "y": -369,
+                    "scaleX": 2.6662764784624313,
+                    "scaleY": 0.5953001768076465,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "945c3bc1-a948-4386-be8a-14cfc0d5cd88",
+                    "label": "rectangle",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.iglooMusicMode()",
+                    "x": -174,
+                    "y": -370,
+                    "scaleX": 2.6662764784624313,
+                    "scaleY": 0.5953001768076465,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "6d1049a3-8549-4459-bb82-ed625f42c0eb",
+            "label": "musicItems",
+            "objectIds": [
+                "95eba9f2-b181-4d61-b836-c3c8812f8799",
+                "42d6e17c-e632-4bf7-897c-162cd8b3b111",
+                "640fb3fb-4cf1-49a5-be41-b08ede657e6a",
+                "ab9b3c79-c780-4177-a7dc-6ad633b9d11d",
+                "3f902bfd-981b-4a04-8585-2ae8d3ae65f0",
+                "df81d8f8-5799-490d-a59d-26de2e16e4b5",
+                "3a16f30b-b993-4c08-bbeb-3ff157a6d63b",
+                "e99f5c10-1fbd-4374-8a08-14ad625baa87",
+                "b93666bc-cab7-440e-a92a-d1aab5819c1c",
+                "9e20d157-4966-4666-8b7c-576fc4414278",
+                "269db93a-e70d-4265-b41c-cb2f7cc6dd15",
+                "06a0519d-475e-48bf-b45c-a745ac0ebfa1",
+                "a5c57bc0-0682-40c7-afa4-f8c5f78eb568",
+                "cb2da60a-7326-4c01-b93a-c397c648fbdd",
+                "f63e1c11-e98b-4f0f-b12e-c0cdb33396e2",
+                "8600616f-dc21-4871-be8d-f8ecf8b1a303"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "id": "a2e0d102-e58b-45f1-803f-ab7f71dddb18",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderX": -45,
+        "borderY": -43,
+        "borderWidth": 89,
+        "borderHeight": 86
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "544ba0f4-5af4-437f-ab6e-d6db86c067b9",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "79c01421-32fb-4cab-99a6-c723585042d1",
+                    "label": "bg",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onOut()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "item-bg"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "602612b1-8c9b-4d32-bde9-97ae8d5f489e",
+                    "label": "quantity",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "item-amount"
+                    },
+                    "x": 38,
+                    "y": -38
+                },
+                {
+                    "type": "Text",
+                    "id": "4fced831-fbbf-4bce-8071-d2ff06d4a6bd",
+                    "label": "quantityText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 38,
+                    "y": -38,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "99",
+                    "fixedWidth": 35,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#464646ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "9c0ca5fd-2167-4af8-9171-2ed4d88edb05",
+                    "label": "cover",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "item-bg"
+                    },
+                    "visible": false,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5,
+                    "tintFill": true
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

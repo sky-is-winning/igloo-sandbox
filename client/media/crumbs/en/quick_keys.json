@@ -1,0 +1,99 @@
+{
+    "keys": {
+        "1": {
+            "action": "send_emote",
+            "value": 15
+        },
+        "arrowup": {
+            "action": "send_frame",
+            "value": 21
+        },
+        "arrowleft": {
+            "action": "send_frame",
+            "value": 19
+        },
+        "arrowdown": {
+            "action": "send_frame",
+            "value": 17
+        },
+        "arrowright": {
+            "action": "send_frame",
+            "value": 23
+        },
+        "w": {
+            "action": "send_wave"
+        },
+        "d": {
+            "action": "send_frame",
+            "value": 26
+        },
+        "s": {
+            "action": "send_sit"
+        },
+        "t": {
+            "action": "show_crosshair"
+        },
+        "e": {
+            "action": "emote_key"
+        },
+        "/": {
+            "action": "send_emote",
+            "value": 14
+        },
+        "h": {
+            "action": "send_safe",
+            "value": 1
+        },
+        "b": {
+            "action": "send_safe",
+            "value": 2
+        },
+        "y": {
+            "action": "send_safe",
+            "value": 20
+        },
+        "n": {
+            "action": "send_safe",
+            "value": 21
+        },
+        "o": {
+            "action": "send_safe",
+            "value": 22
+        },
+        "escape": {
+            "action": "cancel_snowball"
+        }
+    },
+    "emotes": {
+        "0": 10,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "q": 26,
+        "w": 27,
+        "t": 19,
+        "u": 11,
+        "i": 25,
+        "o": 29,
+        "p": 21,
+        "d": 22,
+        "f": 16,
+        "g": 18,
+        "h": 30,
+        "k": 28,
+        "l": 17,
+        "z": 24,
+        "c": 13,
+        "b": 12,
+        "n": 23,
+        "m": 20,
+        "v": 31,
+        "s": 32
+    }
+}

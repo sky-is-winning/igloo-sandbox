@@ -1,0 +1,2114 @@
+{
+    "7": {
+        "name": "Rockhopper ",
+        "groupid": 6,
+        "difficulty": 2,
+        "description": "Encontre o Rockhopper"
+    },
+    "8": {
+        "name": "Gary",
+        "groupid": 6,
+        "difficulty": 3,
+        "description": "Encontre o Gary"
+    },
+    "9": {
+        "name": "Produção!",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Crie efeitos especiais com a Switchbox 3000"
+    },
+    "10": {
+        "name": "Subterrâneo",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Ache a passagem secreta para o Subterrâneo"
+    },
+    "11": {
+        "name": "Fotógrafo",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Use sua câmera no topo da Montanha"
+    },
+    "12": {
+        "name": "Nadador",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Entre na água com um pato de borracha"
+    },
+    "13": {
+        "name": "Bom de Mira",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Acerte o Alvo do Relógio 10 vezes seguidas"
+    },
+    "14": {
+        "name": "183 dias! ",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Entre com um pinguim de 183 dias ou mais"
+    },
+    "15": {
+        "name": "Pinguinando",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Pinguine por 30 salas"
+    },
+    "16": {
+        "name": "Pista Colorida",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Caia na pista com 10 pinguins no Dance Club"
+    },
+    "17": {
+        "name": "Festa no Iglu",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Faça uma festa para 10 pinguins no seu iglu"
+    },
+    "18": {
+        "name": "Cafezinho!",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Sirva 5 cafés usando o avental e o emoticon"
+    },
+    "19": {
+        "name": "Pizzaiolo",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Sirva 5 pizzas usando o avental e o emoticon"
+    },
+    "20": {
+        "name": "365 dias!",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Entre com um pinguim de 365 dias ou mais"
+    },
+    "21": {
+        "name": "Pufflemania",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Adote 16 puffles de estimação"
+    },
+    "22": {
+        "name": "Rei da Pista",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Caia na pista com 25 pinguins no Dance Club"
+    },
+    "23": {
+        "name": "Casa Cheia",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Decore seu iglu com 99 móveis"
+    },
+    "24": {
+        "name": "Som na caixa! ",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Forme uma banda completa no Farol"
+    },
+    "25": {
+        "name": "Futebol ",
+        "groupid": 7,
+        "difficulty": 4,
+        "description": "Junte 5 pinguins com o mesmo uniforme"
+    },
+    "26": {
+        "name": "Vamos Virar!",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Dance com 30 amigos de capacete no Icebergue"
+    },
+    "27": {
+        "name": "Guerrinha!",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Jogue bolas de neve no Forte com 5 pinguins da mesma cor"
+    },
+    "28": {
+        "name": "Casa Aberta ",
+        "groupid": 7,
+        "difficulty": 4,
+        "description": "Faça uma festa para 30 pinguins no seu iglu"
+    },
+    "29": {
+        "name": "Hóquei",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Junte 5 pinguins com o mesmo uniforme"
+    },
+    "30": {
+        "name": "Faixa Preta",
+        "groupid": 7,
+        "difficulty": 4,
+        "description": "Encontre 10 ninjas no Dojo"
+    },
+    "31": {
+        "name": "DJ Cadence ",
+        "groupid": 6,
+        "difficulty": 3,
+        "description": "Fique na mesma sala que a Cadence "
+    },
+    "32": {
+        "name": "Franky",
+        "groupid": 6,
+        "difficulty": 3,
+        "description": "Fique na mesma sala que o Franky"
+    },
+    "33": {
+        "name": "Tia Arctic",
+        "groupid": 6,
+        "difficulty": 4,
+        "description": "Encontre a Tia Arctic"
+    },
+    "34": {
+        "name": "G Billy",
+        "groupid": 6,
+        "difficulty": 3,
+        "description": "Fique na mesma sala que o G Billy"
+    },
+    "35": {
+        "name": "Petey K",
+        "groupid": 6,
+        "difficulty": 3,
+        "description": "Fique na mesma sala que o Petey K"
+    },
+    "36": {
+        "name": "Stompin' Bob",
+        "groupid": 6,
+        "difficulty": 3,
+        "description": "Fique na mesma sala que o Stompin' Bob"
+    },
+    "37": {
+        "name": "Decolagem!",
+        "groupid": 11,
+        "difficulty": 1,
+        "description": "Decole e volte para a plataforma"
+    },
+    "38": {
+        "name": "Tanque 1",
+        "groupid": 11,
+        "difficulty": 1,
+        "description": "Pegue todos os tanques do Nível 1"
+    },
+    "39": {
+        "name": "Foguete 5",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Complete os 5 níveis"
+    },
+    "40": {
+        "name": "Ops!",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Caia de propósito na Floresta"
+    },
+    "41": {
+        "name": "Tanque 2",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Pegue todos os tanques do Nível 2"
+    },
+    "42": {
+        "name": "Tanque 3",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Pegue todos os tanques do Nível 3"
+    },
+    "43": {
+        "name": "Tanque 4",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Pegue todos os tanques do Nível 4"
+    },
+    "44": {
+        "name": "Tanque 5",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Pegue todos os tanques do Nível 5"
+    },
+    "45": {
+        "name": "Vida Dupla",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Pegue 2 Vidas"
+    },
+    "46": {
+        "name": "Papa-Moeda",
+        "groupid": 11,
+        "difficulty": 3,
+        "description": "Pegue 650 moedas"
+    },
+    "47": {
+        "name": "Papa-Tanque",
+        "groupid": 11,
+        "difficulty": 3,
+        "description": "Pegue todos os tanques em 1 jogo"
+    },
+    "48": {
+        "name": "Tanque na Queda",
+        "groupid": 11,
+        "difficulty": 3,
+        "description": "Pegue um tanque quando estiver caindo"
+    },
+    "49": {
+        "name": "Capitão 1 Vida",
+        "groupid": 11,
+        "difficulty": 3,
+        "description": "Pegue todas as vidas em 1 jogo"
+    },
+    "50": {
+        "name": "Superpiloto ",
+        "groupid": 11,
+        "difficulty": 4,
+        "description": "Chegue ao fim do jogo sem pegar moedas"
+    },
+    "51": {
+        "name": "Patrulha 5",
+        "groupid": 14,
+        "difficulty": 1,
+        "description": "Complete 5 níveis"
+    },
+    "52": {
+        "name": "Superpatrulha 5",
+        "groupid": 14,
+        "difficulty": 1,
+        "description": "Complete 5 níveis sem errar nenhum tiro"
+    },
+    "53": {
+        "name": "Patrulha 40",
+        "groupid": 14,
+        "difficulty": 2,
+        "description": "Complete os níveis de 1 a 40"
+    },
+    "54": {
+        "name": "Na mosca!",
+        "groupid": 14,
+        "difficulty": 2,
+        "description": "Acerte uma nave"
+    },
+    "55": {
+        "name": "Vida Extra",
+        "groupid": 14,
+        "difficulty": 2,
+        "description": "Acerte uma vida extra"
+    },
+    "56": {
+        "name": "Astronauta",
+        "groupid": 14,
+        "difficulty": 2,
+        "description": "Complete todos os Níveis Secretos"
+    },
+    "57": {
+        "name": "Superpatrulha 10",
+        "groupid": 14,
+        "difficulty": 2,
+        "description": "Complete os níveis de 1 a 10 sem errar nenhum tiro "
+    },
+    "58": {
+        "name": "Superpatrulha 20",
+        "groupid": 14,
+        "difficulty": 2,
+        "description": "Complete os níveis de 1 a 20 sem errar nenhum tiro"
+    },
+    "59": {
+        "name": "Veterano",
+        "groupid": 14,
+        "difficulty": 3,
+        "description": "Complete os Níveis Avançados"
+    },
+    "60": {
+        "name": "Superpatrulha 30",
+        "groupid": 14,
+        "difficulty": 3,
+        "description": "Complete os níveis de 1 a 30 sem errar nenhum tiro"
+    },
+    "61": {
+        "name": "Invencível",
+        "groupid": 14,
+        "difficulty": 3,
+        "description": "Ganhe 8 vidas extras"
+    },
+    "62": {
+        "name": "Rei das Galáxias",
+        "groupid": 14,
+        "difficulty": 4,
+        "description": "Complete 25 níveis + Secreto e Avançado"
+    },
+    "63": {
+        "name": "Moeda Nevada 1",
+        "groupid": 16,
+        "difficulty": 1,
+        "description": "Pegue 1 saco de moedas"
+    },
+    "64": {
+        "name": "Moeda Nevada 3",
+        "groupid": 16,
+        "difficulty": 2,
+        "description": "Pegue 3 sacos de moedas"
+    },
+    "65": {
+        "name": "Moedas 6",
+        "groupid": 16,
+        "difficulty": 2,
+        "description": "Pegue 6 sacos de moedas"
+    },
+    "66": {
+        "name": "Tesouro",
+        "groupid": 16,
+        "difficulty": 2,
+        "description": "Ache a sala do tesouro secreto"
+    },
+    "67": {
+        "name": "Moedas 10",
+        "groupid": 16,
+        "difficulty": 3,
+        "description": "Pegue 10 sacos de moedas"
+    },
+    "68": {
+        "name": "Bônus Gelado",
+        "groupid": 16,
+        "difficulty": 3,
+        "description": "Derreta 480 blocos de gelo"
+    },
+    "69": {
+        "name": "Pega-Bloco",
+        "groupid": 16,
+        "difficulty": 3,
+        "description": "Coloque todos os blocos na posição certa"
+    },
+    "70": {
+        "name": "Supermoedas",
+        "groupid": 16,
+        "difficulty": 4,
+        "description": "Pegue todos os sacos de moedas"
+    },
+    "71": {
+        "name": "Mestre do Gelo",
+        "groupid": 16,
+        "difficulty": 4,
+        "description": "Complete e pegue os prêmios de todos os labirintos"
+    },
+    "72": {
+        "name": "Olha a lula!",
+        "groupid": 13,
+        "difficulty": 1,
+        "description": "Aviste a lula"
+    },
+    "73": {
+        "name": "Aqua Puffle",
+        "groupid": 13,
+        "difficulty": 1,
+        "description": "Leve seu puffle rosa para um mergulho"
+    },
+    "74": {
+        "name": "Super-Refri",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Complete os níveis dos Mares de Refri"
+    },
+    "75": {
+        "name": "SuperMarisco",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Complete os níveis da Maré do Marisco"
+    },
+    "76": {
+        "name": "MegaRefri",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Complete os níveis dos Mares de Refri sem perder nenhuma vida"
+    },
+    "77": {
+        "name": "MegaMarisco",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Complete os níveis da Maré do Marisco sem perder nenhuma vida"
+    },
+    "78": {
+        "name": "Fluffy",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Pegue o peixe amarelo e volte para a rede"
+    },
+    "79": {
+        "name": "Minhoca",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Pegue a minhoca e volte para a rede"
+    },
+    "80": {
+        "name": "Bolha",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Pegue uma bolha do puffle rosa"
+    },
+    "81": {
+        "name": "Pérola",
+        "groupid": 13,
+        "difficulty": 2,
+        "description": "Pegue todas as pérolas brancas no modo Maré do Marisco"
+    },
+    "82": {
+        "name": "Pérola Negra",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Descubra o tesouro secreto no modo Maré do Marisco"
+    },
+    "83": {
+        "name": "Tesouro Verde",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Descubra o tesouro secreto no modo Mares de Refri"
+    },
+    "84": {
+        "name": "Marisco na Pressão",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Complete a Maré do Marisco na fase ar comprimido"
+    },
+    "85": {
+        "name": "Refri na Pressão",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Complete os Mares de Refri na fase ar comprimido"
+    },
+    "86": {
+        "name": "Marisco Comprimido",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Complete o nível na fase ar comprimido sem perder vidas"
+    },
+    "87": {
+        "name": "Refri Comprimido",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Complete o nível na fase ar comprimido sem perder vidas"
+    },
+    "88": {
+        "name": "Hora do Marisco",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Complete o nível na fase contra o relógio"
+    },
+    "89": {
+        "name": "Hora do Refri",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Complete o nível na fase contra o relógio"
+    },
+    "91": {
+        "name": "Caranguejo",
+        "groupid": 13,
+        "difficulty": 3,
+        "description": "Capture todos os tesouros do caranguejo"
+    },
+    "92": {
+        "name": "Mullet",
+        "groupid": 13,
+        "difficulty": 4,
+        "description": "Fisgue o peixe grandão e volte para a rede"
+    },
+    "93": {
+        "name": "Iniciante",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Detone sua 1ª manobra na prancha"
+    },
+    "94": {
+        "name": "Surffle",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Leve seu puffle vermelho para surfar"
+    },
+    "95": {
+        "name": "Flip Suave",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Faça 1 flip"
+    },
+    "96": {
+        "name": "Tubo Suave",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Faça 100 pontos no tubo"
+    },
+    "97": {
+        "name": "Grind Suave",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Faça 100 pontos deslizando na crista da onda"
+    },
+    "98": {
+        "name": "Passou!",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Complete a aula de surfe"
+    },
+    "99": {
+        "name": "Radical!",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Detone 13 manobras diferentes em um jogo"
+    },
+    "100": {
+        "name": "Puffle Campeão",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Chegue em 1º, 2º ou 3º com seu puffle"
+    },
+    "101": {
+        "name": "Astro do Flip",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Faça um salto com 3 flips"
+    },
+    "102": {
+        "name": "Salto Suave ",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Salte a altura de 8 pinguins"
+    },
+    "103": {
+        "name": "Supertubo ",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Faça 1000 pontos no tubo"
+    },
+    "104": {
+        "name": "Giro Suave",
+        "groupid": 15,
+        "difficulty": 1,
+        "description": "Detone um salto com 3 giros"
+    },
+    "105": {
+        "name": "Supergiro",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Detone um salto com 7 giros"
+    },
+    "106": {
+        "name": "Super Grind",
+        "groupid": 15,
+        "difficulty": 2,
+        "description": "Faça 700 pontos deslizando na crista da onda"
+    },
+    "107": {
+        "name": "Grind Radical",
+        "groupid": 15,
+        "difficulty": 3,
+        "description": "Faça 1200 pontos deslizando na crista da onda"
+    },
+    "108": {
+        "name": "1º Lugar",
+        "groupid": 15,
+        "difficulty": 3,
+        "description": "Seja o vencedor da competição"
+    },
+    "109": {
+        "name": "Flip Radical",
+        "groupid": 15,
+        "difficulty": 3,
+        "description": "Faça um salto com 10 flips"
+    },
+    "110": {
+        "name": "Salto Radical",
+        "groupid": 15,
+        "difficulty": 3,
+        "description": "Salte a altura de 20 pinguins"
+    },
+    "111": {
+        "name": "Tubo Radical",
+        "groupid": 15,
+        "difficulty": 3,
+        "description": "Faça 5000 pontos no tubo"
+    },
+    "112": {
+        "name": "Giro Radical",
+        "groupid": 15,
+        "difficulty": 3,
+        "description": "Detone um salto com 10 giros"
+    },
+    "113": {
+        "name": "Tubarão!",
+        "groupid": 15,
+        "difficulty": 4,
+        "description": "Aviste o tubarão"
+    },
+    "114": {
+        "name": "Sobrevivente",
+        "groupid": 15,
+        "difficulty": 4,
+        "description": "Complete o modo Tempo Ruim"
+    },
+    "115": {
+        "name": "Vitória Vermelha",
+        "groupid": 26,
+        "difficulty": 1,
+        "description": "Conquiste a ilha com o Time Vermelho"
+    },
+    "116": {
+        "name": "Vitória Azul ",
+        "groupid": 26,
+        "difficulty": 1,
+        "description": "Conquiste a ilha com o Time Azul "
+    },
+    "117": {
+        "name": "Vitória Verde ",
+        "groupid": 26,
+        "difficulty": 1,
+        "description": "Conquiste a ilha com o Time Verde "
+    },
+    "118": {
+        "name": "Vitória Amarela ",
+        "groupid": 26,
+        "difficulty": 1,
+        "description": "Conquiste a ilha com o Time Amarelo "
+    },
+    "119": {
+        "name": "Mestre da Ilha ",
+        "groupid": 26,
+        "difficulty": 2,
+        "description": "Conquiste a ilha com todos os times"
+    },
+    "120": {
+        "name": "O Colecionador",
+        "groupid": 26,
+        "difficulty": 3,
+        "description": "Pegue todos os itens "
+    },
+    "121": {
+        "name": "Super Upload ",
+        "groupid": 26,
+        "difficulty": 1,
+        "description": "Faça o upload de outro pinguim no controle remoto do seu Wii "
+    },
+    "122": {
+        "name": "Banzai do Sumô ",
+        "groupid": 26,
+        "difficulty": 4,
+        "description": "Ganhe uma partida com 4 jogadores sem ser nocauteado "
+    },
+    "123": {
+        "name": "Ping Puffle",
+        "groupid": 26,
+        "difficulty": 2,
+        "description": "Jogue uma partida com 4 jogadores sem deixar cair nenhum puffle"
+    },
+    "124": {
+        "name": "Pilhado na Pilha",
+        "groupid": 26,
+        "difficulty": 2,
+        "description": "Empilhe 30 sacas em uma partida com 4 jogadores"
+    },
+    "125": {
+        "name": "2 x 2 ",
+        "groupid": 26,
+        "difficulty": 3,
+        "description": "Ganhe todas as partidas de 2 x 2 "
+    },
+    "126": {
+        "name": "Mega 2 x 2",
+        "groupid": 26,
+        "difficulty": 4,
+        "description": "Ganhe todos os jogos de 2x2 contra o Wii no nível difícil"
+    },
+    "127": {
+        "name": "Puffle Branco",
+        "groupid": 26,
+        "difficulty": 1,
+        "description": "Alimente um puffle branco no Feed a Puffle"
+    },
+    "128": {
+        "name": "Goleirão",
+        "groupid": 26,
+        "difficulty": 4,
+        "description": "Ganhe um jogo sem tomar nenhum gol"
+    },
+    "130": {
+        "name": "SOS 30",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Resgate 30 puffles nos níveis da neve "
+    },
+    "131": {
+        "name": "SOS 60",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Resgate 60 puffles nos níveis da neve "
+    },
+    "132": {
+        "name": "Moeda Nevada 1",
+        "groupid": 19,
+        "difficulty": 1,
+        "description": "Encontre 1 saco de moedas nos níveis da neve"
+    },
+    "133": {
+        "name": "Moeda Nevada 2  ",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Encontre 2 sacos de moedas nos níveis da neve"
+    },
+    "134": {
+        "name": "Moeda Nevada 3",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Encontre 3 sacos de moedas nos níveis da neve "
+    },
+    "135": {
+        "name": "Aprendiz da Neve",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Complete 3 níveis da neve em menos de 70 passos "
+    },
+    "136": {
+        "name": "Mestre da Neve",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Complete 6 níveis da neve em menos de 160 passos"
+    },
+    "137": {
+        "name": "Herói da Neve",
+        "groupid": 19,
+        "difficulty": 4,
+        "description": "Complete 9 níveis da neve em menos de 270 passos"
+    },
+    "138": {
+        "name": "Moeda Cavernosa 1",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Encontre moedas escondidas no nível 1 das cavernas"
+    },
+    "139": {
+        "name": "Moeda Cavernosa 2",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Encontre moedas escondidas no nível 4 das cavernas"
+    },
+    "140": {
+        "name": "Moeda Cavernosa 3",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Encontre moedas escondidas no nível 7 das cavernas"
+    },
+    "141": {
+        "name": "Pensa rápido!",
+        "groupid": 19,
+        "difficulty": 1,
+        "description": "Pegue 1 saco de moedas antes que ele caia "
+    },
+    "142": {
+        "name": "Pensa muito rápido!",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Pegue 2 sacos de moedas antes que eles caiam"
+    },
+    "144": {
+        "name": "Pensa mega rápido!",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Pegue 3 sacos de moedas antes que eles caiam "
+    },
+    "145": {
+        "name": "Canhão Facinho ",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Destrua 8 canhões de bolas de neve nos níveis da caverna"
+    },
+    "146": {
+        "name": "Supercanhão ",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Destrua 12 canhões de bolas de neve nos níveis da caverna "
+    },
+    "147": {
+        "name": "Canhão Radical ",
+        "groupid": 19,
+        "difficulty": 4,
+        "description": "Destrua 15 canhões de bolas de neve nos níveis da caverna"
+    },
+    "148": {
+        "name": "Foi por pouco!",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Desvie da bola de neve gigante "
+    },
+    "149": {
+        "name": "SOS Veloz",
+        "groupid": 19,
+        "difficulty": 1,
+        "description": "Complete 5 níveis do mar em 30 segundos cada "
+    },
+    "150": {
+        "name": "SOS Expresso ",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Complete 10 níveis do mar em 30 segundos cada "
+    },
+    "151": {
+        "name": "SOS Radical ",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Complete 20 níveis do mar em 30 segundos cada "
+    },
+    "152": {
+        "name": "10 Níveis do Mar",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Chegue a 10 níveis do mar com 5 vidas completas "
+    },
+    "153": {
+        "name": "20 Níveis do Mar ",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Chegue a 20 níveis do mar com 5 vidas completas "
+    },
+    "154": {
+        "name": "30 Níveis do Mar ",
+        "groupid": 19,
+        "difficulty": 4,
+        "description": "Chegue a 30 níveis do mar com 5 vidas completas "
+    },
+    "155": {
+        "name": "1 Moeda Marinha ",
+        "groupid": 19,
+        "difficulty": 1,
+        "description": "Encontre 1 saco de moedas em uma bolha nos níveis do mar "
+    },
+    "156": {
+        "name": "2 Moedas Marinhas",
+        "groupid": 19,
+        "difficulty": 2,
+        "description": "Encontre 2 sacos de moedas em uma bolha nos níveis do mar"
+    },
+    "157": {
+        "name": "3 Moedas Marinhas",
+        "groupid": 19,
+        "difficulty": 3,
+        "description": "Encontre 3 sacos de moedas em uma bolha nos níveis do mar "
+    },
+    "159": {
+        "name": "Medalha da Missão 1",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Caso dos Puffles Desaparecidos"
+    },
+    "160": {
+        "name": "Carta da Tia Arctic",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 1"
+    },
+    "161": {
+        "name": "Medalha da Missão 2",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete A Missão Secreta de G"
+    },
+    "162": {
+        "name": "Carta de G",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 2"
+    },
+    "163": {
+        "name": "Medalha da Missão 3",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Caso das Moedas Desaparecidas"
+    },
+    "164": {
+        "name": "Cartão de Agradecimento",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 3"
+    },
+    "165": {
+        "name": "Medalha da Missão 4",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Resgate da Avalanche"
+    },
+    "166": {
+        "name": "Prêmio Extra",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 4"
+    },
+    "167": {
+        "name": "Medalha da Missão 5",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Segredo do Monte de Pêlo"
+    },
+    "168": {
+        "name": "Caixa de Pizza",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 5"
+    },
+    "169": {
+        "name": "Medalha da Missão 6",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Interrogatório do Caranguejo"
+    },
+    "170": {
+        "name": "Projeto",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 6"
+    },
+    "171": {
+        "name": "Medalha da Missão 7",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Conserto do Relógio"
+    },
+    "172": {
+        "name": "Flâmula",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 7"
+    },
+    "173": {
+        "name": "Medalha da Missão 8",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete Tremores Misteriosos"
+    },
+    "174": {
+        "name": "Presente Legal",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 8"
+    },
+    "175": {
+        "name": "Medalha da Missão 9",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete Operação: Eu Espião"
+    },
+    "176": {
+        "name": "Caixa de Bombons",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 9"
+    },
+    "177": {
+        "name": "Medalha da Missão 10",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete Esquadrão Sardinha"
+    },
+    "178": {
+        "name": "Prêmio de Funcionário Exemplar",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 10"
+    },
+    "179": {
+        "name": "Medalha da Missão 11",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete O Vilão Vegetariano"
+    },
+    "180": {
+        "name": "Iglu Globo de Neve",
+        "groupid": 22,
+        "difficulty": 0,
+        "description": "Complete a tarefa secreta na Missão 11"
+    },
+    "182": {
+        "name": "Sala Feliz",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Faça 10 pinguins sorrirem em uma sala"
+    },
+    "183": {
+        "name": "Quebra-Cabeça",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Resolva um quebra-cabeça em uma festa"
+    },
+    "184": {
+        "name": "Lanche Legal",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Sirva lanches de uma barraca com um emoticon de comida"
+    },
+    "185": {
+        "name": "Alvo Certeiro",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Acerte 50 alvos em uma tarefa de uma festa "
+    },
+    "186": {
+        "name": "Parabéns!",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Apague as velinhas do Bolo de Aniversário"
+    },
+    "187": {
+        "name": "Terrorífico!",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Vista uma fantasia de monstro na Festa de Halloween"
+    },
+    "188": {
+        "name": "Explorador",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Complete uma Caça ao Tesouro"
+    },
+    "189": {
+        "name": "Construção",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Junte-se à construção de uma festa usando a britadeira."
+    },
+    "190": {
+        "name": "Curioso",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Visite todas as salas decoradas de uma festa"
+    },
+    "191": {
+        "name": "Voluntário",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Doe moedas para uma causa da Coins For Change"
+    },
+    "193": {
+        "name": "Corta-Caminho",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Complete um labirinto em uma festa"
+    },
+    "197": {
+        "name": "Agente de Elite",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Conquiste 1 medalha da EPF "
+    },
+    "198": {
+        "name": "Agente Especial ",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Conquiste 5 medalhas da EPF "
+    },
+    "199": {
+        "name": "Forças Especiais",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Conquiste 10 medalhas da EPF "
+    },
+    "200": {
+        "name": "Protetor de Elite ",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Conquiste 25 medalhas da EPF"
+    },
+    "201": {
+        "name": "Guardião da Ilha ",
+        "groupid": 7,
+        "difficulty": 4,
+        "description": "Conquiste 50 medalhas da EPF"
+    },
+    "202": {
+        "name": "Puffle Piloto  ",
+        "groupid": 11,
+        "difficulty": 1,
+        "description": "Leve um puffle verde para o jogo"
+    },
+    "203": {
+        "name": "Puffle Bônus ",
+        "groupid": 11,
+        "difficulty": 2,
+        "description": "Seu puffle verde ganha 200 moedas"
+    },
+    "204": {
+        "name": "Puffle Plus ",
+        "groupid": 11,
+        "difficulty": 3,
+        "description": "Seu puffle verde ganha 450 moedas"
+    },
+    "205": {
+        "name": "Puffle Power",
+        "groupid": 11,
+        "difficulty": 4,
+        "description": "Seu puffle verde ganha combustível quando você fica sem"
+    },
+    "206": {
+        "name": "Profissional",
+        "groupid": 28,
+        "difficulty": 2,
+        "description": "Ganhe 150 moedas em um jogo"
+    },
+    "208": {
+        "name": "Expert dos Trilhos",
+        "groupid": 28,
+        "difficulty": 3,
+        "description": "Ganhe 250 moedas em um jogo"
+    },
+    "210": {
+        "name": "Mestre dos Trilhos",
+        "groupid": 28,
+        "difficulty": 4,
+        "description": "Ganhe 350 moedas em um jogo"
+    },
+    "212": {
+        "name": "Equilibrista",
+        "groupid": 28,
+        "difficulty": 1,
+        "description": "Saia dos trilhos e recupere o equilíbrio"
+    },
+    "214": {
+        "name": "Freestyle",
+        "groupid": 28,
+        "difficulty": 2,
+        "description": "Faça 10 manobras na caçamba"
+    },
+    "216": {
+        "name": "Pé no Trilho",
+        "groupid": 28,
+        "difficulty": 2,
+        "description": "Faça 10 manobras fora da caçamba"
+    },
+    "218": {
+        "name": "Mestre das Manobras",
+        "groupid": 28,
+        "difficulty": 2,
+        "description": "Faça 14 manobras diferentes"
+    },
+    "220": {
+        "name": "Grind na Mina",
+        "groupid": 28,
+        "difficulty": 3,
+        "description": "Deslize nos trilhos em 8 curvas"
+    },
+    "222": {
+        "name": "Surfe sobre Rodas",
+        "groupid": 28,
+        "difficulty": 3,
+        "description": "Surfe em 8 curvas"
+    },
+    "224": {
+        "name": "Giro Perfeito",
+        "groupid": 28,
+        "difficulty": 3,
+        "description": "Gire 20 vezes seguidas sem cair"
+    },
+    "226": {
+        "name": "Dupla Imbatível",
+        "groupid": 28,
+        "difficulty": 3,
+        "description": "Faça 20 manobras com seu puffle"
+    },
+    "228": {
+        "name": "Puffle Co-Piloto",
+        "groupid": 28,
+        "difficulty": 2,
+        "description": "Recupere o equilíbrio com seu puffle"
+    },
+    "230": {
+        "name": "Gafanhoto",
+        "groupid": 38,
+        "difficulty": 1,
+        "description": "Comece sua jornada. Conquiste a faixa branca"
+    },
+    "232": {
+        "name": "Pupilo Zen ",
+        "groupid": 38,
+        "difficulty": 2,
+        "description": "Complete a metade da jornada ninja. Conquiste sua faixa azul"
+    },
+    "234": {
+        "name": "Verdadeiro Ninja ",
+        "groupid": 38,
+        "difficulty": 3,
+        "description": "Prove suas habilidades ninja. Conquiste a faixa preta"
+    },
+    "236": {
+        "name": "Mestre Ninja  ",
+        "groupid": 38,
+        "difficulty": 3,
+        "description": "Vença o Sensei e torne-se um Ninja "
+    },
+    "238": {
+        "name": "Vitória Impecável  ",
+        "groupid": 38,
+        "difficulty": 2,
+        "description": "Vença sem deixar o seu oponente ganhar nenhuma carta "
+    },
+    "240": {
+        "name": "Mestre das Cartas ",
+        "groupid": 38,
+        "difficulty": 3,
+        "description": "Vença 25 partidas "
+    },
+    "242": {
+        "name": "Mestre dos Elementos ",
+        "groupid": 38,
+        "difficulty": 1,
+        "description": "Ganhe uma partida com 3 elementos diferentes "
+    },
+    "244": {
+        "name": "Um Elemento  ",
+        "groupid": 38,
+        "difficulty": 2,
+        "description": "Ganhe uma partida com 3 cartas do mesmo elemento "
+    },
+    "246": {
+        "name": "Carta do Sensei ",
+        "groupid": 38,
+        "difficulty": 4,
+        "description": "Veja a Carta Poderosa do Sensei "
+    },
+    "248": {
+        "name": "Dojo Completo ",
+        "groupid": 38,
+        "difficulty": 4,
+        "description": "Ganhe 9 cartas antes de vencer "
+    },
+    "252": {
+        "name": "Aquecimento ",
+        "groupid": 32,
+        "difficulty": 1,
+        "description": "Vença 10 partidas do Fogo "
+    },
+    "254": {
+        "name": "Energia do Fogo  ",
+        "groupid": 32,
+        "difficulty": 1,
+        "description": "Ganhe 1 energia em uma partida "
+    },
+    "256": {
+        "name": "Fogo Brando ",
+        "groupid": 32,
+        "difficulty": 2,
+        "description": "Ganhe o casaco. Complete 50% da sua Jornada do Fogo"
+    },
+    "260": {
+        "name": "Defensiva ",
+        "groupid": 32,
+        "difficulty": 3,
+        "description": "Ganhe uma partida sem perder nenhuma energia "
+    },
+    "262": {
+        "name": "Quimono do Fogo ",
+        "groupid": 32,
+        "difficulty": 3,
+        "description": "Complete seu Quimono do Fogo "
+    },
+    "264": {
+        "name": "Ninja do Fogo ",
+        "groupid": 32,
+        "difficulty": 3,
+        "description": "Vença o Sensei e torne-se um Ninja do Fogo "
+    },
+    "266": {
+        "name": "Energia Máxima",
+        "groupid": 32,
+        "difficulty": 4,
+        "description": "Ganhe 3 energias em uma partida "
+    },
+    "268": {
+        "name": "Mestre do Fogo  ",
+        "groupid": 32,
+        "difficulty": 4,
+        "description": "Vença 50 partidas "
+    },
+    "270": {
+        "name": "Gongo! ",
+        "groupid": 34,
+        "difficulty": 1,
+        "description": "Ganhe uma partida e toque o gongo "
+    },
+    "274": {
+        "name": "Mergulho ",
+        "groupid": 34,
+        "difficulty": 1,
+        "description": "Mergulhe de bico! Caia da cachoeira"
+    },
+    "276": {
+        "name": "Mestre da Água ",
+        "groupid": 34,
+        "difficulty": 2,
+        "description": "Vença 100 partidas "
+    },
+    "278": {
+        "name": "Meio Cheio ",
+        "groupid": 34,
+        "difficulty": 2,
+        "description": "Conquiste o casaco. Complete 50% da sua Jornada da Água"
+    },
+    "282": {
+        "name": "Quimono da Água",
+        "groupid": 34,
+        "difficulty": 3,
+        "description": "Complete seu Quimono da Água "
+    },
+    "284": {
+        "name": "Ninja da Água ",
+        "groupid": 34,
+        "difficulty": 3,
+        "description": "Vença o Sensei e torne-se um Ninja da Água "
+    },
+    "286": {
+        "name": "Reação! ",
+        "groupid": 34,
+        "difficulty": 4,
+        "description": "Chegue à beira da cachoeira duas vezes e depois ganhe a partida "
+    },
+    "288": {
+        "name": "Passo a Passo ",
+        "groupid": 34,
+        "difficulty": 4,
+        "description": "Pule 28 pedras de qualquer elemento em uma partida "
+    },
+    "290": {
+        "name": "Sensei",
+        "groupid": 6,
+        "difficulty": 4,
+        "description": "Encontre o Sensei"
+    },
+    "292": {
+        "name": "Mar Afora",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Veleje além-mar em um barco"
+    },
+    "294": {
+        "name": "Voluntário do Ano",
+        "groupid": 23,
+        "difficulty": 3,
+        "description": "Doe 5000 moedas para a Coins For Change"
+    },
+    "296": {
+        "name": "Voluntário Máximo",
+        "groupid": 23,
+        "difficulty": 4,
+        "description": "Doe 10.000 moedas para a Coins For Change."
+    },
+    "298": {
+        "name": "O Dever Chama\n",
+        "groupid": 46,
+        "difficulty": 1,
+        "description": "Complete o treinamento do G\n"
+    },
+    "300": {
+        "name": "Destruidor de Sucata\n",
+        "groupid": 46,
+        "difficulty": 1,
+        "description": "Destrua 100 inimigos em um nível\n"
+    },
+    "302": {
+        "name": "Sucesso Estratégico\n",
+        "groupid": 46,
+        "difficulty": 2,
+        "description": "Destrua 100 inimigos sem turbinar nenhum canhão\n"
+    },
+    "304": {
+        "name": "Canhão Único",
+        "groupid": 46,
+        "difficulty": 2,
+        "description": "Complete um jogo com apenas um tipo de canhão\n"
+    },
+    "306": {
+        "name": "Profissional Tático",
+        "groupid": 46,
+        "difficulty": 2,
+        "description": "Destrua 100 inimigos sem sofrer nenhum dano\n"
+    },
+    "308": {
+        "name": "Mestre da Mecânica\n",
+        "groupid": 46,
+        "difficulty": 2,
+        "description": "Preencha cada quadrado luminoso com um canhão"
+    },
+    "310": {
+        "name": "Mestre da Estratégia\n",
+        "groupid": 46,
+        "difficulty": 3,
+        "description": "Destrua 250 inimigos sem turbinar nenhum canhão\n"
+    },
+    "312": {
+        "name": "Mestre Tático",
+        "groupid": 46,
+        "difficulty": 3,
+        "description": "Destrua 250 inimigos sem sofrer nenhum dano\n"
+    },
+    "320": {
+        "name": "Vírus no Sistema\n",
+        "groupid": 46,
+        "difficulty": 1,
+        "description": "Proteja o servidor da EPF dos vírus\n"
+    },
+    "322": {
+        "name": "Herbert Ataca",
+        "groupid": 46,
+        "difficulty": 2,
+        "description": "Complete o nível 'Herbert Ataca'"
+    },
+    "324": {
+        "name": "Ataque Klutzy",
+        "groupid": 46,
+        "difficulty": 2,
+        "description": "Proteja o servidor da EPF de Klutzy"
+    },
+    "326": {
+        "name": "Trio Robô Teste",
+        "groupid": 46,
+        "difficulty": 3,
+        "description": "Proteja o servidor da EPF dos Robôs de Teste"
+    },
+    "328": {
+        "name": "Ataque Letal\n",
+        "groupid": 46,
+        "difficulty": 3,
+        "description": "Proteja a EPF do Protótipo de Destruição Total\n"
+    },
+    "330": {
+        "name": "Puffle Festeiro",
+        "groupid": 23,
+        "difficulty": 0,
+        "description": "Leve seu puffle para a sala dele na festa "
+    },
+    "332": {
+        "name": "Guerra de Comida",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Jogue sua refeição onde você come de montão"
+    },
+    "334": {
+        "name": "Início de Construção",
+        "groupid": 48,
+        "difficulty": 1,
+        "description": "Consiga a primeira peça do canhão"
+    },
+    "336": {
+        "name": "Pronto para Lançamento",
+        "groupid": 48,
+        "difficulty": 2,
+        "description": "Construa um canhão"
+    },
+    "338": {
+        "name": "Canhão Épico ",
+        "groupid": 48,
+        "difficulty": 3,
+        "description": "Construa um canhão épico"
+    },
+    "340": {
+        "name": "Ataque ao Caranguejo",
+        "groupid": 48,
+        "difficulty": 2,
+        "description": "Derrote o chefe caranguejo"
+    },
+    "342": {
+        "name": "Queda do Caranguejo",
+        "groupid": 48,
+        "difficulty": 3,
+        "description": "Derrote 3 chefes caranguejos sem sair do jogo"
+    },
+    "344": {
+        "name": "Batalha Caranguejo",
+        "groupid": 48,
+        "difficulty": 3,
+        "description": "Derrote 6 chefes caranguejos sem sair do jogo"
+    },
+    "346": {
+        "name": "Lançamento Rápido",
+        "groupid": 48,
+        "difficulty": 2,
+        "description": "Complete os 36 níveis em menos de 35 minutos"
+    },
+    "348": {
+        "name": "Lançamento Supersônico",
+        "groupid": 48,
+        "difficulty": 3,
+        "description": "Complete os 36 níveis em menos de 25 minutos"
+    },
+    "350": {
+        "name": "Velocidade da Luz",
+        "groupid": 48,
+        "difficulty": 4,
+        "description": "Complete os 36 níveis em menos de 18 minutos"
+    },
+    "352": {
+        "name": "Hora Turbo",
+        "groupid": 48,
+        "difficulty": 2,
+        "description": "Complete um nível no modo turbo"
+    },
+    "354": {
+        "name": "Batalha Turbo",
+        "groupid": 48,
+        "difficulty": 3,
+        "description": "Derrote um caranguejo no modo turbo"
+    },
+    "356": {
+        "name": "Mestre Turbo",
+        "groupid": 48,
+        "difficulty": 4,
+        "description": "Complete os 36 níveis no modo turbo"
+    },
+    "358": {
+        "name": "Rookie",
+        "groupid": 6,
+        "difficulty": 4,
+        "description": "Encontre o Rookie"
+    },
+    "360": {
+        "name": "Nobre Cavaleiro",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Vista uma fantasia de cavaleiro na Festa Medieval"
+    },
+    "362": {
+        "name": "Ecológico",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Recicle 10 objetos na Usina de Reciclagem"
+    },
+    "364": {
+        "name": "Turma da Árvore",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Faça 10 ou mais amigos se vestirem como árvores"
+    },
+    "372": {
+        "name": "Presentinho ",
+        "groupid": 52,
+        "difficulty": 1,
+        "description": "Dê um peixe para um tubarão "
+    },
+    "374": {
+        "name": "Pescaria Chocante ",
+        "groupid": 52,
+        "difficulty": 2,
+        "description": "Leve 3 choques de água-viva e complete o jogo "
+    },
+    "376": {
+        "name": "Aprendiz",
+        "groupid": 52,
+        "difficulty": 2,
+        "description": "Pegue 15 peixes sem cometer nenhum erro "
+    },
+    "378": {
+        "name": "Minhocástico ",
+        "groupid": 52,
+        "difficulty": 3,
+        "description": "Complete o jogo sem perder nenhuma minhoca "
+    },
+    "380": {
+        "name": "Caranguejástico",
+        "groupid": 52,
+        "difficulty": 3,
+        "description": "Complete o jogo depois de cortarem sua linha 3 vezes"
+    },
+    "382": {
+        "name": "Pescador Experiente",
+        "groupid": 52,
+        "difficulty": 3,
+        "description": "Pegue 45 peixes sem cometer nenhum erro "
+    },
+    "384": {
+        "name": "Bônus Cinza ",
+        "groupid": 52,
+        "difficulty": 3,
+        "description": "Pegue 15 peixes cinza"
+    },
+    "386": {
+        "name": "Prêmio Mullet ",
+        "groupid": 52,
+        "difficulty": 3,
+        "description": "Pegue o Mullet "
+    },
+    "388": {
+        "name": "Pescaria Turbo ",
+        "groupid": 52,
+        "difficulty": 3,
+        "description": "Pegue 63 peixes em menos de 5 minutos "
+    },
+    "390": {
+        "name": "Isca de Ouro ",
+        "groupid": 52,
+        "difficulty": 4,
+        "description": "Pegue 15 peixes cinza e o Mullet sem perder minhocas"
+    },
+    "392": {
+        "name": "Fiasco Total",
+        "groupid": 54,
+        "difficulty": 1,
+        "description": "Faça uma bagunça com 3 pizzas erradas "
+    },
+    "394": {
+        "name": "Sobremesa ",
+        "groupid": 54,
+        "difficulty": 1,
+        "description": "Jogue Pizzatron 3000 no Modo Doce "
+    },
+    "396": {
+        "name": "Mestre-Cuca ",
+        "groupid": 54,
+        "difficulty": 2,
+        "description": "Faça 20 pizzas sem cometer nenhum erro "
+    },
+    "398": {
+        "name": "Mar Apimentado",
+        "groupid": 54,
+        "difficulty": 2,
+        "description": "Faça 3 pizzas de camarão com molho picante"
+    },
+    "400": {
+        "name": "Receita Secreta ",
+        "groupid": 54,
+        "difficulty": 2,
+        "description": "Faça 3 pizzas de jujuba com chocolate "
+    },
+    "402": {
+        "name": "Lulas Picantes ",
+        "groupid": 54,
+        "difficulty": 3,
+        "description": "Faça 3 pizzas de lula com molho picante"
+    },
+    "404": {
+        "name": "Docelândia ",
+        "groupid": 54,
+        "difficulty": 3,
+        "description": "Faça 3 pizzas de glacê rosa com marshmallow"
+    },
+    "406": {
+        "name": "Chefe Pizzaiolo ",
+        "groupid": 54,
+        "difficulty": 3,
+        "description": "Faça 30 pizzas sem cometer nenhum erro "
+    },
+    "408": {
+        "name": "Mestre Pizzaiolo",
+        "groupid": 54,
+        "difficulty": 4,
+        "description": "Faça 40 pizzas sem cometer nenhum erro"
+    },
+    "410": {
+        "name": "Confeiteiro ",
+        "groupid": 54,
+        "difficulty": 4,
+        "description": "Faça 40 pizzas doces sem cometer nenhum erro"
+    },
+    "414": {
+        "name": "Pedras Preciosas",
+        "groupid": 56,
+        "difficulty": 2,
+        "description": "Descubra 2 pedras em uma partida"
+    },
+    "416": {
+        "name": "O Colecionador",
+        "groupid": 56,
+        "difficulty": 2,
+        "description": "Conquiste 8 moedas em uma partida"
+    },
+    "418": {
+        "name": "Exploração Preciosa",
+        "groupid": 56,
+        "difficulty": 3,
+        "description": "Encontre um tesouro raro"
+    },
+    "420": {
+        "name": "Técnico em Escavação",
+        "groupid": 56,
+        "difficulty": 3,
+        "description": "Descubra uma pedra em apenas 3 jogadas"
+    },
+    "422": {
+        "name": "Especialista em Escavação",
+        "groupid": 56,
+        "difficulty": 4,
+        "description": "Descubra 2 pedras em apenas 7 jogadas"
+    },
+    "426": {
+        "name": "Maestro Maestral ",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Resolva um quebra-cabeça musical em uma festa. "
+    },
+    "427": {
+        "name": "Puffito Bônus",
+        "groupid": 57,
+        "difficulty": 1,
+        "description": "Coma um Puffito bônus"
+    },
+    "428": {
+        "name": "Banquete de Puffito",
+        "groupid": 57,
+        "difficulty": 2,
+        "description": "Coma todos os Puffitos em um mesmo Modo"
+    },
+    "429": {
+        "name": "Devora Rápido",
+        "groupid": 57,
+        "difficulty": 2,
+        "description": "Coma um Puffito que está para sumir"
+    },
+    "430": {
+        "name": "Lanche Rápido",
+        "groupid": 57,
+        "difficulty": 3,
+        "description": "Coma todos os Puffitos que vão sumir em um mesmo nível"
+    },
+    "431": {
+        "name": "Fast Food",
+        "groupid": 57,
+        "difficulty": 3,
+        "description": "Coma todos os Puffitos que vão desaparecer em um mesmo Modo"
+    },
+    "432": {
+        "name": "Sem Parada",
+        "groupid": 57,
+        "difficulty": 1,
+        "description": "Complete o nível 4"
+    },
+    "433": {
+        "name": "Pro em Quebra-Cabeça",
+        "groupid": 57,
+        "difficulty": 1,
+        "description": "Complete o nível 8"
+    },
+    "434": {
+        "name": "Quebra-Cabeça Extremo",
+        "groupid": 57,
+        "difficulty": 2,
+        "description": "Complete o nível 12"
+    },
+    "435": {
+        "name": "O Mestre Patinuffle",
+        "groupid": 57,
+        "difficulty": 2,
+        "description": "Complete o nível 17"
+    },
+    "436": {
+        "name": "Patinuffle Infinito",
+        "groupid": 57,
+        "difficulty": 3,
+        "description": "Complete o nível 22"
+    },
+    "437": {
+        "name": "Mestre do Gelo",
+        "groupid": 57,
+        "difficulty": 3,
+        "description": "Complete o nível final"
+    },
+    "438": {
+        "name": "Descida Perigosa",
+        "groupid": 23,
+        "difficulty": 3,
+        "description": "Complete um percurso com obstáculos"
+    },
+    "439": {
+        "name": "Alpinista",
+        "groupid": 23,
+        "difficulty": 3,
+        "description": "Chegue ao Topo da Montanha"
+    },
+    "440": {
+        "name": "Dança Radical",
+        "groupid": 23,
+        "difficulty": 1,
+        "description": "Faça a dança do snowboard em uma festa"
+    },
+    "443": {
+        "name": "Rastreando Herbert ",
+        "groupid": 46,
+        "difficulty": 4,
+        "description": "Complete o nível \"Rastreando Herbert\""
+    },
+    "444": {
+        "name": "Doces ou Travessuras",
+        "groupid": 23,
+        "difficulty": 2,
+        "description": "Visite 10 iglus na Festa de Halloween"
+    },
+    "448": {
+        "name": "TP",
+        "groupid": 6,
+        "difficulty": 1,
+        "description": "Encontre a TP"
+    },
+    "450": {
+        "name": "Esmaga Fruta",
+        "groupid": 58,
+        "difficulty": 1,
+        "description": "Complete 5 receitas em uma partida "
+    },
+    "451": {
+        "name": "Shake de Fruta",
+        "groupid": 58,
+        "difficulty": 1,
+        "description": "Sirva o Rockhopper "
+    },
+    "452": {
+        "name": "Fruta Madura",
+        "groupid": 58,
+        "difficulty": 1,
+        "description": "Sirva a Tia Arctic "
+    },
+    "453": {
+        "name": "Frutas Congeladas",
+        "groupid": 58,
+        "difficulty": 1,
+        "description": "Sirva o Herbert "
+    },
+    "454": {
+        "name": "Fruta no Ponto",
+        "groupid": 58,
+        "difficulty": 2,
+        "description": "Complete 10 receitas em uma partida "
+    },
+    "455": {
+        "name": "Salada de Frutas",
+        "groupid": 58,
+        "difficulty": 2,
+        "description": "Esmague 10 frutas corretas seguidas"
+    },
+    "456": {
+        "name": "Força da Fruta",
+        "groupid": 58,
+        "difficulty": 2,
+        "description": "Sobreviva 2 minutos no modo frutada"
+    },
+    "457": {
+        "name": "Proteção Frutada",
+        "groupid": 58,
+        "difficulty": 2,
+        "description": "Jogue 2 minutos no modo frutada sem perder"
+    },
+    "458": {
+        "name": "Energizante",
+        "groupid": 58,
+        "difficulty": 3,
+        "description": "Complete 20 receitas em uma partida"
+    },
+    "459": {
+        "name": "Esmagador de Frutas",
+        "groupid": 58,
+        "difficulty": 3,
+        "description": "Esmague 20 frutas corretas seguidas"
+    },
+    "460": {
+        "name": "Guerreiro dos Sucos",
+        "groupid": 58,
+        "difficulty": 3,
+        "description": "Sobreviva 4 minutos no modo frutada"
+    },
+    "461": {
+        "name": "Sobrevivente dos Sucos ",
+        "groupid": 58,
+        "difficulty": 3,
+        "description": "Jogue 3 minutos no modo frutada sem perder"
+    },
+    "462": {
+        "name": "Suco Perfeito",
+        "groupid": 58,
+        "difficulty": 4,
+        "description": "Complete 30 receitas em uma partida"
+    },
+    "463": {
+        "name": "Esmagador Profissional",
+        "groupid": 58,
+        "difficulty": 4,
+        "description": "Esmague 50 frutas corretas seguidas"
+    },
+    "464": {
+        "name": "Mestre dos Sucos",
+        "groupid": 58,
+        "difficulty": 4,
+        "description": "Sobreviva 8 minutos no modo frutada"
+    },
+    "465": {
+        "name": "Herói dos Sucos",
+        "groupid": 58,
+        "difficulty": 4,
+        "description": "Jogue 4 minutos no modo frutada sem perder"
+    },
+    "466": {
+        "name": "Herbert",
+        "groupid": 6,
+        "difficulty": 4,
+        "description": "Encontre o Herbert"
+    },
+    "467": {
+        "name": "Combo de 3 Ninjas",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Jogue uma Carta Especial junto com todos os ninjas"
+    },
+    "468": {
+        "name": "Combo de 4 Ninjas",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Jogue uma Carta Especial junto com todos os ninjas e com o Sensei"
+    },
+    "469": {
+        "name": "Ninja da Neve",
+        "groupid": 60,
+        "difficulty": 1,
+        "description": "Vença 3 Rodadas como Ninja da Neve"
+    },
+    "470": {
+        "name": "Ninja do Fogo ",
+        "groupid": 60,
+        "difficulty": 0,
+        "description": "Vença 3 Rodadas como Ninja do Fogo"
+    },
+    "471": {
+        "name": "Ninja da Água ",
+        "groupid": 60,
+        "difficulty": 1,
+        "description": "Vença 3 Rodadas como Ninja da Água"
+    },
+    "472": {
+        "name": "Força Completa",
+        "groupid": 60,
+        "difficulty": 4,
+        "description": "Conquiste uma Rodada Bônus com Força Completa"
+    },
+    "473": {
+        "name": "Bônus Ninja",
+        "groupid": 60,
+        "difficulty": 4,
+        "description": "Derrote todos os Capangas em uma Rodada Bônus"
+    },
+    "474": {
+        "name": "Recuperação de Forças",
+        "groupid": 60,
+        "difficulty": 1,
+        "description": "Salve um ninja"
+    },
+    "475": {
+        "name": "Coragem e Determinação",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Seja salvo e ainda vença a batalha"
+    },
+    "476": {
+        "name": "Equipe Renovada",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Vença após todos os ninjas serem derrotados e recuperados"
+    },
+    "477": {
+        "name": "Recuperação 15",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Recupere as forças de 15 ninjas em uma batalha"
+    },
+    "478": {
+        "name": "Recuperação Intensa",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Recupere a energia de todos os Ninjas com 1 Carta Especial da Neve"
+    },
+    "479": {
+        "name": "Escudo da Neve",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Proteja outros ninjas com um Combo de Carta Especial da Neve"
+    },
+    "480": {
+        "name": "Onda Detonante",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Detone os 3 Capangas da Neve com 1 Carta Especial da Água"
+    },
+    "481": {
+        "name": "Força da Onda",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Aumente a força dos ataques ninjas com o Combo de Carta Especial da Água"
+    },
+    "482": {
+        "name": "Explosão do Fogo",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Detone os 3 Capangas da Neve com 1 Carta Especial do Fogo"
+    },
+    "483": {
+        "name": "Combo Explosão do Fogo",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Destrua 3 Capangas da Neve com 1 Combo de Carta Especial do Fogo"
+    },
+    "484": {
+        "name": "Mestre da Carta Especial",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Jogue 3 Cartas Especiais em uma batalha"
+    },
+    "485": {
+        "name": "3 Combos",
+        "groupid": 60,
+        "difficulty": 3,
+        "description": "Jogue 3 Combos de Cartas Especiais em uma batalha"
+    },
+    "486": {
+        "name": "Batalha Final",
+        "groupid": 60,
+        "difficulty": 4,
+        "description": "Derrote o Mestre da Neve"
+    },
+    "487": {
+        "name": "Profissional da Neve",
+        "groupid": 60,
+        "difficulty": 2,
+        "description": "Conquiste a Pedra da Neve. Complete a metade de sua jornada de Ninja Neve"
+    },
+    "488": {
+        "name": "3 Pedras",
+        "groupid": 7,
+        "difficulty": 4,
+        "description": "Conquiste as Pedras do Fogo, da Água e da Neve"
+    },
+    "489": {
+        "name": "Escavação",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Passeie com seu puffle para encontrar tesouros"
+    },
+    "490": {
+        "name": "Primeira Escavação",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Veja o puffle de outro pinguim encontrando seu primeiro tesouro"
+    },
+    "491": {
+        "name": "Todas as Cores",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Procure tesouros com 11 diferentes cores de puffles"
+    },
+    "492": {
+        "name": "Escave o Dia Todo",
+        "groupid": 7,
+        "difficulty": 2,
+        "description": "Encontro tesouros 5 vezes por dia"
+    },
+    "493": {
+        "name": "Grande Escavação",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Encontre mais de 50 moedas em uma escavação"
+    },
+    "494": {
+        "name": "Baú de Tesouros",
+        "groupid": 7,
+        "difficulty": 3,
+        "description": "Encontre itens caçando tesouros com os seus puffles."
+    },
+    "495": {
+        "name": "Tesouro Saboroso",
+        "groupid": 7,
+        "difficulty": 1,
+        "description": "Encontre a comida favorita do seu puffle em uma caça ao tesouro "
+    }
+}

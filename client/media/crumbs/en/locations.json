@@ -1,0 +1,42 @@
+{
+    "1": {
+        "name": "Default",
+        "cost": 0,
+        "description": ""
+    },
+    "2": {
+        "name": "Beach",
+        "cost": 3500,
+        "description": "Soak up the sun on\nyour beach property!"
+    },
+    "3": {
+        "name": "Forest",
+        "cost": 3500,
+        "description": "Find your perfect home,\ndeep in the wilderness."
+    },
+    "4": {
+        "name": "Mountain",
+        "cost": 3500,
+        "description": "Picture your new home\non this breathtaking cliff."
+    },
+    "5": {
+        "name": "Age Of Dinosaurs",
+        "cost": 7000,
+        "description": "Live among the dinosaurs in this prehistoric paradise."
+    },
+    "6": {
+        "name": "Distant Planet",
+        "cost": 10500,
+        "description": "Build your home on a whole new planet."
+    },
+    "7": {
+        "name": "Soccer Pitch",
+        "cost": 7000,
+        "description": "Make the ultimate stadium for you and your friends."
+    },
+    "8": {
+        "name": "Undersea",
+        "cost": 10500,
+        "description": "Merguins, sharks and more can party in this lovely sea location."
+    }
+}

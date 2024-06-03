@@ -1,0 +1,98 @@
+{
+    "0": {
+        "name": "Servicio de cambio de piso",
+        "cost": 20
+    },
+    "1": {
+        "name": "Azulejos color terracota",
+        "cost": 680
+    },
+    "2": {
+        "name": "Parqué clarito",
+        "cost": 620
+    },
+    "3": {
+        "name": "Alfombra verde",
+        "cost": 530
+    },
+    "4": {
+        "name": "Alfombra color borgoña",
+        "cost": 530
+    },
+    "5": {
+        "name": "Tabla de ajedrez",
+        "cost": 510
+    },
+    "6": {
+        "name": "Cerámicos",
+        "cost": 540
+    },
+    "7": {
+        "name": "Pista de baile",
+        "cost": 1000
+    },
+    "8": {
+        "name": "Pasos de baile",
+        "cost": 280
+    },
+    "9": {
+        "name": "Piso de bambú",
+        "cost": 370
+    },
+    "10": {
+        "name": "Hojas de otoño",
+        "cost": 400
+    },
+    "11": {
+        "name": "Césped azul",
+        "cost": 530
+    },
+    "12": {
+        "name": "Remolino",
+        "cost": 750
+    },
+    "13": {
+        "name": "Parqué color cerezo",
+        "cost": 620
+    },
+    "14": {
+        "name": "Césped sintético",
+        "cost": 700
+    },
+    "15": {
+        "name": "Alfombra negra",
+        "cost": 530
+    },
+    "16": {
+        "name": "Azulejos oscuros",
+        "cost": 800
+    },
+    "17": {
+        "name": "Alfombra rosa",
+        "cost": 530
+    },
+    "18": {
+        "name": "Piso de arena",
+        "cost": 400
+    },
+    "19": {
+        "name": "Piso cielo azulado",
+        "cost": 530
+    },
+    "20": {
+        "name": "Caminito de adoquines",
+        "cost": 1200
+    },
+    "21": {
+        "name": "Piso nevado",
+        "cost": 400
+    },
+    "22": {
+        "name": "Alfombra verde lima",
+        "cost": 530
+    },
+    "23": {
+        "name": "Colchoneta tejida de arroz",
+        "cost": 750
+    }
+}

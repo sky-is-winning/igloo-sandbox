@@ -1,0 +1,48 @@
+{
+  "name": "igloo-editor",
+  "version": "1.0.0",
+  "description": "Club Penguin Igloo Edit Sandbox in HTML5",
+  "scripts": {
+    "devclient": "webpack serve --host=0.0.0.0",
+    "editor": "phasereditor2d-launcher -project . -max-number-files 100000 -public",
+    "build": "node ./utils/pre-build.js && webpack --mode production --env obfuscate=true",
+    "build-dev": "node ./utils/pre-build.js && webpack --mode development",
+    "build-crumbs": "node ./utils/build-crumbs.js",
+    "format": "npx prettier --write ./src/ && npx prettier --write ./utils/",
+    "check-version": "node ./utils/check-version.js",
+    "minify-json": "node ./utils/minify-json.js",
+    "png2webp": "node ./utils/png-2-webp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky-is-winning/igloo-sandbox"
+  },
+  "author": "sky-is-winning",
+  "bugs": {
+    "url": "https://github.com/sky-is-winning/igloo-sandbox/issues"
+  },
+  "homepage": "https://sandbox.skyiswinni.ng",
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.22.15",
+    "@google-cloud/translate": "^8.0.2",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "core-js": "^3.32.2",
+    "javascript-obfuscator": "^4.1.0",
+    "phasereditor2d-launcher": "^3.62.1",
+    "phasereditor2d-ninepatch-plugin": "^1.2.0",
+    "socket.io-client": "^4.7.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "prettier": "./prettier-config.json",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "devtools-detect": "^4.0.1",
+    "phaser": "^3.60.0"
+  }
+}

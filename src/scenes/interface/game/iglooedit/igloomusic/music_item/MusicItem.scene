@@ -1,0 +1,107 @@
+{
+    "id": "c49be0bf-73b5-433c-b20f-425fc5789895",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "460fe828-2a5c-48b5-8e64-374780777136",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "13a92a5e-3ca1-4352-a27b-7613c2243d6b",
+                    "label": "item",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onClick()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "play"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "id": "730363a5-60c9-4711-80a6-53256a41c9bd",
+                    "label": "title",
+                    "scope": "CLASS",
+                    "x": 18,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "fixedWidth": 280,
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "69b72481-38a1-4341-a6af-dd98ac3a3bd6",
+                    "label": "play-btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.previewTrack()",
+                    "x": -144,
+                    "scaleX": 0.33164760526295156,
+                    "scaleY": 0.33164760526295156,
+                    "fillColor": "#1bc70d",
+                    "fillAlpha": 0.5,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "name",
+            "label": "name",
+            "tooltip": "name",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "musicId",
+            "label": "musicId",
+            "tooltip": "musicId",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "bold",
+            "label": "bold",
+            "tooltip": "bold",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

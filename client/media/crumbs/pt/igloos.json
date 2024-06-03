@@ -1,0 +1,386 @@
+{
+    "0": {
+        "name": "##Igloo Removal##",
+        "cost": 0
+    },
+    "1": {
+        "name": "Iglu Básico",
+        "cost": 1500
+    },
+    "2": {
+        "name": "Iglu Docinho",
+        "cost": 1500
+    },
+    "3": {
+        "name": "Iglu Luxo Azul",
+        "cost": 4000
+    },
+    "4": {
+        "name": "Iglu Docinho Luxo",
+        "cost": 4000
+    },
+    "5": {
+        "name": "Iglu Secreto de Pedra",
+        "cost": 2000
+    },
+    "6": {
+        "name": "Iglu de Neve",
+        "cost": 1000
+    },
+    "8": {
+        "name": "Iglu Secreto de Pedra Luxo",
+        "cost": 5000
+    },
+    "9": {
+        "name": "Iglu de Neve Luxo",
+        "cost": 3000
+    },
+    "10": {
+        "name": "Cabana de Bambu",
+        "cost": 3200
+    },
+    "11": {
+        "name": "Cabana de Madeira",
+        "cost": 4100
+    },
+    "12": {
+        "name": "Academia",
+        "cost": 4800
+    },
+    "13": {
+        "name": "Iglu com Dois Níveis",
+        "cost": 4600
+    },
+    "14": {
+        "name": "Iglu Docinho com Dois Níveis",
+        "cost": 4600
+    },
+    "15": {
+        "name": "Iglu Globo de Neve",
+        "cost": 3700
+    },
+    "16": {
+        "name": "Castelo Gelado",
+        "cost": 2400
+    },
+    "17": {
+        "name": "Iglu de Neve com Dois Níveis",
+        "cost": 4600
+    },
+    "18": {
+        "name": "Iglu Aquário",
+        "cost": 2400
+    },
+    "19": {
+        "name": "Barraca",
+        "cost": 2700
+    },
+    "20": {
+        "name": "Iglu Abóbora",
+        "cost": 2700
+    },
+    "21": {
+        "name": "Iglu com Quintal",
+        "cost": 4200
+    },
+    "22": {
+        "name": "Palácio Gelado Rosa",
+        "cost": 2400
+    },
+    "23": {
+        "name": "Iglu Navio",
+        "cost": 4300
+    },
+    "24": {
+        "name": "Iglu Dojo",
+        "cost": 1300
+    },
+    "25": {
+        "name": "Casa de Biscoito de Gengibre",
+        "cost": 2100
+    },
+    "26": {
+        "name": "Iglu Restaurante",
+        "cost": 4800
+    },
+    "27": {
+        "name": "Iglu Casa na Árvore",
+        "cost": 4500
+    },
+    "28": {
+        "name": "Iglu Teatro",
+        "cost": 4600
+    },
+    "29": {
+        "name": "Tenda de Circo",
+        "cost": 3000
+    },
+    "30": {
+        "name": "Iglu com Quintal Nevado",
+        "cost": 3000
+    },
+    "31": {
+        "name": "Iglu Caverna",
+        "cost": 1500
+    },
+    "32": {
+        "name": "Iglu Sortudo",
+        "cost": 2050
+    },
+    "33": {
+        "name": "Castelo Gelado Cinza",
+        "cost": 2400
+    },
+    "35": {
+        "name": "Chalezinho Aconchegante",
+        "cost": 2500
+    },
+    "36": {
+        "name": "Iglu Mansão",
+        "cost": 2500
+    },
+    "37": {
+        "name": "Iglu Dois Ambientes",
+        "cost": 2300
+    },
+    "38": {
+        "name": "Fortaleza Secreta",
+        "cost": 1800
+    },
+    "39": {
+        "name": "Toca do Dragão",
+        "cost": 3000
+    },
+    "40": {
+        "name": "Canto da Sereia",
+        "cost": 3030
+    },
+    "41": {
+        "name": "Boca de Baleia",
+        "cost": 2700
+    },
+    "42": {
+        "name": "Iglu Doces ou Travessuras",
+        "cost": 2000
+    },
+    "43": {
+        "name": "Iglu de Biscoito de Gengibre Luxo",
+        "cost": 0
+    },
+    "45": {
+        "name": "##Invisible Snowy##",
+        "cost": 0
+    },
+    "46": {
+        "name": "##Invisible Beach##",
+        "cost": 0
+    },
+    "47": {
+        "name": "##Invisible Forest##",
+        "cost": 0
+    },
+    "48": {
+        "name": "##Invisible Mountain##",
+        "cost": 0
+    },
+    "49": {
+        "name": "Iglu Carcaça de Navio Perdido",
+        "cost": 900
+    },
+    "50": {
+        "name": "Toca Selvagem",
+        "cost": 900
+    },
+    "51": {
+        "name": "Iglu Solário Medieval",
+        "cost": 1200
+    },
+    "52": {
+        "name": "Iglu Galpão",
+        "cost": 950
+    },
+    "53": {
+        "name": "Iglu Abacaxi",
+        "cost": 0
+    },
+    "54": {
+        "name": "Caverna dos Calafrios",
+        "cost": 1500
+    },
+    "55": {
+        "name": "Palácio do Nevasca",
+        "cost": 2000
+    },
+    "56": {
+        "name": "Iglu Festivo e Crocante",
+        "cost": 2500
+    },
+    "57": {
+        "name": "Cobertura Luxuosa",
+        "cost": 4000
+    },
+    "58": {
+        "name": "Cobertura VIP",
+        "cost": 4500
+    },
+    "59": {
+        "name": "##Invisible Age of Dinosaurs##",
+        "cost": 0
+    },
+    "60": {
+        "name": "Casa da Árvore dos Puffles",
+        "cost": 0
+    },
+    "61": {
+        "name": "Base Secreta",
+        "cost": 1600
+    },
+    "62": {
+        "name": "Iglu Base Imperial",
+        "cost": 1000
+    },
+    "63": {
+        "name": "Iglu Luau",
+        "cost": 1500
+    },
+    "64": {
+        "name": "##Gymnasium Igloo##",
+        "cost": 0
+    },
+    "65": {
+        "name": "Esconderijo Mágico",
+        "cost": 1500
+    },
+    "66": {
+        "name": "Castelo Sobrenatural",
+        "cost": 2000
+    },
+    "67": {
+        "name": "Iglu Doce Caramelado",
+        "cost": 0
+    },
+    "68": {
+        "name": "Iglu Estação de Trem",
+        "cost": 1100
+    },
+    "69": {
+        "name": "Iglu Arena Principal",
+        "cost": 1000
+    },
+    "70": {
+        "name": "Aeronave da CP Air",
+        "cost": 1200
+    },
+    "71": {
+        "name": "Casa na Árvore para Puffles",
+        "cost": 1500
+    },
+    "72": {
+        "name": "##Invisible Distant Planet##",
+        "cost": 0
+    },
+    "73": {
+        "name": "Iglu Redoma do Espaço",
+        "cost": 2000
+    },
+    "74": {
+        "name": "Iglu Campo de Futebol Invisível",
+        "cost": 0
+    },
+    "75": {
+        "name": "Iglu Ônibus de Turnê",
+        "cost": 1800
+    },
+    "76": {
+        "name": "Iglu Palácio Gelado",
+        "cost": 0
+    },
+    "77": {
+        "name": "Ginásio dos Tubarões",
+        "cost": 1500
+    },
+    "78": {
+        "name": "Iglu Escola",
+        "cost": 0
+    },
+    "79": {
+        "name": "Iglu Caverna Fantasma",
+        "cost": 1800
+    },
+    "80": {
+        "name": "##Invisible Undersea##",
+        "cost": 0
+    },
+    "81": {
+        "name": "##Invisible Merry Walrus Iceberg##",
+        "cost": 0
+    },
+    "82": {
+        "name": "Esconderijo do Ezra",
+        "cost": 1800
+    },
+    "83": {
+        "name": "Iglu Espaçonave",
+        "cost": 0
+    },
+    "84": {
+        "name": "Palco do Show de Talentos",
+        "cost": 1500
+    },
+    "85": {
+        "name": "Casa na Árvore para Puffles Vermelha",
+        "cost": 1000
+    },
+    "86": {
+        "name": "Casa na Árvore para Puffles Laranja",
+        "cost": 1000
+    },
+    "87": {
+        "name": "Casa na Árvore para Puffles Amarela",
+        "cost": 1000
+    },
+    "88": {
+        "name": "Casa na Árvore para Puffles Verde",
+        "cost": 1000
+    },
+    "89": {
+        "name": "Casa na Árvore para Puffles Azul",
+        "cost": 1000
+    },
+    "90": {
+        "name": "Casa na Árvore para Puffles Roxa",
+        "cost": 1000
+    },
+    "91": {
+        "name": "Casa na Árvore para Puffles Preta",
+        "cost": 1000
+    },
+    "92": {
+        "name": "Casa na Árvore para Puffles Branca",
+        "cost": 1000
+    },
+    "93": {
+        "name": "Casa na Árvore para Puffles Marrom",
+        "cost": 1000
+    },
+    "94": {
+        "name": "Casa na Árvore para Puffles Rosa",
+        "cost": 1000
+    },
+    "95": {
+        "name": "Casa na Árvore para Puffles Dourada",
+        "cost": 1000
+    },
+    "96": {
+        "name": "Casa na Árvore para Puffles Multicor",
+        "cost": 1000
+    },
+    "97": {
+        "name": "Iglu Palácio das Flores",
+        "cost": 0
+    },
+    "98": {
+        "name": "Iglu Palco",
+        "cost": 1500
+    }
+}
