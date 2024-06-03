@@ -8,7 +8,7 @@ let config = {
     mode: 'development',
     entry: './src/Game.js',
     output: {
-        filename: 'clubpenguinplus.js',
+        filename: 'igloo-sandbox.js',
         path: path.resolve(__dirname, 'client/scripts/client')
     },
     optimization : {
@@ -70,7 +70,7 @@ let config = {
 }
 
 module.exports = (env, argv) => {
-    config.output.filename = 'clubpenguinplus.min.js'
+    config.output.filename = 'igloo-sandbox.min.js'
     if (argv.mode === 'production') {
         config.optimization.minimize = true
 
