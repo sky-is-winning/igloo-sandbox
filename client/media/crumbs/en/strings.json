@@ -529,6 +529,9 @@
     "igloocat-text2": "Go to edit mode\nand select an item.",
     "igloocat-text3": "Rotate!",
     "igloocat-text4": "Discover\ndifferent looks!",
+    "replace-igloo": "This will replace your current igloo. Please copy the data for your current igloo if you want to keep it!",
+    "copyclipboard": "Copy to clipboard",
+    "copied": "Copied!",
     "errors": {
         "0": "You need more coins",
         "1": "You already have this item",

@@ -38,20 +38,16 @@ export default class IglooEdit extends BaseScene {
         this.iglooMusic;
         /** @type {Phaser.GameObjects.Container} */
         this.controls;
-        /** @type {Phaser.GameObjects.Image} */
-        this.toggler;
-        /** @type {Phaser.GameObjects.Text} */
-        this.grandTotalLikes;
-        /** @type {Phaser.GameObjects.Text} */
-        this.currentIglooLikes;
         /** @type {Phaser.GameObjects.Container} */
         this.chooseIgloo;
         /** @type {Phaser.GameObjects.Image[]} */
         this.categories;
         /** @type {Phaser.GameObjects.Sprite[]} */
         this.spinners;
-        /** @type {Phaser.GameObjects.Text[]} */
+        /** @type {Array<any>} */
         this.likesText;
+        /** @type {Phaser.GameObjects.Text[]} */
+        this.copyTexts;
 
 
         /* START-USER-CTR-CODE */
@@ -257,14 +253,6 @@ export default class IglooEdit extends BaseScene {
         const choose_igloo = this.add.image(944, 349, "iglooedit-new", "choose-igloo");
         chooseIgloo.add(choose_igloo);
 
-        // toggle_panel
-        const toggle_panel = this.add.image(1180, 349, "iglooedit-new", "toggle-panel");
-        chooseIgloo.add(toggle_panel);
-
-        // toggler
-        const toggler = this.add.image(1151, 352, "iglooedit-new", "toggler");
-        chooseIgloo.add(toggler);
-
         // preview_pane
         const preview_pane = this.add.image(250, 744, "iglooedit-new", "preview-pane");
         chooseIgloo.add(preview_pane);
@@ -313,40 +301,12 @@ export default class IglooEdit extends BaseScene {
         const x_1 = this.add.image(1475, 44, "iglooedit-new", "x");
         chooseIgloo.add(x_1);
 
-        // grandTotalLikes
-        const grandTotalLikes = this.add.text(870, 151, "", {});
-        grandTotalLikes.setOrigin(0, 0.5);
-        grandTotalLikes.text = "0";
-        grandTotalLikes.setStyle({ "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "35px", "fontStyle": "bold" });
-        chooseIgloo.add(grandTotalLikes);
-
-        // title_4
-        const title_4 = this.add.text(870, 114, "", {});
-        title_4.setOrigin(0, 0.5);
-        title_4.text = "Grand Total Likes:";
-        title_4.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "28px" });
-        chooseIgloo.add(title_4);
-
         // title_5
         const title_5 = this.add.text(891, 263, "", {});
         title_5.setOrigin(0, 0.5);
         title_5.text = "Your current igloo";
         title_5.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
         chooseIgloo.add(title_5);
-
-        // title_6
-        const title_6 = this.add.text(1060, 349, "", {});
-        title_6.setOrigin(0.5, 0.5);
-        title_6.text = "Friends";
-        title_6.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
-        chooseIgloo.add(title_6);
-
-        // title_7
-        const title_7 = this.add.text(1300, 349, "", {});
-        title_7.setOrigin(0.5, 0.5);
-        title_7.text = "Everyone";
-        title_7.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
-        chooseIgloo.add(title_7);
 
         // title_8
         const title_8 = this.add.text(944, 429, "", {});
@@ -355,91 +315,63 @@ export default class IglooEdit extends BaseScene {
         title_8.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
         chooseIgloo.add(title_8);
 
-        // title_9
-        const title_9 = this.add.text(1180, 429, "", {});
-        title_9.setOrigin(0.5, 0.5);
-        title_9.text = "Igloo Visitors";
-        title_9.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
-        chooseIgloo.add(title_9);
-
-        // currentIglooLikes
-        const currentIglooLikes = this.add.text(892, 507, "", {});
-        currentIglooLikes.setOrigin(0, 0.5);
-        currentIglooLikes.text = "0";
-        currentIglooLikes.setStyle({ "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "32px", "fontStyle": "bold" });
-        chooseIgloo.add(currentIglooLikes);
-
-        // title_11
-        const title_11 = this.add.text(892, 472, "", {});
-        title_11.setOrigin(0, 0.5);
-        title_11.text = "Likes";
-        title_11.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "26px" });
-        chooseIgloo.add(title_11);
-
         // plus_4
         const plus_4 = this.add.sprite(480, 318, "iglooedit-new", "spinner0001");
         chooseIgloo.add(plus_4);
 
-        // title_12
-        const title_12 = this.add.text(108, 828, "", {});
-        title_12.setOrigin(0, 0.5);
-        title_12.text = "Likes";
-        title_12.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "20px" });
-        chooseIgloo.add(title_12);
-
         // title_13
-        const title_13 = this.add.text(108, 853, "", {});
-        title_13.setOrigin(0, 0.5);
-        title_13.text = "0";
-        title_13.setStyle({ "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "24px", "fontStyle": "bold" });
+        const title_13 = this.add.text(250, 840, "", {});
+        title_13.setOrigin(0.5, 0.5);
+        title_13.text = "Copy to clipboard";
+        title_13.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
         chooseIgloo.add(title_13);
 
-        // title_14
-        const title_14 = this.add.text(448, 853, "", {});
-        title_14.setOrigin(0, 0.5);
-        title_14.text = "0";
-        title_14.setStyle({ "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "24px", "fontStyle": "bold" });
-        chooseIgloo.add(title_14);
+        // big_button_1
+        const big_button_1 = this.add.sprite(1180, 339, "iglooedit-new", "big-button");
+        chooseIgloo.add(big_button_1);
 
-        // title_15
-        const title_15 = this.add.text(448, 828, "", {});
-        title_15.setOrigin(0, 0.5);
-        title_15.text = "Likes";
-        title_15.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "20px" });
-        chooseIgloo.add(title_15);
+        // title_3
+        const title_3 = this.add.text(1180, 397, "", {});
+        title_3.setOrigin(0.5, 0.5);
+        title_3.text = "Replace with JSON from clipboard";
+        title_3.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":300,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
+        title_3.setWordWrapWidth(300);
+        chooseIgloo.add(title_3);
 
-        // title_16
-        const title_16 = this.add.text(788, 853, "", {});
-        title_16.setOrigin(0, 0.5);
-        title_16.text = "0";
-        title_16.setStyle({ "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "24px", "fontStyle": "bold" });
-        chooseIgloo.add(title_16);
+        // title_4
+        const title_4 = this.add.text(1180, 339, "", {});
+        title_4.setOrigin(0.5, 0.5);
+        title_4.text = "Replace";
+        title_4.setStyle({ "align": "center", "color": "#eaf4feff", "fixedWidth":300,"fontFamily": "cpBurbankSmall", "fontSize": "24px", "fontStyle": "bold", "shadow.offsetX":-1,"shadow.offsetY":1,"shadow.color": "#2064a8ff", "shadow.blur":2,"shadow.fill":true});
+        title_4.setWordWrapWidth(300);
+        chooseIgloo.add(title_4);
 
-        // title_17
-        const title_17 = this.add.text(788, 828, "", {});
-        title_17.setOrigin(0, 0.5);
-        title_17.text = "Likes";
-        title_17.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "20px" });
-        chooseIgloo.add(title_17);
+        // title_6
+        const title_6 = this.add.text(1269, 840, "", {});
+        title_6.setOrigin(0.5, 0.5);
+        title_6.text = "Copy to clipboard";
+        title_6.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
+        chooseIgloo.add(title_6);
 
-        // title_18
-        const title_18 = this.add.text(1127, 853, "", {});
-        title_18.setOrigin(0, 0.5);
-        title_18.text = "0";
-        title_18.setStyle({ "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "24px", "fontStyle": "bold" });
-        chooseIgloo.add(title_18);
+        // title_7
+        const title_7 = this.add.text(930, 840, "", {});
+        title_7.setOrigin(0.5, 0.5);
+        title_7.text = "Copy to clipboard";
+        title_7.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
+        chooseIgloo.add(title_7);
 
-        // title_19
-        const title_19 = this.add.text(1127, 828, "", {});
-        title_19.setOrigin(0, 0.5);
-        title_19.text = "Likes";
-        title_19.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "20px" });
-        chooseIgloo.add(title_19);
+        // title_9
+        const title_9 = this.add.text(590, 840, "", {});
+        title_9.setOrigin(0.5, 0.5);
+        title_9.text = "Copy to clipboard";
+        title_9.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
+        chooseIgloo.add(title_9);
 
         // lists
         const categories = [all, location, igloos, flooring, room, wall, pets];
         const spinners = [plus, plus_1, plus_2, plus_3, plus_4];
-        const likesText = [title_13, title_14, title_16, title_18];
+        const likesText = [];
+        const copyTexts = [title_13, title_9, title_7, title_6];
 
         // button_edit (components)
         const button_editButton = new Button(button_edit);
@@ -511,13 +443,37 @@ export default class IglooEdit extends BaseScene {
         const choose_iglooButton = new Button(choose_igloo);
         choose_iglooButton.callback = () => this.onEditClick();
 
-        // toggler (components)
-        const togglerSimpleButton = new SimpleButton(toggler);
-        togglerSimpleButton.callback = () => this.toggleOpen();
-
         // close_btn_1 (components)
         const close_btn_1Button = new Button(close_btn_1);
         close_btn_1Button.callback = () => this.closeChooseIgloo();
+
+        // title_13 (components)
+        const title_13SimpleButton = new SimpleButton(title_13);
+        title_13SimpleButton.callback = () => this.copyToClipboard(0);
+        const title_13LocalisedString = new LocalisedString(title_13);
+        title_13LocalisedString.id = "copyclipboard";
+
+        // big_button_1 (components)
+        const big_button_1Button = new Button(big_button_1);
+        big_button_1Button.callback = () => this.onReplaceClick();
+
+        // title_6 (components)
+        const title_6SimpleButton = new SimpleButton(title_6);
+        title_6SimpleButton.callback = () => this.copyToClipboard(3);
+        const title_6LocalisedString = new LocalisedString(title_6);
+        title_6LocalisedString.id = "copyclipboard";
+
+        // title_7 (components)
+        const title_7SimpleButton = new SimpleButton(title_7);
+        title_7SimpleButton.callback = () => this.copyToClipboard(2);
+        const title_7LocalisedString = new LocalisedString(title_7);
+        title_7LocalisedString.id = "copyclipboard";
+
+        // title_9 (components)
+        const title_9SimpleButton = new SimpleButton(title_9);
+        title_9SimpleButton.callback = () => this.copyToClipboard(1);
+        const title_9LocalisedString = new LocalisedString(title_9);
+        title_9LocalisedString.id = "copyclipboard";
 
         this.defaultControls = defaultControls;
         this.button_box = button_box;
@@ -531,13 +487,11 @@ export default class IglooEdit extends BaseScene {
         this.upper = upper;
         this.iglooMusic = iglooMusic;
         this.controls = controls;
-        this.toggler = toggler;
-        this.grandTotalLikes = grandTotalLikes;
-        this.currentIglooLikes = currentIglooLikes;
         this.chooseIgloo = chooseIgloo;
         this.categories = categories;
         this.spinners = spinners;
         this.likesText = likesText;
+        this.copyTexts = copyTexts;
 
         this.events.emit("scene-awake");
     }
@@ -971,7 +925,7 @@ export default class IglooEdit extends BaseScene {
                 break
         }
         if (this.input.activePointer.x < x || this.input.activePointer.x > x + 297 || this.input.activePointer.y < y || this.input.activePointer.y > y + 187) return
-        
+
         this.saveIgloo()
         this.loadIgloo(id)
     }
@@ -1099,9 +1053,31 @@ export default class IglooEdit extends BaseScene {
         this.scrollerDown = false
     }
 
-    showFurnitureCat() {
-        //this.interface.prompt.showError('Use !af {ID} in the chat bar to obtain furniture. EG: !af 100 You can also use !afl {ID} to add flooring, !al {id} to add locations and !aig {ID} to add igloos, but beware many igloos have not yet been implemented.')
-        this.interface.loadExternal('FurnitureCatalog')
+    onReplaceClick() {
+        this.interface.prompt.showWindow(this.crumbs.getString('replace-igloo'), 'dual', () => {
+            this.replaceIgloo()
+            this.interface.prompt.window.visible = false
+        })
+    }
+
+    async replaceIgloo() {
+        let text = await navigator.clipboard.readText()
+
+        let iglooData = JSON.parse(localStorage.iglooData)
+        let currentIgloo = iglooData.currentIgloo
+        iglooData.igloos[currentIgloo] = text
+        localStorage.iglooData = JSON.stringify(iglooData)
+
+        this.shell.joinIgloo(text.split('%'))
+        this.closeChooseIgloo()
+    }
+
+    copyToClipboard(id) {
+        let iglooData = JSON.parse(localStorage.iglooData)
+        let data = iglooData.igloos[id]
+        navigator.clipboard.writeText(data)
+        this.copyTexts[id].text = this.crumbs.getString('copied')
+        setTimeout(() => this.copyTexts[id].text = this.crumbs.getString('copyclipboard'), 800)
     }
     /* END-USER-CODE */
 }

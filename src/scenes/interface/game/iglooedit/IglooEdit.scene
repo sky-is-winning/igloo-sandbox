@@ -570,33 +570,6 @@
                 },
                 {
                     "type": "Image",
-                    "id": "56601698-af3b-4e6a-abd7-6a74243c917f",
-                    "label": "toggle_panel",
-                    "texture": {
-                        "key": "iglooedit-new",
-                        "frame": "toggle-panel"
-                    },
-                    "x": 1180,
-                    "y": 349
-                },
-                {
-                    "type": "Image",
-                    "id": "ba72b0a2-b6e3-4f4c-b3aa-81561edaf3c2",
-                    "label": "toggler",
-                    "scope": "CLASS",
-                    "components": [
-                        "SimpleButton"
-                    ],
-                    "SimpleButton.callback": "() => this.toggleOpen()",
-                    "texture": {
-                        "key": "iglooedit-new",
-                        "frame": "toggler"
-                    },
-                    "x": 1151,
-                    "y": 352
-                },
-                {
-                    "type": "Image",
                     "id": "f87f7b0f-0e19-4f38-8a0f-71335d7ee3b9",
                     "label": "preview_pane",
                     "texture": {
@@ -719,34 +692,6 @@
                 },
                 {
                     "type": "Text",
-                    "id": "af8baaf1-06f9-447c-ab9f-2e2f51956de7",
-                    "label": "grandTotalLikes",
-                    "scope": "CLASS",
-                    "x": 870,
-                    "y": 151,
-                    "originY": 0.5,
-                    "text": "0",
-                    "fixedWidth": 100,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "35px",
-                    "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "72578747-b702-4a4b-91d0-187c4de7944d",
-                    "label": "title_4",
-                    "x": 870,
-                    "y": 114,
-                    "originY": 0.5,
-                    "text": "Grand Total Likes:",
-                    "fixedWidth": 500,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "28px",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
                     "id": "f4aabb71-000f-471b-84d2-a0c7956cc1e1",
                     "label": "title_5",
                     "x": 891,
@@ -756,38 +701,6 @@
                     "fixedWidth": 500,
                     "fontFamily": "cpBurbankSmall",
                     "fontSize": "28px",
-                    "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "bc3f29e7-9f55-44d1-9c50-1d6aa9ae58e9",
-                    "label": "title_6",
-                    "x": 1060,
-                    "y": 349,
-                    "originX": 0.5,
-                    "originY": 0.5,
-                    "text": "Friends",
-                    "fixedWidth": 100,
-                    "align": "center",
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "18px",
-                    "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "881d89e4-40bb-43c3-a9e9-1782374fa1be",
-                    "label": "title_7",
-                    "x": 1300,
-                    "y": 349,
-                    "originX": 0.5,
-                    "originY": 0.5,
-                    "text": "Everyone",
-                    "fixedWidth": 100,
-                    "align": "center",
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "18px",
                     "fontStyle": "bold",
                     "color": "#3e83c5ff"
                 },
@@ -808,50 +721,6 @@
                     "color": "#3e83c5ff"
                 },
                 {
-                    "type": "Text",
-                    "id": "c19fc21e-b300-4ac9-8e04-324d692058a5",
-                    "label": "title_9",
-                    "x": 1180,
-                    "y": 429,
-                    "originX": 0.5,
-                    "originY": 0.5,
-                    "text": "Igloo Visitors",
-                    "fixedWidth": 250,
-                    "align": "center",
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "18px",
-                    "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "da6b9a18-c3e7-4138-b933-e03ae4f658b6",
-                    "label": "currentIglooLikes",
-                    "scope": "CLASS",
-                    "x": 892,
-                    "y": 507,
-                    "originY": 0.5,
-                    "text": "0",
-                    "fixedWidth": 100,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "32px",
-                    "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "e7d69dfd-bf33-457d-90b3-63f085224f61",
-                    "label": "title_11",
-                    "x": 892,
-                    "y": 472,
-                    "originY": 0.5,
-                    "text": "Likes",
-                    "fixedWidth": 500,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "26px",
-                    "color": "#3e83c5ff"
-                },
-                {
                     "type": "Sprite",
                     "id": "b5749e50-ef4e-4817-9eab-73005014302d",
                     "label": "plus_4",
@@ -864,110 +733,144 @@
                 },
                 {
                     "type": "Text",
-                    "id": "0c833cee-7874-43f5-8e6e-22fa107c71f8",
-                    "label": "title_12",
-                    "x": 108,
-                    "y": 828,
-                    "originY": 0.5,
-                    "text": "Likes",
-                    "fixedWidth": 500,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "20px",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
                     "id": "ab20cb8d-909f-4933-9512-e646eff772fe",
                     "label": "title_13",
-                    "x": 108,
-                    "y": 853,
+                    "components": [
+                        "SimpleButton",
+                        "LocalisedString"
+                    ],
+                    "SimpleButton.callback": "() => this.copyToClipboard(0)",
+                    "LocalisedString.id": "copyclipboard",
+                    "x": 250,
+                    "y": 840,
+                    "originX": 0.5,
                     "originY": 0.5,
-                    "text": "0",
-                    "fixedWidth": 100,
+                    "text": "Copy to clipboard",
+                    "fixedWidth": 250,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "28px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8d0a0f14-3ad0-4e5c-8307-a8072598c568",
+                    "label": "big_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onReplaceClick()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "big-button"
+                    },
+                    "x": 1180,
+                    "y": 339
+                },
+                {
+                    "type": "Text",
+                    "id": "88c5c6dd-a7a1-432f-9c21-f1777b50aaf5",
+                    "label": "title_3",
+                    "x": 1180,
+                    "y": 397,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Replace with JSON from clipboard",
+                    "fixedWidth": 300,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "18px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff",
+                    "wordWrapWidth": 300
+                },
+                {
+                    "type": "Text",
+                    "id": "c5c561a5-6500-4b34-b713-51a52d93874d",
+                    "label": "title_4",
+                    "x": 1180,
+                    "y": 339,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Replace",
+                    "fixedWidth": 300,
+                    "align": "center",
                     "fontFamily": "cpBurbankSmall",
                     "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#eaf4feff",
+                    "shadow.offsetX": -1,
+                    "shadow.offsetY": 1,
+                    "shadow.fill": true,
+                    "shadow.color": "#2064a8ff",
+                    "shadow.blur": 2,
+                    "wordWrapWidth": 300
+                },
+                {
+                    "type": "Text",
+                    "id": "24f0e7c1-0958-4eee-89ec-0b3a90ed0ccc",
+                    "label": "title_6",
+                    "components": [
+                        "SimpleButton",
+                        "LocalisedString"
+                    ],
+                    "SimpleButton.callback": "() => this.copyToClipboard(3)",
+                    "LocalisedString.id": "copyclipboard",
+                    "x": 1269,
+                    "y": 840,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Copy to clipboard",
+                    "fixedWidth": 250,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "28px",
                     "fontStyle": "bold",
                     "color": "#3e83c5ff"
                 },
                 {
                     "type": "Text",
-                    "id": "e8461536-ecc0-4e38-8b84-e70255ce035b",
-                    "label": "title_14",
-                    "x": 448,
-                    "y": 853,
+                    "id": "0bd90624-4a02-4c97-a432-20633893b182",
+                    "label": "title_7",
+                    "components": [
+                        "SimpleButton",
+                        "LocalisedString"
+                    ],
+                    "SimpleButton.callback": "() => this.copyToClipboard(2)",
+                    "LocalisedString.id": "copyclipboard",
+                    "x": 930,
+                    "y": 840,
+                    "originX": 0.5,
                     "originY": 0.5,
-                    "text": "0",
-                    "fixedWidth": 100,
+                    "text": "Copy to clipboard",
+                    "fixedWidth": 250,
+                    "align": "center",
                     "fontFamily": "cpBurbankSmall",
-                    "fontSize": "24px",
+                    "fontSize": "28px",
                     "fontStyle": "bold",
                     "color": "#3e83c5ff"
                 },
                 {
                     "type": "Text",
-                    "id": "b1a23d25-7de5-45ef-99ff-56df7b4a5b72",
-                    "label": "title_15",
-                    "x": 448,
-                    "y": 828,
+                    "id": "068eac9a-b4a1-450e-b3a7-dcb071e5bc5a",
+                    "label": "title_9",
+                    "components": [
+                        "SimpleButton",
+                        "LocalisedString"
+                    ],
+                    "SimpleButton.callback": "() => this.copyToClipboard(1)",
+                    "LocalisedString.id": "copyclipboard",
+                    "x": 590,
+                    "y": 840,
+                    "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Likes",
-                    "fixedWidth": 500,
+                    "text": "Copy to clipboard",
+                    "fixedWidth": 250,
+                    "align": "center",
                     "fontFamily": "cpBurbankSmall",
-                    "fontSize": "20px",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "b37ec322-8074-4586-a649-645a1ee420c7",
-                    "label": "title_16",
-                    "x": 788,
-                    "y": 853,
-                    "originY": 0.5,
-                    "text": "0",
-                    "fixedWidth": 100,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "24px",
+                    "fontSize": "28px",
                     "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "76758e86-2d82-46ed-a944-b76eb92e1772",
-                    "label": "title_17",
-                    "x": 788,
-                    "y": 828,
-                    "originY": 0.5,
-                    "text": "Likes",
-                    "fixedWidth": 500,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "20px",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "689af786-9519-468b-8a56-ccf1db7755d4",
-                    "label": "title_18",
-                    "x": 1127,
-                    "y": 853,
-                    "originY": 0.5,
-                    "text": "0",
-                    "fixedWidth": 100,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "24px",
-                    "fontStyle": "bold",
-                    "color": "#3e83c5ff"
-                },
-                {
-                    "type": "Text",
-                    "id": "e45917b8-4752-47ca-bf7a-e1697fbcc79c",
-                    "label": "title_19",
-                    "x": 1127,
-                    "y": 828,
-                    "originY": 0.5,
-                    "text": "Likes",
-                    "fixedWidth": 500,
-                    "fontFamily": "cpBurbankSmall",
-                    "fontSize": "20px",
                     "color": "#3e83c5ff"
                 }
             ]
@@ -1007,12 +910,16 @@
         },
         {
             "id": "60ab6e92-c625-4755-8a19-2edbb0da30fe",
-            "label": "likesText",
+            "label": "likesText"
+        },
+        {
+            "id": "90800336-039d-4805-b12c-f3eaa013c739",
+            "label": "copyTexts",
             "objectIds": [
                 "ab20cb8d-909f-4933-9512-e646eff772fe",
-                "e8461536-ecc0-4e38-8b84-e70255ce035b",
-                "b37ec322-8074-4586-a649-645a1ee420c7",
-                "689af786-9519-468b-8a56-ccf1db7755d4"
+                "068eac9a-b4a1-450e-b3a7-dcb071e5bc5a",
+                "0bd90624-4a02-4c97-a432-20633893b182",
+                "24f0e7c1-0958-4eee-89ec-0b3a90ed0ccc"
             ]
         }
     ]
