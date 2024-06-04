@@ -72,6 +72,7 @@ export default class IglooEdit extends BaseScene {
 
         // controls
         const controls = this.add.container(0, 0);
+        controls.visible = false;
 
         // button_box
         const button_box = this.add.image(1424.9985859979595, 883.0016987305266, "iglooedit-new", "cardboardbox");
@@ -556,11 +557,11 @@ export default class IglooEdit extends BaseScene {
         this.clientEmu = {
             furnitureInventory: Object.keys(this.shell.crumbs.furniture) .map((id) => {return {id: parseInt(id), type: 'furniture', quantity: 99}}) .sort((a, b) => this.crumbs.furniture[a.id].name.localeCompare(this.crumbs.furniture[b.id].name)),
             locationInventory: Object.keys(this.shell.crumbs.locations) .map((id) => {return {id: parseInt(id), type: 'location', quantity: 1}}) .sort((a, b) => this.crumbs.locations[a.id].name.localeCompare(this.crumbs.locations[b.id].name)),
-            iglooInventory: Object.keys(this.shell.crumbs.igloos) .map((id) => {return {id: parseInt(id), type: 'igloo', quantity: 1}}) .sort((a, b) => this.crumbs.igloos[a.id].name.localeCompare(this.crumbs.igloos[b.id].name)),
+            iglooInventory: Object.keys(this.shell.crumbs.igloos) .map((id) => {return {id: parseInt(id), type: 'igloo', quantity: 1}}) .sort((a, b) => this.crumbs.igloos[a.id].name.localeCompare(this.crumbs.igloos[b.id].name)) .filter((igloo) => !this.crumbs.igloos[igloo.id].name.includes('Invisible')),
             floorInventory: Object.keys(this.shell.crumbs.flooring) .map((id) => {return {id: parseInt(id), type: 'flooring', quantity: 1}}) .sort((a, b) => this.crumbs.flooring[a.id].name.localeCompare(this.crumbs.flooring[b.id].name)),
         }
 
-        
+
 
         for (let s of this.spinners) {
             s.anims.play('blue-spinner')

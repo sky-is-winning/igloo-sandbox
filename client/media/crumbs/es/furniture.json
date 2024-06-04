@@ -1574,20 +1574,6 @@
         "cost": 200,
         "max": 99
     },
-    "318": {
-        "name": "Bolsa de dormir",
-        "type": 3,
-        "sort": 3,
-        "cost": 320,
-        "max": 99
-    },
-    "319": {
-        "name": "Cama de barco ",
-        "type": 1,
-        "sort": 1,
-        "cost": 750,
-        "max": 99
-    },
     "330": {
         "name": "Mesa ratona roja",
         "type": 1,

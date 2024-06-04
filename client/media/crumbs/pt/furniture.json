@@ -1574,20 +1574,6 @@
         "cost": 200,
         "max": 99
     },
-    "318": {
-        "name": "Saco de Dormir",
-        "type": 3,
-        "sort": 3,
-        "cost": 320,
-        "max": 99
-    },
-    "319": {
-        "name": "Beliche",
-        "type": 1,
-        "sort": 1,
-        "cost": 750,
-        "max": 99
-    },
     "330": {
         "name": "Mesinha de Centro Vermelha",
         "type": 1,

@@ -198,7 +198,8 @@ export default class IglooMusic extends BaseContainer {
 
     updateMusic(track) {
         this.shell.musicController.addMusic(track)
-        this.airtower.sendXt('g#um', track)
+        this.shell.room.args.music = track
+        this.shell.interface.iglooEdit.saveIgloo()
         this.visible = false
         for (let item of this.musicItems) {
             if (item.musicId != track) {

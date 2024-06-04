@@ -1574,20 +1574,6 @@
         "cost": 200,
         "max": 99
     },
-    "318": {
-        "name": "Sleeping Bag",
-        "type": 3,
-        "sort": 3,
-        "cost": 320,
-        "max": 99
-    },
-    "319": {
-        "name": "Bunk Bed",
-        "type": 1,
-        "sort": 1,
-        "cost": 750,
-        "max": 99
-    },
     "330": {
         "name": "Red Coffee Table",
         "type": 1,

@@ -47,6 +47,7 @@
             "id": "5aebe2f5-2ecf-43e9-a438-fdaa0213fb02",
             "label": "controls",
             "scope": "CLASS",
+            "visible": false,
             "list": [
                 {
                     "type": "Image",
