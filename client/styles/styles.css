@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 :root {
-    --bg: #2e3440;
+    --bg: #22a4f3;
     --text: #eceff4;
     --accent: #88c0d0;
     --button: #5e81ac;
@@ -31,7 +31,6 @@ a {
     width: 100%;
     height: 100%;
     min-width: 500px;
-    max-width: 1520px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -42,4 +41,13 @@ a {
 
 .game input {
     background: none !important;
+}
+
+.dummyForMobileKeyboard {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
 }

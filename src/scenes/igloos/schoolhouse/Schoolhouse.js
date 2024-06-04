@@ -14,11 +14,6 @@ export default class Schoolhouse extends IglooScene {
         /** @type {Phaser.GameObjects.Image[]} */
         this.sort
 
-        /* START-USER-CTR-CODE */
-        this.roomTriggers = {
-            triggers: () => this.interface.main.toggleMap()
-        }
-
         this.floorSpawn = [760, 740]
         this.wallSpawn = [760, 320]
         this.wallBounds = [470, 1050]

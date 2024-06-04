@@ -11,9 +11,7 @@ export default class Dojo extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [758, 724]
         this.wallSpawn = [756, 506]

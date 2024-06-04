@@ -12,9 +12,7 @@ export default class Theatre extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [754, 698]
         this.wallSpawn = [804, 472]

@@ -14,9 +14,7 @@ export default class FreshBakedGingerbreadHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [1000, 686]
         this.wallSpawn = [654, 440]

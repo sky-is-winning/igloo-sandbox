@@ -13,9 +13,7 @@ export default class SpringPalace extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 540]
         this.wallSpawn = [740, 140]

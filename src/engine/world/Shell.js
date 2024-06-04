@@ -75,9 +75,6 @@ export default class Shell extends BaseScene {
         this.iglooFactory = new IglooFactory(this)
         this.soundStudioLoader = new Phaser.Loader.LoaderPlugin(this)
 
-        this.airtower.sendXt('i#gp')
-        this.airtower.sendXt('ma#g')
-
         const emit = this.events.emit.bind(this.events)
         this.events.emit = (event, ...args) => {
             emit(event, ...args)

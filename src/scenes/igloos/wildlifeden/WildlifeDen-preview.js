@@ -13,9 +13,7 @@ export default class WildlifeDen extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [608, 728]
         this.wallSpawn = [496, 182]

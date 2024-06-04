@@ -11,9 +11,7 @@ export default class PinkPuffleTreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [580, 634]
         this.wallSpawn = [1040, 250]

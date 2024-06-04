@@ -14,9 +14,7 @@ export default class MermaidCove extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [616, 512]
         this.wallSpawn = [850, 216]

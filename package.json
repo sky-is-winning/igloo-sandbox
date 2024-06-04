@@ -5,11 +5,10 @@
   "scripts": {
     "devclient": "webpack serve --host=0.0.0.0",
     "editor": "phasereditor2d-launcher -project . -max-number-files 100000 -public",
-    "build": "node ./utils/pre-build.js && webpack --mode production --env obfuscate=true",
-    "build-dev": "node ./utils/pre-build.js && webpack --mode development",
+    "build": "webpack --mode production --env obfuscate=true",
+    "build-dev": "webpack --mode development",
     "build-crumbs": "node ./utils/build-crumbs.js",
     "format": "npx prettier --write ./src/ && npx prettier --write ./utils/",
-    "check-version": "node ./utils/check-version.js",
     "minify-json": "node ./utils/minify-json.js",
     "png2webp": "node ./utils/png-2-webp.js"
   },

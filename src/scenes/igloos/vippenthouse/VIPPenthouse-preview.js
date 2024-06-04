@@ -13,9 +13,7 @@ export default class VIPPenthouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [490, 600]
         this.wallSpawn = [680, 150]

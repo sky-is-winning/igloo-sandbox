@@ -11,9 +11,7 @@ export default class WhalesMouth extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [880, 700]
         this.wallSpawn = [568, 246]

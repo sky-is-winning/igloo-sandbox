@@ -13,9 +13,7 @@ export default class TalentShowStage extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 740]
         this.wallSpawn = [760, 320]

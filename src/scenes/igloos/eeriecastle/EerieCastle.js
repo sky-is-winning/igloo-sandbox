@@ -14,9 +14,7 @@ export default class EerieCastle extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [600, 200]
         this.wallSpawn = [880, 350]

@@ -14,9 +14,7 @@ export default class Pineapple extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [1000, 662]
         this.wallSpawn = [500, 420]

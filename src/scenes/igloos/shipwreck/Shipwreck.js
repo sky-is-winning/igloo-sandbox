@@ -12,9 +12,7 @@ export default class Shipwreck extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 580]
         this.wallSpawn = [840, 260]

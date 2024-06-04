@@ -14,9 +14,7 @@ export default class SpaceDome extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [700, 620]
         this.wallSpawn = [380, 210]

@@ -14,9 +14,7 @@ export default class InHalf extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [940, 620]
         this.wallSpawn = [680, 376]

@@ -14,9 +14,7 @@ export default class FrostBitePalace extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [720, 720]
         this.wallSpawn = [400, 340]

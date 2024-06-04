@@ -14,9 +14,7 @@ export default class TrainStation extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [500, 700]
         this.wallSpawn = [854, 190]

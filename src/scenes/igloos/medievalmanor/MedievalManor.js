@@ -14,9 +14,7 @@ export default class MedievalManor extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [108, 472]
         this.wallSpawn = [1040, 250]

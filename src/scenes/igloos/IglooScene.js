@@ -154,6 +154,7 @@ export default class IglooScene extends RoomScene {
     }
 
     loadFlooring(flooring) {
+        if (flooring == 0) return
         if (this.textures.exists(`flooring/${flooring}`)) return
         let path = '/client/media/igloos/flooring/sprites'
 

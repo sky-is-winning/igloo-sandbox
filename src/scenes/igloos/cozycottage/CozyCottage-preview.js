@@ -11,9 +11,7 @@ export default class CozyCottage extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [656, 614]
         this.wallSpawn = [672, 266]

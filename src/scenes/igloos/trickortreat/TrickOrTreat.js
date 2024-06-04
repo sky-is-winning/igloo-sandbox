@@ -12,9 +12,7 @@ export default class TrickOrTreat extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [714, 624]
         this.wallSpawn = [722, 326]

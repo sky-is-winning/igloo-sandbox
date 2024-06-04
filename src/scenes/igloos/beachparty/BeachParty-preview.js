@@ -17,9 +17,7 @@ export default class BeachParty extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [670, 440]
         this.wallSpawn = [870, 70]

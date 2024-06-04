@@ -12,9 +12,7 @@ export default class Restaurant extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 780]
         this.wallSpawn = [760, 480]

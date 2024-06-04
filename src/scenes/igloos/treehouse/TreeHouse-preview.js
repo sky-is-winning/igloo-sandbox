@@ -13,9 +13,7 @@ export default class TreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [670, 570]
         this.wallSpawn = [650, 310]

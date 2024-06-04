@@ -12,9 +12,7 @@ export default class BambooHut extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [770, 750]
         this.wallSpawn = [790, 400]

@@ -12,9 +12,7 @@ export default class JackOLantern extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 760]
         this.wallSpawn = [760, 330]

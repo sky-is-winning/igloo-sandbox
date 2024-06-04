@@ -13,9 +13,7 @@ export default class Ship extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [768, 720]
         this.wallSpawn = [756, 436]

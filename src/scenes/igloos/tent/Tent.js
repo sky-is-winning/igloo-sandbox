@@ -14,9 +14,7 @@ export default class Tent extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 800]
         this.wallSpawn = [760, 440]

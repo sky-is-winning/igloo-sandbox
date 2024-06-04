@@ -11,9 +11,7 @@ export default class SplitLevelSnow extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [1080, 490]
         this.wallSpawn = [970, 200]

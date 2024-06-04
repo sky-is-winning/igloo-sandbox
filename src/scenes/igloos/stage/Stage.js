@@ -14,9 +14,7 @@ export default class Stage extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 500]
         this.wallSpawn = [740, 140]

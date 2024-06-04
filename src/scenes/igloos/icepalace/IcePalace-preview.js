@@ -13,9 +13,7 @@ export default class IcePalace extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        this.roomTriggers = {
-            map: () => this.interface.main.onMapClick()
-        }
+        
 
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
