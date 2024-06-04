@@ -13,8 +13,6 @@ export default class SpringPalace extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 540]
         this.wallSpawn = [740, 140]
         this.wallBounds = [470, 1050]

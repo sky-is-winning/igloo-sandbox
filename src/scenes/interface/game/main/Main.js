@@ -5,17 +5,15 @@ import {Button, Interactive, SimpleButton, ShowHint, InputText} from '@component
 /* START OF COMPILED CODE */
 
 export default class Main extends BaseScene {
-
     constructor() {
-        super("Main");
+        super('Main')
 
         /** @type {Phaser.GameObjects.Rectangle} */
-        this.blocker;
+        this.blocker
         /** @type {Array<any>} */
-        this.hideOnSleep;
+        this.hideOnSleep
         /** @type {Array<any>} */
-        this.interfaceList;
-
+        this.interfaceList
 
         /* START-USER-CTR-CODE */
         /* END-USER-CTR-CODE */
@@ -23,30 +21,27 @@ export default class Main extends BaseScene {
 
     /** @returns {void} */
     _create() {
-
         // blocker
-        const blocker = this.add.rectangle(760, 480, 1520, 960);
-        blocker.visible = false;
+        const blocker = this.add.rectangle(760, 480, 1520, 960)
+        blocker.visible = false
 
         // lists
-        const hideOnSleep = [];
-        const interfaceList = [];
+        const hideOnSleep = []
+        const interfaceList = []
 
         // blocker (components)
-        new Interactive(blocker);
+        new Interactive(blocker)
 
-        this.blocker = blocker;
-        this.hideOnSleep = hideOnSleep;
-        this.interfaceList = interfaceList;
+        this.blocker = blocker
+        this.hideOnSleep = hideOnSleep
+        this.interfaceList = interfaceList
 
-        this.events.emit("scene-awake");
+        this.events.emit('scene-awake')
     }
-
 
     /* START-USER-CODE */
 
-    create() {
-    }
+    create() {}
 
     /* END-USER-CODE */
 }

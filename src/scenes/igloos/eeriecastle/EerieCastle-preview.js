@@ -13,8 +13,6 @@ export default class EerieCastle extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [600, 200]
         this.wallSpawn = [880, 350]
         this.wallBounds = [230, 1130]

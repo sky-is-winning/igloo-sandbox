@@ -12,8 +12,6 @@ export default class TrickOrTreat extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [714, 624]
         this.wallSpawn = [722, 326]
         this.wallBounds = [488, 958]

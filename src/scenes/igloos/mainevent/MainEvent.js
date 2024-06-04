@@ -14,8 +14,6 @@ export default class MainEvent extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [720, 720]
         this.wallSpawn = [400, 340]
         this.wallBounds = [320, 1200]

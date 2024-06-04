@@ -12,8 +12,6 @@ export default class CandySplitLevel extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [1080, 290]
         this.wallSpawn = [970, 200]
         this.wallBounds = [410, 1110]

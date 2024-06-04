@@ -153,11 +153,9 @@ export default class IglooScene extends RoomScene {
         location.depth = -4
     }
 
-    hidePenguins() {
-    }
+    hidePenguins() {}
 
-    showPenguins() {
-    }
+    showPenguins() {}
 
     loadFlooring(flooring) {
         if (flooring == 0) return
@@ -263,7 +261,6 @@ export default class IglooScene extends RoomScene {
         this.quantities[item] = this.quantities[item] ? this.quantities[item] + 1 : 1
     }
 
-
     /*======= Physics =======*/
 
     addPhysics() {
@@ -297,7 +294,6 @@ export default class IglooScene extends RoomScene {
     }
 
     addInput() {
-
         this.input.dragDistanceThreshold = 1
 
         this.input.on('pointerdown', (pointer, target) => this.onPointerDown(pointer, target))

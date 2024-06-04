@@ -12,8 +12,6 @@ export default class Gymnasium extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 800]
         this.wallSpawn = [760, 430]
         this.wallBounds = [340, 1200]

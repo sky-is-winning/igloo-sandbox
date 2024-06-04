@@ -14,8 +14,6 @@ export default class Pineapple extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [1000, 662]
         this.wallSpawn = [500, 420]
         this.wallBounds = [550, 970]

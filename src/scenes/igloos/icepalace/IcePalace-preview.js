@@ -13,8 +13,6 @@ export default class IcePalace extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
         this.wallBounds = [580, 1000]

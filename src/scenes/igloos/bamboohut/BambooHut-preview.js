@@ -11,8 +11,6 @@ export default class BambooHut extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [770, 750]
         this.wallSpawn = [790, 400]
         this.wallBounds = [520, 1050]

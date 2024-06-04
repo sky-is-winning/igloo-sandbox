@@ -14,8 +14,6 @@ export default class TrainStation extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [500, 700]
         this.wallSpawn = [854, 190]
         this.wallBounds = [420, 1260]

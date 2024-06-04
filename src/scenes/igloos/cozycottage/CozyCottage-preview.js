@@ -11,8 +11,6 @@ export default class CozyCottage extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [656, 614]
         this.wallSpawn = [672, 266]
         this.wallBounds = [510, 874]

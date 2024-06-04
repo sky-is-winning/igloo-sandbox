@@ -13,8 +13,6 @@ export default class TreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [670, 570]
         this.wallSpawn = [650, 310]
         this.wallBounds = [280, 1250]

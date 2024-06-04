@@ -14,8 +14,6 @@ export default class DeluxeGingerbreadHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [1000, 686]
         this.wallSpawn = [654, 440]
         this.wallBounds = [440, 1054]

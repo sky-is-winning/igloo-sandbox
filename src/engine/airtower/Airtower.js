@@ -21,5 +21,5 @@ export default class Airtower {
             }
         }
         return 'en'
-    }    
+    }
 }

@@ -85,18 +85,18 @@ export default class Shell extends BaseScene {
         }
 
         const defaultIgloo = `${1}%${[]}%${1}%${0}%${0}%${1}%${[]}`
-        if (!localStorage.iglooData) localStorage.iglooData = JSON.stringify({
-            currentIgloo: 0,
-            igloos: [defaultIgloo, defaultIgloo, defaultIgloo, defaultIgloo]
-        })
+        if (!localStorage.iglooData)
+            localStorage.iglooData = JSON.stringify({
+                currentIgloo: 0,
+                igloos: [defaultIgloo, defaultIgloo, defaultIgloo, defaultIgloo]
+            })
 
         let iglooData = JSON.parse(localStorage.iglooData)
 
         this.joinIgloo(iglooData.igloos[iglooData.currentIgloo].split('%'))
     }
 
-    setClient(args) {
-    }
+    setClient(args) {}
 
     joinRoom(id, users = null) {
         this.lastRoom = this.room ? this.room.id : 100
@@ -121,7 +121,7 @@ export default class Shell extends BaseScene {
         if (!this.room) {
             return this.createIgloo(args)
         }
-        
+
         this.room.events.once('shutdown', () => this.createIgloo(args))
         this.room.stop()
     }
@@ -130,8 +130,7 @@ export default class Shell extends BaseScene {
         this.room = this.iglooFactory.createIgloo(args)
     }
 
-    addPenguin(userInfo) {
-    }
+    addPenguin(userInfo) {}
 
     removePenguin(id) {
         // If no room, try again in 0.1 seconds

@@ -14,8 +14,6 @@ export default class TalentShowStage extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 740]
         this.wallSpawn = [760, 320]
         this.wallBounds = [470, 1050]

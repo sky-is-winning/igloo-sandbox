@@ -13,8 +13,6 @@ export default class BluePuffleTreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [580, 634]
         this.wallSpawn = [1040, 250]
         this.wallBounds = [460, 1060]

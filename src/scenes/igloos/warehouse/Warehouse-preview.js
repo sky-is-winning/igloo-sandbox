@@ -11,8 +11,6 @@ export default class Warehouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 780]
         this.wallSpawn = [760, 480]
         this.wallBounds = [510, 1110]

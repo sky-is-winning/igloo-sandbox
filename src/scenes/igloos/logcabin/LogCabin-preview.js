@@ -11,8 +11,6 @@ export default class LogCabin extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 728]
         this.wallSpawn = [760, 450]
         this.wallBounds = [490, 1030]

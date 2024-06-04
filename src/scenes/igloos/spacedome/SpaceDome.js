@@ -14,8 +14,6 @@ export default class SpaceDome extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [700, 620]
         this.wallSpawn = [380, 210]
         this.wallBounds = [490, 1030]

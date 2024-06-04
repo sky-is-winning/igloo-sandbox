@@ -11,8 +11,6 @@ export default class DeluxeSnow extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [720, 720]
         this.wallSpawn = [720, 260]
         this.wallBounds = [350, 1200]

@@ -12,8 +12,6 @@ export default class GreenClover extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [1080, 490]
         this.wallSpawn = [970, 200]
         this.wallBounds = [410, 1110]

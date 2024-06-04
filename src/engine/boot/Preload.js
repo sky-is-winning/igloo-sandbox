@@ -134,8 +134,8 @@ export default class Preload extends BaseScene {
         this.interface.hideLoading()
         this.scene.start('InterfaceController')
         // let queryString = window.location.href.substring(window.location.href.indexOf('?') + 1, window.location.href.length)
-        this.scene.start('Shell')    
-}
+        this.scene.start('Shell')
+    }
 
     send2FA(id, code) {
         this.airtower.connectLogin(false, false, () => {

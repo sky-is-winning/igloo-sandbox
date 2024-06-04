@@ -13,8 +13,6 @@ export default class FishBowl extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 720]
         this.wallSpawn = [760, 330]
         this.wallBounds = [436, 1124]

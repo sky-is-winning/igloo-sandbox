@@ -12,8 +12,6 @@ export default class WhalesMouth extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [880, 700]
         this.wallSpawn = [568, 246]
         this.wallBounds = [360, 1140]

@@ -13,8 +13,6 @@ export default class MedievalManor extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [108, 472]
         this.wallSpawn = [1040, 250]
         this.wallBounds = [610, 960]

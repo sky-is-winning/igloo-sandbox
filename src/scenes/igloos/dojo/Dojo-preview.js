@@ -11,8 +11,6 @@ export default class Dojo extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [758, 724]
         this.wallSpawn = [756, 506]
         this.wallBounds = [416, 1100]

@@ -11,8 +11,6 @@ export default class Cave extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 760]
         this.wallSpawn = [760, 260]
         this.wallBounds = [250, 1200]

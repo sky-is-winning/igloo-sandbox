@@ -14,8 +14,6 @@ export default class CreepyCavern extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [720, 720]
         this.wallSpawn = [720, 720]
         this.wallBounds = [400, 340]

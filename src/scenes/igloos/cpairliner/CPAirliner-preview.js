@@ -13,8 +13,6 @@ export default class CPAirliner extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [720, 720]
         this.wallSpawn = [400, 340]
         this.wallBounds = [480, 940]

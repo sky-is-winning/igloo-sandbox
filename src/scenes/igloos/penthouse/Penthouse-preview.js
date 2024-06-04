@@ -13,8 +13,6 @@ export default class Penthouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [490, 600]
         this.wallSpawn = [680, 150]
         this.wallBounds = [490, 1330]

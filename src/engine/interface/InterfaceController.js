@@ -97,8 +97,7 @@ export default class InterfaceController extends BaseScene {
         this.input.setDefaultCursor('default')
     }
 
-    hideIglooEdit() {
-    }
+    hideIglooEdit() {}
 
     showEmoteBalloon(id, emote) {
         this.main.balloonFactory.showEmoteBalloon(id, emote)

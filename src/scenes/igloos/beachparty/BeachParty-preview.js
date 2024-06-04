@@ -17,8 +17,6 @@ export default class BeachParty extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [670, 440]
         this.wallSpawn = [870, 70]
         this.wallBounds = [838, 904]

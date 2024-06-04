@@ -12,8 +12,6 @@ export default class JackOLantern extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
-        
-
         this.floorSpawn = [760, 760]
         this.wallSpawn = [760, 330]
         this.wallBounds = [380, 1160]
