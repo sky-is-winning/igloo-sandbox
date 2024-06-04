@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(/client/fonts/cpProximaNova-Regular.woff2) format('woff2'),
+         url(/client/fonts/cpProximaNova-Regular.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --bg: #22a4f3;
     --text: #eceff4;
@@ -23,13 +31,30 @@ a {
     text-decoration: none;
 }
 
+.footer {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    width: 980px;
+    padding-top: 25px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    color: var(--text);
+    font-family: 'Proxima Nova';
+}
+
+.footer a:link, .footer a:visited {
+    color: #ffcc00;
+}
+
 /* Game */
 
 .game {
     width: 100%;
-    height: 100%;
+    height: 90%;
     min-width: 500px;
-    margin: 0 auto;
+    margin: 1% auto;
     overflow: hidden;
 }
 
