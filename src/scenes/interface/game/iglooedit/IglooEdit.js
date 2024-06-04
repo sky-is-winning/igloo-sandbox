@@ -1,6 +1,6 @@
 import BaseScene from '@scenes/base/BaseScene'
 
-import {Button, Interactive, ShowHint, SimpleButton, LocalisedString} from '@components/components'
+import {Button, Interactive, ShowHint, SimpleButton, LocalisedString, InputText} from '@components/components'
 
 import IglooFactory from '@engine/world/room/IglooFactory'
 
@@ -24,6 +24,12 @@ export default class IglooEdit extends BaseScene {
         this.hide;
         /** @type {Phaser.GameObjects.Container} */
         this.lower;
+        /** @type {Phaser.GameObjects.Text} */
+        this.search;
+        /** @type {Phaser.GameObjects.Text} */
+        this.search_input;
+        /** @type {Phaser.GameObjects.Container} */
+        this.searchBox;
         /** @type {Phaser.GameObjects.Container} */
         this.itemContainer;
         /** @type {NinePatchContainer} */
@@ -66,7 +72,6 @@ export default class IglooEdit extends BaseScene {
 
         // controls
         const controls = this.add.container(0, 0);
-        controls.visible = false;
 
         // button_box
         const button_box = this.add.image(1424.9985859979595, 883.0016987305266, "iglooedit-new", "cardboardbox");
@@ -116,6 +121,29 @@ export default class IglooEdit extends BaseScene {
         // upper
         const upper = this.add.container(0, 0);
         controls.add(upper);
+
+        // searchBox
+        const searchBox = this.add.container(0, 0);
+        searchBox.visible = false;
+        upper.add(searchBox);
+
+        // music_panel_1
+        const music_panel_1 = this.add.image(410, -101, "iglooedit-new", "music-panel");
+        searchBox.add(music_panel_1);
+
+        // search
+        const search = this.add.text(271, 205, "", {});
+        search.setOrigin(0, 0.5);
+        search.text = "Search:";
+        search.setStyle({ "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
+        searchBox.add(search);
+
+        // search_input
+        const search_input = this.add.text(271, 241, "", {});
+        search_input.setOrigin(0, 0.5);
+        search_input.text = "Enter Name";
+        search_input.setStyle({ "color": "#3e83c5ff", "fixedWidth":270,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
+        searchBox.add(search_input);
 
         // all
         const all = this.add.image(659.9985859459266, 215.00169858592562, "iglooedit-new", "all-selected");
@@ -167,6 +195,7 @@ export default class IglooEdit extends BaseScene {
 
         // scrollBarContainer
         const scrollBarContainer = this.add.container(-0.00001392595368088223, 0.0015205401127835472);
+        scrollBarContainer.visible = false;
         upper.add(scrollBarContainer);
 
         // rounded_rect
@@ -333,7 +362,7 @@ export default class IglooEdit extends BaseScene {
         // title_3
         const title_3 = this.add.text(1180, 397, "", {});
         title_3.setOrigin(0.5, 0.5);
-        title_3.text = "Replace with data from clipboard";
+        title_3.text = "Replace with JSON from clipboard";
         title_3.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":300,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
         title_3.setWordWrapWidth(300);
         chooseIgloo.add(title_3);
@@ -397,6 +426,21 @@ export default class IglooEdit extends BaseScene {
         // hide (components)
         const hideLocalisedString = new LocalisedString(hide);
         hideLocalisedString.id = "hide";
+
+        // music_panel_1 (components)
+        new Interactive(music_panel_1);
+
+        // search (components)
+        const searchLocalisedString = new LocalisedString(search);
+        searchLocalisedString.id = "search";
+
+        // search_input (components)
+        const search_inputLocalisedString = new LocalisedString(search_input);
+        search_inputLocalisedString.id = "entername";
+        const search_inputInputText = new InputText(search_input);
+        search_inputInputText.charlimit = 96;
+        search_inputInputText.entercallback = () => this.searchForItems();
+        search_inputInputText.extends = false;
 
         // all (components)
         const allSimpleButton = new SimpleButton(all);
@@ -480,6 +524,9 @@ export default class IglooEdit extends BaseScene {
         this.music = music;
         this.hide = hide;
         this.lower = lower;
+        this.search = search;
+        this.search_input = search_input;
+        this.searchBox = searchBox;
         this.itemContainer = itemContainer;
         this.scrollbar = scrollbar;
         this.scroller = scroller;
@@ -498,17 +545,6 @@ export default class IglooEdit extends BaseScene {
 
 
     /* START-USER-CODE */
-
-    get clientEmu() {
-        return {
-            furnitureInventory: Object.keys(this.shell.crumbs.furniture) .map((id) => {return {id: parseInt(id), type: 'furniture', quantity: 99}}),
-            locationInventory: Object.keys(this.shell.crumbs.locations) .map((id) => {return {id: parseInt(id), type: 'location', quantity: 1}}),
-            iglooInventory: Object.keys(this.shell.crumbs.igloos) .map((id) => {return {id: parseInt(id), type: 'igloo', quantity: 1}}),
-            floorInventory: Object.keys(this.shell.crumbs.flooring) .map((id) => {return {id: parseInt(id), type: 'flooring', quantity: 1}}),
-
-        }
-    }
-
     get currentIgloo() {
         let iglooData = JSON.parse(localStorage.iglooData)
         return iglooData.currentIgloo
@@ -516,6 +552,16 @@ export default class IglooEdit extends BaseScene {
 
     create() {
         this._create()
+
+        this.clientEmu = {
+            furnitureInventory: Object.keys(this.shell.crumbs.furniture) .map((id) => {return {id: parseInt(id), type: 'furniture', quantity: 99}}) .sort((a, b) => this.crumbs.furniture[a.id].name.localeCompare(this.crumbs.furniture[b.id].name)),
+            locationInventory: Object.keys(this.shell.crumbs.locations) .map((id) => {return {id: parseInt(id), type: 'location', quantity: 1}}) .sort((a, b) => this.crumbs.locations[a.id].name.localeCompare(this.crumbs.locations[b.id].name)),
+            iglooInventory: Object.keys(this.shell.crumbs.igloos) .map((id) => {return {id: parseInt(id), type: 'igloo', quantity: 1}}) .sort((a, b) => this.crumbs.igloos[a.id].name.localeCompare(this.crumbs.igloos[b.id].name)),
+            floorInventory: Object.keys(this.shell.crumbs.flooring) .map((id) => {return {id: parseInt(id), type: 'flooring', quantity: 1}}) .sort((a, b) => this.crumbs.flooring[a.id].name.localeCompare(this.crumbs.flooring[b.id].name)),
+        }
+
+        
+
         for (let s of this.spinners) {
             s.anims.play('blue-spinner')
         }
@@ -759,7 +805,7 @@ export default class IglooEdit extends BaseScene {
         }
 
         let furniture = this.shell.room.furnitureSprites.map((f, i) => {
-            return `${i}|${f.id}|${f.x}|${f.y}|${parseInt(f.currentFrame[0])}|${parseInt(f.currentFrame[1])}`
+            return `${i}|${f.id}|${f.x}|${f.y}|${parseInt(f.currentFrame[1])}|${parseInt(f.currentFrame[0])}`
         })
 
         // this.airtower.sendXt('g#ur', furniture.join(','))
@@ -788,9 +834,81 @@ export default class IglooEdit extends BaseScene {
         this.categories[id].setFrame(this.categories[id].frame.name + '-selected')
         this.loadItems(id)
 
+        if (id == 6) {
+            this.searchBox.visible = true
+            this.search_input.__InputText.clickZone.visible = true
+        } else {
+            this.searchBox.visible = false
+            this.search_input.__InputText.clickZone.visible = false
+            this.search_input.__InputText.clearText()
+        }
+
         if (this.controls.state == 'minimised') {
             this.tweenControls()
         }
+    }
+
+    searchForItems() {
+        let search = this.search_input.textContent
+        let items = []
+        let exactMatch;
+
+        let searchLower = search.toLowerCase()
+
+        for (let item of this.clientEmu.furnitureInventory) {
+            let name = this.crumbs.furniture[item.id].name
+            if (name.toLowerCase() == searchLower) {
+                exactMatch = item
+                continue
+            }
+
+            if (name.toLowerCase().includes(searchLower)) {
+                items.push(item)
+            }
+        }
+
+        for (let item of this.clientEmu.locationInventory) {
+            let name = this.crumbs.locations[item.id].name
+            if (name.toLowerCase() == searchLower) {
+                exactMatch = item
+                continue
+            }
+
+            if (name.toLowerCase().includes(searchLower)) {
+                items.push(item)
+            }
+        }
+
+        for (let item of this.clientEmu.iglooInventory) {
+            let name = this.crumbs.igloos[item.id].name
+            if (name.toLowerCase() == searchLower) {
+                exactMatch = item
+                continue
+            }
+
+            if (name.toLowerCase().includes(searchLower)) {
+                items.push(item)
+            }
+        }
+
+        for (let item of this.clientEmu.floorInventory) {
+            let name = this.crumbs.flooring[item.id].name
+            if (name.toLowerCase() == searchLower) {
+                exactMatch = item
+                continue
+            }
+
+            if (name.toLowerCase().includes(searchLower)) {
+                items.push(item)
+            }
+        }
+
+        if (exactMatch) {
+            items.filter((item) => item != exactMatch)
+            items.unshift(exactMatch)
+        }
+
+        this.loadItems(items)
     }
 
     loadItems(category) {
@@ -829,12 +947,9 @@ export default class IglooEdit extends BaseScene {
                 })
                 break
             case 6:
-                this.clientEmu.furnitureInventory.forEach((item) => {
-                    if (this.crumbs.furniture[item.id].type == 4) {
-                        items.push(item)
-                    }
-                })
                 break
+            default:
+                items = category
         }
 
         this.loadIglooItems(items, xcoord)

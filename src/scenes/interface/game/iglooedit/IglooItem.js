@@ -152,6 +152,8 @@ export default class IglooItem extends Phaser.GameObjects.Container {
     }
 
     onClick() {
+        if (this.scene.shell.room.selected) return
+
         let pointer = this.scene.input.activePointer
 
         if (this.item.type == 'furniture') {

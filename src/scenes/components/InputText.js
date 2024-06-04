@@ -134,7 +134,7 @@ export default class InputText extends EventComponent {
         this.firstTrueX = this.trueX
         this.firstTrueY = this.trueY
 
-        this.update = this.updateRect
+        this.gameObject.scene.events.on('update', this.updateRect, this)
     }
 
     updateRect() {

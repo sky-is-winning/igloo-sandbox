@@ -47,7 +47,6 @@
             "id": "5aebe2f5-2ecf-43e9-a438-fdaa0213fb02",
             "label": "controls",
             "scope": "CLASS",
-            "visible": false,
             "list": [
                 {
                     "type": "Image",
@@ -190,6 +189,71 @@
                     "label": "upper",
                     "scope": "CLASS",
                     "list": [
+                        {
+                            "type": "Container",
+                            "id": "273ce45b-df27-4593-b51f-cb07f1060bbe",
+                            "label": "searchBox",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "92c63c7a-3cbb-46d4-894b-a40dbd6a419e",
+                                    "label": "music_panel_1",
+                                    "components": [
+                                        "Interactive"
+                                    ],
+                                    "texture": {
+                                        "key": "iglooedit-new",
+                                        "frame": "music-panel"
+                                    },
+                                    "x": 410,
+                                    "y": -101
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "75b9062b-ac72-4607-8e6e-466127613664",
+                                    "label": "search",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "LocalisedString"
+                                    ],
+                                    "LocalisedString.id": "search",
+                                    "x": 271,
+                                    "y": 205,
+                                    "originY": 0.5,
+                                    "text": "Search:",
+                                    "fixedWidth": 150,
+                                    "fontFamily": "cpBurbankSmall",
+                                    "fontSize": "22px",
+                                    "fontStyle": "bold",
+                                    "color": "#3e83c5ff"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "648776ea-6a63-442e-b17a-9dd6f8b56c8a",
+                                    "label": "search_input",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "LocalisedString",
+                                        "InputText"
+                                    ],
+                                    "LocalisedString.id": "entername",
+                                    "InputText.charlimit": 96,
+                                    "InputText.entercallback": "() => this.searchForItems()",
+                                    "InputText.extends": false,
+                                    "x": 271,
+                                    "y": 241,
+                                    "originY": 0.5,
+                                    "text": "Enter Name",
+                                    "fixedWidth": 270,
+                                    "fontFamily": "cpBurbankSmall",
+                                    "fontSize": "22px",
+                                    "fontStyle": "bold",
+                                    "color": "#3e83c5ff"
+                                }
+                            ]
+                        },
                         {
                             "type": "Image",
                             "id": "aa0e11f4-f6b6-4c5d-b2aa-b3b0ce255d00",
@@ -360,6 +424,7 @@
                             "scope": "CLASS",
                             "x": -0.00001392595368088223,
                             "y": 0.0015205401127835472,
+                            "visible": false,
                             "list": [
                                 {
                                     "type": "NinePatchContainer",

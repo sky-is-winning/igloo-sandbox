@@ -140,6 +140,12 @@ export default class IglooScene extends RoomScene {
 
         let mask = this.createMask()
         this.flooring.setMask(mask)
+
+        this.children.list.forEach((f) => {
+            if (f.frame && f.frame.name == 'floor') {
+                f.setDepth(-2)
+            }
+        })
     }
 
     addLocation() {
@@ -187,6 +193,7 @@ export default class IglooScene extends RoomScene {
 
     loadAllFurniture() {
         for (let f of this.args.furniture) {
+            console.log('loadAllFurniture', f)
             this.updateQuantity(f.furnitureId)
             this.loader.loadFurniture(f.furnitureId, null, f.x, f.y, f.rotation, f.frame, this)
         }
@@ -305,7 +312,7 @@ export default class IglooScene extends RoomScene {
     onPointerMove(pointer) {
         if (this.editing && this.selected) {
             this.selected.drag(pointer)
-            if (this.selected.y < 200) {
+            if (pointer.y < 200) {
                 this.interface.iglooEdit.showMirror(this.selected.id, this.selected.x, this.selected.y)
             } else {
                 this.interface.iglooEdit.hideMirror()

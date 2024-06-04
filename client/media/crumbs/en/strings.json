@@ -532,6 +532,8 @@
     "replace-igloo": "This will replace your current igloo. Please copy the data for your current igloo if you want to keep it!",
     "copyclipboard": "Copy to clipboard",
     "copied": "Copied!",
+    "search": "Search:",
+    "entername": "Enter name",
     "errors": {
         "0": "You need more coins",
         "1": "You already have this item",
