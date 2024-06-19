@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/client/media/igloos/buildings/sprites/deluxestone/deluxestone-pack.json"
+            "client/media/igloos/buildings/sprites/deluxestone/deluxestone-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "DeluxeStone",

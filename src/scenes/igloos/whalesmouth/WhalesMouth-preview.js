@@ -1,5 +1,6 @@
 import IglooScene from '../IglooScene'
 import {Button, MoveTo, LocalisedSprite} from '@components/components'
+
 /* START OF COMPILED CODE */
 
 export default class WhalesMouth extends IglooScene {

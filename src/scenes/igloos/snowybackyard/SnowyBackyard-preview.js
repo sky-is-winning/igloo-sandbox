@@ -1,5 +1,6 @@
 import IglooScene from '../IglooScene'
 import {Button, MoveTo} from '@components/components'
+
 /* START OF COMPILED CODE */
 
 export default class SnowyBackyard extends IglooScene {
@@ -32,7 +33,12 @@ export default class SnowyBackyard extends IglooScene {
         const floor = this.add.image(760, 480, 'snowybackyard', 'bg')
 
         // door
-        this.add.image(689, 244, 'snowybackyard', 'door')
+        const door = this.add.image(680, 318, 'snowybackyard', 'door')
+        door.setOrigin(0.4387755102040816, 0.8557692307692307)
+
+        // door (components)
+        new Button(door)
+        new MoveTo(door)
 
         this.floor = floor
 

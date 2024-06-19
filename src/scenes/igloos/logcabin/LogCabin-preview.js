@@ -6,8 +6,10 @@ export default class LogCabin extends IglooScene {
     constructor() {
         super(`LogCabin-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
 
-        /** @type {Phaser.GameObjects.Layer} */
-        this.floor
+        /** @type {Phaser.GameObjects.Image} */
+        this.floor2
+        /** @type {Phaser.GameObjects.Image} */
+        this.floor1
 
         /* START-USER-CTR-CODE */
 
@@ -28,17 +30,12 @@ export default class LogCabin extends IglooScene {
 
     /** @returns {void} */
     _create() {
-        // floor
-        const floor = this.add.layer()
+        // floor2
+        const floor2 = this.add.image(760, 703, 'logcabin', 'floor_1')
 
-        // floor_1
-        const floor_1 = this.add.image(760, 703, 'logcabin', 'floor_1')
-        floor.add(floor_1)
-
-        // floor_2
-        const floor_2 = this.add.image(748, 838, 'logcabin', 'floor_2')
-        floor_2.setOrigin(0.5, 0.5070422535211268)
-        floor.add(floor_2)
+        // floor1
+        const floor1 = this.add.image(748, 838, 'logcabin', 'floor_2')
+        floor1.setOrigin(0.5, 0.5070422535211268)
 
         // wall
         const wall = this.add.image(760, 426, 'logcabin', 'wall')
@@ -47,7 +44,8 @@ export default class LogCabin extends IglooScene {
         // door
         this.add.image(421, 555, 'logcabin', 'door')
 
-        this.floor = floor
+        this.floor2 = floor2
+        this.floor1 = floor1
 
         this.events.emit('scene-awake')
     }

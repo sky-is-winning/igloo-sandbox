@@ -1,5 +1,6 @@
 import IglooScene from '../IglooScene'
 import {Button, MoveTo} from '@components/components'
+
 /* START OF COMPILED CODE */
 
 export default class Shipwreck extends IglooScene {
@@ -19,6 +20,11 @@ export default class Shipwreck extends IglooScene {
         this.isPreview = true
 
         /* END-USER-CTR-CODE */
+    }
+
+    /** @returns {void} */
+    _preload() {
+        this.load.pack('shipwreck-pack', 'client/media/igloos/buildings/sprites/shipwreck/shipwreck-pack.json')
     }
 
     /** @returns {void} */

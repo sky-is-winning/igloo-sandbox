@@ -1,5 +1,6 @@
 import IglooScene from '../IglooScene'
 import {Button, MoveTo} from '@components/components'
+
 /* START OF COMPILED CODE */
 
 export default class Backyard extends IglooScene {
@@ -19,6 +20,11 @@ export default class Backyard extends IglooScene {
         this.isPreview = true
 
         /* END-USER-CTR-CODE */
+    }
+
+    /** @returns {void} */
+    _preload() {
+        this.load.pack('backyard-pack', 'client/media/igloos/buildings/sprites/backyard/backyard-pack.json')
     }
 
     /** @returns {void} */

@@ -1,5 +1,6 @@
 import IglooScene from '../IglooScene'
 import {SimpleButton, MoveTo} from '@components/components'
+
 /* START OF COMPILED CODE */
 
 export default class SharksGym extends IglooScene {

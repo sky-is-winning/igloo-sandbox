@@ -7,7 +7,7 @@
         "exportClass": true,
         "superClassName": "BaseScene",
         "preloadPackFiles": [
-            "yukon/client/media/interface/menus/load/load-pack.json"
+            "client/media/interface/menus/load/load-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Load",

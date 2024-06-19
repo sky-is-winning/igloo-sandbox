@@ -10,7 +10,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/client/media/igloos/buildings/sprites/candy/candy-pack.json"
+            "client/media/igloos/buildings/sprites/candy/candy-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Candy",

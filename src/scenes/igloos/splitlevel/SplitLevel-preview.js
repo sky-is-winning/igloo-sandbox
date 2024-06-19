@@ -6,8 +6,10 @@ export default class SplitLevel extends IglooScene {
     constructor() {
         super(`SplitLevel-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
 
-        /** @type {Phaser.GameObjects.Layer} */
-        this.floor
+        /** @type {Phaser.GameObjects.Image} */
+        this.floor2
+        /** @type {Phaser.GameObjects.Image} */
+        this.floor1
 
         /* START-USER-CTR-CODE */
 
@@ -28,18 +30,13 @@ export default class SplitLevel extends IglooScene {
 
     /** @returns {void} */
     _create() {
-        // floor
-        const floor = this.add.layer()
+        // floor2
+        const floor2 = this.add.image(760, 630, 'splitlevel', 'floor')
+        floor2.setOrigin(0.5003861003861004, 0.5)
 
-        // floor_1
-        const floor_1 = this.add.image(760, 630, 'splitlevel', 'floor')
-        floor_1.setOrigin(0.5003861003861004, 0.5)
-        floor.add(floor_1)
-
-        // stairs_top
-        const stairs_top = this.add.image(763, 667, 'splitlevel', 'stairs_top')
-        stairs_top.setOrigin(0.5, 0.5035971223021583)
-        floor.add(stairs_top)
+        // floor1
+        const floor1 = this.add.image(763, 667, 'splitlevel', 'stairs_top')
+        floor1.setOrigin(0.5, 0.5035971223021583)
 
         // door
         this.add.image(235, 556, 'splitlevel', 'door')
@@ -55,7 +52,8 @@ export default class SplitLevel extends IglooScene {
         const wall_2 = this.add.image(925, 811, 'splitlevel', 'wall_2')
         wall_2.setOrigin(0.5, 0.5015197568389058)
 
-        this.floor = floor
+        this.floor2 = floor2
+        this.floor1 = floor1
 
         this.events.emit('scene-awake')
     }

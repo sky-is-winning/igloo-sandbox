@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/client/media/igloos/buildings/sprites/deluxesnow/deluxesnow-pack.json"
+            "client/media/igloos/buildings/sprites/deluxesnow/deluxesnow-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "DeluxeSnow",

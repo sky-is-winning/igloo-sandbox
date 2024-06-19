@@ -1,4 +1,5 @@
 import IglooScene from '../IglooScene'
+import {Animation, Button, MoveTo, SimpleButton} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -12,6 +13,8 @@ export default class Snowglobe extends IglooScene {
         this.snow
         /** @type {Phaser.GameObjects.Sprite} */
         this.glass
+        /** @type {Phaser.GameObjects.Sprite[]} */
+        this.sort
 
         /* START-USER-CTR-CODE */
 
@@ -27,7 +30,7 @@ export default class Snowglobe extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('snowglobe-pack', 'assets/media/igloos/buildings/sprites/snowglobe/snowglobe-pack.json')
+        this.load.pack('snowglobe-pack', 'client/media/igloos/buildings/sprites/snowglobe/snowglobe-pack.json')
     }
 
     /** @returns {void} */
@@ -52,14 +55,54 @@ export default class Snowglobe extends IglooScene {
         rectangle_1.fillColor = 589743
         rectangle_1.fillAlpha = 100
 
+        // lists
+        const sort = [glass, snow]
+
+        // base (components)
+        const baseAnimation = new Animation(base)
+        baseAnimation.key = 'base_'
+        baseAnimation.end = 19
+        baseAnimation.repeat = 0
+        baseAnimation.autoPlay = false
+
+        // snow (components)
+        const snowAnimation = new Animation(snow)
+        snowAnimation.key = 'snow_'
+        snowAnimation.end = 130
+        snowAnimation.repeat = 0
+        snowAnimation.autoPlay = false
+
+        // glass (components)
+        const glassAnimation = new Animation(glass)
+        glassAnimation.key = 'glass_'
+        glassAnimation.end = 19
+        glassAnimation.repeat = 0
+        glassAnimation.autoPlay = false
+
+        // rectangle_1 (components)
+        const rectangle_1SimpleButton = new SimpleButton(rectangle_1)
+        rectangle_1SimpleButton.callback = () => {
+            this.onShake()
+        }
+
         this.base = base
         this.snow = snow
         this.glass = glass
+        this.sort = sort
 
         this.events.emit('scene-awake')
     }
 
     /* START-USER-CODE */
+
+    onShake() {
+        this.snow.setDepth(9998)
+        this.glass.setDepth(9999)
+        this.base.__Animation.play()
+        this.glass.__Animation.play()
+        this.snow.__Animation.play()
+    }
+
     /* END-USER-CODE */
 }
 

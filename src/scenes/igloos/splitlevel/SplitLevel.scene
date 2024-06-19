@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/client/media/igloos/buildings/sprites/splitlevel/splitlevel-pack.json"
+            "client/client/media/igloos/buildings/sprites/splitlevel/splitlevel-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SplitLevel",
@@ -17,45 +17,35 @@
     },
     "displayList": [
         {
-            "type": "Layer",
-            "id": "98be1edb-be78-4b16-af00-63c387ae9080",
-            "label": "floor",
+            "type": "Image",
+            "id": "746c3c7a-a19d-4796-a1ae-65809d0ab585",
+            "label": "floor2",
             "scope": "CLASS",
-            "components": [],
-            "list": [
-                {
-                    "type": "Image",
-                    "id": "746c3c7a-a19d-4796-a1ae-65809d0ab585",
-                    "label": "floor_1",
-                    "components": [],
-                    "texture": {
-                        "key": "splitlevel",
-                        "frame": "floor"
-                    },
-                    "x": 760,
-                    "y": 630,
-                    "originX": 0.5003861003861004
-                },
-                {
-                    "type": "Image",
-                    "id": "584f6f3e-f68c-49f4-8213-0befec59e33e",
-                    "label": "stairs_top",
-                    "components": [],
-                    "texture": {
-                        "key": "splitlevel",
-                        "frame": "stairs_top"
-                    },
-                    "x": 763,
-                    "y": 667,
-                    "originY": 0.5035971223021583
-                }
-            ]
+            "texture": {
+                "key": "splitlevel",
+                "frame": "floor"
+            },
+            "x": 760,
+            "y": 630,
+            "originX": 0.5003861003861004
+        },
+        {
+            "type": "Image",
+            "id": "584f6f3e-f68c-49f4-8213-0befec59e33e",
+            "label": "floor1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "splitlevel",
+                "frame": "stairs_top"
+            },
+            "x": 763,
+            "y": 667,
+            "originY": 0.5035971223021583
         },
         {
             "type": "Image",
             "id": "3331b290-70cf-49b2-aadd-fe156d47370b",
             "label": "door",
-            "components": [],
             "texture": {
                 "key": "splitlevel",
                 "frame": "door"
@@ -67,7 +57,6 @@
             "type": "Image",
             "id": "c403d38e-23ba-487e-9af1-cdf39917103b",
             "label": "wall_1",
-            "components": [],
             "texture": {
                 "key": "splitlevel",
                 "frame": "wall_1"
@@ -80,7 +69,6 @@
             "type": "Image",
             "id": "a2faaa3e-b19e-4730-9b8c-3967696fff44",
             "label": "stairs",
-            "components": [],
             "texture": {
                 "key": "splitlevel",
                 "frame": "stairs"
@@ -92,7 +80,6 @@
             "type": "Image",
             "id": "277514b6-704e-4e32-9ec3-c24b85c78f16",
             "label": "wall_2",
-            "components": [],
             "texture": {
                 "key": "splitlevel",
                 "frame": "wall_2"
@@ -107,6 +94,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 3
+        "version": 5
     }
 }

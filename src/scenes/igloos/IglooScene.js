@@ -106,6 +106,8 @@ export default class IglooScene extends RoomScene {
 
         super.create()
         if (this.floor) this.floor.depth = -2
+        if (this.floor1) this.floor1.depth = -3
+        if (this.floor2) this.floor2.depth = -4
 
         if (this.args.flooring) this.updateFlooring(this.args.flooring)
         this.addLocation()

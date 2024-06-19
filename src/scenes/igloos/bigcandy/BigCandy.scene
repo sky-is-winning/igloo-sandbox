@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "yukon/client/media/igloos/buildings/sprites/bigcandy/bigcandy-pack.json"
+            "client/media/igloos/buildings/sprites/bigcandy/bigcandy-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "BigCandy",
