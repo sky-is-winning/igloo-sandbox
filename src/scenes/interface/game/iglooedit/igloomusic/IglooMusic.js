@@ -10,7 +10,7 @@ export default class IglooMusic extends BaseContainer {
     constructor(scene, x, y) {
         super(scene, x ?? 760, y ?? 480)
 
-        /** @type {MusicItem[]} */
+        /** @type {Array<any>} */
         this.musicItems
 
         // block
@@ -57,70 +57,6 @@ export default class IglooMusic extends BaseContainer {
         title_2.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 330, fontFamily: 'cpBurbankSmall', fontSize: '32px', fontStyle: 'bold'})
         this.add(title_2)
 
-        // musicItem
-        const musicItem = new MusicItem(scene, -200, -200)
-        this.add(musicItem)
-
-        // musicItem_1
-        const musicItem_1 = new MusicItem(scene, 200, -200)
-        this.add(musicItem_1)
-
-        // musicItem_2
-        const musicItem_2 = new MusicItem(scene, -200, -130)
-        this.add(musicItem_2)
-
-        // musicItem_3
-        const musicItem_3 = new MusicItem(scene, 200, -130)
-        this.add(musicItem_3)
-
-        // musicItem_4
-        const musicItem_4 = new MusicItem(scene, -200, 10)
-        this.add(musicItem_4)
-
-        // musicItem_5
-        const musicItem_5 = new MusicItem(scene, 200, 10)
-        this.add(musicItem_5)
-
-        // musicItem_6
-        const musicItem_6 = new MusicItem(scene, -200, -60)
-        this.add(musicItem_6)
-
-        // musicItem_7
-        const musicItem_7 = new MusicItem(scene, 200, -60)
-        this.add(musicItem_7)
-
-        // musicItem_8
-        const musicItem_8 = new MusicItem(scene, -200, 290)
-        this.add(musicItem_8)
-
-        // musicItem_9
-        const musicItem_9 = new MusicItem(scene, 200, 290)
-        this.add(musicItem_9)
-
-        // musicItem_10
-        const musicItem_10 = new MusicItem(scene, -200, 220)
-        this.add(musicItem_10)
-
-        // musicItem_11
-        const musicItem_11 = new MusicItem(scene, 200, 220)
-        this.add(musicItem_11)
-
-        // musicItem_12
-        const musicItem_12 = new MusicItem(scene, -200, 150)
-        this.add(musicItem_12)
-
-        // musicItem_13
-        const musicItem_13 = new MusicItem(scene, -200, 80)
-        this.add(musicItem_13)
-
-        // musicItem_14
-        const musicItem_14 = new MusicItem(scene, 200, 80)
-        this.add(musicItem_14)
-
-        // musicItem_15
-        const musicItem_15 = new MusicItem(scene, 200, 150)
-        this.add(musicItem_15)
-
         // rectangle_1
         const rectangle_1 = scene.add.rectangle(174, -369, 128, 128)
         rectangle_1.scaleX = 2.6662764784624313
@@ -134,7 +70,7 @@ export default class IglooMusic extends BaseContainer {
         this.add(rectangle)
 
         // lists
-        const musicItems = [musicItem, musicItem_1, musicItem_2, musicItem_3, musicItem_6, musicItem_7, musicItem_4, musicItem_5, musicItem_13, musicItem_14, musicItem_12, musicItem_15, musicItem_10, musicItem_11, musicItem_8, musicItem_9]
+        const musicItems = []
 
         // block (components)
         new Interactive(block)
@@ -166,34 +102,67 @@ export default class IglooMusic extends BaseContainer {
         this.musicItems = musicItems
 
         /* START-USER-CTR-CODE */
-        const musicList = 'default'
-        for (let item in this.musicItems) {
-            let trackId = this.crumbs.igloo_music[musicList][item]
-            if (!trackId) {
-                this.musicItems[item].visible = false
-                continue
+        this.musicMask = this.createMask()
+
+        let ypos = -200
+        Object.values(this.crumbs.music).forEach((song, i) => {
+            let xpos
+            if (i % 2 == 0) {
+                xpos = -200
+            } else {
+                xpos = 200
             }
-            let track = this.crumbs.music[trackId]
-            if (!track) {
-                this.musicItems[item].visible = false
-                continue
+            let musicItem = new MusicItem(scene, xpos, ypos)
+            this.add(musicItem)
+            this.musicItems.push(musicItem)
+
+            musicItem.name = song.name
+            musicItem.musicId = Object.keys(this.crumbs.music)[i]
+            if (musicItem.musicId == this.shell.room.music) {
+                musicItem.bold = true
             }
-            this.musicItems[item].name = track.name
-            this.musicItems[item].musicId = trackId
-            if (trackId == this.shell.room.music) {
-                this.musicItems[item].bold = true
+            musicItem.onAwake()
+
+            musicItem.setMask(this.musicMask)
+
+            if (i % 2 == 1) {
+                ypos += 70
             }
-            this.musicItems[item].onAwake()
-        }
+        })
         /* END-USER-CTR-CODE */
     }
 
     /* START-USER-CODE */
+    show() {
+        this.scene.input.addListener('wheel', this.onScroll, this)
+        this.visible = true
+    }
+
     close() {
         if (this.musicIsPreview) {
             this.shell.room.updateMusic(this.shell.room.music)
         }
+        this.scene.input.removeListener('wheel', this.onScroll, this)
         this.visible = false
+    }
+
+    onScroll(pointer, currentlyOver, deltaX, deltaY) {
+        if (this.musicItems[0].y >= -200 && deltaY < 0) {
+            return
+        } else if (this.musicItems[this.musicItems.length - 1].y <= 310 && deltaY > 0) {
+            return
+        }
+        for (let item of this.musicItems) {
+            item.y += -deltaY
+        }
+    }
+
+    createMask() {
+        let mask = this.scene.add.graphics()
+        mask.fillStyle(0xffffff, 0)
+        mask.beginPath()
+        mask.fillRect(378, 238, 800 * window.currentScale, 600 * window.currentScale)
+        return mask.createGeometryMask()
     }
 
     updateMusic(track) {

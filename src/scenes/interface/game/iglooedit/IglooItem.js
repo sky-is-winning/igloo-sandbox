@@ -152,6 +152,8 @@ export default class IglooItem extends Phaser.GameObjects.Container {
     }
 
     onClick() {
+        if (this.lastClick && new Date().getTime() - this.lastClick < 500) return
+        this.lastClick = new Date().getTime()
         if (this.scene.shell.room.selected) return
 
         let pointer = this.scene.input.activePointer

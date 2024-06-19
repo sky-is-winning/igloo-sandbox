@@ -22,19 +22,6 @@ let config = {
         devMiddleware: {
             writeToDisk: true
         },
-        proxy: {
-            '/world/login': {
-                target: 'http://localhost:6111',
-                pathRewrite: { '^/world/login': '' },
-                ws: true
-            },
-
-            '/world/blizzard': {
-                target: 'http://localhost:6112',
-                pathRewrite: { '^/world/blizzard': '' },
-                ws: true
-            }
-        },
         host: 'localhost',
         port: 8888,
         hot: false,

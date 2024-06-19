@@ -360,7 +360,7 @@ export default class IglooEdit extends BaseScene {
         // title_3
         const title_3 = this.add.text(1180, 397, '', {})
         title_3.setOrigin(0.5, 0.5)
-        title_3.text = 'Replace with JSON from clipboard'
+        title_3.text = 'Replace with data from clipboard'
         title_3.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 300, fontFamily: 'cpBurbankSmall', fontSize: '18px', fontStyle: 'bold'})
         title_3.setWordWrapWidth(300)
         chooseIgloo.add(title_3)
@@ -411,7 +411,7 @@ export default class IglooEdit extends BaseScene {
 
         // big_button (components)
         const big_buttonButton = new Button(big_button)
-        big_buttonButton.callback = () => (this.iglooMusic.visible = true)
+        big_buttonButton.callback = () => this.showIglooMusic()
 
         // small_btn (components)
         const small_btnButton = new Button(small_btn)
@@ -1205,6 +1205,10 @@ export default class IglooEdit extends BaseScene {
         navigator.clipboard.writeText(data)
         this.copyTexts[id].text = this.crumbs.getString('copied')
         setTimeout(() => (this.copyTexts[id].text = this.crumbs.getString('copyclipboard')), 800)
+    }
+
+    showIglooMusic() {
+        this.iglooMusic.show()
     }
     /* END-USER-CODE */
 }

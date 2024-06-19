@@ -89,7 +89,7 @@
                             "components": [
                                 "Button"
                             ],
-                            "Button.callback": "() => this.iglooMusic.visible = true",
+                            "Button.callback": "() => this.showIglooMusic()",
                             "texture": {
                                 "key": "iglooedit-new",
                                 "frame": "big-button"
@@ -842,7 +842,7 @@
                     "y": 397,
                     "originX": 0.5,
                     "originY": 0.5,
-                    "text": "Replace with JSON from clipboard",
+                    "text": "Replace with data from clipboard",
                     "fixedWidth": 300,
                     "align": "center",
                     "fontFamily": "cpBurbankSmall",

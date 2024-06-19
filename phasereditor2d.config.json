@@ -12,5 +12,5 @@
         "client/media/games/card/cards",
         "client/media/puffles/"
     ],
-    "playUrl": "http://localhost:8888/en/"
+    "playUrl": "http://localhost:8888/"
 }
