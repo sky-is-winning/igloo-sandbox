@@ -1,16 +1,5 @@
 {
     "skip": [
-        "client/media/clothing",
-        "client/media/furniture",
-        "client/media/swf",
-        "client/media/games/swf",
-        "client/media/crumbs",
-        "client/media/game_configs",
-        "client/media/music",
-        "client/media/sounds",
-        "client/media/interface/game/stampbook/stamps",
-        "client/media/games/card/cards",
-        "client/media/puffles/"
     ],
     "playUrl": "http://localhost:8888/"
 }

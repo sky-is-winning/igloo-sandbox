@@ -72,29 +72,23 @@ export default class IglooItem extends Phaser.GameObjects.Container {
         if (this.scene.textures.exists(`furniture/icon/${type}/${id}`)) {
             return this.addItem(type, id, quantity)
         }
+
+        if (type == "furniture"){
+            return this.addItem(type, id, quantity, 'furniture', `@1.25x/${id}.webp`)
+        }
+        
         this.loader.loadIcon(type, id, () => {
             this.addItem(type, id, quantity)
         })
     }
 
-    addItem(type, id, quantity) {
+    addItem(type, id, quantity, texture = `furniture/icon/${type}/${id}`, sprite = null) {
         if (!this.scene) return
         const trueQuantity = quantity
         quantity = this.calculateQuantity(type, id, quantity)
         this.item = {type, id, quantity, trueQuantity}
 
-        this.icon = this.scene.add.image(0, 0, `furniture/icon/${type}/${id}`)
-        switch (type) {
-            case 'igloo':
-                this.icon.scale = 0.25
-                break
-            case 'furniture':
-                this.icon.scale = 0.5
-                break
-            case 'flooring':
-                this.icon.scale = 0.8
-                break
-        }
+        this.icon = this.scene.add.image(0, 0, texture, sprite)
         this.add(this.icon)
 
         this.updateQuantity()
