@@ -78,6 +78,10 @@ export default class FurnitureSprite extends Phaser.GameObjects.Sprite {
     }
 
     get isSafe() {
+        if (!this.iglooEdit.boundaries) {
+            return true
+        }
+
         if (this.safeArea) {
             return this.scene.matter.containsPoint(this.safeArea, this.x, this.y)
         }
@@ -85,7 +89,7 @@ export default class FurnitureSprite extends Phaser.GameObjects.Sprite {
 
     get isTrash() {
         if (this.scene.trash) {
-            return this.scene.matter.containsPoint(this.scene.trash, this.x, this.y) || this.x < 0 || this.x > 1520 || this.y < 0 || this.y > 960 || (this.y < 200 && this.iglooEdit.controls.state == 'maximised')
+            return (this.iglooEdit.boundaries && this.scene.matter.containsPoint(this.scene.trash, this.x, this.y)) || this.x < 0 || this.x > 1520 || this.y < 0 || this.y > 960 || (this.y < 200 && this.iglooEdit.controls.state == 'maximised')
         }
     }
 
@@ -122,17 +126,6 @@ export default class FurnitureSprite extends Phaser.GameObjects.Sprite {
         this.depth = this.y
 
         this.checkPos()
-
-        if (!this.isWall || !this.wallBounds) return
-
-        // Auto rotate wall item
-        if (this.x < this.wallBounds[0]) {
-            this.updateFrame(0, 1, true)
-        } else if (this.x > this.wallBounds[1]) {
-            this.updateFrame(0, 3, true)
-        } else {
-            this.updateFrame(0, 2, true)
-        }
     }
 
     hover(pointer) {
@@ -191,9 +184,6 @@ export default class FurnitureSprite extends Phaser.GameObjects.Sprite {
      * @returns
      */
     updateFrame(index, value, set = false) {
-        // Can't rotate wall items with keys
-        if (this.isWall && index == 0 && !set) return
-
         let frame = this.currentFrame
         // Don't update set values if they are equal
         if (set && frame[index] == value) return

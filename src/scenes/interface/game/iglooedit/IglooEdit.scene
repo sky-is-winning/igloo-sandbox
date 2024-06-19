@@ -632,7 +632,7 @@
                         "frame": "choose-igloo"
                     },
                     "x": 944,
-                    "y": 349
+                    "y": 302
                 },
                 {
                     "type": "Image",
@@ -761,7 +761,7 @@
                     "id": "f4aabb71-000f-471b-84d2-a0c7956cc1e1",
                     "label": "title_5",
                     "x": 891,
-                    "y": 263,
+                    "y": 216,
                     "originY": 0.5,
                     "text": "Your current igloo",
                     "fixedWidth": 500,
@@ -775,7 +775,7 @@
                     "id": "14acd9f9-a814-4b87-ab59-71b24473f97c",
                     "label": "title_8",
                     "x": 944,
-                    "y": 429,
+                    "y": 382,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Edit",
@@ -832,14 +832,14 @@
                         "frame": "big-button"
                     },
                     "x": 1180,
-                    "y": 339
+                    "y": 292
                 },
                 {
                     "type": "Text",
                     "id": "88c5c6dd-a7a1-432f-9c21-f1777b50aaf5",
                     "label": "title_3",
                     "x": 1180,
-                    "y": 397,
+                    "y": 350,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Replace with data from clipboard",
@@ -856,7 +856,7 @@
                     "id": "c5c561a5-6500-4b34-b713-51a52d93874d",
                     "label": "title_4",
                     "x": 1180,
-                    "y": 339,
+                    "y": 292,
                     "originX": 0.5,
                     "originY": 0.5,
                     "text": "Replace",
@@ -936,6 +936,81 @@
                     "align": "center",
                     "fontFamily": "cpBurbankSmall",
                     "fontSize": "28px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "95748365-0e54-4843-9688-5fee35facd64",
+                    "label": "toggle_panel",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "toggle-panel"
+                    },
+                    "x": 1189,
+                    "y": 462
+                },
+                {
+                    "type": "Sprite",
+                    "id": "da5fc9ac-195f-451a-9fd5-0ab44880976c",
+                    "label": "toggler",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.toggleBoundaries()",
+                    "texture": {
+                        "key": "iglooedit-new",
+                        "frame": "toggler"
+                    },
+                    "x": 1160,
+                    "y": 465
+                },
+                {
+                    "type": "Text",
+                    "id": "1269206f-07f7-4506-b381-429616d333b1",
+                    "label": "title_10",
+                    "x": 934,
+                    "y": 462,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Igloo\nBoundaries",
+                    "fixedWidth": 150,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "26px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "7ad15afa-4bd2-43c3-b524-5d0f0226bbdc",
+                    "label": "title_11",
+                    "x": 1068,
+                    "y": 463,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Enabled",
+                    "fixedWidth": 150,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "22px",
+                    "fontStyle": "bold",
+                    "color": "#3e83c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "ce5af11f-a02c-410b-b076-a8b61d56a3b6",
+                    "label": "title_12",
+                    "x": 1310,
+                    "y": 464,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Disabled",
+                    "fixedWidth": 150,
+                    "align": "center",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "22px",
                     "fontStyle": "bold",
                     "color": "#3e83c5ff"
                 }
