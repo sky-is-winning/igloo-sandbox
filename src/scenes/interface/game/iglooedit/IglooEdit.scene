@@ -467,6 +467,10 @@
                                     "type": "Image",
                                     "id": "2f904f93-c774-429b-a7ed-3c4c5e1c0695",
                                     "label": "circle",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.callback": "() => this.goLeft()",
                                     "texture": {
                                         "key": "iglooedit-new",
                                         "frame": "circle"
@@ -490,6 +494,10 @@
                                     "type": "Image",
                                     "id": "f260b10b-4eb0-499b-8612-e8843b79ddaf",
                                     "label": "circle_1",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.callback": "() => this.goRight()",
                                     "texture": {
                                         "key": "iglooedit-new",
                                         "frame": "circle"
