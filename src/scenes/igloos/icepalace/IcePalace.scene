@@ -33,8 +33,7 @@
             "id": "1f889a08-4b56-41f8-8ccc-5b50b2313038",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "icepalace",

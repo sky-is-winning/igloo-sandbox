@@ -33,8 +33,7 @@
             "id": "20d44ae1-0b2c-4019-90fb-6de6531a9434",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "imperialbase",

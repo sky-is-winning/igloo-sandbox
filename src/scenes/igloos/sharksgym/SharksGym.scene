@@ -45,8 +45,7 @@
             "id": "d85c6b4f-a59a-487b-829c-4bc270a4bc1a",
             "label": "rectangle_1",
             "components": [
-                "SimpleButton",
-                "MoveTo"
+                "SimpleButton"
             ],
             "x": 204.70242562990978,
             "y": 730.9859953942396,

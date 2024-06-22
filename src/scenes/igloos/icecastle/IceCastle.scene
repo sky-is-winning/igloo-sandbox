@@ -32,8 +32,7 @@
             "id": "13ac3ffb-d6d6-4c9b-891f-6d7da851c5fb",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "icecastle",

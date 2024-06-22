@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {SimpleButton, MoveTo} from '@components/components'
+import {SimpleButton} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -48,7 +48,6 @@ export default class SharksGym extends IglooScene {
 
         // rectangle_1 (components)
         new SimpleButton(rectangle_1)
-        new MoveTo(rectangle_1)
 
         this.floor = floor
         this.sort = sort

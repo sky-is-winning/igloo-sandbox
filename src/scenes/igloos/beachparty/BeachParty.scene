@@ -44,8 +44,7 @@
             "id": "732f36d5-48da-4e68-89e7-4a4bd364db8f",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "beachparty",

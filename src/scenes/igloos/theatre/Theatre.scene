@@ -33,8 +33,7 @@
             "id": "4e6df9c1-a30f-4942-af85-c441bd8de71a",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "theatre",

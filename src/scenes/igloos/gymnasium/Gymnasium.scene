@@ -44,8 +44,7 @@
             "id": "3172b65b-8901-415b-aea5-6d276557c1fe",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "gymnasium",

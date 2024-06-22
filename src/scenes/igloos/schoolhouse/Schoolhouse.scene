@@ -34,8 +34,7 @@
             "label": "door",
             "scope": "CLASS",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "schoolhouse",

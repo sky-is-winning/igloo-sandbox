@@ -33,8 +33,7 @@
             "id": "513fc3ab-bb9e-4450-9601-6a8f3afadaf5",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "deluxegingerbreadhouse",

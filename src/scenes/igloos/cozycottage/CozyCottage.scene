@@ -33,8 +33,7 @@
             "id": "82bdfddb-14fa-4a3c-9aa1-8ace756a404d",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "cozycottage",

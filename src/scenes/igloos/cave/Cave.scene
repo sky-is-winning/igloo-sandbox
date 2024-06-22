@@ -44,8 +44,7 @@
             "id": "35d1af15-7890-4fce-967f-20875afffd39",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "cave",

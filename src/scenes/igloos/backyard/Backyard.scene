@@ -33,8 +33,7 @@
             "id": "4b7ede61-736d-4872-8519-1f177d2fbe45",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "backyard",

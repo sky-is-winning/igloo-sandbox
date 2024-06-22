@@ -33,8 +33,7 @@
             "id": "8d0caa7a-ab38-48a6-a687-15bac31fefab",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "springpalace",

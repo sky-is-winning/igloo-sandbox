@@ -44,8 +44,7 @@
             "id": "dc90aaba-86af-48db-ab50-9c1adf49ee45",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "ezrashideout",

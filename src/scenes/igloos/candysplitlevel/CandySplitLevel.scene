@@ -44,8 +44,7 @@
             "id": "14cd531d-9d8f-4a8e-8d98-ae8eed9e6e79",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "candysplitlevel",

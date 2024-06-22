@@ -33,7 +33,6 @@
             "id": "b8764204-0b5f-452a-b75f-754b1df70e35",
             "label": "door",
             "components": [
-                "MoveTo",
                 "Button"
             ],
             "texture": {

@@ -33,8 +33,7 @@
             "id": "fd8d1d48-7b1f-4013-bbf8-040178b952dc",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "restaurant",

@@ -33,8 +33,7 @@
             "id": "bf50a6f7-88be-4ac8-b675-9edbf0b838fb",
             "label": "door",
             "components": [
-                "Button",
-                "MoveTo"
+                "Button"
             ],
             "texture": {
                 "key": "dojo",
