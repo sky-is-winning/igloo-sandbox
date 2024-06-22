@@ -648,6 +648,8 @@ export default class IglooEdit extends BaseScene {
         if (this.boundaries == null) {
             this.setBoundaries(true)
         }
+
+        setInterval(() => this.checkForBrokenPreviews(), 500)
     }
 
     setBoundaries(enabled) {
@@ -865,6 +867,18 @@ export default class IglooEdit extends BaseScene {
         this.shell.room.hidePenguins()
         this.shell.room.enableFurnitureInput()
         this.showControls()
+    }
+
+    checkForBrokenPreviews() {
+        if (this.chooseIgloo.visible) {
+            return
+        } else {
+            this.scene.manager.scenes.forEach((scene) => {
+                if (scene.scene.key.includes('preview')) {
+                    scene.stop()
+                }
+            })
+        }
     }
 
     onSaveClick() {
