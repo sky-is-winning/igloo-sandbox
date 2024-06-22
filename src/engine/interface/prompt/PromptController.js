@@ -45,37 +45,6 @@ export default class PromptController {
         this.interface.bringToTop(this.error)
     }
 
-    showItem(item, isMedals) {
-        for (let i of ['error', 'loading', 'window']) {
-            this[i].visible = false
-        }
-
-        this.item.showItem(item, isMedals)
-        this.setCursor()
-
-        this.interface.bringToTop(this.item)
-    }
-
-    showFurniture(item) {
-        this.item.showFurniture(item)
-        this.hideAllForIP()
-    }
-
-    showIgloo(item) {
-        this.item.showIgloo(item)
-        this.hideAllForIP()
-    }
-
-    showFlooring(item) {
-        this.item.showFlooring(item)
-        this.hideAllForIP()
-    }
-
-    showLocation(item) {
-        this.item.showLocation(item)
-        this.hideAllForIP()
-    }
-
     showLoading(scene, progress = 0) {
         this.loading.show(scene, progress)
         this.setCursor()
@@ -96,51 +65,6 @@ export default class PromptController {
         }
 
         this.interface.bringToTop(this.window)
-    }
-
-    showCoins(game, coins) {
-        this.coins.show(game, coins)
-        this.setCursor()
-
-        for (let i of ['error', 'loading', 'window']) {
-            this[i].visible = false
-        }
-
-        this.interface.bringToTop(this.coins)
-    }
-
-    showWarn(type, reason) {
-        switch (type) {
-            case 'ban':
-                this.warn.showBan(reason)
-                break
-            case 'warn':
-                this.warn.showWarn('c')
-                break
-            case 'kick':
-                this.warn.showWarn('k')
-                break
-        }
-
-        this.setCursor()
-
-        for (let i of ['error', 'loading', 'window']) {
-            this[i].visible = false
-        }
-
-        this.interface.bringToTop(this.warn)
-    }
-
-    showStamp(stamp) {
-        this.stamp.stampEarnedBody.text = this.interface.crumbs.stamps[stamp].name
-        if (this.interface.crumbs.stamps[stamp].groupid == 7) {
-            this.stamp.stampEarnedImage.setFrame(`stamps/activities000${this.interface.crumbs.stamps[stamp].difficulty.toString()}`)
-        } else {
-            this.stamp.stampEarnedImage.setFrame(`stamps/events000${this.interface.crumbs.stamps[stamp].difficulty.toString()}`)
-        }
-        this.stamp.stampTween()
-        this.setCursor()
-        this.interface.bringToTop(this.stamp)
     }
 
     hideAll() {
