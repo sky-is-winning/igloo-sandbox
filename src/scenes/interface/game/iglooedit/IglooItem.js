@@ -73,10 +73,10 @@ export default class IglooItem extends Phaser.GameObjects.Container {
             return this.addItem(type, id, quantity)
         }
 
-        if (type == "furniture"){
+        if (type == 'furniture') {
             return this.addItem(type, id, quantity, 'furniture', `@1.25x/${id}.webp`)
         }
-        
+
         this.loader.loadIcon(type, id, () => {
             this.addItem(type, id, quantity)
         })

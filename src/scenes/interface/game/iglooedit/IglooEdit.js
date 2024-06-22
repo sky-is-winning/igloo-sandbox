@@ -10,53 +10,51 @@ import IglooItem from './IglooItem'
 /* START OF COMPILED CODE */
 
 export default class IglooEdit extends BaseScene {
-
     constructor() {
-        super("IglooEdit");
+        super('IglooEdit')
 
         /** @type {Phaser.GameObjects.Container} */
-        this.defaultControls;
+        this.defaultControls
         /** @type {Phaser.GameObjects.Image} */
-        this.button_box;
+        this.button_box
         /** @type {Phaser.GameObjects.Text} */
-        this.music;
+        this.music
         /** @type {Phaser.GameObjects.Text} */
-        this.hide;
+        this.hide
         /** @type {Phaser.GameObjects.Container} */
-        this.lower;
+        this.lower
         /** @type {Phaser.GameObjects.Text} */
-        this.search;
+        this.search
         /** @type {Phaser.GameObjects.Text} */
-        this.search_input;
+        this.search_input
         /** @type {Phaser.GameObjects.Container} */
-        this.searchBox;
+        this.searchBox
         /** @type {Phaser.GameObjects.Container} */
-        this.itemContainer;
+        this.itemContainer
         /** @type {NinePatchContainer} */
-        this.scrollbar;
+        this.scrollbar
         /** @type {Phaser.GameObjects.Container} */
-        this.scroller;
+        this.scroller
         /** @type {Phaser.GameObjects.Container} */
-        this.scrollBarContainer;
+        this.scrollBarContainer
         /** @type {Phaser.GameObjects.Container} */
-        this.upper;
+        this.upper
         /** @type {IglooMusic} */
-        this.iglooMusic;
+        this.iglooMusic
         /** @type {Phaser.GameObjects.Container} */
-        this.controls;
+        this.controls
         /** @type {Phaser.GameObjects.Sprite} */
-        this.toggler;
+        this.toggler
         /** @type {Phaser.GameObjects.Container} */
-        this.chooseIgloo;
+        this.chooseIgloo
         /** @type {Phaser.GameObjects.Image[]} */
-        this.categories;
+        this.categories
         /** @type {Phaser.GameObjects.Sprite[]} */
-        this.spinners;
+        this.spinners
         /** @type {Array<any>} */
-        this.likesText;
+        this.likesText
         /** @type {Phaser.GameObjects.Text[]} */
-        this.copyTexts;
-
+        this.copyTexts
 
         /* START-USER-CTR-CODE */
         /* END-USER-CTR-CODE */
@@ -64,530 +62,528 @@ export default class IglooEdit extends BaseScene {
 
     /** @returns {void} */
     _create() {
-
         // defaultControls
-        const defaultControls = this.add.container(1426, 758);
+        const defaultControls = this.add.container(1426, 758)
 
         // button_edit
-        const button_edit = this.add.image(0, 126, "iglooedit-new", "edit-btn");
-        defaultControls.add(button_edit);
+        const button_edit = this.add.image(0, 126, 'iglooedit-new', 'edit-btn')
+        defaultControls.add(button_edit)
 
         // controls
-        const controls = this.add.container(0, 0);
-        controls.visible = false;
+        const controls = this.add.container(0, 0)
+        controls.visible = false
 
         // button_box
-        const button_box = this.add.image(1424.9985859979595, 883.0016987305266, "iglooedit-new", "cardboardbox");
-        button_box.setOrigin(0.5, 0.584);
-        controls.add(button_box);
+        const button_box = this.add.image(1424.9985859979595, 883.0016987305266, 'iglooedit-new', 'cardboardbox')
+        button_box.setOrigin(0.5, 0.584)
+        controls.add(button_box)
 
         // lower
-        const lower = this.add.container(56.99858594592661, 25.001698585925624);
-        controls.add(lower);
+        const lower = this.add.container(56.99858594592661, 25.001698585925624)
+        controls.add(lower)
 
         // music_panel
-        const music_panel = this.add.image(0, 0, "iglooedit-new", "music-panel");
-        lower.add(music_panel);
+        const music_panel = this.add.image(0, 0, 'iglooedit-new', 'music-panel')
+        lower.add(music_panel)
 
         // big_button
-        const big_button = this.add.ninePatchContainer(35, 246, 80, 65, "iglooedit-new", "big-button");
-        lower.add(big_button);
+        const big_button = this.add.ninePatchContainer(35, 246, 80, 65, 'iglooedit-new', 'big-button')
+        lower.add(big_button)
 
         // music_icon
-        const music_icon = this.add.image(34, 246, "iglooedit-new", "music-icon");
-        lower.add(music_icon);
+        const music_icon = this.add.image(34, 246, 'iglooedit-new', 'music-icon')
+        lower.add(music_icon)
 
         // arrow
-        const arrow = this.add.image(107, 247, "iglooedit-new", "arrow");
-        lower.add(arrow);
+        const arrow = this.add.image(107, 247, 'iglooedit-new', 'arrow')
+        lower.add(arrow)
 
         // small_btn
-        const small_btn = this.add.ninePatchContainer(50, 328, 150, 42, "iglooedit-new", "small-btn");
-        small_btn.marginLeft = 30;
-        small_btn.marginRight = 30;
-        lower.add(small_btn);
+        const small_btn = this.add.ninePatchContainer(50, 328, 150, 42, 'iglooedit-new', 'small-btn')
+        small_btn.marginLeft = 30
+        small_btn.marginRight = 30
+        lower.add(small_btn)
 
         // music
-        const music = this.add.text(35, 200, "", {});
-        music.setOrigin(0.5, 0.5);
-        music.text = "Music";
-        music.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
-        lower.add(music);
+        const music = this.add.text(35, 200, '', {})
+        music.setOrigin(0.5, 0.5)
+        music.text = 'Music'
+        music.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 150, fontFamily: 'cpBurbankSmall', fontSize: '22px', fontStyle: 'bold'})
+        lower.add(music)
 
         // hide
-        const hide = this.add.text(50, 328, "", {});
-        hide.setOrigin(0.5, 0.5);
-        hide.text = "Hide";
-        hide.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
-        lower.add(hide);
+        const hide = this.add.text(50, 328, '', {})
+        hide.setOrigin(0.5, 0.5)
+        hide.text = 'Hide'
+        hide.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 150, fontFamily: 'cpBurbankSmall', fontSize: '22px', fontStyle: 'bold'})
+        lower.add(hide)
 
         // upper
-        const upper = this.add.container(0, 0);
-        controls.add(upper);
+        const upper = this.add.container(0, 0)
+        controls.add(upper)
 
         // searchBox
-        const searchBox = this.add.container(0, 0);
-        searchBox.visible = false;
-        upper.add(searchBox);
+        const searchBox = this.add.container(0, 0)
+        searchBox.visible = false
+        upper.add(searchBox)
 
         // music_panel_1
-        const music_panel_1 = this.add.image(410, -101, "iglooedit-new", "music-panel");
-        searchBox.add(music_panel_1);
+        const music_panel_1 = this.add.image(410, -101, 'iglooedit-new', 'music-panel')
+        searchBox.add(music_panel_1)
 
         // search
-        const search = this.add.text(271, 205, "", {});
-        search.setOrigin(0, 0.5);
-        search.text = "Search:";
-        search.setStyle({ "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
-        searchBox.add(search);
+        const search = this.add.text(271, 205, '', {})
+        search.setOrigin(0, 0.5)
+        search.text = 'Search:'
+        search.setStyle({color: '#3e83c5ff', fixedWidth: 150, fontFamily: 'cpBurbankSmall', fontSize: '22px', fontStyle: 'bold'})
+        searchBox.add(search)
 
         // search_input
-        const search_input = this.add.text(271, 241, "", {});
-        search_input.setOrigin(0, 0.5);
-        search_input.text = "Enter Name";
-        search_input.setStyle({ "color": "#3e83c5ff", "fixedWidth":270,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
-        searchBox.add(search_input);
+        const search_input = this.add.text(271, 241, '', {})
+        search_input.setOrigin(0, 0.5)
+        search_input.text = 'Enter Name'
+        search_input.setStyle({color: '#3e83c5ff', fixedWidth: 270, fontFamily: 'cpBurbankSmall', fontSize: '22px', fontStyle: 'bold'})
+        searchBox.add(search_input)
 
         // all
-        const all = this.add.image(659.9985859459266, 215.00169858592562, "iglooedit-new", "all-selected");
-        upper.add(all);
+        const all = this.add.image(659.9985859459266, 215.00169858592562, 'iglooedit-new', 'all-selected')
+        upper.add(all)
 
         // location
-        const location = this.add.image(774.9985859459266, 216.00169858592562, "iglooedit-new", "location");
-        upper.add(location);
+        const location = this.add.image(774.9985859459266, 216.00169858592562, 'iglooedit-new', 'location')
+        upper.add(location)
 
         // igloos
-        const igloos = this.add.image(889.9985859459266, 216.00169858592562, "iglooedit-new", "igloos");
-        upper.add(igloos);
+        const igloos = this.add.image(889.9985859459266, 216.00169858592562, 'iglooedit-new', 'igloos')
+        upper.add(igloos)
 
         // flooring
-        const flooring = this.add.image(1004.9985859459266, 216.00169858592562, "iglooedit-new", "flooring");
-        upper.add(flooring);
+        const flooring = this.add.image(1004.9985859459266, 216.00169858592562, 'iglooedit-new', 'flooring')
+        upper.add(flooring)
 
         // room
-        const room = this.add.image(1119.9985859459266, 216.00169858592562, "iglooedit-new", "room");
-        upper.add(room);
+        const room = this.add.image(1119.9985859459266, 216.00169858592562, 'iglooedit-new', 'room')
+        upper.add(room)
 
         // wall
-        const wall = this.add.image(1234.9985859459266, 216.00169858592562, "iglooedit-new", "wall");
-        upper.add(wall);
+        const wall = this.add.image(1234.9985859459266, 216.00169858592562, 'iglooedit-new', 'wall')
+        upper.add(wall)
 
         // pets
-        const pets = this.add.image(1349.9985859459266, 216.00169858592562, "iglooedit-new", "pets");
-        upper.add(pets);
+        const pets = this.add.image(1349.9985859459266, 216.00169858592562, 'iglooedit-new', 'pets')
+        upper.add(pets)
 
         // top_bar
-        const top_bar = this.add.image(777.9985859459266, 72.00169858592562, "iglooedit-new", "top-bar");
-        upper.add(top_bar);
+        const top_bar = this.add.image(777.9985859459266, 72.00169858592562, 'iglooedit-new', 'top-bar')
+        upper.add(top_bar)
 
         // itemContainer
-        const itemContainer = this.add.container(0, 0);
-        upper.add(itemContainer);
+        const itemContainer = this.add.container(0, 0)
+        upper.add(itemContainer)
 
         // rectangle_1
-        const rectangle_1 = this.add.rectangle(1462.0000507896766, 91.99999723094516, 115.5, 170);
-        upper.add(rectangle_1);
+        const rectangle_1 = this.add.rectangle(1462.0000507896766, 91.99999723094516, 115.5, 170)
+        upper.add(rectangle_1)
 
         // close_btn
-        const close_btn = this.add.image(1466.9985859459266, 48.001698585925624, "iglooedit-new", "close-btn");
-        upper.add(close_btn);
+        const close_btn = this.add.image(1466.9985859459266, 48.001698585925624, 'iglooedit-new', 'close-btn')
+        upper.add(close_btn)
 
         // x
-        const x = this.add.image(1466.9985859459266, 47.001698585925624, "iglooedit-new", "x");
-        upper.add(x);
+        const x = this.add.image(1466.9985859459266, 47.001698585925624, 'iglooedit-new', 'x')
+        upper.add(x)
 
         // scrollBarContainer
-        const scrollBarContainer = this.add.container(-0.00001392595368088223, 0.0015205401127835472);
-        scrollBarContainer.visible = false;
-        upper.add(scrollBarContainer);
+        const scrollBarContainer = this.add.container(-0.00001392595368088223, 0.0015205401127835472)
+        scrollBarContainer.visible = false
+        upper.add(scrollBarContainer)
 
         // rounded_rect
-        const rounded_rect = this.add.ninePatchContainer(722.0000122493237, 154.99848689180524, 1300, 32, "iglooedit-new", "rounded_rect");
-        rounded_rect.marginLeft = 16;
-        rounded_rect.marginTop = 16;
-        rounded_rect.marginRight = 16;
-        rounded_rect.marginBottom = 16;
-        scrollBarContainer.add(rounded_rect);
+        const rounded_rect = this.add.ninePatchContainer(722.0000122493237, 154.99848689180524, 1300, 32, 'iglooedit-new', 'rounded_rect')
+        rounded_rect.marginLeft = 16
+        rounded_rect.marginTop = 16
+        rounded_rect.marginRight = 16
+        rounded_rect.marginBottom = 16
+        scrollBarContainer.add(rounded_rect)
 
         // rounded_rect_1
-        const rounded_rect_1 = this.add.ninePatchContainer(722.0000122493237, 154.99848689180524, 1300, 32, "iglooedit-new", "rounded_rect");
-        rounded_rect_1.alpha = 0.5;
-        rounded_rect_1.marginLeft = 16;
-        rounded_rect_1.marginTop = 16;
-        rounded_rect_1.marginRight = 16;
-        rounded_rect_1.marginBottom = 16;
-        rounded_rect_1.ninePatchContainerTintFill = true;
-        scrollBarContainer.add(rounded_rect_1);
+        const rounded_rect_1 = this.add.ninePatchContainer(722.0000122493237, 154.99848689180524, 1300, 32, 'iglooedit-new', 'rounded_rect')
+        rounded_rect_1.alpha = 0.5
+        rounded_rect_1.marginLeft = 16
+        rounded_rect_1.marginTop = 16
+        rounded_rect_1.marginRight = 16
+        rounded_rect_1.marginBottom = 16
+        rounded_rect_1.ninePatchContainerTintFill = true
+        scrollBarContainer.add(rounded_rect_1)
 
         // circle
-        const circle = this.add.image(87.00001224932373, 154.99848689180524, "iglooedit-new", "circle");
-        scrollBarContainer.add(circle);
+        const circle = this.add.image(87.00001224932373, 154.99848689180524, 'iglooedit-new', 'circle')
+        scrollBarContainer.add(circle)
 
         // arrow_1
-        const arrow_1 = this.add.image(85.00001224932373, 154.99848689180524, "iglooedit-new", "arrow");
-        arrow_1.scaleX = -1;
-        scrollBarContainer.add(arrow_1);
+        const arrow_1 = this.add.image(85.00001224932373, 154.99848689180524, 'iglooedit-new', 'arrow')
+        arrow_1.scaleX = -1
+        scrollBarContainer.add(arrow_1)
 
         // circle_1
-        const circle_1 = this.add.image(1356.0000122493238, 154.99848689180524, "iglooedit-new", "circle");
-        scrollBarContainer.add(circle_1);
+        const circle_1 = this.add.image(1356.0000122493238, 154.99848689180524, 'iglooedit-new', 'circle')
+        scrollBarContainer.add(circle_1)
 
         // arrow_2
-        const arrow_2 = this.add.image(1358.0000122493238, 154.99848689180524, "iglooedit-new", "arrow");
-        scrollBarContainer.add(arrow_2);
+        const arrow_2 = this.add.image(1358.0000122493238, 154.99848689180524, 'iglooedit-new', 'arrow')
+        scrollBarContainer.add(arrow_2)
 
         // scroller
-        const scroller = this.add.container(168.0000122493237, 154.99848689180524);
-        scrollBarContainer.add(scroller);
+        const scroller = this.add.container(168.0000122493237, 154.99848689180524)
+        scrollBarContainer.add(scroller)
 
         // scrollbar
-        const scrollbar = this.add.ninePatchContainer(9, 0, 150, 32, "iglooedit-new", "rounded_rect");
-        scrollbar.marginLeft = 16;
-        scrollbar.marginTop = 16;
-        scrollbar.marginRight = 16;
-        scrollbar.marginBottom = 16;
-        scroller.add(scrollbar);
+        const scrollbar = this.add.ninePatchContainer(9, 0, 150, 32, 'iglooedit-new', 'rounded_rect')
+        scrollbar.marginLeft = 16
+        scrollbar.marginTop = 16
+        scrollbar.marginRight = 16
+        scrollbar.marginBottom = 16
+        scroller.add(scrollbar)
 
         // rounded_rect_thin
-        const rounded_rect_thin = this.add.image(0, 0, "iglooedit-new", "rounded_rect_thin");
-        rounded_rect_thin.scaleY = 0.6;
-        scroller.add(rounded_rect_thin);
+        const rounded_rect_thin = this.add.image(0, 0, 'iglooedit-new', 'rounded_rect_thin')
+        rounded_rect_thin.scaleY = 0.6
+        scroller.add(rounded_rect_thin)
 
         // rounded_rect_thin_1
-        const rounded_rect_thin_1 = this.add.image(6, 0, "iglooedit-new", "rounded_rect_thin");
-        rounded_rect_thin_1.scaleY = 0.6;
-        scroller.add(rounded_rect_thin_1);
+        const rounded_rect_thin_1 = this.add.image(6, 0, 'iglooedit-new', 'rounded_rect_thin')
+        rounded_rect_thin_1.scaleY = 0.6
+        scroller.add(rounded_rect_thin_1)
 
         // rounded_rect_thin_2
-        const rounded_rect_thin_2 = this.add.image(18, 0, "iglooedit-new", "rounded_rect_thin");
-        rounded_rect_thin_2.scaleY = 0.6;
-        scroller.add(rounded_rect_thin_2);
+        const rounded_rect_thin_2 = this.add.image(18, 0, 'iglooedit-new', 'rounded_rect_thin')
+        rounded_rect_thin_2.scaleY = 0.6
+        scroller.add(rounded_rect_thin_2)
 
         // rounded_rect_thin_3
-        const rounded_rect_thin_3 = this.add.image(12, 0, "iglooedit-new", "rounded_rect_thin");
-        rounded_rect_thin_3.scaleY = 0.6;
-        scroller.add(rounded_rect_thin_3);
+        const rounded_rect_thin_3 = this.add.image(12, 0, 'iglooedit-new', 'rounded_rect_thin')
+        rounded_rect_thin_3.scaleY = 0.6
+        scroller.add(rounded_rect_thin_3)
 
         // iglooMusic
-        const iglooMusic = new IglooMusic(this, 759.9985859979596, 480.0016987305264);
-        iglooMusic.visible = false;
-        controls.add(iglooMusic);
+        const iglooMusic = new IglooMusic(this, 759.9985859979596, 480.0016987305264)
+        iglooMusic.visible = false
+        controls.add(iglooMusic)
 
         // chooseIgloo
-        const chooseIgloo = this.add.container(0, 0);
-        chooseIgloo.visible = false;
+        const chooseIgloo = this.add.container(0, 0)
+        chooseIgloo.visible = false
 
         // bg
-        const bg = this.add.image(760, 480, "iglooedit-new", "bg");
-        chooseIgloo.add(bg);
+        const bg = this.add.image(760, 480, 'iglooedit-new', 'bg')
+        chooseIgloo.add(bg)
 
         // choose_igloo
-        const choose_igloo = this.add.image(944, 302, "iglooedit-new", "choose-igloo");
-        chooseIgloo.add(choose_igloo);
+        const choose_igloo = this.add.image(944, 302, 'iglooedit-new', 'choose-igloo')
+        chooseIgloo.add(choose_igloo)
 
         // preview_pane
-        const preview_pane = this.add.image(250, 744, "iglooedit-new", "preview-pane");
-        chooseIgloo.add(preview_pane);
+        const preview_pane = this.add.image(250, 744, 'iglooedit-new', 'preview-pane')
+        chooseIgloo.add(preview_pane)
 
         // plus
-        const plus = this.add.sprite(250, 716, "iglooedit-new", "spinner0001");
-        plus.scaleX = 0.7;
-        plus.scaleY = 0.7;
-        chooseIgloo.add(plus);
+        const plus = this.add.sprite(250, 716, 'iglooedit-new', 'spinner0001')
+        plus.scaleX = 0.7
+        plus.scaleY = 0.7
+        chooseIgloo.add(plus)
 
         // preview_pane_1
-        const preview_pane_1 = this.add.image(590, 744, "iglooedit-new", "preview-pane");
-        chooseIgloo.add(preview_pane_1);
+        const preview_pane_1 = this.add.image(590, 744, 'iglooedit-new', 'preview-pane')
+        chooseIgloo.add(preview_pane_1)
 
         // plus_1
-        const plus_1 = this.add.sprite(590, 716, "iglooedit-new", "spinner0001");
-        plus_1.scaleX = 0.7;
-        plus_1.scaleY = 0.7;
-        chooseIgloo.add(plus_1);
+        const plus_1 = this.add.sprite(590, 716, 'iglooedit-new', 'spinner0001')
+        plus_1.scaleX = 0.7
+        plus_1.scaleY = 0.7
+        chooseIgloo.add(plus_1)
 
         // preview_pane_2
-        const preview_pane_2 = this.add.image(930, 744, "iglooedit-new", "preview-pane");
-        chooseIgloo.add(preview_pane_2);
+        const preview_pane_2 = this.add.image(930, 744, 'iglooedit-new', 'preview-pane')
+        chooseIgloo.add(preview_pane_2)
 
         // plus_2
-        const plus_2 = this.add.sprite(930, 716, "iglooedit-new", "spinner0001");
-        plus_2.scaleX = 0.7;
-        plus_2.scaleY = 0.7;
-        chooseIgloo.add(plus_2);
+        const plus_2 = this.add.sprite(930, 716, 'iglooedit-new', 'spinner0001')
+        plus_2.scaleX = 0.7
+        plus_2.scaleY = 0.7
+        chooseIgloo.add(plus_2)
 
         // preview_pane_3
-        const preview_pane_3 = this.add.image(1269, 744, "iglooedit-new", "preview-pane");
-        chooseIgloo.add(preview_pane_3);
+        const preview_pane_3 = this.add.image(1269, 744, 'iglooedit-new', 'preview-pane')
+        chooseIgloo.add(preview_pane_3)
 
         // plus_3
-        const plus_3 = this.add.sprite(1269, 716, "iglooedit-new", "spinner0001");
-        plus_3.scaleX = 0.7;
-        plus_3.scaleY = 0.7;
-        chooseIgloo.add(plus_3);
+        const plus_3 = this.add.sprite(1269, 716, 'iglooedit-new', 'spinner0001')
+        plus_3.scaleX = 0.7
+        plus_3.scaleY = 0.7
+        chooseIgloo.add(plus_3)
 
         // close_btn_1
-        const close_btn_1 = this.add.image(1475, 45, "iglooedit-new", "close-btn");
-        chooseIgloo.add(close_btn_1);
+        const close_btn_1 = this.add.image(1475, 45, 'iglooedit-new', 'close-btn')
+        chooseIgloo.add(close_btn_1)
 
         // x_1
-        const x_1 = this.add.image(1475, 44, "iglooedit-new", "x");
-        chooseIgloo.add(x_1);
+        const x_1 = this.add.image(1475, 44, 'iglooedit-new', 'x')
+        chooseIgloo.add(x_1)
 
         // title_5
-        const title_5 = this.add.text(891, 216, "", {});
-        title_5.setOrigin(0, 0.5);
-        title_5.text = "Your current igloo";
-        title_5.setStyle({ "color": "#3e83c5ff", "fixedWidth":500,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
-        chooseIgloo.add(title_5);
+        const title_5 = this.add.text(891, 216, '', {})
+        title_5.setOrigin(0, 0.5)
+        title_5.text = 'Your current igloo'
+        title_5.setStyle({color: '#3e83c5ff', fixedWidth: 500, fontFamily: 'cpBurbankSmall', fontSize: '28px', fontStyle: 'bold'})
+        chooseIgloo.add(title_5)
 
         // title_8
-        const title_8 = this.add.text(944, 382, "", {});
-        title_8.setOrigin(0.5, 0.5);
-        title_8.text = "Edit";
-        title_8.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":100,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
-        chooseIgloo.add(title_8);
+        const title_8 = this.add.text(944, 382, '', {})
+        title_8.setOrigin(0.5, 0.5)
+        title_8.text = 'Edit'
+        title_8.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 100, fontFamily: 'cpBurbankSmall', fontSize: '18px', fontStyle: 'bold'})
+        chooseIgloo.add(title_8)
 
         // plus_4
-        const plus_4 = this.add.sprite(480, 318, "iglooedit-new", "spinner0001");
-        chooseIgloo.add(plus_4);
+        const plus_4 = this.add.sprite(480, 318, 'iglooedit-new', 'spinner0001')
+        chooseIgloo.add(plus_4)
 
         // title_13
-        const title_13 = this.add.text(250, 840, "", {});
-        title_13.setOrigin(0.5, 0.5);
-        title_13.text = "Copy to clipboard";
-        title_13.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
-        chooseIgloo.add(title_13);
+        const title_13 = this.add.text(250, 840, '', {})
+        title_13.setOrigin(0.5, 0.5)
+        title_13.text = 'Copy to clipboard'
+        title_13.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 250, fontFamily: 'cpBurbankSmall', fontSize: '28px', fontStyle: 'bold'})
+        chooseIgloo.add(title_13)
 
         // big_button_1
-        const big_button_1 = this.add.sprite(1180, 292, "iglooedit-new", "big-button");
-        chooseIgloo.add(big_button_1);
+        const big_button_1 = this.add.sprite(1180, 292, 'iglooedit-new', 'big-button')
+        chooseIgloo.add(big_button_1)
 
         // title_3
-        const title_3 = this.add.text(1180, 350, "", {});
-        title_3.setOrigin(0.5, 0.5);
-        title_3.text = "Replace with data from clipboard";
-        title_3.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":300,"fontFamily": "cpBurbankSmall", "fontSize": "18px", "fontStyle": "bold" });
-        title_3.setWordWrapWidth(300);
-        chooseIgloo.add(title_3);
+        const title_3 = this.add.text(1180, 350, '', {})
+        title_3.setOrigin(0.5, 0.5)
+        title_3.text = 'Replace with data from clipboard'
+        title_3.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 300, fontFamily: 'cpBurbankSmall', fontSize: '18px', fontStyle: 'bold'})
+        title_3.setWordWrapWidth(300)
+        chooseIgloo.add(title_3)
 
         // title_4
-        const title_4 = this.add.text(1180, 292, "", {});
-        title_4.setOrigin(0.5, 0.5);
-        title_4.text = "Replace";
-        title_4.setStyle({ "align": "center", "color": "#eaf4feff", "fixedWidth":300,"fontFamily": "cpBurbankSmall", "fontSize": "24px", "fontStyle": "bold", "shadow.offsetX":-1,"shadow.offsetY":1,"shadow.color": "#2064a8ff", "shadow.blur":2,"shadow.fill":true});
-        title_4.setWordWrapWidth(300);
-        chooseIgloo.add(title_4);
+        const title_4 = this.add.text(1180, 292, '', {})
+        title_4.setOrigin(0.5, 0.5)
+        title_4.text = 'Replace'
+        title_4.setStyle({align: 'center', color: '#eaf4feff', fixedWidth: 300, fontFamily: 'cpBurbankSmall', fontSize: '24px', fontStyle: 'bold', 'shadow.offsetX': -1, 'shadow.offsetY': 1, 'shadow.color': '#2064a8ff', 'shadow.blur': 2, 'shadow.fill': true})
+        title_4.setWordWrapWidth(300)
+        chooseIgloo.add(title_4)
 
         // title_6
-        const title_6 = this.add.text(1269, 840, "", {});
-        title_6.setOrigin(0.5, 0.5);
-        title_6.text = "Copy to clipboard";
-        title_6.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
-        chooseIgloo.add(title_6);
+        const title_6 = this.add.text(1269, 840, '', {})
+        title_6.setOrigin(0.5, 0.5)
+        title_6.text = 'Copy to clipboard'
+        title_6.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 250, fontFamily: 'cpBurbankSmall', fontSize: '28px', fontStyle: 'bold'})
+        chooseIgloo.add(title_6)
 
         // title_7
-        const title_7 = this.add.text(930, 840, "", {});
-        title_7.setOrigin(0.5, 0.5);
-        title_7.text = "Copy to clipboard";
-        title_7.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
-        chooseIgloo.add(title_7);
+        const title_7 = this.add.text(930, 840, '', {})
+        title_7.setOrigin(0.5, 0.5)
+        title_7.text = 'Copy to clipboard'
+        title_7.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 250, fontFamily: 'cpBurbankSmall', fontSize: '28px', fontStyle: 'bold'})
+        chooseIgloo.add(title_7)
 
         // title_9
-        const title_9 = this.add.text(590, 840, "", {});
-        title_9.setOrigin(0.5, 0.5);
-        title_9.text = "Copy to clipboard";
-        title_9.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":250,"fontFamily": "cpBurbankSmall", "fontSize": "28px", "fontStyle": "bold" });
-        chooseIgloo.add(title_9);
+        const title_9 = this.add.text(590, 840, '', {})
+        title_9.setOrigin(0.5, 0.5)
+        title_9.text = 'Copy to clipboard'
+        title_9.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 250, fontFamily: 'cpBurbankSmall', fontSize: '28px', fontStyle: 'bold'})
+        chooseIgloo.add(title_9)
 
         // toggle_panel
-        const toggle_panel = this.add.image(1189, 462, "iglooedit-new", "toggle-panel");
-        chooseIgloo.add(toggle_panel);
+        const toggle_panel = this.add.image(1189, 462, 'iglooedit-new', 'toggle-panel')
+        chooseIgloo.add(toggle_panel)
 
         // toggler
-        const toggler = this.add.sprite(1160, 465, "iglooedit-new", "toggler");
-        chooseIgloo.add(toggler);
+        const toggler = this.add.sprite(1160, 465, 'iglooedit-new', 'toggler')
+        chooseIgloo.add(toggler)
 
         // title_10
-        const title_10 = this.add.text(934, 462, "", {});
-        title_10.setOrigin(0.5, 0.5);
-        title_10.text = "Igloo\nBoundaries";
-        title_10.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "26px", "fontStyle": "bold" });
-        chooseIgloo.add(title_10);
+        const title_10 = this.add.text(934, 462, '', {})
+        title_10.setOrigin(0.5, 0.5)
+        title_10.text = 'Igloo\nBoundaries'
+        title_10.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 150, fontFamily: 'cpBurbankSmall', fontSize: '26px', fontStyle: 'bold'})
+        chooseIgloo.add(title_10)
 
         // title_11
-        const title_11 = this.add.text(1068, 463, "", {});
-        title_11.setOrigin(0.5, 0.5);
-        title_11.text = "Enabled";
-        title_11.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
-        chooseIgloo.add(title_11);
+        const title_11 = this.add.text(1068, 463, '', {})
+        title_11.setOrigin(0.5, 0.5)
+        title_11.text = 'Enabled'
+        title_11.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 150, fontFamily: 'cpBurbankSmall', fontSize: '22px', fontStyle: 'bold'})
+        chooseIgloo.add(title_11)
 
         // title_12
-        const title_12 = this.add.text(1310, 464, "", {});
-        title_12.setOrigin(0.5, 0.5);
-        title_12.text = "Disabled";
-        title_12.setStyle({ "align": "center", "color": "#3e83c5ff", "fixedWidth":150,"fontFamily": "cpBurbankSmall", "fontSize": "22px", "fontStyle": "bold" });
-        chooseIgloo.add(title_12);
+        const title_12 = this.add.text(1310, 464, '', {})
+        title_12.setOrigin(0.5, 0.5)
+        title_12.text = 'Disabled'
+        title_12.setStyle({align: 'center', color: '#3e83c5ff', fixedWidth: 150, fontFamily: 'cpBurbankSmall', fontSize: '22px', fontStyle: 'bold'})
+        chooseIgloo.add(title_12)
 
         // lists
-        const categories = [all, location, igloos, flooring, room, wall, pets];
-        const spinners = [plus, plus_1, plus_2, plus_3, plus_4];
-        const likesText = [];
-        const copyTexts = [title_13, title_9, title_7, title_6];
+        const categories = [all, location, igloos, flooring, room, wall, pets]
+        const spinners = [plus, plus_1, plus_2, plus_3, plus_4]
+        const likesText = []
+        const copyTexts = [title_13, title_9, title_7, title_6]
 
         // button_edit (components)
-        const button_editButton = new Button(button_edit);
-        button_editButton.callback = () => this.chooseIglooButton();
-        const button_editShowHint = new ShowHint(button_edit);
-        button_editShowHint.text = "editIgloo";
+        const button_editButton = new Button(button_edit)
+        button_editButton.callback = () => this.chooseIglooButton()
+        const button_editShowHint = new ShowHint(button_edit)
+        button_editShowHint.text = 'editIgloo'
 
         // music_panel (components)
-        new Interactive(music_panel);
+        new Interactive(music_panel)
 
         // big_button (components)
-        const big_buttonButton = new Button(big_button);
-        big_buttonButton.callback = () => this.showIglooMusic();
+        const big_buttonButton = new Button(big_button)
+        big_buttonButton.callback = () => this.showIglooMusic()
 
         // small_btn (components)
-        const small_btnButton = new Button(small_btn);
-        small_btnButton.callback = () => this.tweenControls();
+        const small_btnButton = new Button(small_btn)
+        small_btnButton.callback = () => this.tweenControls()
 
         // music (components)
-        const musicLocalisedString = new LocalisedString(music);
-        musicLocalisedString.id = "music";
+        const musicLocalisedString = new LocalisedString(music)
+        musicLocalisedString.id = 'music'
 
         // hide (components)
-        const hideLocalisedString = new LocalisedString(hide);
-        hideLocalisedString.id = "hide";
+        const hideLocalisedString = new LocalisedString(hide)
+        hideLocalisedString.id = 'hide'
 
         // music_panel_1 (components)
-        new Interactive(music_panel_1);
+        new Interactive(music_panel_1)
 
         // search (components)
-        const searchLocalisedString = new LocalisedString(search);
-        searchLocalisedString.id = "search";
+        const searchLocalisedString = new LocalisedString(search)
+        searchLocalisedString.id = 'search'
 
         // search_input (components)
-        const search_inputLocalisedString = new LocalisedString(search_input);
-        search_inputLocalisedString.id = "entername";
-        const search_inputInputText = new InputText(search_input);
-        search_inputInputText.charlimit = 96;
-        search_inputInputText.entercallback = () => this.searchForItems();
-        search_inputInputText.extends = false;
+        const search_inputLocalisedString = new LocalisedString(search_input)
+        search_inputLocalisedString.id = 'entername'
+        const search_inputInputText = new InputText(search_input)
+        search_inputInputText.charlimit = 96
+        search_inputInputText.entercallback = () => this.searchForItems()
+        search_inputInputText.extends = false
 
         // all (components)
-        const allSimpleButton = new SimpleButton(all);
-        allSimpleButton.callback = () => this.selectCategory(0);
+        const allSimpleButton = new SimpleButton(all)
+        allSimpleButton.callback = () => this.selectCategory(0)
 
         // location (components)
-        const locationSimpleButton = new SimpleButton(location);
-        locationSimpleButton.callback = () => this.selectCategory(1);
+        const locationSimpleButton = new SimpleButton(location)
+        locationSimpleButton.callback = () => this.selectCategory(1)
 
         // igloos (components)
-        const igloosSimpleButton = new SimpleButton(igloos);
-        igloosSimpleButton.callback = () => this.selectCategory(2);
+        const igloosSimpleButton = new SimpleButton(igloos)
+        igloosSimpleButton.callback = () => this.selectCategory(2)
 
         // flooring (components)
-        const flooringSimpleButton = new SimpleButton(flooring);
-        flooringSimpleButton.callback = () => this.selectCategory(3);
+        const flooringSimpleButton = new SimpleButton(flooring)
+        flooringSimpleButton.callback = () => this.selectCategory(3)
 
         // room (components)
-        const roomSimpleButton = new SimpleButton(room);
-        roomSimpleButton.callback = () => this.selectCategory(4);
+        const roomSimpleButton = new SimpleButton(room)
+        roomSimpleButton.callback = () => this.selectCategory(4)
 
         // wall (components)
-        const wallSimpleButton = new SimpleButton(wall);
-        wallSimpleButton.callback = () => this.selectCategory(5);
+        const wallSimpleButton = new SimpleButton(wall)
+        wallSimpleButton.callback = () => this.selectCategory(5)
 
         // pets (components)
-        const petsSimpleButton = new SimpleButton(pets);
-        petsSimpleButton.callback = () => this.selectCategory(6);
+        const petsSimpleButton = new SimpleButton(pets)
+        petsSimpleButton.callback = () => this.selectCategory(6)
 
         // top_bar (components)
-        new Interactive(top_bar);
+        new Interactive(top_bar)
 
         // rectangle_1 (components)
-        new Interactive(rectangle_1);
+        new Interactive(rectangle_1)
 
         // close_btn (components)
-        const close_btnButton = new Button(close_btn);
-        close_btnButton.callback = () => this.onSaveClick();
+        const close_btnButton = new Button(close_btn)
+        close_btnButton.callback = () => this.onSaveClick()
 
         // circle (components)
-        const circleSimpleButton = new SimpleButton(circle);
-        circleSimpleButton.callback = () => this.goLeft();
+        const circleSimpleButton = new SimpleButton(circle)
+        circleSimpleButton.callback = () => this.goLeft()
 
         // circle_1 (components)
-        const circle_1SimpleButton = new SimpleButton(circle_1);
-        circle_1SimpleButton.callback = () => this.goRight();
+        const circle_1SimpleButton = new SimpleButton(circle_1)
+        circle_1SimpleButton.callback = () => this.goRight()
 
         // bg (components)
-        new Interactive(bg);
+        new Interactive(bg)
 
         // choose_igloo (components)
-        const choose_iglooButton = new Button(choose_igloo);
-        choose_iglooButton.callback = () => this.onEditClick();
+        const choose_iglooButton = new Button(choose_igloo)
+        choose_iglooButton.callback = () => this.onEditClick()
 
         // close_btn_1 (components)
-        const close_btn_1Button = new Button(close_btn_1);
-        close_btn_1Button.callback = () => this.closeChooseIgloo();
+        const close_btn_1Button = new Button(close_btn_1)
+        close_btn_1Button.callback = () => this.closeChooseIgloo()
 
         // title_13 (components)
-        const title_13SimpleButton = new SimpleButton(title_13);
-        title_13SimpleButton.callback = () => this.copyToClipboard(0);
-        const title_13LocalisedString = new LocalisedString(title_13);
-        title_13LocalisedString.id = "copyclipboard";
+        const title_13SimpleButton = new SimpleButton(title_13)
+        title_13SimpleButton.callback = () => this.copyToClipboard(0)
+        const title_13LocalisedString = new LocalisedString(title_13)
+        title_13LocalisedString.id = 'copyclipboard'
 
         // big_button_1 (components)
-        const big_button_1Button = new Button(big_button_1);
-        big_button_1Button.callback = () => this.onReplaceClick();
+        const big_button_1Button = new Button(big_button_1)
+        big_button_1Button.callback = () => this.onReplaceClick()
 
         // title_6 (components)
-        const title_6SimpleButton = new SimpleButton(title_6);
-        title_6SimpleButton.callback = () => this.copyToClipboard(3);
-        const title_6LocalisedString = new LocalisedString(title_6);
-        title_6LocalisedString.id = "copyclipboard";
+        const title_6SimpleButton = new SimpleButton(title_6)
+        title_6SimpleButton.callback = () => this.copyToClipboard(3)
+        const title_6LocalisedString = new LocalisedString(title_6)
+        title_6LocalisedString.id = 'copyclipboard'
 
         // title_7 (components)
-        const title_7SimpleButton = new SimpleButton(title_7);
-        title_7SimpleButton.callback = () => this.copyToClipboard(2);
-        const title_7LocalisedString = new LocalisedString(title_7);
-        title_7LocalisedString.id = "copyclipboard";
+        const title_7SimpleButton = new SimpleButton(title_7)
+        title_7SimpleButton.callback = () => this.copyToClipboard(2)
+        const title_7LocalisedString = new LocalisedString(title_7)
+        title_7LocalisedString.id = 'copyclipboard'
 
         // title_9 (components)
-        const title_9SimpleButton = new SimpleButton(title_9);
-        title_9SimpleButton.callback = () => this.copyToClipboard(1);
-        const title_9LocalisedString = new LocalisedString(title_9);
-        title_9LocalisedString.id = "copyclipboard";
+        const title_9SimpleButton = new SimpleButton(title_9)
+        title_9SimpleButton.callback = () => this.copyToClipboard(1)
+        const title_9LocalisedString = new LocalisedString(title_9)
+        title_9LocalisedString.id = 'copyclipboard'
 
         // toggler (components)
-        const togglerSimpleButton = new SimpleButton(toggler);
-        togglerSimpleButton.callback = () => this.toggleBoundaries();
+        const togglerSimpleButton = new SimpleButton(toggler)
+        togglerSimpleButton.callback = () => this.toggleBoundaries()
 
-        this.defaultControls = defaultControls;
-        this.button_box = button_box;
-        this.music = music;
-        this.hide = hide;
-        this.lower = lower;
-        this.search = search;
-        this.search_input = search_input;
-        this.searchBox = searchBox;
-        this.itemContainer = itemContainer;
-        this.scrollbar = scrollbar;
-        this.scroller = scroller;
-        this.scrollBarContainer = scrollBarContainer;
-        this.upper = upper;
-        this.iglooMusic = iglooMusic;
-        this.controls = controls;
-        this.toggler = toggler;
-        this.chooseIgloo = chooseIgloo;
-        this.categories = categories;
-        this.spinners = spinners;
-        this.likesText = likesText;
-        this.copyTexts = copyTexts;
+        this.defaultControls = defaultControls
+        this.button_box = button_box
+        this.music = music
+        this.hide = hide
+        this.lower = lower
+        this.search = search
+        this.search_input = search_input
+        this.searchBox = searchBox
+        this.itemContainer = itemContainer
+        this.scrollbar = scrollbar
+        this.scroller = scroller
+        this.scrollBarContainer = scrollBarContainer
+        this.upper = upper
+        this.iglooMusic = iglooMusic
+        this.controls = controls
+        this.toggler = toggler
+        this.chooseIgloo = chooseIgloo
+        this.categories = categories
+        this.spinners = spinners
+        this.likesText = likesText
+        this.copyTexts = copyTexts
 
-        this.events.emit("scene-awake");
+        this.events.emit('scene-awake')
     }
-
 
     /* START-USER-CODE */
     get currentIgloo() {
@@ -1285,11 +1281,11 @@ export default class IglooEdit extends BaseScene {
         return scrollLength
     }
 
-    goLeft(){
+    goLeft() {
         this.onScrollerMove({x: this.scroller.x - this.getOnePageLength()})
     }
 
-    goRight(){
+    goRight() {
         this.onScrollerMove({x: this.scroller.x + this.getOnePageLength()})
     }
     /* END-USER-CODE */
