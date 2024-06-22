@@ -874,7 +874,7 @@ export default class IglooEdit extends BaseScene {
             return
         } else {
             this.scene.manager.scenes.forEach((scene) => {
-                if (scene.scene.key.includes('preview')) {
+                if (scene.scene.key.includes('preview') && scene.scene.isActive()) {
                     scene.stop()
                 }
             })
