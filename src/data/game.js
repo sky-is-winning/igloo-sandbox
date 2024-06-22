@@ -1,5 +1,6 @@
 import fonts from './fonts'
 import igloos from './igloos'
+import rooms from './rooms'
 
 if (!localStorage.getItem('webgl')) {
     localStorage.setItem('webgl', 'true')
@@ -61,7 +62,8 @@ const game = {
     crumbs: {
         fonts: fonts,
         scenes: {
-            igloos: igloos
+            igloos: igloos,
+            rooms: rooms
         }
     }
 }

@@ -1,0 +1,42 @@
+{
+<<<<<<< HEAD
+    "id": "25da14ad-61cc-4a02-bda7-883f5df3e18b",
+=======
+    "id": "25377b6f-4c6a-4dc1-bb32-488c0c2eb14a",
+>>>>>>> 6f8f7c4a1e6b39b5f692c30d63513d44022f348f
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "GameScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "Smoothie",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "efafb7b8-121a-4712-b93f-b3df902a354b",
+            "label": "bg",
+            "components": [
+                "Interactive"
+            ],
+            "texture": {
+                "key": "load",
+                "frame": "bg"
+            },
+            "originX": 0,
+            "originY": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

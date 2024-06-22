@@ -96,6 +96,11 @@ export default class Shell extends BaseScene {
         this.joinIgloo(iglooData.igloos[iglooData.currentIgloo].split('%'))
     }
 
+    rejoinCurrentIgloo(){
+        let iglooData = JSON.parse(localStorage.iglooData)
+        this.joinIgloo(iglooData.igloos[iglooData.currentIgloo].split('%'))
+    }
+
     setClient(args) {}
 
     joinRoom(id, users = null) {

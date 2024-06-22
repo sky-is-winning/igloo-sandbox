@@ -1,0 +1,1917 @@
+{
+    "id": "9505096d-0701-4922-a11f-8a9eaa143158",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 50,
+        "snapHeight": 50,
+        "exportClass": true,
+        "superClassName": "GameScene",
+        "preloadPackFiles": [
+            "client/client/media/games/soundstudio/soundstudio-pack.json",
+            "client/client/media/games/soundstudio/audio/soundstudio-dance-pack.json",
+            "client/client/media/games/soundstudio/audio/soundstudio-dubstep-pack.json",
+            "client/client/media/games/soundstudio/audio/soundstudio-pop-pack.json",
+            "client/client/media/games/soundstudio/audio/soundstudio-rock-pack.json",
+            "client/client/media/games/soundstudio/audio/soundstudio-spooky-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "SoundStudio",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "628b1419-d363-448c-bdc1-2f2380f03b59",
+            "label": "waveforms_bg",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "timer"
+            },
+            "x": 911,
+            "y": 79
+        },
+        {
+            "type": "Container",
+            "id": "37ea22ac-2b88-4715-abbd-20e39452ab03",
+            "label": "waveforms",
+            "scope": "CLASS",
+            "x": 327,
+            "y": 73,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "97eb60cd-552e-4271-8100-074caf90f7ad",
+                    "label": "waveforms_one0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/one0001"
+                    },
+                    "x": -1225.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "88bb2384-26c5-4e0c-baa8-99304e03cf38",
+                    "label": "waveforms_two0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/two0001"
+                    },
+                    "x": -1194.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5f71f4ed-ea06-41c9-a12a-7e7131fbb6ad",
+                    "label": "waveforms_three0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/three0001"
+                    },
+                    "x": -1163.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "666d1009-6e80-4848-91aa-c33ec1d65d14",
+                    "label": "waveforms_four0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/four0001"
+                    },
+                    "x": -1131.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0c824c35-578e-45d9-85d9-0a49125969d4",
+                    "label": "waveforms_five0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/five0001"
+                    },
+                    "x": -1101.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4ccd3dad-e494-4033-82e9-ce415b7b0dfd",
+                    "label": "waveforms_six0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/six0001"
+                    },
+                    "x": -1069.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ddff0edd-8372-462f-b4d0-cd62a9ab72b4",
+                    "label": "waveforms_seven0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/seven0001"
+                    },
+                    "x": -1039.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a031ee7a-08a0-4ced-8c75-787b1960c231",
+                    "label": "waveforms_eight0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/eight0001"
+                    },
+                    "x": -1007.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f8a45235-3466-414b-9d96-0c7042dd48f3",
+                    "label": "waveforms_nine0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/nine0001"
+                    },
+                    "x": -977.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "764bc758-afe2-4368-b183-306f69b19d6f",
+                    "label": "waveforms_ten0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/ten0001"
+                    },
+                    "x": -946.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f4975794-958b-4b23-879a-f175515ad6b8",
+                    "label": "waveforms_eleven0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/eleven0001"
+                    },
+                    "x": -915.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8f99791b-f0c8-4417-b6e6-93528b8882a8",
+                    "label": "waveforms_twelve0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twelve0001"
+                    },
+                    "x": -884.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e66bbf1d-b4a9-445f-ad82-e3b9231ec20e",
+                    "label": "waveforms_thirteen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirteen0001"
+                    },
+                    "x": -853.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8e0cf336-31d9-4104-b12a-036345ec4d8b",
+                    "label": "waveforms_fourteen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/fourteen0001"
+                    },
+                    "x": -822.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3d045bc9-a0a5-4da0-a07a-f71e1495c356",
+                    "label": "waveforms_fifteen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/fifteen0001"
+                    },
+                    "x": -790.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b3add049-973b-4c93-8550-a807dc1813ac",
+                    "label": "waveforms_sixteen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/sixteen0001"
+                    },
+                    "x": -760.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "43264343-4459-4248-b66f-0d82c9b50204",
+                    "label": "waveforms_seventeen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/seventeen0001"
+                    },
+                    "x": -728.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d9e485a4-a431-4622-a5a6-c4b07a134c41",
+                    "label": "waveforms_eighteen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/eighteen0001"
+                    },
+                    "x": -698.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0f90c85a-c4f4-4b43-99b7-4a487895dcac",
+                    "label": "waveforms_nineteen0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/nineteen0001"
+                    },
+                    "x": -666.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "518b511c-23e1-4fe9-b3f2-6298c2886387",
+                    "label": "waveforms_twenty0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twenty0001"
+                    },
+                    "x": -636.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "190688d2-e3bc-4ba1-b730-cd148376023b",
+                    "label": "waveforms_twentyone0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentyone0001"
+                    },
+                    "x": -605.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "243bf852-7d89-474d-99ff-3ea66f519769",
+                    "label": "waveforms_twentytwo0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentytwo0001"
+                    },
+                    "x": -574.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4db64bd1-7b9b-4e18-8844-36b57c360689",
+                    "label": "waveforms_twentythree0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentythree0001"
+                    },
+                    "x": -543.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8d3fb081-dc86-4c83-9481-1584caad9f9c",
+                    "label": "waveforms_twentyfour0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentyfour0001"
+                    },
+                    "x": -511.01852779978276,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1bde01be-9880-4d83-8357-2a4f4b30de0e",
+                    "label": "waveforms_twentyfive0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentyfive0001"
+                    },
+                    "x": -481.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "83559f0c-afdb-4861-8fce-504694a59d5a",
+                    "label": "waveforms_twentysix0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentysix0001"
+                    },
+                    "x": -449.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d6f4ccad-3658-4ed1-845b-f6e923b4b738",
+                    "label": "waveforms_twentyseven0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentyseven0001"
+                    },
+                    "x": -419.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4b836e17-1416-4084-9c87-71a5a9ffc7de",
+                    "label": "waveforms_twentyeight0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentyeight0001"
+                    },
+                    "x": -387.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "32c49e35-83fc-4ef1-91ba-0b75f2c61c8a",
+                    "label": "waveforms_twentynine0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/twentynine0001"
+                    },
+                    "x": -356.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f920eefd-4130-4715-83f0-620d353a1d52",
+                    "label": "waveforms_thirty0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirty0001"
+                    },
+                    "x": -325.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0b557918-ed56-48c2-a819-9d4674c7209f",
+                    "label": "waveforms_thirtyone0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtyone0001"
+                    },
+                    "x": -294.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "49378b55-7065-4494-9147-a11dc0229dcf",
+                    "label": "waveforms_thirtytwo0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtytwo0001"
+                    },
+                    "x": -263.0185277997828,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "51c01033-52a5-4187-9a09-b11c127d9d6f",
+                    "label": "waveforms_thirtythree0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtythree0001"
+                    },
+                    "x": -231.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8baf1221-59a6-4f0d-a6ac-798ece03653e",
+                    "label": "waveforms_thirtyfour0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtyfour0001"
+                    },
+                    "x": -201.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4a6ba352-cd96-4ba7-95ac-4ef29a212b8e",
+                    "label": "waveforms_thirtyfive0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtyfive0001"
+                    },
+                    "x": -169.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d393221f-076a-415d-877a-cee0e224294f",
+                    "label": "waveforms_thirtysix0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtysix0001"
+                    },
+                    "x": -139.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c437eca6-bb8f-41be-a659-8b1651d01343",
+                    "label": "waveforms_thirtyseven0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtyseven0001"
+                    },
+                    "x": -107.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "258cc9f4-d453-48e6-8a44-645587df1109",
+                    "label": "waveforms_thirtyeight0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtyeight0001"
+                    },
+                    "x": -77.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8e858d20-4889-460a-b192-2fc2ab0d7ae3",
+                    "label": "waveforms_thirtynine0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/thirtynine0001"
+                    },
+                    "x": -45.01852779978282,
+                    "y": 4.9986155230924965,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "73703914-182d-4ac9-81e0-a401eb113cc9",
+                    "label": "waveforms_forty0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "waveforms/forty0001"
+                    },
+                    "x": -15,
+                    "y": 5,
+                    "tintTopLeft": "#ffff66",
+                    "tintTopRight": "#ffff66",
+                    "tintBottomLeft": "#ffff66",
+                    "tintBottomRight": "#ffff66",
+                    "tintFill": true
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "93d930b3-5c73-4ef5-bae5-285e0b6d52ad",
+            "label": "overlay",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "overlay"
+            },
+            "x": 911,
+            "y": 79
+        },
+        {
+            "type": "Image",
+            "id": "116f6cd5-6cd4-428c-935f-5fcff8f5c51d",
+            "label": "bg",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Text",
+            "id": "8434e5b3-8c33-4b48-a740-11ab39b823c0",
+            "label": "currentTime",
+            "scope": "CLASS",
+            "x": 327,
+            "y": 67,
+            "originX": 0.49997517505489686,
+            "originY": 2.2659405008227753,
+            "text": "0:00",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "24px",
+            "fontStyle": "bold",
+            "color": "#ffffffff"
+        },
+        {
+            "type": "Image",
+            "id": "44d7133f-8c45-4afd-8cb1-a81735cd3ab2",
+            "label": "dividers",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "dividers"
+            },
+            "x": 784,
+            "y": 568
+        },
+        {
+            "type": "Image",
+            "id": "d8d68ba4-e840-407c-8b09-264274ab8ebd",
+            "label": "recordBtn",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.callback": "() => this.onRecordPress()",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "start_btn"
+            },
+            "x": 148,
+            "y": 149,
+            "angle": 0.20000000000004547
+        },
+        {
+            "type": "Image",
+            "id": "f3f27b11-35e4-4b46-b595-27e1bc582500",
+            "label": "pop_btn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeMode('pop')",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "pop_btn0001"
+            },
+            "x": 150,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "1150cf8a-6eca-4d3e-8a1b-7e7292d6e899",
+            "label": "rock_btn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeMode('rock')",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "rock_btn0001"
+            },
+            "x": 150,
+            "y": 460
+        },
+        {
+            "type": "Image",
+            "id": "dc070032-9c6f-4b41-b43b-71da2ef9c757",
+            "label": "dance_btn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeMode('dance')",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "dance_btn0001"
+            },
+            "x": 150,
+            "y": 560
+        },
+        {
+            "type": "Image",
+            "id": "138ede87-f644-4848-ac17-dbaac5e596e8",
+            "label": "dubstep_btn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeMode('dubstep')",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "dubstep_btn0001"
+            },
+            "x": 150,
+            "y": 660
+        },
+        {
+            "type": "Image",
+            "id": "a45fe703-4998-4f94-baa3-6ed0179a4beb",
+            "label": "spooky_btn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeMode('spooky')",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "spooky_btn0001"
+            },
+            "x": 150,
+            "y": 760
+        },
+        {
+            "type": "Text",
+            "id": "8025310c-7f20-4242-b58c-dfef46bf801f",
+            "label": "record_txt",
+            "scope": "CLASS",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_record",
+            "x": 148,
+            "y": 149,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Record",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#BDFFC4"
+        },
+        {
+            "type": "Text",
+            "id": "d7e63dab-b193-46f1-86d1-e4978b6c3de8",
+            "label": "pop_txt",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_pop",
+            "x": 150,
+            "y": 356,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Pop",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#EEDCFF"
+        },
+        {
+            "type": "Text",
+            "id": "070559a1-58fd-42b7-ac3b-8b82e8a44195",
+            "label": "record_txt_2",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_rock",
+            "x": 150,
+            "y": 456,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Rock",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#D5E6FF"
+        },
+        {
+            "type": "Text",
+            "id": "c960c0c8-f281-41c6-98cb-35d5f24bcd02",
+            "label": "record_txt_3",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_dance",
+            "x": 150,
+            "y": 556,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Dance",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#DAFFD8"
+        },
+        {
+            "type": "Text",
+            "id": "979890b6-d319-4eca-b6c6-88ef699bcea0",
+            "label": "record_txt_4",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_dubstep",
+            "x": 150,
+            "y": 656,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Dubstep",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#F2E0FF"
+        },
+        {
+            "type": "Text",
+            "id": "18d6195a-4b6b-40f3-adeb-7bd2a445130f",
+            "label": "record_txt_5",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_spooky",
+            "x": 150,
+            "y": 756,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Spooky",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#9CEBE2"
+        },
+        {
+            "type": "Text",
+            "id": "d23cf1f0-355e-4616-a2b1-4530ebb71a57",
+            "label": "timeLeft",
+            "scope": "CLASS",
+            "x": 1446,
+            "y": 79,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "3:00",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#7764a0ff"
+        },
+        {
+            "type": "Text",
+            "id": "d310496b-46f2-4a4c-92f8-3dd804e56b3a",
+            "label": "record_txt_5_1_2",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_loops",
+            "x": 703,
+            "y": 198,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "LOOPS",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "30px",
+            "fontStyle": "bold",
+            "color": "#CCCCCC"
+        },
+        {
+            "type": "Text",
+            "id": "be822937-7358-44fe-a66b-48894ad630b1",
+            "label": "record_txt_5_1_2_1",
+            "components": [
+                "LocalisedString"
+            ],
+            "LocalisedString.id": "soundstudio_oneshots",
+            "x": 1311,
+            "y": 198,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "ONE-SHOTS",
+            "fontFamily": "cpBurbankSmall",
+            "fontSize": "30px",
+            "fontStyle": "bold",
+            "color": "#CCCCCC"
+        },
+        {
+            "type": "Image",
+            "id": "ca99363d-eda5-4e0d-8b6e-fd285dd1be6a",
+            "label": "timeIndicator",
+            "scope": "CLASS",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "time_indicator"
+            },
+            "x": 327,
+            "y": 76,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Container",
+            "id": "3d8640f6-4e2e-4ab7-bf02-a19dfd355800",
+            "label": "buttons",
+            "x": 406,
+            "y": 291,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "14073f7e-6fbd-4b96-a289-19074a2b1fee",
+                    "label": "sfx_lightblue0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "c96ba610-843b-4d74-8907-e682f5c0c276",
+                    "label": "sfx_purple0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 150
+                },
+                {
+                    "type": "Image",
+                    "id": "63128481-987d-4226-b66e-cb137e7c3534",
+                    "label": "sfx_green0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 297
+                },
+                {
+                    "type": "Image",
+                    "id": "a7b113c6-3421-4b20-966c-620fb7e439b0",
+                    "label": "sfx_yellow0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 448
+                },
+                {
+                    "type": "Image",
+                    "id": "3498e39f-b8cf-4cde-831d-970916b13910",
+                    "label": "sfx_pink0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 600
+                },
+                {
+                    "type": "Image",
+                    "id": "17c86a79-1bbc-436b-9f74-1f85b6007783",
+                    "label": "sfx_darkblue_0001",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_darkblue_0001"
+                    },
+                    "x": 774,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "956446c1-455f-46e6-a68d-e14ea5582839",
+                    "label": "sfx_yellow0001_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 774
+                },
+                {
+                    "type": "Image",
+                    "id": "d98a530a-5e6a-4e39-9a66-7b5789bfbfa4",
+                    "label": "sfx_pink0001_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 906
+                },
+                {
+                    "type": "Image",
+                    "id": "a20ffef7-2f83-45b3-ae76-9f7e031b9856",
+                    "label": "sfx_purple0001_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 1036
+                },
+                {
+                    "type": "Image",
+                    "id": "bcddf009-c506-49d8-83f9-fdcd4a99283b",
+                    "label": "sfx_green0001_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 906,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "d37c7cb4-6c73-4c85-8972-f8945e3410b6",
+                    "label": "sfx_yellow0001_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 906,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "30635be3-d613-427d-b4af-728ff9bf475f",
+                    "label": "sfx_darkblue_0001_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_darkblue_0001"
+                    },
+                    "x": 1036,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "732834e3-ac85-47a9-a095-d8251be2d34e",
+                    "label": "sfx_lightblue0001_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "x": 1036,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "b66e357c-07bd-4e66-8a08-184d47e65a8d",
+                    "label": "sfx_lightblue0001_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "3aff1f22-24f4-481f-ae96-90ffe6a8a689",
+                    "label": "sfx_purple0001_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 150,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "c79bb248-2fc0-4416-b2cb-ef96e8172407",
+                    "label": "sfx_green0001_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 297,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "53342af8-229c-4c5e-9afc-902fa34ddea9",
+                    "label": "sfx_yellow0001_3",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 448,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "60e76489-45ab-4508-b12a-cd134ce9c189",
+                    "label": "sfx_pink0001_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 600,
+                    "y": 148
+                },
+                {
+                    "type": "Image",
+                    "id": "d3962f0c-13a8-4484-88e9-2f76283b973c",
+                    "label": "sfx_pink0001_2_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 600,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "5bc92a62-91ae-4f09-9904-450b398aa8de",
+                    "label": "sfx_yellow0001_3_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 448,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "c1095531-18bd-4778-8c19-83390c85db6c",
+                    "label": "sfx_green0001_2_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 297,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "31ca59aa-1030-484f-ba97-d8c2ef3deee0",
+                    "label": "sfx_purple0001_2_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 150,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "8710109a-628a-44ae-9ba0-962260b55b88",
+                    "label": "sfx_lightblue0001_2_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "c539c707-95b1-4673-8f3d-004ebd638cbb",
+                    "label": "sfx_pink0001_2_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 600,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "e4f5af72-0ba7-4930-9696-d285df6184b7",
+                    "label": "sfx_yellow0001_3_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 448,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "f1373397-f0d2-442d-810d-58cbced5c79e",
+                    "label": "sfx_green0001_2_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 297,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "a5ea32c2-806a-4600-9ad2-7d0326f4b8d1",
+                    "label": "sfx_purple0001_2_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 150,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "3eeec646-4231-4e2a-a141-c66cebed5337",
+                    "label": "sfx_lightblue0001_2_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "5d16cfed-c6e5-4fb0-8f32-f28fe1999c5a",
+                    "label": "sfx_pink0001_2_1_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 600,
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "a760328a-b734-4313-bc75-c14add000d34",
+                    "label": "sfx_yellow0001_3_1_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 448,
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "a2c1048b-0464-4f93-859e-5fec473dbc34",
+                    "label": "sfx_green0001_2_1_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 297,
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "016f6166-ec78-4954-9011-303655d80532",
+                    "label": "sfx_purple0001_2_1_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 150,
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "598a8717-466c-4872-9be4-8f94bd317530",
+                    "label": "sfx_lightblue0001_2_1_2",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "0cfdc650-ed23-4bbe-aad4-883fb4ac6080",
+                    "label": "sfx_purple0001_2_1_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 774,
+                    "y": 289
+                },
+                {
+                    "type": "Image",
+                    "id": "e302e534-4671-408d-b140-353e2737d805",
+                    "label": "sfx_lightblue0001_2_1_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "x": 774,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "fac25ab1-e32c-4096-bfbd-92300b93253a",
+                    "label": "sfx_purple0001_2_1_1_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_purple0001"
+                    },
+                    "x": 1036,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "f767a802-e228-496f-b0d8-0143a5897b39",
+                    "label": "sfx_pink0001_2_1_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_pink0001"
+                    },
+                    "x": 906,
+                    "y": 433
+                },
+                {
+                    "type": "Image",
+                    "id": "891b8870-0a0f-4dfc-9734-4f7a866af4ae",
+                    "label": "sfx_green0001_2_1_2_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_green0001"
+                    },
+                    "x": 774,
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "d3a1c338-a4be-4bf6-b152-1855b3e6d513",
+                    "label": "sfx_lightblue0001_2_1_1_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_lightblue0001"
+                    },
+                    "x": 1036,
+                    "y": 577
+                },
+                {
+                    "type": "Image",
+                    "id": "801c5e60-22fa-43c0-8f23-40cbe3518497",
+                    "label": "sfx_yellow0001_3_1_1_1",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "sfx_yellow0001"
+                    },
+                    "x": 906,
+                    "y": 577
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "8fcb2293-93a6-4d8a-9289-46a71122573f",
+            "label": "icons_cntr",
+            "scope": "CLASS",
+            "x": 397,
+            "y": 272
+        },
+        {
+            "type": "Container",
+            "id": "11b1966f-c338-48e0-b33a-9b1ed2ca4820",
+            "label": "menu",
+            "scope": "CLASS",
+            "x": 750,
+            "y": 165,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "49d74057-354c-4cdd-89de-cf0d8d541ec0",
+                    "label": "menu_bg",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "menu/bg"
+                    },
+                    "x": 10,
+                    "y": 315
+                },
+                {
+                    "type": "Image",
+                    "id": "febaca67-85ac-403a-9c29-c3d2ad74d0b9",
+                    "label": "logo_en",
+                    "components": [
+                        "LocalisedSprite"
+                    ],
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "logo-en"
+                    },
+                    "x": -215,
+                    "y": 99
+                },
+                {
+                    "type": "Image",
+                    "id": "59a6ca99-2f32-407f-90ba-e4fb105d61e2",
+                    "label": "menu_big_btn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.startGame()",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "menu/big_btn"
+                    },
+                    "x": -217,
+                    "y": 317
+                },
+                {
+                    "type": "Text",
+                    "id": "e477b1fd-512e-41b6-adc3-4ec655f83ffd",
+                    "label": "record_txt_1",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "soundstudio_play",
+                    "x": -217,
+                    "y": 313,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Make Music",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "48px",
+                    "fontStyle": "bold",
+                    "color": "#69e5c5ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "ea90148e-3cec-436e-b907-588a8e7733f3",
+                    "label": "menu_shared_bg",
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "menu/shared_bg"
+                    },
+                    "x": 500,
+                    "y": 310
+                },
+                {
+                    "type": "Image",
+                    "id": "3ee5e1f9-c4ca-4b32-b479-23767bc9fe59",
+                    "label": "menu_little_btn",
+                    "components": [
+                        "Button"
+                    ],
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "menu/little_btn"
+                    },
+                    "x": -217,
+                    "y": 450
+                },
+                {
+                    "type": "Image",
+                    "id": "cf6ac45e-3f99-4ad9-a3eb-148d7143e018",
+                    "label": "menu_little_btn_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "texture": {
+                        "key": "soundstudio",
+                        "frame": "menu/little_btn"
+                    },
+                    "x": -217,
+                    "y": 552
+                },
+                {
+                    "type": "Text",
+                    "id": "878d5a30-00ea-4d48-8581-ba139794ccd3",
+                    "label": "record_txt_6",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "soundstudio_instructions",
+                    "x": -217,
+                    "y": 450,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Instructions",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "34px",
+                    "fontStyle": "bold",
+                    "color": "#69e5c5ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "342a78ba-b9bb-4e4a-aaab-90836ac69f50",
+                    "label": "record_txt_7",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "soundstudio_savedts",
+                    "x": -217,
+                    "y": 550,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Saved Tracks",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "34px",
+                    "fontStyle": "bold",
+                    "color": "#e0d06dff"
+                },
+                {
+                    "type": "Text",
+                    "id": "4c45713a-a376-4898-8ea0-a1e02273ea79",
+                    "label": "record_txt_8",
+                    "components": [
+                        "LocalisedString"
+                    ],
+                    "LocalisedString.id": "soundstudio_sharedtracks",
+                    "x": 500,
+                    "y": -108,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Shared Tracks",
+                    "fontFamily": "cpBurbankSmall",
+                    "fontSize": "44px",
+                    "fontStyle": "bold",
+                    "color": "#7fd67bff",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 3,
+                    "shadow.fill": true
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "9ac61137-2314-4eb0-a443-35631fe413b2",
+            "label": "close",
+            "components": [
+                "Button"
+            ],
+            "Button.callback": "() => this.quit()",
+            "texture": {
+                "key": "soundstudio",
+                "frame": "close_btn"
+            },
+            "x": 1491,
+            "y": 22
+        },
+        {
+            "type": "Container",
+            "id": "58e66fb3-c2ec-4e26-8c56-911dd1528f41",
+            "label": "prompt_cntr",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "b8fba27a-ba2a-450b-9a73-9a51656619fb",
+                    "label": "prompts_block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 750,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "56287579-8702-4f6b-80d4-4ef212198f30",
+                    "label": "save_cntr",
+                    "scope": "CLASS",
+                    "x": 760.0018920898438,
+                    "y": 479.9929139334627,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "61b47097-26c9-4cd9-9a60-e1d476b8a846",
+                            "label": "prompts_save_bg",
+                            "texture": {
+                                "key": "soundstudio",
+                                "frame": "prompts/save/bg"
+                            },
+                            "x": -0.00187262684369216,
+                            "y": 0.007055388416858932
+                        },
+                        {
+                            "type": "Image",
+                            "id": "42c90414-78dd-4851-a927-90a15fd8ad1b",
+                            "label": "prompts_save_songNameInput",
+                            "texture": {
+                                "key": "soundstudio",
+                                "frame": "prompts/save/songNameInput"
+                            },
+                            "x": -0.00187262684369216,
+                            "y": 75.00705538841686
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3bfa177d-fd3e-4d63-8503-cd19e0420950",
+                            "label": "prompts_save_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.cancelSave()",
+                            "texture": {
+                                "key": "soundstudio",
+                                "frame": "prompts/save/button"
+                            },
+                            "x": -165.0018726268437,
+                            "y": 175.00705538841686
+                        },
+                        {
+                            "type": "Image",
+                            "id": "aca95133-dc96-4e79-9332-a3cb7b70633e",
+                            "label": "prompts_save_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.saveCurrentRecording()",
+                            "texture": {
+                                "key": "soundstudio",
+                                "frame": "prompts/save/button"
+                            },
+                            "x": 164.9981273731563,
+                            "y": 176.00705538841686
+                        },
+                        {
+                            "type": "Text",
+                            "id": "316b0348-fad2-4497-9d95-0ab9b0814f6d",
+                            "label": "prompts_save_inputTxt",
+                            "scope": "CLASS",
+                            "components": [
+                                "LocalisedString",
+                                "InputText"
+                            ],
+                            "LocalisedString.id": "soundstudio_name",
+                            "y": 75.00705538841686,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Name Your Track",
+                            "fixedWidth": 650,
+                            "fixedHeight": 42,
+                            "align": "center",
+                            "fontFamily": "cpBurbankSmall",
+                            "fontSize": "35px",
+                            "fontStyle": "bold",
+                            "color": "#fff3dcff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "99525349-6f00-46d4-85b8-dcb7a3ad997b",
+                            "label": "prompts_save_cancelTxt",
+                            "components": [
+                                "LocalisedString"
+                            ],
+                            "LocalisedString.id": "soundstudio_cancel",
+                            "x": -167.0018726268437,
+                            "y": 175.00705538841686,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Cancel",
+                            "fontFamily": "cpBurbankSmall",
+                            "fontSize": "35px",
+                            "fontStyle": "bold",
+                            "color": "#c3b8ceff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5922eee8-4224-49cf-abcd-0ce9bbb89cbc",
+                            "label": "prompts_save_saveTxt",
+                            "components": [
+                                "LocalisedString"
+                            ],
+                            "LocalisedString.id": "soundstudio_save",
+                            "x": 169.9981273731563,
+                            "y": 175.00705538841686,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Save",
+                            "fontFamily": "cpBurbankSmall",
+                            "fontSize": "35px",
+                            "fontStyle": "bold",
+                            "color": "#f8f2ffff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "34f87c0d-ede8-4aa4-b11e-3c3898246c7f",
+                            "label": "prompts_save_close_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.cancelSave()",
+                            "texture": {
+                                "key": "soundstudio",
+                                "frame": "prompts/save/close-btn"
+                            },
+                            "x": 334.9981273731563,
+                            "y": -235.99294461158314
+                        },
+                        {
+                            "type": "Image",
+                            "id": "72482e24-25c3-4b4b-baf6-b61f818d0766",
+                            "label": "prompts_save_playBtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.playbackCurrentRecording()",
+                            "texture": {
+                                "key": "soundstudio",
+                                "frame": "prompts/save/playBtn"
+                            },
+                            "x": -0.00189208984375,
+                            "y": -99.992919921875
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "dda45a9b-b51a-4927-9561-d4adc74c9657",
+            "label": "loopButtons",
+            "objectIds": [
+                "14073f7e-6fbd-4b96-a289-19074a2b1fee",
+                "c96ba610-843b-4d74-8907-e682f5c0c276",
+                "63128481-987d-4226-b66e-cb137e7c3534",
+                "a7b113c6-3421-4b20-966c-620fb7e439b0",
+                "3498e39f-b8cf-4cde-831d-970916b13910",
+                "b66e357c-07bd-4e66-8a08-184d47e65a8d",
+                "3aff1f22-24f4-481f-ae96-90ffe6a8a689",
+                "c79bb248-2fc0-4416-b2cb-ef96e8172407",
+                "53342af8-229c-4c5e-9afc-902fa34ddea9",
+                "60e76489-45ab-4508-b12a-cd134ce9c189",
+                "8710109a-628a-44ae-9ba0-962260b55b88",
+                "31ca59aa-1030-484f-ba97-d8c2ef3deee0",
+                "c1095531-18bd-4778-8c19-83390c85db6c",
+                "5bc92a62-91ae-4f09-9904-450b398aa8de",
+                "d3962f0c-13a8-4484-88e9-2f76283b973c",
+                "3eeec646-4231-4e2a-a141-c66cebed5337",
+                "a5ea32c2-806a-4600-9ad2-7d0326f4b8d1",
+                "f1373397-f0d2-442d-810d-58cbced5c79e",
+                "e4f5af72-0ba7-4930-9696-d285df6184b7",
+                "c539c707-95b1-4673-8f3d-004ebd638cbb",
+                "598a8717-466c-4872-9be4-8f94bd317530",
+                "016f6166-ec78-4954-9011-303655d80532",
+                "a2c1048b-0464-4f93-859e-5fec473dbc34",
+                "a760328a-b734-4313-bc75-c14add000d34",
+                "5d16cfed-c6e5-4fb0-8f32-f28fe1999c5a"
+            ]
+        },
+        {
+            "id": "4b3e5146-2f23-4fa3-b3bd-60ba6ee23bc8",
+            "label": "wfList",
+            "objectIds": [
+                "73703914-182d-4ac9-81e0-a401eb113cc9",
+                "8e858d20-4889-460a-b192-2fc2ab0d7ae3",
+                "258cc9f4-d453-48e6-8a44-645587df1109",
+                "c437eca6-bb8f-41be-a659-8b1651d01343",
+                "d393221f-076a-415d-877a-cee0e224294f",
+                "4a6ba352-cd96-4ba7-95ac-4ef29a212b8e",
+                "8baf1221-59a6-4f0d-a6ac-798ece03653e",
+                "51c01033-52a5-4187-9a09-b11c127d9d6f",
+                "49378b55-7065-4494-9147-a11dc0229dcf",
+                "0b557918-ed56-48c2-a819-9d4674c7209f",
+                "f920eefd-4130-4715-83f0-620d353a1d52",
+                "32c49e35-83fc-4ef1-91ba-0b75f2c61c8a",
+                "4b836e17-1416-4084-9c87-71a5a9ffc7de",
+                "d6f4ccad-3658-4ed1-845b-f6e923b4b738",
+                "83559f0c-afdb-4861-8fce-504694a59d5a",
+                "1bde01be-9880-4d83-8357-2a4f4b30de0e",
+                "8d3fb081-dc86-4c83-9481-1584caad9f9c",
+                "4db64bd1-7b9b-4e18-8844-36b57c360689",
+                "243bf852-7d89-474d-99ff-3ea66f519769",
+                "190688d2-e3bc-4ba1-b730-cd148376023b",
+                "518b511c-23e1-4fe9-b3f2-6298c2886387",
+                "0f90c85a-c4f4-4b43-99b7-4a487895dcac",
+                "d9e485a4-a431-4622-a5a6-c4b07a134c41",
+                "43264343-4459-4248-b66f-0d82c9b50204",
+                "b3add049-973b-4c93-8550-a807dc1813ac",
+                "3d045bc9-a0a5-4da0-a07a-f71e1495c356",
+                "8e0cf336-31d9-4104-b12a-036345ec4d8b",
+                "e66bbf1d-b4a9-445f-ad82-e3b9231ec20e",
+                "8f99791b-f0c8-4417-b6e6-93528b8882a8",
+                "f4975794-958b-4b23-879a-f175515ad6b8",
+                "764bc758-afe2-4368-b183-306f69b19d6f",
+                "f8a45235-3466-414b-9d96-0c7042dd48f3",
+                "a031ee7a-08a0-4ced-8c75-787b1960c231",
+                "ddff0edd-8372-462f-b4d0-cd62a9ab72b4",
+                "4ccd3dad-e494-4033-82e9-ce415b7b0dfd",
+                "0c824c35-578e-45d9-85d9-0a49125969d4",
+                "666d1009-6e80-4848-91aa-c33ec1d65d14",
+                "5f71f4ed-ea06-41c9-a12a-7e7131fbb6ad",
+                "88bb2384-26c5-4e0c-baa8-99304e03cf38",
+                "97eb60cd-552e-4271-8100-074caf90f7ad"
+            ]
+        },
+        {
+            "id": "a5516215-71bf-42c7-bd56-c6d6ddca404e",
+            "label": "sfxButtons",
+            "objectIds": [
+                "956446c1-455f-46e6-a68d-e14ea5582839",
+                "17c86a79-1bbc-436b-9f74-1f85b6007783",
+                "0cfdc650-ed23-4bbe-aad4-883fb4ac6080",
+                "e302e534-4671-408d-b140-353e2737d805",
+                "891b8870-0a0f-4dfc-9734-4f7a866af4ae",
+                "d98a530a-5e6a-4e39-9a66-7b5789bfbfa4",
+                "bcddf009-c506-49d8-83f9-fdcd4a99283b",
+                "d37c7cb4-6c73-4c85-8972-f8945e3410b6",
+                "f767a802-e228-496f-b0d8-0143a5897b39",
+                "801c5e60-22fa-43c0-8f23-40cbe3518497",
+                "a20ffef7-2f83-45b3-ae76-9f7e031b9856",
+                "732834e3-ac85-47a9-a095-d8251be2d34e",
+                "30635be3-d613-427d-b4af-728ff9bf475f",
+                "fac25ab1-e32c-4096-bfbd-92300b93253a",
+                "d3a1c338-a4be-4bf6-b152-1855b3e6d513"
+            ]
+        }
+    ]
+}

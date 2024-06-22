@@ -862,6 +862,7 @@ export default class IglooEdit extends BaseScene {
 
     onEditClick() {
         this.chooseIgloo.visible = false
+        this.iglooMusic.close()
         this.shell.events.off('updateScaling')
         this.previews.forEach((preview) => preview.stop())
         this.shell.room.hidePenguins()
@@ -870,9 +871,10 @@ export default class IglooEdit extends BaseScene {
     }
 
     checkForBrokenPreviews() {
-        if (this.chooseIgloo.visible) {
+        if (this.chooseIgloo.visible || !this.scene.isActive()) {
             return
         } else {
+            console.log("checking for broken previews")
             this.scene.manager.scenes.forEach((scene) => {
                 if (scene.scene.key.includes('preview') && scene.scene.isActive()) {
                     scene.stop()
@@ -883,7 +885,6 @@ export default class IglooEdit extends BaseScene {
 
     onSaveClick() {
         this.saveIgloo()
-        this.shell.room.showPenguins()
         this.shell.room.disableFurnitureInput()
         this.hideControls()
     }

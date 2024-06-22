@@ -355,6 +355,11 @@ export default class IglooScene extends RoomScene {
         super.addPenguin(id, penguin)
     }
 
+    startSoundStudio(){
+        this.shell.joinRoom(940)
+        this.interface.hideIglooEdit()
+    }
+
     stop() {
         this.created = false
         super.stop()

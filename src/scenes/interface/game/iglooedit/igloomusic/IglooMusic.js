@@ -181,7 +181,7 @@ export default class IglooMusic extends BaseContainer {
     iglooMusicMode() {}
 
     soundStudioMode() {
-        this.interface.prompt.showError(this.crumbs.getError('54'))
+        this.shell.room.startSoundStudio()
     }
     /* END-USER-CODE */
 }
