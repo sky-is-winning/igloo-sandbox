@@ -28,7 +28,7 @@
             "y": 634
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "13ac3ffb-d6d6-4c9b-891f-6d7da851c5fb",
             "label": "door",
             "components": [
@@ -73,6 +73,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     }
 }

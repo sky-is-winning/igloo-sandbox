@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {Button, MoveTo} from '@components/components'
+import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -47,7 +47,7 @@ export default class CreepyCavern extends IglooScene {
         const sort = [fg]
 
         // door (components)
-        new MoveTo(door)
+
         new Button(door)
 
         this.floor = floor

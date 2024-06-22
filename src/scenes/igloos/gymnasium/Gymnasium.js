@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {Button, MoveTo} from '@components/components'
+import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -43,7 +43,6 @@ export default class Gymnasium extends IglooScene {
 
         // door (components)
         new Button(door)
-        new MoveTo(door)
 
         this.sort = sort
 

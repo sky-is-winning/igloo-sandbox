@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {Button, MoveTo} from '@components/components'
+import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -31,7 +31,7 @@ export default class IceCastle extends IglooScene {
         this.add.image(760, 634, 'icecastle', 'bg-lower')
 
         // door
-        const door = this.add.image(758.8427484645825, 639.3832146853995, 'icecastle', 'door')
+        const door = this.add.sprite(758.8427484645825, 639.3832146853995, 'icecastle', 'door')
         door.setOrigin(0.5202249919188555, 0.9532472547969204)
 
         // floor
@@ -42,8 +42,6 @@ export default class IceCastle extends IglooScene {
 
         // door (components)
         new Button(door)
-        new MoveTo(door)
-
         this.floor = floor
 
         this.events.emit('scene-awake')

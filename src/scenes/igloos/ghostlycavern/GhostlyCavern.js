@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {Button, MoveTo} from '@components/components'
+import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -45,7 +45,6 @@ export default class GhostlyCavern extends IglooScene {
 
         // door (components)
         new Button(door)
-        new MoveTo(door)
 
         this.floor = floor
         this.sort = sort

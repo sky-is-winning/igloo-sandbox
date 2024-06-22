@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {Button, MoveTo} from '@components/components'
+import {Button} from '@components/components'
 /* START OF COMPILED CODE */
 
 export default class SplitLevel extends IglooScene {

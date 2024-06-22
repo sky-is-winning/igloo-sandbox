@@ -1,5 +1,5 @@
 import IglooScene from '../IglooScene'
-import {Button, MoveTo} from '@components/components'
+import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -35,7 +35,7 @@ export default class GreyIceCastle extends IglooScene {
         door.setOrigin(0.5148643960677305, 0.9344977312105811)
 
         // door (components)
-        new MoveTo(door)
+
         new Button(door)
 
         this.floor = floor
