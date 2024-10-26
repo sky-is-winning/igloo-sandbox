@@ -1,0 +1,76 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/media/interface/game/main/bag.webm"
+                ],
+                "type": "video",
+                "key": "bag_cooldown_vid"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/media/interface/windows/prompt/banning.json",
+                "path": "assets/media/interface/windows/prompt",
+                "key": "banning"
+            },
+            {
+                "url": "assets/media/crumbs/en.json",
+                "type": "json",
+                "key": "crumbs-en"
+            },
+            {
+                "url": "assets/media/crumbs/es.json",
+                "type": "json",
+                "key": "crumbs-es"
+            },
+            {
+                "url": "assets/media/crumbs/pt.json",
+                "type": "json",
+                "key": "crumbs-pt"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/media/furniture/icon/@1.25x/icons.json",
+                "path": "assets/media/furniture/icon/@1.25x",
+                "key": "furniture"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/media/interface/game/iglooedit/iglooedit.json",
+                "path": "assets/media/interface/game/iglooedit/",
+                "key": "iglooedit"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/media/interface/game/iglooedit/iglooedit-new.json",
+                "path": "assets/media/interface/game/iglooedit",
+                "key": "iglooedit-new"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/media/interface/game/main/main.json",
+                "path": "assets/media/interface/game/main/",
+                "key": "main"
+            },
+            {
+                "url": "assets/media/interface/game/main/main-anims.json",
+                "type": "animation",
+                "key": "main-anims"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/media/interface/windows/prompt/prompt.json",
+                "path": "assets/media/interface/windows/prompt/",
+                "key": "prompt"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": true
+    }
+}

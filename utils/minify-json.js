@@ -27,7 +27,7 @@ function minify(json) {
 }
 
 if (process.argv.join(' ').includes('--search')) {
-    searchFolder('./client/media')
+    searchFolder('./assets/media')
     return
 }
 
@@ -49,8 +49,8 @@ exec(
             if (file.includes('   ')) {
                 file = file.split('   ')[1]
             }
-            if (file.endsWith('.json') && fs.existsSync(`./client/${file}`)) {
-                minify(`./client/${file}`)
+            if (file.endsWith('.json') && fs.existsSync(`./assets/${file}`)) {
+                minify(`./assets/${file}`)
             }
         }
     }

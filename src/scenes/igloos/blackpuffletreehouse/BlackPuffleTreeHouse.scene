@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/blackpuffletreehouse/blackpuffletreehouse-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/blackpuffletreehouse/blackpuffletreehouse-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "BlackPuffleTreeHouse",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "blackpuffletreehouse",
+                "key": "blackpuffletreehouse-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "44f5235b-b641-4278-a462-7b0e98e73d91",
             "label": "fg",
             "texture": {
-                "key": "blackpuffletreehouse",
+                "key": "blackpuffletreehouse-igloo",
                 "frame": "fg"
             },
             "x": 760,

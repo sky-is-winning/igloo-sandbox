@@ -1,6 +1,5 @@
 import IglooScene from '../IglooScene'
 import {Button} from '@components/components'
-
 /* START OF COMPILED CODE */
 
 export default class Empty extends IglooScene {
@@ -8,6 +7,10 @@ export default class Empty extends IglooScene {
         super(`Empty-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
@@ -21,7 +24,7 @@ export default class Empty extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('empty-pack', 'client/media/igloos/buildings/sprites/empty/empty-pack.json')
+        this.load.pack('empty-pack', 'assets/media/igloos/buildings/sprites/empty/empty-pack.json')
     }
 
     /** @returns {void} */

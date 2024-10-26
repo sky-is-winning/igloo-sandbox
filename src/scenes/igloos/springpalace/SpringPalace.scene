@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/springpalace/springpalace-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/springpalace/springpalace-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SpringPalace",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "springpalace",
+                "key": "springpalace-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -35,8 +35,10 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
             "texture": {
-                "key": "springpalace",
+                "key": "springpalace-igloo",
                 "frame": "door"
             },
             "x": 175.03652281259787,
@@ -49,7 +51,7 @@
             "id": "f6d81e63-aa3a-4b04-ae1a-a0274bd9795c",
             "label": "fg",
             "texture": {
-                "key": "springpalace",
+                "key": "springpalace-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -62,7 +64,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

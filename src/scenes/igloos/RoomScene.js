@@ -49,7 +49,7 @@ export default class RoomScene extends BaseScene {
 
         if (this.loadSfx) {
             this.loadSfx.forEach((sfx) => {
-                this.load.audio(`sfx/${sfx}`, `/client/media/sounds/${sfx}.mp3`)
+                this.load.audio(`sfx/${sfx}`, `/assets/media/sounds/${sfx}.mp3`)
             })
         }
 

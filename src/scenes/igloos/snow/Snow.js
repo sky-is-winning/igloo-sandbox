@@ -12,6 +12,10 @@ export default class Snow extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
         this.wallBounds = [580, 1000]
@@ -22,7 +26,7 @@ export default class Snow extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('snow-pack', 'client/media/igloos/buildings/sprites/snow/snow-pack.json')
+        this.load.pack('snow-pack', 'assets/media/igloos/buildings/sprites/snow/snow-pack.json')
     }
 
     /** @returns {void} */
@@ -39,7 +43,12 @@ export default class Snow extends IglooScene {
         this.add.image(972, 388, 'snow', 'wall_2')
 
         // door
-        this.add.image(491, 467, 'snow', 'door')
+        const door = this.add.image(500, 547, 'snow', 'door')
+        door.setOrigin(0.5818181818181818, 0.8883495145631068)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

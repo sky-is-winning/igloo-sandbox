@@ -12,6 +12,10 @@ export default class DeluxeBlue extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [720, 720]
         this.wallSpawn = [720, 260]
         this.wallBounds = [350, 1200]
@@ -22,7 +26,7 @@ export default class DeluxeBlue extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('deluxeblue-pack', 'client/media/igloos/buildings/sprites/deluxeblue/deluxeblue-pack.json')
+        this.load.pack('deluxeblue-pack', 'assets/media/igloos/buildings/sprites/deluxeblue/deluxeblue-pack.json')
     }
 
     /** @returns {void} */
@@ -32,7 +36,8 @@ export default class DeluxeBlue extends IglooScene {
         floor.setOrigin(0.5003940110323088, 0.5013477088948787)
 
         // door
-        this.add.image(243, 478, 'deluxeblue', 'door')
+        const door = this.add.image(253, 562, 'deluxeblue', 'door')
+        door.setOrigin(0.5909090909090909, 0.9077669902912622)
 
         // wall_1
         const wall_1 = this.add.image(321, 389, 'deluxeblue', 'wall_1')
@@ -57,6 +62,10 @@ export default class DeluxeBlue extends IglooScene {
         // chimney
         const chimney = this.add.image(1127, 133, 'deluxeblue', 'chimney')
         chimney.setOrigin(0.5050505050505051, 0.5)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

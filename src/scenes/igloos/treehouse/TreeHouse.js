@@ -14,6 +14,10 @@ export default class TreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [670, 570]
         this.wallSpawn = [650, 310]
         this.wallBounds = [280, 1250]
@@ -24,19 +28,19 @@ export default class TreeHouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('treehouse-pack', 'client/media/igloos/buildings/sprites/treehouse/treehouse-pack.json')
+        this.load.pack('treehouse-igloo-pack', 'assets/media/igloos/buildings/sprites/treehouse/treehouse-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'treehouse', 'bg-lower')
+        const floor = this.add.image(760, 480, 'treehouse-igloo', 'bg-lower')
 
         // bg_upper
-        this.add.image(760, 480, 'treehouse', 'bg-upper')
+        this.add.image(760, 480, 'treehouse-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 966.8674310998953, 'treehouse', 'fg')
+        const fg = this.add.image(760, 966.8674310998953, 'treehouse-igloo', 'fg')
         fg.setOrigin(0.5, 1.007153574062391)
 
         // lists

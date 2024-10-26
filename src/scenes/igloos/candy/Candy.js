@@ -12,6 +12,10 @@ export default class Candy extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
         this.wallBounds = [580, 1000]
@@ -22,7 +26,7 @@ export default class Candy extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('candy-pack', 'client/media/igloos/buildings/sprites/candy/candy-pack.json')
+        this.load.pack('candy-pack', 'assets/media/igloos/buildings/sprites/candy/candy-pack.json')
     }
 
     /** @returns {void} */
@@ -47,7 +51,12 @@ export default class Candy extends IglooScene {
         window.setOrigin(0.5014164305949008, 0.5)
 
         // door
-        this.add.image(491, 467, 'candy', 'door')
+        const door = this.add.image(498, 551, 'candy', 'door')
+        door.setOrigin(0.5636363636363636, 0.9077669902912622)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

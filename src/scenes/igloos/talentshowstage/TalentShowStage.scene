@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/talentshowstage/talentshowstage-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/talentshowstage/talentshowstage-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "TalentShowStage",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "talentshowstage",
+                "key": "talentshowstage-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "526f8020-99fb-4043-9b21-5921d83be43f",
             "label": "fg",
             "texture": {
-                "key": "talentshowstage",
+                "key": "talentshowstage-igloo",
                 "frame": "fg"
             },
             "x": 760,

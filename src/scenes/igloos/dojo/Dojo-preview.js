@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class Dojo extends IglooScene {
     constructor() {
-        super(`Dojo-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`Dojo-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [758, 724]
         this.wallSpawn = [756, 506]
@@ -24,16 +29,16 @@ export default class Dojo extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('dojo-pack', 'client/media/igloos/buildings/sprites/dojo/dojo-pack.json')
+        this.load.pack('dojo-igloo-pack', 'assets/media/igloos/buildings/sprites/dojo/dojo-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'dojo', 'bg')
+        const floor = this.add.image(760, 480, 'dojo-igloo', 'bg')
 
         // door
-        const door = this.add.image(521.9537353515625, 607.684457871213, 'dojo', 'door')
+        const door = this.add.image(521.9537353515625, 607.684457871213, 'dojo-igloo', 'door')
         door.setOrigin(0.48974231971909804, 0.8447979348966812)
 
         // door (components)

@@ -8,12 +8,12 @@
         "exportClass": true,
         "superClassName": "GameScene",
         "preloadPackFiles": [
-            "client/client/media/games/soundstudio/soundstudio-pack.json",
-            "client/client/media/games/soundstudio/audio/soundstudio-dance-pack.json",
-            "client/client/media/games/soundstudio/audio/soundstudio-dubstep-pack.json",
-            "client/client/media/games/soundstudio/audio/soundstudio-pop-pack.json",
-            "client/client/media/games/soundstudio/audio/soundstudio-rock-pack.json",
-            "client/client/media/games/soundstudio/audio/soundstudio-spooky-pack.json"
+            "client/assets/media/games/soundstudio/soundstudio-pack.json",
+            "client/assets/media/games/soundstudio/audio/soundstudio-dance-pack.json",
+            "client/assets/media/games/soundstudio/audio/soundstudio-dubstep-pack.json",
+            "client/assets/media/games/soundstudio/audio/soundstudio-pop-pack.json",
+            "client/assets/media/games/soundstudio/audio/soundstudio-rock-pack.json",
+            "client/assets/media/games/soundstudio/audio/soundstudio-spooky-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SoundStudio",

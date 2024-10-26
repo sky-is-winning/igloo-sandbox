@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/trickortreat/trickortreat-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/trickortreat/trickortreat-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "TrickOrTreat",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "trickortreat",
+                "key": "trickortreat-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "54cf4cab-6580-4932-8d2e-81966356436b",
             "label": "bg_upper",
             "texture": {
-                "key": "trickortreat",
+                "key": "trickortreat-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,

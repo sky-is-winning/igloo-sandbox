@@ -20,7 +20,17 @@ export default class WallCrate extends Crate {
 
         this.crate.on('animationcomplete', () => this.onComplete())
 
-        scene.anims.create({
+        if (!scene.anims.exists('wall_crate')) {
+            this.createCrateAnim()
+        }
+
+        /* END-USER-CTR-CODE */
+    }
+
+    /* START-USER-CODE */
+
+    createCrateAnim() {
+        this.scene.anims.create({
             key: 'wall_crate',
             frames: this.scene.anims.generateFrameNames('iglooedit', {
                 prefix: 'crate/wall_box',
@@ -30,11 +40,7 @@ export default class WallCrate extends Crate {
             }),
             frameRate: 24
         })
-
-        /* END-USER-CTR-CODE */
     }
-
-    /* START-USER-CODE */
 
     drop(item) {
         this.items.push(item)
@@ -44,7 +50,7 @@ export default class WallCrate extends Crate {
         this.crate.scale = 1
 
         if (this.tween) {
-            this.scene.tweens.remove(this.tween)
+            this.tween.stop()
             this.tween = null
         }
 

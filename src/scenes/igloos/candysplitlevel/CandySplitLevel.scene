@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/candysplitlevel/candysplitlevel-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/candysplitlevel/candysplitlevel-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "CandySplitLevel",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "candysplitlevel",
+                "key": "candysplitlevel-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "596e4a1d-114b-4d4b-b44c-d72758e1adbb",
             "label": "bg_upper",
             "texture": {
-                "key": "candysplitlevel",
+                "key": "candysplitlevel-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -46,8 +46,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "candysplitlevel",
+                "key": "candysplitlevel-igloo",
                 "frame": "door"
             },
             "x": 247.14441145335877,

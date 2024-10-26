@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/dojo/dojo-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/dojo/dojo-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Dojo",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "dojo",
+                "key": "dojo-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -35,8 +35,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "dojo",
+                "key": "dojo-igloo",
                 "frame": "door"
             },
             "x": 521.9537353515625,

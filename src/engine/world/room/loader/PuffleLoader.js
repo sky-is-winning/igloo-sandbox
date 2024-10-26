@@ -4,7 +4,7 @@ export default class PuffleLoader extends BaseLoader {
     constructor(puffle, room) {
         super(room)
         this.puffle = puffle
-        let suffix = '/client/media/puffles/'
+        let suffix = '/assets/media/puffles/'
         this.baseURL = this.shell.baseURL + suffix
         this.keyPrefix = 'puffle_'
     }

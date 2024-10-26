@@ -10,7 +10,7 @@ export default class Preload extends BaseScene {
 
         this.load.on('progress', this.onProgress, this)
 
-        this.load.pack('preload', 'client/media/preload/preload-pack.json')
+        this.load.pack('preload', 'assets/media/preload/preload-pack.json')
         this.scene.add('Main', Main)
         this.scene.add('IglooEdit', IglooEdit)
 

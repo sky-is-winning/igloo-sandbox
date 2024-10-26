@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/magicalhideout/magicalhideout-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/magicalhideout/magicalhideout-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "MagicalHideout",
@@ -21,7 +21,7 @@
             "id": "52454d24-b202-485b-8526-daa05e7b3f2b",
             "label": "bg",
             "texture": {
-                "key": "magicalhideout",
+                "key": "magicalhideout-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -32,7 +32,7 @@
             "id": "79ccac1e-1226-4601-b65a-1f979156e70a",
             "label": "fg",
             "texture": {
-                "key": "magicalhideout",
+                "key": "magicalhideout-igloo",
                 "frame": "fg"
             },
             "x": 760,

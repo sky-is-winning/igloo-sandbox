@@ -1,27 +1,32 @@
 import EventComponent from './EventComponent'
 
+
 /* START OF COMPILED CODE */
 
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
 export default class SimpleButton extends EventComponent {
+
     constructor(gameObject) {
-        super(gameObject)
+        super(gameObject);
 
         /** @type {Phaser.GameObjects.Sprite} */
-        this.gameObject
+        this.gameObject;
         /** @type {any} */
-        this.hoverCallback = null
+        this.hoverCallback = null;
         /** @type {any} */
-        this.hoverOutCallback = null
+        this.hoverOutCallback = null;
         /** @type {any} */
-        this.callback = () => {}
+        this.callback = () => {};
         /** @type {boolean} */
-        this.pixelPerfect = false
+        this.pixelPerfect = false;
+        /** @type {boolean} */
+        this.handCursor = true;
 
-        this.gameObject = gameObject
-        gameObject['__SimpleButton'] = this
+
+        this.gameObject = gameObject;
+        gameObject["__SimpleButton"] = this;
 
         /* START-USER-CTR-CODE */
 
@@ -32,30 +37,31 @@ export default class SimpleButton extends EventComponent {
 
     /** @returns {SimpleButton} */
     static getComponent(gameObject) {
-        return gameObject['__SimpleButton']
+        return gameObject["__SimpleButton"];
     }
+
 
     /* START-USER-CODE */
 
     start() {
-        this.gameObject.setInteractive({
-            cursor: 'pointer',
-            pixelPerfect: this.pixelPerfect
-        })
-
-        if (!this.hoverCallback) {
-            this.hoverCallback = () => {}
-        }
-        if (!this.hoverOutCallback) {
-            this.hoverOutCallback = () => {}
-        }
-        if (!this.callback) {
-            this.callback = () => {}
-        }
+        this.setInteractive()
 
         this.gameObject.on('pointerover', () => this.onOver())
         this.gameObject.on('pointerout', () => this.onOut())
         this.gameObject.on('pointerup', (pointer) => this.onUp(pointer))
+    }
+
+    setInteractive() {
+        // Input already enabled by Hit Area tool
+        if (this.gameObject.input && this.gameObject.input.enabled) {
+            this.gameObject.input.cursor = 'pointer'
+            return
+        }
+
+        this.gameObject.setInteractive({
+            cursor: this.handCursor ? 'pointer' : 'default',
+            pixelPerfect: this.pixelPerfect
+        })
     }
 
     onOver() {
@@ -72,10 +78,6 @@ export default class SimpleButton extends EventComponent {
         }
 
         this.callback()
-    }
-
-    removeInteractive() {
-        this.gameObject.removeInteractive()
     }
 
     /* END-USER-CODE */

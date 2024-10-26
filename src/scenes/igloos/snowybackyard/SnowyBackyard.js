@@ -12,6 +12,10 @@ export default class SnowyBackyard extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [1080, 490]
         this.wallSpawn = [970, 200]
         this.wallBounds = [410, 1110]
@@ -22,16 +26,16 @@ export default class SnowyBackyard extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('snowybackyard-pack', 'client/media/igloos/buildings/sprites/snowybackyard/snowybackyard-pack.json')
+        this.load.pack('snowybackyard-igloo-pack', 'assets/media/igloos/buildings/sprites/snowybackyard/snowybackyard-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'snowybackyard', 'bg')
+        const floor = this.add.image(760, 480, 'snowybackyard-igloo', 'bg')
 
         // door
-        const door = this.add.image(680, 318, 'snowybackyard', 'door')
+        const door = this.add.image(680, 318, 'snowybackyard-igloo', 'door')
         door.setOrigin(0.4387755102040816, 0.8557692307692307)
 
         // door (components)

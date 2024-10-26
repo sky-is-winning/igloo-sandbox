@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class IceCastle extends IglooScene {
     constructor() {
-        super(`IceCastle-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`IceCastle-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [760, 800]
         this.wallSpawn = [760, 430]
@@ -24,23 +29,23 @@ export default class IceCastle extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('icecastle-pack', 'client/media/igloos/buildings/sprites/icecastle/icecastle-pack.json')
+        this.load.pack('icecastle-igloo-pack', 'assets/media/igloos/buildings/sprites/icecastle/icecastle-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // bg_lower
-        this.add.image(760, 634, 'icecastle', 'bg-lower')
+        this.add.image(760, 634, 'icecastle-igloo', 'bg-lower')
 
         // door
-        const door = this.add.image(758.8427484645825, 639.3832146853995, 'icecastle', 'door')
+        const door = this.add.image(758.8427484645825, 639.3832146853995, 'icecastle-igloo', 'door')
         door.setOrigin(0.5202249919188555, 0.9532472547969204)
 
         // floor
-        const floor = this.add.image(760, 480, 'icecastle', 'bg-upper')
+        const floor = this.add.image(760, 480, 'icecastle-igloo', 'bg-upper')
 
         // fg
-        this.add.image(760, 480, 'icecastle', 'fg')
+        this.add.image(760, 480, 'icecastle-igloo', 'fg')
 
         // door (components)
         new Button(door)

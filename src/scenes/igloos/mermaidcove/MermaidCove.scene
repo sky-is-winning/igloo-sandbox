@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/mermaidcove/mermaidcove-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/mermaidcove/mermaidcove-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "MermaidCove",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "mermaidcove",
+                "key": "mermaidcove-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "1cbb616d-0374-44ae-ac98-2c4a0a25d60e",
             "label": "bridge",
             "texture": {
-                "key": "mermaidcove",
+                "key": "mermaidcove-igloo",
                 "frame": "bridge"
             },
             "x": 478.71526559673634,

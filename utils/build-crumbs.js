@@ -5,7 +5,7 @@ const path = require('path')
 const langs = ['en', 'pt', 'es']
 
 for (let lang of langs) {
-    let assets = path.resolve(__dirname, `../client/media/crumbs/${lang}`)
+    let assets = path.resolve(__dirname, `../assets/media/crumbs/${lang}`)
 
     let crumbs = {}
 

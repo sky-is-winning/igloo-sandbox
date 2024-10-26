@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/beachparty/beachparty-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/beachparty/beachparty-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "BeachParty",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "f564f6ea-079e-4af9-b4a2-be104a7b138a",
             "label": "bg_middle",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "bg-middle"
             },
             "x": 760,
@@ -46,8 +46,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "door"
             },
             "x": 229,
@@ -59,7 +60,7 @@
             "id": "9208b14b-9f38-4b23-a1a3-43443b64df9a",
             "label": "bg_upper",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -71,11 +72,13 @@
             "label": "water_anim_lower",
             "scope": "CLASS",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "water-anim-lower0001"
             },
             "x": 1367,
-            "y": 661
+            "y": 661,
+            "animationPlayMethod": 1,
+            "animationKey": "beachparty-water-anim-lower"
         },
         {
             "type": "Sprite",
@@ -83,18 +86,20 @@
             "label": "water_anim_upper",
             "scope": "CLASS",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "water-anim-upper0001"
             },
             "x": 1334,
-            "y": 340
+            "y": 340,
+            "animationPlayMethod": 1,
+            "animationKey": "beachparty-water-anim-lower"
         },
         {
             "type": "Image",
             "id": "8bc3e937-2d24-4576-85fe-44f65143e1aa",
             "label": "fg",
             "texture": {
-                "key": "beachparty",
+                "key": "beachparty-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -107,7 +112,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

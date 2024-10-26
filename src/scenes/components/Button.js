@@ -6,24 +6,26 @@ import SimpleButton from './SimpleButton'
 /* END-USER-IMPORTS */
 
 export default class Button extends SimpleButton {
+
     constructor(gameObject) {
-        super(gameObject)
+        super(gameObject);
 
         /** @type {Phaser.GameObjects.Sprite} */
-        this.gameObject
+        this.gameObject;
         /** @type {any} */
-        this.hoverCallback = null
+        this.hoverCallback = null;
         /** @type {any} */
-        this.hoverOutCallback = null
+        this.hoverOutCallback = null;
         /** @type {any} */
-        this.callback = () => {}
+        this.callback = () => {};
         /** @type {boolean} */
-        this.pixelPerfect = false
+        this.activeFrame = true;
         /** @type {boolean} */
-        this.isLocalised = false
+        this.pixelPerfect = false;
 
-        this.gameObject = gameObject
-        gameObject['__Button'] = this
+
+        this.gameObject = gameObject;
+        gameObject["__Button"] = this;
 
         /* START-USER-CTR-CODE */
         /* END-USER-CTR-CODE */
@@ -31,29 +33,21 @@ export default class Button extends SimpleButton {
 
     /** @returns {Button} */
     static getComponent(gameObject) {
-        return gameObject['__Button']
+        return gameObject["__Button"];
     }
+
 
     /* START-USER-CODE */
 
     get spriteName() {
-        let frameName = this.gameObject.frame ? this.gameObject.frame.name : this.gameObject.textureFrame
-
-        if (frameName.includes('-es')) {
-            frameName = frameName.replace('-es', '')
-        } else if (frameName.includes('-pt')) {
-            frameName = frameName.replace('-pt', '')
-        } else if (frameName.includes('-en')) {
-            frameName = frameName.replace('-en', '')
+        let currentName = this.gameObject.frame ? this.gameObject.frame.name : this.gameObject.textureFrame
+        if (currentName.includes('-hover')) {
+            return currentName.replace('-hover', '')
         }
-
-        if (frameName.includes('-hover')) {
-            frameName = frameName.replace('-hover', '')
-        } else if (frameName.includes('-active')) {
-            frameName = frameName.replace('-active', '')
+        if (currentName.includes('-active')) {
+            return currentName.replace('-active', '')
         }
-
-        return frameName
+        return currentName
     }
 
     set spriteName(name) {
@@ -70,35 +64,20 @@ export default class Button extends SimpleButton {
         return this.gameObject.scene.shell.textures.get(this.textureKey)
     }
 
-    get language() {
-        for (let lang of ['en', 'es', 'pt']) {
-            if (window.location.pathname.includes(lang)) {
-                return lang
-            }
-        }
-        return 'en'
-    }
-
     get overFrame() {
-        let frame = this.isLocalised ? `${this.spriteName}-${this.language}-hover` : `${this.spriteName}-hover`
-        if (this.texture.frames[frame]) {
-            return frame
+        if (this.texture.frames[`${this.spriteName}-hover`]) {
+            return this.texture.frames[`${this.spriteName}-hover`]
         }
         return this.outFrame
     }
 
     get outFrame() {
-        let frame = this.isLocalised ? `${this.spriteName}-${this.language}` : this.spriteName
-        if (this.texture.frames[frame]) {
-            return frame
-        }
-        return this.spriteName
+        return this.texture.frames[this.spriteName]
     }
 
     get downFrame() {
-        let frame = this.isLocalised ? `${this.spriteName}-${this.language}-active` : `${this.spriteName}-active`
-        if (this.texture.frames[frame]) {
-            return frame
+        if (this.texture.frames[`${this.spriteName}-active`]) {
+            return this.texture.frames[`${this.spriteName}-active`]
         }
         return this.overFrame
     }
@@ -109,12 +88,12 @@ export default class Button extends SimpleButton {
     }
 
     onOver() {
-        this.gameObject.setTexture(this.textureKey, this.overFrame, false, false)
+        this.gameObject.setFrame(this.overFrame, false, false)
         super.onOver()
     }
 
     onOut() {
-        this.gameObject.setTexture(this.textureKey, this.outFrame, false, false)
+        this.gameObject.setFrame(this.outFrame, false, false)
         super.onOut()
     }
 
@@ -123,7 +102,7 @@ export default class Button extends SimpleButton {
             return
         }
 
-        this.gameObject.setTexture(this.textureKey, this.downFrame, false, false)
+        this.gameObject.setFrame(this.downFrame, false, false)
     }
 
     onUp(pointer) {
@@ -131,7 +110,7 @@ export default class Button extends SimpleButton {
             return
         }
 
-        this.gameObject.setTexture(this.textureKey, this.overFrame, false, false)
+        this.gameObject.setFrame(this.overFrame, false, false)
 
         super.onUp(pointer)
     }

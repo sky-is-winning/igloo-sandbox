@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/media/igloos/buildings/sprites/gym/gym-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/gym/gym-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Gym",
@@ -17,46 +17,51 @@
     },
     "displayList": [
         {
-            "type": "Image",
-            "id": "8c7db143-d0ca-411d-99aa-6cd56118e27c",
-            "label": "floor2",
-            "scope": "CLASS",
-            "texture": {
-                "key": "gym",
-                "frame": "wood"
-            },
-            "x": 1342,
-            "y": 742,
-            "originX": 0.5084745762711864,
-            "originY": 0.5185185185185185,
-            "flipX": true
-        },
-        {
-            "type": "Image",
-            "id": "c76c6db2-a1f9-47c3-b6e9-9882f9f2e95c",
-            "label": "floor1",
-            "scope": "CLASS",
-            "texture": {
-                "key": "gym",
-                "frame": "wood"
-            },
-            "x": 177,
-            "y": 742,
-            "originX": 0.5084745762711864,
-            "originY": 0.5185185185185185
-        },
-        {
-            "type": "Image",
-            "id": "ccf8a5ef-cf1d-4698-bc6e-4a40a88c7418",
+            "type": "Layer",
+            "id": "94672f7c-be6c-4491-9ad1-624c6a573510",
             "label": "floor",
             "scope": "CLASS",
-            "texture": {
-                "key": "gym",
-                "frame": "floor"
-            },
-            "x": 760,
-            "y": 753,
-            "originX": 0.5004095004095004
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8c7db143-d0ca-411d-99aa-6cd56118e27c",
+                    "label": "wood_1",
+                    "texture": {
+                        "key": "gym",
+                        "frame": "wood"
+                    },
+                    "x": 1342,
+                    "y": 742,
+                    "originX": 0.5084745762711864,
+                    "originY": 0.5185185185185185,
+                    "flipX": true
+                },
+                {
+                    "type": "Image",
+                    "id": "c76c6db2-a1f9-47c3-b6e9-9882f9f2e95c",
+                    "label": "wood",
+                    "texture": {
+                        "key": "gym",
+                        "frame": "wood"
+                    },
+                    "x": 177,
+                    "y": 742,
+                    "originX": 0.5084745762711864,
+                    "originY": 0.5185185185185185
+                },
+                {
+                    "type": "Image",
+                    "id": "ccf8a5ef-cf1d-4698-bc6e-4a40a88c7418",
+                    "label": "floor_1",
+                    "texture": {
+                        "key": "gym",
+                        "frame": "floor"
+                    },
+                    "x": 760,
+                    "y": 753,
+                    "originX": 0.5004095004095004
+                }
+            ]
         },
         {
             "type": "Image",
@@ -74,13 +79,19 @@
             "type": "Image",
             "id": "ac383f53-ed54-4d52-a6ce-6e5f24e084be",
             "label": "door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
             "texture": {
                 "key": "gym",
                 "frame": "door"
             },
-            "x": 339,
-            "y": 571,
-            "originX": 0.5084745762711864
+            "x": 337,
+            "y": 655,
+            "originX": 0.4745762711864407,
+            "originY": 0.9038461538461539
         }
     ],
     "plainObjects": [],

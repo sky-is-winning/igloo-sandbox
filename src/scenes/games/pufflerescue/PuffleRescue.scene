@@ -7,7 +7,7 @@
         "superClassName": "GameScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/interface/menus/load/load-pack.json"
+            "client/assets/media/interface/menus/load/load-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "PuffleRescue",

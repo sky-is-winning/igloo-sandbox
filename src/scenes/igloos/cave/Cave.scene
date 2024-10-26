@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/cave/cave-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/cave/cave-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Cave",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "cave",
+                "key": "cave-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "302fad69-f9a5-42e2-bbd6-1f3cf62f2d27",
             "label": "bg_upper",
             "texture": {
-                "key": "cave",
+                "key": "cave-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -46,8 +46,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "cave",
+                "key": "cave-igloo",
                 "frame": "door"
             },
             "x": 236.2735848853143,

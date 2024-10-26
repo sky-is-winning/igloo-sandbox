@@ -14,6 +14,10 @@ export default class TourBus extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [720, 720]
         this.wallSpawn = [400, 340]
         this.wallBounds = [480, 940]
@@ -24,16 +28,16 @@ export default class TourBus extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('tourbus-pack', 'client/media/igloos/buildings/sprites/tourbus/tourbus-pack.json')
+        this.load.pack('tourbus-igloo-pack', 'assets/media/igloos/buildings/sprites/tourbus/tourbus-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'tourbus', 'bg')
+        const floor = this.add.image(760, 480, 'tourbus-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 980.5598978210556, 'tourbus', 'fg')
+        const fg = this.add.image(760, 980.5598978210556, 'tourbus-igloo', 'fg')
         fg.setOrigin(0.5, 1.0214165602302663)
 
         // lists

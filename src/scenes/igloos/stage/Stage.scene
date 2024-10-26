@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/stage/stage-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/stage/stage-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Stage",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "stage",
+                "key": "stage-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -35,8 +35,10 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
             "texture": {
-                "key": "stage",
+                "key": "stage-igloo",
                 "frame": "door"
             },
             "x": 137.6561528740181,
@@ -49,7 +51,7 @@
             "id": "dde87b90-b34d-4226-9519-65c4ee0bdc56",
             "label": "bg_upper",
             "texture": {
-                "key": "stage",
+                "key": "stage-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -60,7 +62,7 @@
             "id": "6adeeeaf-41a2-4c5b-89fa-4011ad890ca7",
             "label": "fg",
             "texture": {
-                "key": "stage",
+                "key": "stage-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -73,7 +75,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

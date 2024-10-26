@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class Estate extends IglooScene {
     constructor() {
-        super(`Estate-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`Estate-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [760, 800]
         this.wallSpawn = [760, 430]
@@ -24,16 +29,16 @@ export default class Estate extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('estate-pack', 'client/media/igloos/buildings/sprites/estate/estate-pack.json')
+        this.load.pack('estate-igloo-pack', 'assets/media/igloos/buildings/sprites/estate/estate-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'estate', 'bg')
+        const floor = this.add.image(760, 480, 'estate-igloo', 'bg')
 
         // door
-        const door = this.add.image(308.1007210357244, 735.6257333203877, 'estate', 'door')
+        const door = this.add.image(308.1007210357244, 735.6257333203877, 'estate-igloo', 'door')
         door.setOrigin(0.4940445101703603, 0.7867669762241104)
 
         // door (components)

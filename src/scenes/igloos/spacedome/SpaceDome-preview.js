@@ -5,7 +5,8 @@ import {Button} from '@components/components'
 
 export default class SpaceDome extends IglooScene {
     constructor() {
-        super(`SpaceDome-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`SpaceDome-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -13,6 +14,10 @@ export default class SpaceDome extends IglooScene {
         this.sort
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [700, 620]
         this.wallSpawn = [380, 210]
@@ -26,27 +31,30 @@ export default class SpaceDome extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('spacedome-pack', 'client/media/igloos/buildings/sprites/spacedome/spacedome-pack.json')
+        this.load.pack('spacedome-igloo-pack', 'assets/media/igloos/buildings/sprites/spacedome/spacedome-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'spacedome', 'bg-lower')
+        const floor = this.add.image(760, 480, 'spacedome-igloo', 'bg-lower')
 
         // door
-        const door = this.add.image(288, 394, 'spacedome', 'door')
-        door.setOrigin(0.5245534535102981, 0.7440470644753876)
+        const door = this.add.image(294, 417, 'spacedome-igloo', 'door')
+        door.setOrigin(0.5541101037566035, 0.8394827491226905)
 
         // bg_upper
-        this.add.image(760, 480, 'spacedome', 'bg-upper')
+        this.add.image(760, 480, 'spacedome-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 964.9881605335881, 'spacedome', 'fg')
+        const fg = this.add.image(760, 964.9881605335881, 'spacedome-igloo', 'fg')
         fg.setOrigin(0.5, 1.005196000555821)
 
         // lists
         const sort = [fg]
+
+        // door (components)
+        new Button(door)
 
         this.floor = floor
         this.sort = sort

@@ -12,6 +12,10 @@ export default class Gymnasium extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [760, 800]
         this.wallSpawn = [760, 430]
         this.wallBounds = [340, 1200]
@@ -22,20 +26,20 @@ export default class Gymnasium extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('gymnasium-pack', 'client/media/igloos/buildings/sprites/gymnasium/gymnasium-pack.json')
+        this.load.pack('gymnasium-igloo-pack', 'assets/media/igloos/buildings/sprites/gymnasium/gymnasium-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        this.add.image(760, 480, 'gymnasium', 'bg')
+        this.add.image(760, 480, 'gymnasium-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 973.6767658005932, 'gymnasium', 'fg')
+        const fg = this.add.image(760, 973.6767658005932, 'gymnasium-igloo', 'fg')
         fg.setOrigin(0.5, 1.0142466310422846)
 
         // door
-        const door = this.add.image(204.67768430732596, 729.6797376891021, 'gymnasium', 'door')
+        const door = this.add.image(204.67768430732596, 729.6797376891021, 'gymnasium-igloo', 'door')
         door.setOrigin(0.5786803602221623, 0.7065359455831759)
 
         // lists

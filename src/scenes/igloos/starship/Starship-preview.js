@@ -5,7 +5,8 @@ import {Button} from '@components/components'
 
 export default class Starship extends IglooScene {
     constructor() {
-        super(`Starship-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`Starship-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -13,6 +14,10 @@ export default class Starship extends IglooScene {
         this.sort
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [760, 740]
         this.wallSpawn = [760, 320]
@@ -26,19 +31,19 @@ export default class Starship extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('starship-pack', 'client/media/igloos/buildings/sprites/starship/starship-pack.json')
+        this.load.pack('starship-igloo-pack', 'assets/media/igloos/buildings/sprites/starship/starship-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'starship', 'bg-lower')
+        const floor = this.add.image(760, 480, 'starship-igloo', 'bg-lower')
 
         // bg_upper
-        this.add.image(760, 480, 'starship', 'bg-upper')
+        this.add.image(760, 480, 'starship-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 968.0459003755292, 'starship', 'fg')
+        const fg = this.add.image(760, 968.0459003755292, 'starship-igloo', 'fg')
         fg.setOrigin(0.5, 1.0083811462245096)
 
         // lists

@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/tent/tent-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/tent/tent-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Tent",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "tent",
+                "key": "tent-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,12 +33,29 @@
             "id": "536c008d-da54-43be-9a33-40eb63aafe86",
             "label": "fg",
             "texture": {
-                "key": "tent",
+                "key": "tent-igloo",
                 "frame": "fg"
             },
             "x": 760,
             "y": 994.1047699026867,
             "originY": 1.0355258019819653
+        },
+        {
+            "type": "Rectangle",
+            "id": "8a7dcad0-0af4-4fee-a8e6-db6c7dff56f6",
+            "label": "rectangle_1",
+            "components": [
+                "Zone"
+            ],
+            "x": 759.2484479811357,
+            "y": 666.4161909813262,
+            "originX": 0.5097534998526223,
+            "originY": 0.9213511936332885,
+            "isFilled": true,
+            "fillColor": "#059de3",
+            "fillAlpha": 0.5,
+            "width": 128,
+            "height": 160
         }
     ],
     "plainObjects": [],
@@ -46,7 +63,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

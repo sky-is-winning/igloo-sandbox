@@ -12,6 +12,10 @@ export default class Cave extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [760, 760]
         this.wallSpawn = [760, 260]
         this.wallBounds = [250, 1200]
@@ -22,19 +26,19 @@ export default class Cave extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('cave-pack', 'client/media/igloos/buildings/sprites/cave/cave-pack.json')
+        this.load.pack('cave-igloo-pack', 'assets/media/igloos/buildings/sprites/cave/cave-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'cave', 'bg-lower')
+        const floor = this.add.image(760, 480, 'cave-igloo', 'bg-lower')
 
         // bg_upper
-        this.add.image(760, 480, 'cave', 'bg-upper')
+        this.add.image(760, 480, 'cave-igloo', 'bg-upper')
 
         // door
-        const door = this.add.image(236.2735848853143, 535.8254715251716, 'cave', 'door')
+        const door = this.add.image(236.2735848853143, 535.8254715251716, 'cave-igloo', 'door')
         door.setOrigin(0.584305317139221, 0.8826479200251047)
 
         // door (components)

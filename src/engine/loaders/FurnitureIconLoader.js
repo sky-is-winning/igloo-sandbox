@@ -4,7 +4,7 @@ export default class FurnitureIconLoader extends BaseLoader {
     constructor(scene) {
         super(scene)
         this.scene = scene
-        let suffix = '/client/media/'
+        let suffix = '/assets/media/'
         this.baseURL = this.shell.baseURL + suffix
         this.keyPrefix = 'furniture/icon/'
     }

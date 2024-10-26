@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/dragonslair/dragonslair-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/dragonslair/dragonslair-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "DragonsLair",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "dragonslair",
+                "key": "dragonslair-igloo",
                 "frame": "bg-lower-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "2a1fb874-6ab7-4a4a-b334-1c9daf7ed356",
             "label": "bg_lower_upper",
             "texture": {
-                "key": "dragonslair",
+                "key": "dragonslair-igloo",
                 "frame": "bg-lower-upper"
             },
             "x": 760,
@@ -44,22 +44,28 @@
             "id": "be010d6d-c08a-436c-8826-1cc66556fa38",
             "label": "bg_upper",
             "texture": {
-                "key": "dragonslair",
+                "key": "dragonslair-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
-            "y": 637
+            "y": 656
         },
         {
             "type": "Image",
             "id": "e98a9c80-1a55-4b07-9dca-b8d411d9d773",
             "label": "door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "dragonslair",
+                "key": "dragonslair-igloo",
                 "frame": "door"
             },
-            "x": 760,
-            "y": 578
+            "x": 758,
+            "y": 674,
+            "originX": 0.48402590063732504,
+            "originY": 1.006368509208996
         }
     ],
     "plainObjects": [],
@@ -67,6 +73,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     }
 }

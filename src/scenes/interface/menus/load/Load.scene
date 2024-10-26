@@ -7,7 +7,7 @@
         "exportClass": true,
         "superClassName": "BaseScene",
         "preloadPackFiles": [
-            "client/media/interface/menus/load/load-pack.json"
+            "assets/media/interface/menus/load/load-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Load",

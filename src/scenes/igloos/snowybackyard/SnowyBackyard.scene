@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/snowybackyard/snowybackyard-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/snowybackyard/snowybackyard-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SnowyBackyard",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "snowybackyard",
+                "key": "snowybackyard-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -35,8 +35,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "snowybackyard",
+                "key": "snowybackyard-igloo",
                 "frame": "door"
             },
             "x": 680,

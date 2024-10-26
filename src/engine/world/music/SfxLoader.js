@@ -4,7 +4,7 @@ export default class SfxLoader extends Phaser.Loader.LoaderPlugin {
 
         this.musicController = MusicController
 
-        const suffix = '/client/media/sounds/'
+        const suffix = '/assets/media/sounds/'
 
         this.baseURL = this.shell.baseURL + suffix
         this.keyPrefix = 'sfx/'

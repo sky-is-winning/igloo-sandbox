@@ -5,7 +5,8 @@ import {Button} from '@components/components'
 
 export default class WhitePuffleTreeHouse extends IglooScene {
     constructor() {
-        super(`WhitePuffleTreeHouse-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`WhitePuffleTreeHouse-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -13,6 +14,10 @@ export default class WhitePuffleTreeHouse extends IglooScene {
         this.sort
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [580, 634]
         this.wallSpawn = [1040, 250]
@@ -26,16 +31,16 @@ export default class WhitePuffleTreeHouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('whitepuffletreehouse-pack', 'client/media/igloos/buildings/sprites/whitepuffletreehouse/whitepuffletreehouse-pack.json')
+        this.load.pack('whitepuffletreehouse-igloo-pack', 'assets/media/igloos/buildings/sprites/whitepuffletreehouse/whitepuffletreehouse-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'whitepuffletreehouse', 'bg')
+        const floor = this.add.image(760, 480, 'whitepuffletreehouse-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 963.4627637495464, 'whitepuffletreehouse', 'fg')
+        const fg = this.add.image(760, 963.4627637495464, 'whitepuffletreehouse-igloo', 'fg')
         fg.setOrigin(0.5, 1.0036070455724442)
 
         // lists

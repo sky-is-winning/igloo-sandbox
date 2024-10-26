@@ -14,6 +14,10 @@ export default class Penthouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [490, 600]
         this.wallSpawn = [680, 150]
         this.wallBounds = [490, 1330]
@@ -24,16 +28,16 @@ export default class Penthouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('penthouse-pack', 'client/media/igloos/buildings/sprites/penthouse/penthouse-pack.json')
+        this.load.pack('penthouse-igloo-pack', 'assets/media/igloos/buildings/sprites/penthouse/penthouse-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'penthouse', 'bg')
+        const floor = this.add.image(760, 480, 'penthouse-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 964.9881605335881, 'penthouse', 'fg')
+        const fg = this.add.image(760, 964.9881605335881, 'penthouse-igloo', 'fg')
         fg.setOrigin(0.5, 1.005196000555821)
 
         // lists

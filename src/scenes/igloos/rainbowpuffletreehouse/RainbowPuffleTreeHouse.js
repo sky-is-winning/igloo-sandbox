@@ -14,6 +14,10 @@ export default class RainbowPuffleTreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [580, 634]
         this.wallSpawn = [1040, 250]
         this.wallBounds = [460, 1060]
@@ -24,16 +28,16 @@ export default class RainbowPuffleTreeHouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('rainbowpuffletreehouse-pack', 'client/media/igloos/buildings/sprites/rainbowpuffletreehouse/rainbowpuffletreehouse-pack.json')
+        this.load.pack('rainbowpuffletreehouse-igloo-pack', 'assets/media/igloos/buildings/sprites/rainbowpuffletreehouse/rainbowpuffletreehouse-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'rainbowpuffletreehouse', 'bg')
+        const floor = this.add.image(760, 480, 'rainbowpuffletreehouse-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 962.3233904207661, 'rainbowpuffletreehouse', 'fg')
+        const fg = this.add.image(760, 962.3233904207661, 'rainbowpuffletreehouse-igloo', 'fg')
         fg.setOrigin(0.5, 1.0024201983549648)
 
         // lists

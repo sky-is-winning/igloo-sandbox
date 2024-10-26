@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class GreenClover extends IglooScene {
     constructor() {
-        super(`GreenClover-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`GreenClover-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [1080, 490]
         this.wallSpawn = [970, 200]
@@ -24,16 +29,16 @@ export default class GreenClover extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('greenclover-pack', 'client/media/igloos/buildings/sprites/greenclover/greenclover-pack.json')
+        this.load.pack('greenclover-igloo-pack', 'assets/media/igloos/buildings/sprites/greenclover/greenclover-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'greenclover', 'bg')
+        const floor = this.add.image(760, 480, 'greenclover-igloo', 'bg')
 
         // door
-        const door = this.add.image(685.3360133153067, 316.0552770686766, 'greenclover', 'door')
+        const door = this.add.image(685.3360133153067, 316.0552770686766, 'greenclover-igloo', 'door')
         door.setOrigin(0.43425859398167804, 0.8752657551378683)
 
         // door (components)

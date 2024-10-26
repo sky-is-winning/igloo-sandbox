@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/pineapple/pineapple-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/pineapple/pineapple-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Pineapple",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "pineapple",
+                "key": "pineapple-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "6ed40568-e230-4ceb-8bb4-35d03893d827",
             "label": "bg_upper",
             "texture": {
-                "key": "pineapple",
+                "key": "pineapple-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -44,7 +44,7 @@
             "id": "8cb421f4-fd5e-4b6e-8fcb-c521412d1421",
             "label": "fg",
             "texture": {
-                "key": "pineapple",
+                "key": "pineapple-igloo",
                 "frame": "fg"
             },
             "x": 760,

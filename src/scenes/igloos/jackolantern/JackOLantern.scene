@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/jackolantern/jackolantern-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/jackolantern/jackolantern-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "JackOLantern",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "jackolantern",
+                "key": "jackolantern-igloo",
                 "frame": "bg"
             },
             "x": 760,

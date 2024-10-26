@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/ezrashideout/ezrashideout-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/ezrashideout/ezrashideout-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "EzrasHideout",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "ezrashideout",
+                "key": "ezrashideout-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "b4a0f175-0b89-4f97-80b7-94df1ebd6c7a",
             "label": "bg_upper",
             "texture": {
-                "key": "ezrashideout",
+                "key": "ezrashideout-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -46,8 +46,10 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
             "texture": {
-                "key": "ezrashideout",
+                "key": "ezrashideout-igloo",
                 "frame": "door"
             },
             "x": 392.46917750651227,
@@ -60,7 +62,7 @@
             "id": "eb17e705-efda-4d49-8980-5c1f88c4770a",
             "label": "fg",
             "texture": {
-                "key": "ezrashideout",
+                "key": "ezrashideout-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -73,7 +75,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

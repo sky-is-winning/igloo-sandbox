@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/deluxegingerbreadhouse/deluxegingerbreadhouse-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/deluxegingerbreadhouse/deluxegingerbreadhouse-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "DeluxeGingerbreadHouse",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "deluxegingerbreadhouse",
+                "key": "deluxegingerbreadhouse-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -35,21 +35,22 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "deluxegingerbreadhouse",
+                "key": "deluxegingerbreadhouse-igloo",
                 "frame": "door"
             },
-            "x": 368.1365162807567,
-            "y": 681.4832530391134,
-            "originX": 0.6099529227129287,
-            "originY": 0.8524573872770201
+            "x": 374.1365051269531,
+            "y": 691.4832763671875,
+            "originX": 0.6910340037940098,
+            "originY": 0.8985403365857759
         },
         {
             "type": "Image",
             "id": "07450169-fe07-40b4-9a41-d4e68ff61a36",
             "label": "bg_upper",
             "texture": {
-                "key": "deluxegingerbreadhouse",
+                "key": "deluxegingerbreadhouse-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -60,7 +61,7 @@
             "id": "967cb1d0-4efe-446d-8727-ac0ba6aa9876",
             "label": "fg",
             "texture": {
-                "key": "deluxegingerbreadhouse",
+                "key": "deluxegingerbreadhouse-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -73,7 +74,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

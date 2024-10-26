@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/whalesmouth/whalesmouth-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/whalesmouth/whalesmouth-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "WhalesMouth",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "whalesmouth",
+                "key": "whalesmouth-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -36,7 +36,7 @@
                 "LocalisedSprite"
             ],
             "texture": {
-                "key": "whalesmouth",
+                "key": "whalesmouth-igloo",
                 "frame": "exit-en"
             },
             "x": 740,

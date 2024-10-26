@@ -12,6 +12,10 @@ export default class PinkPuffleTreeHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [580, 634]
         this.wallSpawn = [1040, 250]
         this.wallBounds = [460, 1060]
@@ -22,16 +26,16 @@ export default class PinkPuffleTreeHouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('pinkpuffletreehouse-pack', 'client/media/igloos/buildings/sprites/pinkpuffletreehouse/pinkpuffletreehouse-pack.json')
+        this.load.pack('pinkpuffletreehouse-igloo-pack', 'assets/media/igloos/buildings/sprites/pinkpuffletreehouse/pinkpuffletreehouse-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        this.add.image(760, 480, 'pinkpuffletreehouse', 'bg')
+        this.add.image(760, 480, 'pinkpuffletreehouse-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 959.7032354118448, 'pinkpuffletreehouse', 'fg')
+        const fg = this.add.image(760, 959.7032354118448, 'pinkpuffletreehouse-igloo', 'fg')
         fg.setOrigin(0.5, 0.9996908702206717)
 
         // lists

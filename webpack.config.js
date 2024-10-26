@@ -9,7 +9,7 @@ let config = {
     entry: './src/Game.js',
     output: {
         filename: 'igloo-sandbox.js',
-        path: path.resolve(__dirname, 'client/scripts/client')
+        path: path.resolve(__dirname, 'assets/scripts/client')
     },
     optimization : {
         minimize: false

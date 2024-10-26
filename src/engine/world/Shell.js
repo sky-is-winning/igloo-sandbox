@@ -96,7 +96,7 @@ export default class Shell extends BaseScene {
         this.joinIgloo(iglooData.igloos[iglooData.currentIgloo].split('%'))
     }
 
-    rejoinCurrentIgloo(){
+    rejoinCurrentIgloo() {
         let iglooData = JSON.parse(localStorage.iglooData)
         this.joinIgloo(iglooData.igloos[iglooData.currentIgloo].split('%'))
     }
@@ -363,7 +363,7 @@ export default class Shell extends BaseScene {
     addSSTrack(track) {
         if (shell.cache.json.entries.keys().includes(`soundstudio-${track.mode}-pack`)) return this.playbackSSTrack(track)
 
-        this.soundStudioLoader.pack(`soundstudio-${track.mode}-pack`, `client/media/games/soundstudio/audio/soundstudio-${track.mode}-pack.json`)
+        this.soundStudioLoader.pack(`soundstudio-${track.mode}-pack`, `assets/media/games/soundstudio/audio/soundstudio-${track.mode}-pack.json`)
 
         this.soundStudioLoader.on('complete', () => {
             this.playbackSSTrack(track)

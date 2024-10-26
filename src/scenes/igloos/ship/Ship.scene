@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/ship/ship-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/ship/ship-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Ship",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "ship",
+                "key": "ship-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "cb04db06-0dee-4085-b091-62332286e800",
             "label": "fg",
             "texture": {
-                "key": "ship",
+                "key": "ship-igloo",
                 "frame": "fg"
             },
             "x": 760,

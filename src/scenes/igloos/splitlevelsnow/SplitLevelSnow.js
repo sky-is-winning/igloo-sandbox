@@ -12,6 +12,10 @@ export default class SplitLevelSnow extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [1080, 490]
         this.wallSpawn = [970, 200]
         this.wallBounds = [410, 1110]
@@ -22,19 +26,19 @@ export default class SplitLevelSnow extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('splitlevelsnow-pack', 'client/media/igloos/buildings/sprites/splitlevelsnow/splitlevelsnow-pack.json')
+        this.load.pack('splitlevelsnow-igloo-pack', 'assets/media/igloos/buildings/sprites/splitlevelsnow/splitlevelsnow-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'splitlevelsnow', 'bg-lower')
+        const floor = this.add.image(760, 480, 'splitlevelsnow-igloo', 'bg-lower')
 
         // bg_upper
-        this.add.image(760, 480, 'splitlevelsnow', 'bg-upper')
+        this.add.image(760, 480, 'splitlevelsnow-igloo', 'bg-upper')
 
         // door
-        const door = this.add.image(241.45671992302226, 626.6936246395865, 'splitlevelsnow', 'door')
+        const door = this.add.image(241.45671992302226, 626.6936246395865, 'splitlevelsnow-igloo', 'door')
         door.setOrigin(0.5223338174820206, 0.8140467215513906)
 
         // door (components)

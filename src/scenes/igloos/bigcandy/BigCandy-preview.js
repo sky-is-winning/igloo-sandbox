@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class BigCandy extends IglooScene {
     constructor() {
-        super(`BigCandy-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`BigCandy-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [720, 720]
         this.wallSpawn = [720, 260]
@@ -24,7 +29,7 @@ export default class BigCandy extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('bigcandy-pack', 'client/media/igloos/buildings/sprites/bigcandy/bigcandy-pack.json')
+        this.load.pack('bigcandy-pack', 'assets/media/igloos/buildings/sprites/bigcandy/bigcandy-pack.json')
     }
 
     /** @returns {void} */
@@ -34,7 +39,8 @@ export default class BigCandy extends IglooScene {
         floor.setOrigin(0.5003940110323088, 0.5013477088948787)
 
         // door
-        this.add.image(243, 478, 'bigcandy', 'door')
+        const door = this.add.image(250, 563, 'bigcandy', 'door')
+        door.setOrigin(0.5636363636363636, 0.912621359223301)
 
         // wall_1
         const wall_1 = this.add.image(321, 389, 'bigcandy', 'wall_1')
@@ -59,6 +65,10 @@ export default class BigCandy extends IglooScene {
         // chimney
         const chimney = this.add.image(1127, 133, 'bigcandy', 'chimney')
         chimney.setOrigin(0.5050505050505051, 0.5)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

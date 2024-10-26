@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/gymnasium/gymnasium-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/gymnasium/gymnasium-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Gymnasium",
@@ -21,7 +21,7 @@
             "id": "dcfb4ed6-03bb-4903-b7b3-80bf50446fd8",
             "label": "floor",
             "texture": {
-                "key": "gymnasium",
+                "key": "gymnasium-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -32,7 +32,7 @@
             "id": "819f4d6f-acf8-4acf-8487-cfacf69c17ba",
             "label": "fg",
             "texture": {
-                "key": "gymnasium",
+                "key": "gymnasium-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -46,8 +46,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "gymnasium",
+                "key": "gymnasium-igloo",
                 "frame": "door"
             },
             "x": 204.67768430732596,

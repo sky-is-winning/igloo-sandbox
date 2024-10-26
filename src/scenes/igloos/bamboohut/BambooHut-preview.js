@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class BambooHut extends IglooScene {
     constructor() {
-        super(`BambooHut-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`BambooHut-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [770, 750]
         this.wallSpawn = [790, 400]
@@ -24,7 +29,7 @@ export default class BambooHut extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('bamboohut-pack', 'client/media/igloos/buildings/sprites/bamboohut/bamboohut-pack.json')
+        this.load.pack('bamboohut-pack', 'assets/media/igloos/buildings/sprites/bamboohut/bamboohut-pack.json')
     }
 
     /** @returns {void} */
@@ -34,12 +39,16 @@ export default class BambooHut extends IglooScene {
         floor.setOrigin(0.5004468275245755, 0.5017421602787456)
 
         // door
-        const door = this.add.image(424, 474, 'bamboohut', 'door')
-        door.setOrigin(0.5054945054945055, 0.5)
+        const door = this.add.image(428, 591, 'bamboohut', 'door')
+        door.setOrigin(0.5494505494505495, 0.9301470588235294)
 
         // wall
         const wall = this.add.image(760, 402, 'bamboohut', 'wall')
         wall.setOrigin(0.5004101722723544, 0.5)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

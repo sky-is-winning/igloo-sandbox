@@ -1,11 +1,11 @@
 import IglooScene from '../IglooScene'
-import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
 export default class Pineapple extends IglooScene {
     constructor() {
-        super(`Pineapple-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`Pineapple-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -26,19 +26,19 @@ export default class Pineapple extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('pineapple-pack', 'client/media/igloos/buildings/sprites/pineapple/pineapple-pack.json')
+        this.load.pack('pineapple-igloo-pack', 'assets/media/igloos/buildings/sprites/pineapple/pineapple-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'pineapple', 'bg-lower')
+        const floor = this.add.image(760, 480, 'pineapple-igloo', 'bg-lower')
 
         // bg_upper
-        this.add.image(760, 480, 'pineapple', 'bg-upper')
+        this.add.image(760, 480, 'pineapple-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 962.1435010445438, 'pineapple', 'fg')
+        const fg = this.add.image(760, 962.1435010445438, 'pineapple-igloo', 'fg')
         fg.setOrigin(0.5, 1.0022328254060198)
 
         // lists

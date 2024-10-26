@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/snowglobe/snowglobe-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/snowglobe/snowglobe-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Snowglobe",
@@ -29,7 +29,7 @@
             "Animation.repeat": 0,
             "Animation.autoPlay": false,
             "texture": {
-                "key": "snowglobe",
+                "key": "snowglobe-igloo",
                 "frame": "base_0001"
             },
             "originX": 0,
@@ -48,7 +48,7 @@
             "Animation.repeat": 0,
             "Animation.autoPlay": false,
             "texture": {
-                "key": "snowglobe",
+                "key": "snowglobe-igloo",
                 "frame": "snow_0130"
             },
             "x": 763,
@@ -68,7 +68,7 @@
             "Animation.repeat": 0,
             "Animation.autoPlay": false,
             "texture": {
-                "key": "snowglobe",
+                "key": "snowglobe-igloo",
                 "frame": "glass_0001"
             },
             "x": 764,

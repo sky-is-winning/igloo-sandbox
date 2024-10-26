@@ -12,6 +12,10 @@ export default class Basic extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
         this.wallBounds = [580, 1000]
@@ -22,7 +26,7 @@ export default class Basic extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('basic-pack', 'client/media/igloos/buildings/sprites/basic/basic-pack.json')
+        this.load.pack('basic-pack', 'assets/media/igloos/buildings/sprites/basic/basic-pack.json')
     }
 
     /** @returns {void} */
@@ -47,7 +51,12 @@ export default class Basic extends IglooScene {
         window.setOrigin(0.5014164305949008, 0.5)
 
         // door
-        this.add.image(491, 467, 'basic', 'door')
+        const door = this.add.image(499, 550, 'basic', 'door')
+        door.setOrigin(0.5727272727272728, 0.9029126213592233)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/starship/starship-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/starship/starship-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Starship",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "starship",
+                "key": "starship-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "141dcd45-70ad-4723-a5eb-72ce80b69aff",
             "label": "bg_upper",
             "texture": {
-                "key": "starship",
+                "key": "starship-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -44,7 +44,7 @@
             "id": "f6aaf80a-80e0-4195-9971-9946cb2b8d4b",
             "label": "fg",
             "texture": {
-                "key": "starship",
+                "key": "starship-igloo",
                 "frame": "fg"
             },
             "x": 760,

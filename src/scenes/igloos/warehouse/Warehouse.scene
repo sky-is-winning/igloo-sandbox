@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/warehouse/warehouse-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/warehouse/warehouse-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Warehouse",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "warehouse",
+                "key": "warehouse-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "5adeafc8-5ab2-4ebd-bddf-dade30c4ebcb",
             "label": "bg_upper",
             "texture": {
-                "key": "warehouse",
+                "key": "warehouse-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,

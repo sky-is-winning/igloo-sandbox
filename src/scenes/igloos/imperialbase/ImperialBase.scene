@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/imperialbase/imperialbase-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/imperialbase/imperialbase-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "ImperialBase",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "imperialbase",
+                "key": "imperialbase-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -35,8 +35,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "imperialbase",
+                "key": "imperialbase-igloo",
                 "frame": "door"
             },
             "x": 1463.5797817763448,
@@ -49,7 +50,7 @@
             "id": "f092dc11-2417-4ae5-81d7-388d09c4fd12",
             "label": "fg",
             "texture": {
-                "key": "imperialbase",
+                "key": "imperialbase-igloo",
                 "frame": "fg"
             },
             "x": 760,

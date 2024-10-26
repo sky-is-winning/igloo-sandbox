@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/circus/circus-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/circus/circus-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Circus",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "circus",
+                "key": "circus-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,12 +33,29 @@
             "id": "f06cb3e8-5d34-4813-9738-739c1d56916e",
             "label": "fg",
             "texture": {
-                "key": "circus",
+                "key": "circus-igloo",
                 "frame": "fg"
             },
             "x": 760,
             "y": 988.9025695084486,
             "originY": 1.030106836234104
+        },
+        {
+            "type": "Rectangle",
+            "id": "8a7dcad0-0af4-4fee-a8e6-db6c7dff56f6",
+            "label": "rectangle_1",
+            "components": [
+                "Zone"
+            ],
+            "x": 759.2484479811357,
+            "y": 666.4161909813262,
+            "originX": 0.5097534998526223,
+            "originY": 0.9213511936332885,
+            "isFilled": true,
+            "fillColor": "#059de3",
+            "fillAlpha": 0.5,
+            "width": 128,
+            "height": 160
         }
     ],
     "plainObjects": [],

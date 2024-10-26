@@ -12,6 +12,10 @@ export default class DeluxeStone extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [720, 720]
         this.wallSpawn = [720, 260]
         this.wallBounds = [350, 1200]
@@ -22,7 +26,7 @@ export default class DeluxeStone extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('deluxestone-pack', 'client/media/igloos/buildings/sprites/deluxestone/deluxestone-pack.json')
+        this.load.pack('deluxestone-pack', 'assets/media/igloos/buildings/sprites/deluxestone/deluxestone-pack.json')
     }
 
     /** @returns {void} */
@@ -32,7 +36,8 @@ export default class DeluxeStone extends IglooScene {
         floor.setOrigin(0.5003940110323088, 0.5013477088948787)
 
         // door
-        this.add.image(243, 478, 'deluxestone', 'door')
+        const door = this.add.image(253, 561, 'deluxestone', 'door')
+        door.setOrigin(0.5909090909090909, 0.9029126213592233)
 
         // wall_1
         const wall_1 = this.add.image(321, 389, 'deluxestone', 'wall_1')
@@ -44,6 +49,10 @@ export default class DeluxeStone extends IglooScene {
 
         // wall_3
         this.add.image(1210, 401, 'deluxestone', 'wall_3')
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

@@ -15,7 +15,7 @@ export default class ThinIce extends GameScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('thinice-pack', 'client/media/games/thinice/thinice-pack.json')
+        this.load.pack('thinice-pack', 'assets/media/games/thinice/thinice-pack.json')
     }
 
     /** @returns {void} */

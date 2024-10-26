@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class Stone extends IglooScene {
     constructor() {
-        super(`Stone-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`Stone-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            triggers: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [760, 760]
         this.wallSpawn = [750, 320]
@@ -24,7 +29,7 @@ export default class Stone extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('stone-pack', 'client/media/igloos/buildings/sprites/stone/stone-pack.json')
+        this.load.pack('stone-pack', 'assets/media/igloos/buildings/sprites/stone/stone-pack.json')
     }
 
     /** @returns {void} */
@@ -41,7 +46,12 @@ export default class Stone extends IglooScene {
         this.add.image(972, 388, 'stone', 'wall_2')
 
         // door
-        this.add.image(491, 467, 'stone', 'door')
+        const door = this.add.image(501, 547, 'stone', 'door')
+        door.setOrigin(0.5909090909090909, 0.8883495145631068)
+
+        // door (components)
+        const doorButton = new Button(door)
+        doorButton.activeFrame = false
 
         this.floor = floor
 

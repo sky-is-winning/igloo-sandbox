@@ -1,5 +1,5 @@
 const fontJS = './src/data/fonts.js'
-const fontFolder = './client/fonts/'
+const fontFolder = './assets/fonts/'
 const fs = require('fs')
 
 let fontString = 'const fonts = [\n'
@@ -22,7 +22,7 @@ for (let file of fs.readdirSync(fontFolder)) {
     font = font.replaceAll('-', '')
     let weightString = weight == 'normal' ? '' : `, weight: '${weight}'`
     let styleString = style == 'normal' ? '' : `, style: '${style}'`
-    fontString += `    {name: '${font}'${weightString}${styleString}, url: '/client/fonts/${file}'},\n`
+    fontString += `    {name: '${font}'${weightString}${styleString}, url: '/assets/fonts/${file}'},\n`
 }
 
 fontString += ']\n\nexport default fonts'

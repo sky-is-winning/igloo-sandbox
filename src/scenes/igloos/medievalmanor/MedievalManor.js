@@ -14,6 +14,10 @@ export default class MedievalManor extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [108, 472]
         this.wallSpawn = [1040, 250]
         this.wallBounds = [610, 960]
@@ -24,19 +28,19 @@ export default class MedievalManor extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('medievalmanor-pack', 'client/media/igloos/buildings/sprites/medievalmanor/medievalmanor-pack.json')
+        this.load.pack('medievalmanor-igloo-pack', 'assets/media/igloos/buildings/sprites/medievalmanor/medievalmanor-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'medievalmanor', 'bg')
+        const floor = this.add.image(760, 480, 'medievalmanor-igloo', 'bg')
 
         // bg_upper
-        this.add.image(760, 480, 'medievalmanor', 'bg-upper')
+        this.add.image(760, 480, 'medievalmanor-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 980.486100501291, 'medievalmanor', 'fg')
+        const fg = this.add.image(760, 980.486100501291, 'medievalmanor-igloo', 'fg')
         fg.setOrigin(0.5, 1.0213396880221781)
 
         // lists

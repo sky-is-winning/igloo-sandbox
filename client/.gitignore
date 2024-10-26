@@ -1,9 +1,0 @@
-scripts/client/igloo-sandbox.js
-scripts/client/igloo-sandbox.min.js
-media/game_configs/
-*.bak
-*.zip
-*.DS_Store
-*.fla
-*.as
-*.html

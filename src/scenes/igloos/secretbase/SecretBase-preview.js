@@ -5,7 +5,8 @@ import {Button} from '@components/components'
 
 export default class SecretBase extends IglooScene {
     constructor() {
-        super(`SecretBase-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`SecretBase-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -13,6 +14,10 @@ export default class SecretBase extends IglooScene {
         this.sort
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [690, 800]
         this.wallSpawn = [680, 150]
@@ -26,20 +31,20 @@ export default class SecretBase extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('secretbase-pack', 'client/media/igloos/buildings/sprites/secretbase/secretbase-pack.json')
+        this.load.pack('secretbase-igloo-pack', 'assets/media/igloos/buildings/sprites/secretbase/secretbase-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'secretbase', 'bg')
+        const floor = this.add.image(760, 480, 'secretbase-igloo', 'bg')
 
         // door
-        const door = this.add.image(325.6088772069406, 600.855949782962, 'secretbase', 'door')
+        const door = this.add.image(325.6088772069406, 600.855949782962, 'secretbase-igloo', 'door')
         door.setOrigin(0.44981884232132413, 0.7537489823151257)
 
         // fg
-        const fg = this.add.image(760, 966.1266806085654, 'secretbase', 'fg')
+        const fg = this.add.image(760, 966.1266806085654, 'secretbase-igloo', 'fg')
         fg.setOrigin(0.5, 1.0063819589672556)
 
         // lists

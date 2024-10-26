@@ -2,11 +2,11 @@ const fs = require('fs')
 const path = require('path')
 const pjson = require('../package.json')
 
-let file = path.join(__dirname, '../client/current.version')
+let file = path.join(__dirname, '../assets/current.version')
 
-let enCrumbs = path.join(__dirname, '../client/media/crumbs/en')
-let ptCrumbs = path.join(__dirname, '../client/media/crumbs/pt')
-let esCrumbs = path.join(__dirname, '../client/media/crumbs/es')
+let enCrumbs = path.join(__dirname, '../assets/media/crumbs/en')
+let ptCrumbs = path.join(__dirname, '../assets/media/crumbs/pt')
+let esCrumbs = path.join(__dirname, '../assets/media/crumbs/es')
 
 try {
     fs.writeFileSync(file, pjson.version)

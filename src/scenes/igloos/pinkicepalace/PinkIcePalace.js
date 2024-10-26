@@ -12,6 +12,10 @@ export default class PinkIcePalace extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [760, 800]
         this.wallSpawn = [760, 430]
         this.wallBounds = [4420, 1100]
@@ -22,19 +26,23 @@ export default class PinkIcePalace extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('pinkicepalace-pack', 'client/media/igloos/buildings/sprites/pinkicepalace/pinkicepalace-pack.json')
+        this.load.pack('pinkicepalace-igloo-pack', 'assets/media/igloos/buildings/sprites/pinkicepalace/pinkicepalace-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // bg_lower
-        this.add.image(760, 634, 'pinkicepalace', 'bg-lower')
+        this.add.image(760, 634, 'pinkicepalace-igloo', 'bg-lower')
 
         // floor
-        const floor = this.add.image(760, 480, 'pinkicepalace', 'bg-upper')
+        const floor = this.add.image(760, 480, 'pinkicepalace-igloo', 'bg-upper')
 
         // door
-        this.add.image(754, 551, 'pinkicepalace', 'door')
+        const door = this.add.image(761, 644, 'pinkicepalace-igloo', 'door')
+        door.setOrigin(0.5368421052631579, 0.9769230769230769)
+
+        // door (components)
+        new Button(door)
 
         this.floor = floor
 

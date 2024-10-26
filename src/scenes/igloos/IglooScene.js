@@ -74,7 +74,7 @@ export default class IglooScene extends RoomScene {
     preload() {
         super.preload()
         this.load.baseURL = this.shell.baseURL + '/'
-        this.load.image(`locations/${this.args.location}`, `/client/media/igloos/locations/sprites/${this.args.location}.webp`)
+        this.load.image(`locations/${this.args.location}`, `/assets/media/igloos/locations/sprites/${this.args.location}.webp`)
 
         if (this.args.flooring && parseInt(this.args.flooring) > 1) this.loadFlooring(this.args.flooring)
     }
@@ -172,7 +172,7 @@ export default class IglooScene extends RoomScene {
     loadFlooring(flooring) {
         if (flooring == 0) return
         if (this.textures.exists(`flooring/${flooring}`)) return
-        let path = '/client/media/igloos/flooring/sprites'
+        let path = '/assets/media/igloos/flooring/sprites'
 
         this.load.multiatlas({
             key: `flooring/${flooring}`,
@@ -355,7 +355,7 @@ export default class IglooScene extends RoomScene {
         super.addPenguin(id, penguin)
     }
 
-    startSoundStudio(){
+    startSoundStudio() {
         this.shell.joinRoom(940)
         this.interface.hideIglooEdit()
     }

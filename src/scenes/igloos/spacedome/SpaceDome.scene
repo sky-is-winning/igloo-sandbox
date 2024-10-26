@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/spacedome/spacedome-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/spacedome/spacedome-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SpaceDome",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "spacedome",
+                "key": "spacedome-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -32,21 +32,25 @@
             "type": "Image",
             "id": "e30be747-4a33-4b9c-90d9-19b65205c4db",
             "label": "door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "spacedome",
+                "key": "spacedome-igloo",
                 "frame": "door"
             },
-            "x": 288,
-            "y": 394,
-            "originX": 0.5245534535102981,
-            "originY": 0.7440470644753876
+            "x": 294,
+            "y": 417,
+            "originX": 0.5541101037566035,
+            "originY": 0.8394827491226905
         },
         {
             "type": "Image",
             "id": "6f0323e1-4dd0-48a1-b180-685e35523983",
             "label": "bg_upper",
             "texture": {
-                "key": "spacedome",
+                "key": "spacedome-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -57,7 +61,7 @@
             "id": "2f3b915a-f5b0-4af5-8183-0364a48dda5c",
             "label": "fg",
             "texture": {
-                "key": "spacedome",
+                "key": "spacedome-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -70,7 +74,7 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     },
     "lists": [
         {

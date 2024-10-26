@@ -16,12 +16,12 @@ export default class SoundStudio extends GameScene {
 
     /** @returns {void} */
     preload() {
-        this.load.pack('soundstudio-pack', 'client/media/games/soundstudio/soundstudio-pack.json')
-        this.load.pack('soundstudio-dance-pack', 'client/media/games/soundstudio/audio/soundstudio-dance-pack.json')
-        this.load.pack('soundstudio-dubstep-pack', 'client/media/games/soundstudio/audio/soundstudio-dubstep-pack.json')
-        this.load.pack('soundstudio-pop-pack', 'client/media/games/soundstudio/audio/soundstudio-pop-pack.json')
-        this.load.pack('soundstudio-rock-pack', 'client/media/games/soundstudio/audio/soundstudio-rock-pack.json')
-        this.load.pack('soundstudio-spooky-pack', 'client/media/games/soundstudio/audio/soundstudio-spooky-pack.json')
+        this.load.pack('soundstudio-pack', 'assets/media/games/soundstudio/soundstudio-pack.json')
+        this.load.pack('soundstudio-dance-pack', 'assets/media/games/soundstudio/audio/soundstudio-dance-pack.json')
+        this.load.pack('soundstudio-dubstep-pack', 'assets/media/games/soundstudio/audio/soundstudio-dubstep-pack.json')
+        this.load.pack('soundstudio-pop-pack', 'assets/media/games/soundstudio/audio/soundstudio-pop-pack.json')
+        this.load.pack('soundstudio-rock-pack', 'assets/media/games/soundstudio/audio/soundstudio-rock-pack.json')
+        this.load.pack('soundstudio-spooky-pack', 'assets/media/games/soundstudio/audio/soundstudio-spooky-pack.json')
     }
 
     /** @returns {void} */

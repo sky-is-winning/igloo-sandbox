@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/vippenthouse/vippenthouse-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/vippenthouse/vippenthouse-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "VIPPenthouse",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "vippenthouse",
+                "key": "vippenthouse-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "cc867d97-8372-4634-a8b6-665dd3b9c318",
             "label": "fg",
             "texture": {
-                "key": "vippenthouse",
+                "key": "vippenthouse-igloo",
                 "frame": "fg"
             },
             "x": 760,

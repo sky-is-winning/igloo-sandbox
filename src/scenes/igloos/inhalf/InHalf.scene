@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/inhalf/inhalf-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/inhalf/inhalf-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "InHalf",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "inhalf",
+                "key": "inhalf-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "e8859b2d-24f3-4660-9b74-e370abe88ff4",
             "label": "bg_upper",
             "texture": {
-                "key": "inhalf",
+                "key": "inhalf-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -44,7 +44,7 @@
             "id": "b37acaaf-203f-4211-9608-942c987477c4",
             "label": "fg",
             "texture": {
-                "key": "inhalf",
+                "key": "inhalf-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -56,7 +56,7 @@
             "id": "1be6502d-d40c-4587-ba55-eb7037e84160",
             "label": "fg_again",
             "texture": {
-                "key": "inhalf",
+                "key": "inhalf-igloo",
                 "frame": "fg-again"
             },
             "x": 760,

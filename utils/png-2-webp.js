@@ -37,4 +37,4 @@ function searchForPNGs(path) {
     }
 }
 
-searchForPNGs('./client/media')
+searchForPNGs('./assets/media')

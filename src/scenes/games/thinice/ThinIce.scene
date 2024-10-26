@@ -7,7 +7,7 @@
         "superClassName": "GameScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/games/thinice/thinice-pack.json"
+            "client/assets/media/games/thinice/thinice-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "ThinIce",

@@ -14,6 +14,10 @@ export default class DeluxeGingerbreadHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [1000, 686]
         this.wallSpawn = [654, 440]
         this.wallBounds = [440, 1054]
@@ -24,23 +28,23 @@ export default class DeluxeGingerbreadHouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('deluxegingerbreadhouse-pack', 'client/media/igloos/buildings/sprites/deluxegingerbreadhouse/deluxegingerbreadhouse-pack.json')
+        this.load.pack('deluxegingerbreadhouse-igloo-pack', 'assets/media/igloos/buildings/sprites/deluxegingerbreadhouse/deluxegingerbreadhouse-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'deluxegingerbreadhouse', 'bg-lower')
+        const floor = this.add.image(760, 480, 'deluxegingerbreadhouse-igloo', 'bg-lower')
 
         // door
-        const door = this.add.image(368.1365162807567, 681.4832530391134, 'deluxegingerbreadhouse', 'door')
-        door.setOrigin(0.6099529227129287, 0.8524573872770201)
+        const door = this.add.image(374.1365051269531, 691.4832763671875, 'deluxegingerbreadhouse-igloo', 'door')
+        door.setOrigin(0.6910340037940098, 0.8985403365857759)
 
         // bg_upper
-        this.add.image(760, 480, 'deluxegingerbreadhouse', 'bg-upper')
+        this.add.image(760, 480, 'deluxegingerbreadhouse-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 971.4395405059269, 'deluxegingerbreadhouse', 'fg')
+        const fg = this.add.image(760, 971.4395405059269, 'deluxegingerbreadhouse-igloo', 'fg')
         fg.setOrigin(0.5, 1.0119161880270071)
 
         // lists

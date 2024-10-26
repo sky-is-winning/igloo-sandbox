@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/medievalmanor/medievalmanor-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/medievalmanor/medievalmanor-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "MedievalManor",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "medievalmanor",
+                "key": "medievalmanor-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "b030aa48-22b8-45c1-970f-f40b5c7ad7f1",
             "label": "bg_upper",
             "texture": {
-                "key": "medievalmanor",
+                "key": "medievalmanor-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -44,7 +44,7 @@
             "id": "7c8d5dbb-9e64-4ffc-be24-bdde82eed9d0",
             "label": "fg",
             "texture": {
-                "key": "medievalmanor",
+                "key": "medievalmanor-igloo",
                 "frame": "fg"
             },
             "x": 760,

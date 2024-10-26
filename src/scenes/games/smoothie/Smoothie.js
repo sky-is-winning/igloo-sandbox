@@ -14,7 +14,7 @@ export default class Smoothie extends GameScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('load-pack', 'client/media/interface/menus/load/load-pack.json')
+        this.load.pack('load-pack', 'assets/media/interface/menus/load/load-pack.json')
     }
 
     /** @returns {void} */

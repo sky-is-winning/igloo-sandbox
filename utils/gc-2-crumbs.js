@@ -7,8 +7,8 @@ const langs = ['en', 'pt', 'es']
 const configs = ['cards.json', 'furniture_items.json', 'igloo_floors.json', 'igloo_locations.json', 'igloo_music_tracks.json', 'igloos.json', 'jokes.json', 'mascot_messages.json', 'mascots.json', 'paper_items.json', 'polaroids.json', 'postcards.json', 'puffle_items.json', 'puffles_v2.json', 'safe_chat_messages.json', 'stamps.json', 'tour_guide_messages.json']
 
 for (let lang of langs) {
-    let input = path.resolve(__dirname, `../client/media/game_configs/${lang}/web_service/game_configs/`)
-    let output = path.resolve(__dirname, `../client/media/crumbs/${lang}`)
+    let input = path.resolve(__dirname, `../assets/media/game_configs/${lang}/web_service/game_configs/`)
+    let output = path.resolve(__dirname, `../assets/media/crumbs/${lang}`)
 
     for (let file of fs.readdirSync(input)) {
         if (!configs.includes(file)) continue

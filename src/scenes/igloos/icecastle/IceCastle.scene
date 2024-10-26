@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/icecastle/icecastle-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/icecastle/icecastle-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "IceCastle",
@@ -21,21 +21,22 @@
             "id": "2a526fc9-bce2-40a1-994e-afbad45f90f4",
             "label": "bg_lower",
             "texture": {
-                "key": "icecastle",
+                "key": "icecastle-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
             "y": 634
         },
         {
-            "type": "Sprite",
+            "type": "Image",
             "id": "13ac3ffb-d6d6-4c9b-891f-6d7da851c5fb",
             "label": "door",
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "icecastle",
+                "key": "icecastle-igloo",
                 "frame": "door"
             },
             "x": 758.8427484645825,
@@ -49,7 +50,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "icecastle",
+                "key": "icecastle-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -60,7 +61,7 @@
             "id": "62bab48c-b633-47fe-a8ee-25ff13cf74cc",
             "label": "fg",
             "texture": {
-                "key": "icecastle",
+                "key": "icecastle-igloo",
                 "frame": "fg"
             },
             "x": 760,
@@ -72,6 +73,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 5
+        "version": 4
     }
 }

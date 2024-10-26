@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/empty/empty-pack.json"
+            "client/assets/media/igloos/buildings/sprites/empty/empty-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "Empty",

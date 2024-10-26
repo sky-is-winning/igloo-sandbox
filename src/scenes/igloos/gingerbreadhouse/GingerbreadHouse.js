@@ -16,6 +16,10 @@ export default class GingerbreadHouse extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [754, 696]
         this.wallSpawn = [804, 472]
         this.wallBounds = [510, 1044]
@@ -26,7 +30,7 @@ export default class GingerbreadHouse extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('gingerbreadhouse-pack', 'client/media/igloos/buildings/sprites/gingerbreadhouse/gingerbreadhouse-pack.json')
+        this.load.pack('gingerbreadhouse-igloo-pack', 'assets/media/igloos/buildings/sprites/gingerbreadhouse/gingerbreadhouse-igloo-pack.json')
     }
 
     /** @returns {void} */
@@ -35,19 +39,19 @@ export default class GingerbreadHouse extends IglooScene {
         const floor = this.add.container(643, 480)
 
         // bg_lower
-        const bg_lower = this.add.image(117, 0, 'gingerbreadhouse', 'bg-lower')
+        const bg_lower = this.add.image(117, 0, 'gingerbreadhouse-igloo', 'bg-lower')
         floor.add(bg_lower)
 
         // door
-        const door = this.add.image(0, 72, 'gingerbreadhouse', 'door')
+        const door = this.add.image(0, 72, 'gingerbreadhouse-igloo', 'door')
         floor.add(door)
 
         // bg_upper
-        const bg_upper = this.add.image(117, 0, 'gingerbreadhouse', 'bg-upper')
+        const bg_upper = this.add.image(117, 0, 'gingerbreadhouse-igloo', 'bg-upper')
         floor.add(bg_upper)
 
         // fg
-        const fg = this.add.image(760, 981.0723668360147, 'gingerbreadhouse', 'fg')
+        const fg = this.add.image(760, 981.0723668360147, 'gingerbreadhouse-igloo', 'fg')
         fg.setOrigin(0.5, 1.0219504065289033)
 
         // lists
@@ -55,7 +59,9 @@ export default class GingerbreadHouse extends IglooScene {
 
         // door (components)
         const doorSimpleButton = new SimpleButton(door)
-        doorSimpleButton.hoverCallback = () => (this.door.alpha = 0)
+        doorSimpleButton.hoverCallback = () => {
+            this.door.alpha = 0.01
+        }
         doorSimpleButton.hoverOutCallback = () => {
             this.door.alpha = 1
         }

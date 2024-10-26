@@ -3,12 +3,12 @@ const jsonData = JSON.stringify({
         files: [
             {
                 type: 'multiatlas',
-                url: 'client/media/igloos/buildings/sprites/IGLOONAME/IGLOONAME.json',
-                path: 'client/media/igloos/buildings/sprites/IGLOONAME',
+                url: 'assets/media/igloos/buildings/sprites/IGLOONAME/IGLOONAME.json',
+                path: 'assets/media/igloos/buildings/sprites/IGLOONAME',
                 key: 'IGLOONAME'
             },
             {
-                url: 'client/media/igloos/buildings/sprites/IGLOONAME/IGLOONAME-physics.json',
+                url: 'assets/media/igloos/buildings/sprites/IGLOONAME/IGLOONAME-physics.json',
                 type: 'json',
                 key: 'IGLOONAME-physics'
             }
@@ -25,7 +25,7 @@ const jsonData = JSON.stringify({
 
 const fs = require('fs')
 
-const path = './client/media/igloos/buildings/sprites/'
+const path = './assets/media/igloos/buildings/sprites/'
 const folders = fs.readdirSync(path)
 for (let folder of folders) {
     const file = `${path}${folder}/${folder}-pack.json`

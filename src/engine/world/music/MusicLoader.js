@@ -4,7 +4,7 @@ export default class MusicLoader extends Phaser.Loader.LoaderPlugin {
 
         this.musicController = MusicController
 
-        const suffix = '/client/media/music/'
+        const suffix = '/assets/media/music/'
 
         this.baseURL = this.shell.baseURL + suffix
         this.keyPrefix = 'music/'

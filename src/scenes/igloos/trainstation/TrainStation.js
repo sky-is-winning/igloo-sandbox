@@ -14,6 +14,10 @@ export default class TrainStation extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [500, 700]
         this.wallSpawn = [854, 190]
         this.wallBounds = [420, 1260]
@@ -24,30 +28,29 @@ export default class TrainStation extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('trainstation-pack', 'client/media/igloos/buildings/sprites/trainstation/trainstation-pack.json')
+        this.load.pack('trainstation-igloo-pack', 'assets/media/igloos/buildings/sprites/trainstation/trainstation-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'trainstation', 'bg-lower')
+        const floor = this.add.image(760, 480, 'trainstation-igloo', 'bg-lower')
 
         // door
-        const door = this.add.image(213.32162953120633, 533.8495897445486, 'trainstation', 'door')
+        const door = this.add.image(213.32162953120633, 533.8495897445486, 'trainstation-igloo', 'door')
         door.setOrigin(0.3490670182286467, 0.7170441225472356)
 
         // bg_upper
-        this.add.image(760, 480, 'trainstation', 'bg-upper')
+        this.add.image(760, 480, 'trainstation-igloo', 'bg-upper')
 
         // fg
-        const fg = this.add.image(760, 962.2032731464072, 'trainstation', 'fg')
+        const fg = this.add.image(760, 962.2032731464072, 'trainstation-igloo', 'fg')
         fg.setOrigin(0.5, 1.0022950761941742)
 
         // lists
         const sort = [fg]
 
         // door (components)
-
         new Button(door)
 
         this.floor = floor

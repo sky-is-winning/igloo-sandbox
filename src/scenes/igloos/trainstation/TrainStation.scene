@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/trainstation/trainstation-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/trainstation/trainstation-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "TrainStation",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "trainstation",
+                "key": "trainstation-igloo",
                 "frame": "bg-lower"
             },
             "x": 760,
@@ -35,8 +35,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "trainstation",
+                "key": "trainstation-igloo",
                 "frame": "door"
             },
             "x": 213.32162953120633,
@@ -49,7 +50,7 @@
             "id": "94f431eb-dbe3-439d-b634-866a85de61a5",
             "label": "bg_upper",
             "texture": {
-                "key": "trainstation",
+                "key": "trainstation-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -60,7 +61,7 @@
             "id": "0ea081e6-91fb-44f8-96b8-4ae3fd2f23cb",
             "label": "fg",
             "texture": {
-                "key": "trainstation",
+                "key": "trainstation-igloo",
                 "frame": "fg"
             },
             "x": 760,

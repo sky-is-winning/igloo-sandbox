@@ -1,11 +1,12 @@
 import IglooScene from '../IglooScene'
-import {Animation, SimpleButton} from '@components/components'
+import {Animation, Button, SimpleButton} from '@components/components'
 
 /* START OF COMPILED CODE */
 
 export default class Snowglobe extends IglooScene {
     constructor() {
-        super(`Snowglobe-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`Snowglobe-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Sprite} */
         this.base
@@ -30,21 +31,21 @@ export default class Snowglobe extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('snowglobe-pack', 'client/media/igloos/buildings/sprites/snowglobe/snowglobe-pack.json')
+        this.load.pack('snowglobe-igloo-pack', 'assets/media/igloos/buildings/sprites/snowglobe/snowglobe-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // base
-        const base = this.add.sprite(0, 0, 'snowglobe', 'base_0001')
+        const base = this.add.sprite(0, 0, 'snowglobe-igloo', 'base_0001')
         base.setOrigin(0, 0)
 
         // snow
-        const snow = this.add.sprite(763, 453.02794067215564, 'snowglobe', 'snow_0130')
+        const snow = this.add.sprite(763, 453.02794067215564, 'snowglobe-igloo', 'snow_0130')
         snow.setOrigin(0.5, 0.5085020418740832)
 
         // glass
-        const glass = this.add.sprite(764, 812.686167034485, 'snowglobe', 'glass_0001')
+        const glass = this.add.sprite(764, 812.686167034485, 'snowglobe-igloo', 'glass_0001')
         glass.setOrigin(0.5, 0.9982002427667671)
 
         // rectangle_1

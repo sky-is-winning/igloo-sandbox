@@ -1,5 +1,4 @@
 import IglooScene from '../IglooScene'
-import {Button} from '@components/components'
 
 /* START OF COMPILED CODE */
 
@@ -24,16 +23,16 @@ export default class Ship extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('ship-pack', 'client/media/igloos/buildings/sprites/ship/ship-pack.json')
+        this.load.pack('ship-igloo-pack', 'assets/media/igloos/buildings/sprites/ship/ship-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'ship', 'bg')
+        const floor = this.add.image(760, 480, 'ship-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 967.6529306464103, 'ship', 'fg')
+        const fg = this.add.image(760, 967.6529306464103, 'ship-igloo', 'fg')
         fg.setOrigin(0.5, 1.0079718027566773)
 
         // lists

@@ -1,16 +1,21 @@
 import IglooScene from '../IglooScene'
-import {LocalisedSprite} from '@components/components'
+import {Button, LocalisedSprite} from '@components/components'
 
 /* START OF COMPILED CODE */
 
 export default class WhalesMouth extends IglooScene {
     constructor() {
-        super(`WhalesMouth-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`WhalesMouth-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [880, 700]
         this.wallSpawn = [568, 246]
@@ -24,19 +29,16 @@ export default class WhalesMouth extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('whalesmouth-pack', 'client/media/igloos/buildings/sprites/whalesmouth/whalesmouth-pack.json')
+        this.load.pack('whalesmouth-igloo-pack', 'assets/media/igloos/buildings/sprites/whalesmouth/whalesmouth-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'whalesmouth', 'bg')
+        const floor = this.add.image(760, 480, 'whalesmouth-igloo', 'bg')
 
         // exit_en
-        const exit_en = this.add.image(740, 316, 'whalesmouth', 'exit-en')
-
-        // exit_en (components)
-        new LocalisedSprite(exit_en)
+        this.add.image(740, 316, 'whalesmouth-igloo', 'exit-en')
 
         this.floor = floor
 

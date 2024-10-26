@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/tourbus/tourbus-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/tourbus/tourbus-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "TourBus",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "tourbus",
+                "key": "tourbus-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -33,7 +33,7 @@
             "id": "b3a8007c-6214-4a5c-8ca8-a5759c8413b5",
             "label": "fg",
             "texture": {
-                "key": "tourbus",
+                "key": "tourbus-igloo",
                 "frame": "fg"
             },
             "x": 760,

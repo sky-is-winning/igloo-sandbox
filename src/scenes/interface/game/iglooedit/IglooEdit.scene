@@ -83,7 +83,7 @@
                             }
                         },
                         {
-                            "type": "NinePatchContainer",
+                            "type": "NineSlice",
                             "id": "eff788c7-fbe9-4749-9459-7cdfd8b0fde9",
                             "label": "big_button",
                             "components": [
@@ -122,7 +122,7 @@
                             "y": 247
                         },
                         {
-                            "type": "NinePatchContainer",
+                            "type": "NineSlice",
                             "id": "82cd793e-1c1b-4100-91a1-356ee5e419d8",
                             "label": "small_btn",
                             "components": [
@@ -136,9 +136,7 @@
                             "x": 50,
                             "y": 328,
                             "width": 150,
-                            "height": 42,
-                            "marginLeft": 30,
-                            "marginRight": 30
+                            "height": 42
                         },
                         {
                             "type": "Text",

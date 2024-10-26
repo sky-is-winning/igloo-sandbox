@@ -5,7 +5,8 @@ import {Button} from '@components/components'
 
 export default class FishBowl extends IglooScene {
     constructor() {
-        super(`FishBowl-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`FishBowl-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -26,16 +27,16 @@ export default class FishBowl extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('fishbowl-pack', 'client/media/igloos/buildings/sprites/fishbowl/fishbowl-pack.json')
+        this.load.pack('fishbowl-igloo-pack', 'assets/media/igloos/buildings/sprites/fishbowl/fishbowl-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'fishbowl', 'bg')
+        const floor = this.add.image(760, 480, 'fishbowl-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 983.89076785164, 'fishbowl', 'fg')
+        const fg = this.add.image(760, 983.89076785164, 'fishbowl-igloo', 'fg')
         fg.setOrigin(0.5, 1.024886216512125)
 
         // lists

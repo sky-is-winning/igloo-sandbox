@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/sweetswirl/sweetswirl-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/sweetswirl/sweetswirl-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SweetSwirl",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "sweetswirl",
+                "key": "sweetswirl-igloo",
                 "frame": "bg_lower"
             },
             "x": 760,
@@ -35,8 +35,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "sweetswirl",
+                "key": "sweetswirl-igloo",
                 "frame": "door"
             },
             "x": 215.72656106823746,
@@ -49,7 +50,7 @@
             "id": "59b9b8b6-a0d1-44f7-aa00-a5f64acefc55",
             "label": "bg_upper",
             "texture": {
-                "key": "sweetswirl",
+                "key": "sweetswirl-igloo",
                 "frame": "bg-upper"
             },
             "x": 760,
@@ -60,7 +61,7 @@
             "id": "3ea64f94-9630-42e5-8c1e-5551771e6800",
             "label": "fg",
             "texture": {
-                "key": "sweetswirl",
+                "key": "sweetswirl-igloo",
                 "frame": "fg"
             },
             "x": 760,

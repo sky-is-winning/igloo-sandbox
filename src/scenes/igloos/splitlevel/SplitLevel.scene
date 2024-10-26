@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/splitlevel/splitlevel-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/splitlevel/splitlevel-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "SplitLevel",
@@ -17,41 +17,54 @@
     },
     "displayList": [
         {
-            "type": "Image",
-            "id": "746c3c7a-a19d-4796-a1ae-65809d0ab585",
-            "label": "floor2",
+            "type": "Layer",
+            "id": "98be1edb-be78-4b16-af00-63c387ae9080",
+            "label": "floor",
             "scope": "CLASS",
-            "texture": {
-                "key": "splitlevel",
-                "frame": "floor"
-            },
-            "x": 760,
-            "y": 630,
-            "originX": 0.5003861003861004
-        },
-        {
-            "type": "Image",
-            "id": "584f6f3e-f68c-49f4-8213-0befec59e33e",
-            "label": "floor1",
-            "scope": "CLASS",
-            "texture": {
-                "key": "splitlevel",
-                "frame": "stairs_top"
-            },
-            "x": 763,
-            "y": 667,
-            "originY": 0.5035971223021583
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "746c3c7a-a19d-4796-a1ae-65809d0ab585",
+                    "label": "floor_1",
+                    "texture": {
+                        "key": "splitlevel",
+                        "frame": "floor"
+                    },
+                    "x": 760,
+                    "y": 630,
+                    "originX": 0.5003861003861004
+                },
+                {
+                    "type": "Image",
+                    "id": "584f6f3e-f68c-49f4-8213-0befec59e33e",
+                    "label": "stairs_top",
+                    "texture": {
+                        "key": "splitlevel",
+                        "frame": "stairs_top"
+                    },
+                    "x": 763,
+                    "y": 667,
+                    "originY": 0.5035971223021583
+                }
+            ]
         },
         {
             "type": "Image",
             "id": "3331b290-70cf-49b2-aadd-fe156d47370b",
             "label": "door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": false,
             "texture": {
                 "key": "splitlevel",
                 "frame": "door"
             },
-            "x": 235,
-            "y": 556
+            "x": 246,
+            "y": 637,
+            "originX": 0.6,
+            "originY": 0.8932038834951457
         },
         {
             "type": "Image",

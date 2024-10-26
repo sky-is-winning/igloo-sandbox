@@ -5,12 +5,17 @@ import {Button} from '@components/components'
 
 export default class TrickOrTreat extends IglooScene {
     constructor() {
-        super(`TrickOrTreat-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`TrickOrTreat-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [714, 624]
         this.wallSpawn = [722, 326]
@@ -24,16 +29,16 @@ export default class TrickOrTreat extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('trickortreat-pack', 'client/media/igloos/buildings/sprites/trickortreat/trickortreat-pack.json')
+        this.load.pack('trickortreat-igloo-pack', 'assets/media/igloos/buildings/sprites/trickortreat/trickortreat-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'trickortreat', 'bg-lower')
+        const floor = this.add.image(760, 480, 'trickortreat-igloo', 'bg-lower')
 
         // bg_upper
-        this.add.image(760, 480, 'trickortreat', 'bg-upper')
+        this.add.image(760, 480, 'trickortreat-igloo', 'bg-upper')
 
         this.floor = floor
 

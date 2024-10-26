@@ -8,7 +8,7 @@
         "superClassName": "IglooScene",
         "preloadMethodName": "_preload",
         "preloadPackFiles": [
-            "client/client/media/igloos/buildings/sprites/greenclover/greenclover-pack.json"
+            "yukon/assets/media/igloos/buildings/sprites/greenclover/greenclover-igloo-pack.json"
         ],
         "createMethodName": "_create",
         "sceneKey": "GreenClover",
@@ -22,7 +22,7 @@
             "label": "floor",
             "scope": "CLASS",
             "texture": {
-                "key": "greenclover",
+                "key": "greenclover-igloo",
                 "frame": "bg"
             },
             "x": 760,
@@ -35,8 +35,9 @@
             "components": [
                 "Button"
             ],
+            "Button.spriteName": "door",
             "texture": {
-                "key": "greenclover",
+                "key": "greenclover-igloo",
                 "frame": "door"
             },
             "x": 685.3360133153067,

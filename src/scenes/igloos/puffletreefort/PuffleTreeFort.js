@@ -14,6 +14,10 @@ export default class PuffleTreeFort extends IglooScene {
 
         /* START-USER-CTR-CODE */
 
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
+
         this.floorSpawn = [580, 634]
         this.wallSpawn = [1040, 250]
         this.wallBounds = [460, 1060]
@@ -24,16 +28,16 @@ export default class PuffleTreeFort extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('puffletreefort-pack', 'client/media/igloos/buildings/sprites/puffletreefort/puffletreefort-pack.json')
+        this.load.pack('puffletreefort-igloo-pack', 'assets/media/igloos/buildings/sprites/puffletreefort/puffletreefort-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'puffletreefort', 'bg')
+        const floor = this.add.image(760, 480, 'puffletreefort-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 961.788901652766, 'puffletreefort', 'fg')
+        const fg = this.add.image(760, 961.788901652766, 'puffletreefort-igloo', 'fg')
         fg.setOrigin(0.5, 1.0018634392216312)
 
         // lists

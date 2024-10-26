@@ -5,7 +5,8 @@ import {Button} from '@components/components'
 
 export default class TalentShowStage extends IglooScene {
     constructor() {
-        super(`TalentShowStage-preview-${Date.now()}${Phaser.Math.Between(0, 10000)}`)
+        super(`TalentShowStage-preview-${Date.now()}${Phaser.Math.Between(0,10000)}`)
+        
 
         /** @type {Phaser.GameObjects.Image} */
         this.floor
@@ -13,6 +14,10 @@ export default class TalentShowStage extends IglooScene {
         this.sort
 
         /* START-USER-CTR-CODE */
+
+        this.roomTriggers = {
+            map: () => this.interface.main.onMapClick()
+        }
 
         this.floorSpawn = [760, 740]
         this.wallSpawn = [760, 320]
@@ -26,16 +31,16 @@ export default class TalentShowStage extends IglooScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('talentshowstage-pack', 'client/media/igloos/buildings/sprites/talentshowstage/talentshowstage-pack.json')
+        this.load.pack('talentshowstage-igloo-pack', 'assets/media/igloos/buildings/sprites/talentshowstage/talentshowstage-igloo-pack.json')
     }
 
     /** @returns {void} */
     _create() {
         // floor
-        const floor = this.add.image(760, 480, 'talentshowstage', 'bg')
+        const floor = this.add.image(760, 480, 'talentshowstage-igloo', 'bg')
 
         // fg
-        const fg = this.add.image(760, 966.8674310998953, 'talentshowstage', 'fg')
+        const fg = this.add.image(760, 966.8674310998953, 'talentshowstage-igloo', 'fg')
         fg.setOrigin(0.5, 1.007153574062391)
 
         // lists

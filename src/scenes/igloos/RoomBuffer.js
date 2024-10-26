@@ -19,7 +19,7 @@ export default class RoomBuffer extends RoomScene {
 
     /** @returns {void} */
     _preload() {
-        this.load.pack('town-pack', 'client/media/rooms/town/town-pack.json')
+        this.load.pack('town-pack', 'assets/media/rooms/town/town-pack.json')
     }
 
     /** @returns {void} */
