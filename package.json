@@ -5,7 +5,7 @@
   "scripts": {
     "devclient": "webpack serve --host=0.0.0.0",
     "editor": "phasereditor2d-launcher -project . -max-number-files 100000 -public",
-    "build": "webpack --mode production --env obfuscate=true",
+    "build": "webpack --mode production --env obfuscate=false",
     "build-dev": "webpack --mode development",
     "build-crumbs": "node ./utils/build-crumbs.js",
     "format": "npx prettier --write ./src/ && npx prettier --write ./utils/",
