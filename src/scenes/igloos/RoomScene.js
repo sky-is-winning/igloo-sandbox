@@ -2,9 +2,10 @@ import BaseScene from '@scenes/base/BaseScene'
 
 export default class RoomScene extends BaseScene {
     constructor(key) {
-        super(key)
+        super(`${key}-igloo`)
 
-        this.key = key
+        this.iglooKey = `${key}-igloo`
+        this.baseKey = key
 
         this.penguins = null
 
@@ -78,20 +79,10 @@ export default class RoomScene extends BaseScene {
     /*======= Physics =======*/
 
     get roomPhysics() {
-        let key = this.isPreview ? this.key.toLowerCase().split('-').slice(0, -2).join('-') : this.key.toLowerCase()
-        if (this.cache.json.get(`${key}-physics`)) {
-            return this.cache.json.get(`${key}-physics`)
-        } else {
-            let splitter
-            for (let i = 1; i < this.key.length; i++) {
-                if (this.key[i] == this.key[i].toUpperCase()) {
-                    splitter = this.key[i]
-                    break
-                }
-            }
-            let split = this.key.split(splitter)
-            return this.cache.json.get(`${split[0].toLowerCase()}-physics`)
-        }
+        let key = this.key.toLowerCase()
+        let baseKey = this.baseKey.toLowerCase()
+
+        return this.cache.json.get(`${key}-physics`) || this.cache.json.get(`${baseKey}-physics`)
     }
 
     addPhysics() {
