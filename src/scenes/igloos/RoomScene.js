@@ -79,7 +79,7 @@ export default class RoomScene extends BaseScene {
     /*======= Physics =======*/
 
     get roomPhysics() {
-        let key = this.key.toLowerCase()
+        let key = this.iglooKey.toLowerCase()
         let baseKey = this.baseKey.toLowerCase()
 
         return this.cache.json.get(`${key}-physics`) || this.cache.json.get(`${baseKey}-physics`)
