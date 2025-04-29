@@ -200,6 +200,12 @@ export default class IglooScene extends RoomScene {
     loadAllFurniture() {
         for (let f of this.args.furniture) {
             this.updateQuantity(f.furnitureId)
+
+            if (this.textures.exists(`furniture/sprites/${f.furnitureId}`)) {
+                this.onFurnitureLoaded(f.furnitureId, f.x, f.y, `furniture/sprites/${f.furnitureId}`, f.rotation, f.frame, this)
+                continue
+            }
+
             this.loader.loadFurniture(f.furnitureId)
             this.shell.events.once(`furnitureLoaded-${f.furnitureId}`, (key) => {
                 this.onFurnitureLoaded(f.furnitureId, f.x, f.y, key, f.rotation, f.frame, this)

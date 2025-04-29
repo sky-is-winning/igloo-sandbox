@@ -644,6 +644,10 @@
                     "type": "Image",
                     "id": "f87f7b0f-0e19-4f38-8a0f-71335d7ee3b9",
                     "label": "preview_pane",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.switchIgloo(0)",
                     "texture": {
                         "key": "iglooedit-new",
                         "frame": "preview-pane"
@@ -668,6 +672,10 @@
                     "type": "Image",
                     "id": "05ab10c1-0791-42ef-8987-8dc2a4b27a24",
                     "label": "preview_pane_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.switchIgloo(1)",
                     "texture": {
                         "key": "iglooedit-new",
                         "frame": "preview-pane"
@@ -692,6 +700,10 @@
                     "type": "Image",
                     "id": "199c2754-848e-4b93-b6c2-1773bde820bf",
                     "label": "preview_pane_2",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.switchIgloo(2)",
                     "texture": {
                         "key": "iglooedit-new",
                         "frame": "preview-pane"
@@ -716,6 +728,10 @@
                     "type": "Image",
                     "id": "32339297-31da-437e-bfa7-1dc1c429dd85",
                     "label": "preview_pane_3",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.switchIgloo(3)",
                     "texture": {
                         "key": "iglooedit-new",
                         "frame": "preview-pane"

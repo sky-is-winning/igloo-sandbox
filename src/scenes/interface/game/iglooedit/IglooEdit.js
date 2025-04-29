@@ -527,6 +527,22 @@ export default class IglooEdit extends BaseScene {
         const choose_iglooButton = new Button(choose_igloo);
         choose_iglooButton.callback = () => this.onEditClick();
 
+        // preview_pane (components)
+        const preview_paneSimpleButton = new SimpleButton(preview_pane);
+        preview_paneSimpleButton.callback = () => this.switchIgloo(0);
+
+        // preview_pane_1 (components)
+        const preview_pane_1SimpleButton = new SimpleButton(preview_pane_1);
+        preview_pane_1SimpleButton.callback = () => this.switchIgloo(1);
+
+        // preview_pane_2 (components)
+        const preview_pane_2SimpleButton = new SimpleButton(preview_pane_2);
+        preview_pane_2SimpleButton.callback = () => this.switchIgloo(2);
+
+        // preview_pane_3 (components)
+        const preview_pane_3SimpleButton = new SimpleButton(preview_pane_3);
+        preview_pane_3SimpleButton.callback = () => this.switchIgloo(3);
+
         // close_btn_1 (components)
         const close_btn_1Button = new Button(close_btn_1);
         close_btn_1Button.callback = () => this.closeChooseIgloo();
@@ -768,7 +784,7 @@ export default class IglooEdit extends BaseScene {
 
         const iglooData = JSON.parse(localStorage.iglooData);
 
-        const mainData = iglooData.igloos[0].split('%');
+        const mainData = iglooData.igloos[iglooData.currentIgloo].split('%');
 
         const mainPreview = await this.createPreviewFromJSON(mainData, 0);
         this.scalePreviewContainer(mainPreview, 0);
@@ -781,8 +797,6 @@ export default class IglooEdit extends BaseScene {
 
             const preview = await this.createPreviewFromJSON(data, i);
             preview.inputEnabled = true;
-            preview.setInteractive();
-            preview.on('pointerdown', () => this.switchIgloo(i));
             this.scalePreviewContainer(preview, i+1);
             this.previews.push(preview);
         }
@@ -796,7 +810,7 @@ export default class IglooEdit extends BaseScene {
 
         if (!this.textures.exists(previewData.assets.key)) {
             this.load.pack(previewData.assets.key, previewData.assets.pack);
-    
+
             await new Promise(resolve => {
                 this.load.once('complete', resolve);
                 this.load.start();
@@ -809,7 +823,7 @@ export default class IglooEdit extends BaseScene {
 
         // Add location
         const locationId = data[5];
-        
+
         if (!this.textures.exists(`locations/${locationId}`)) {
             this.load.image(`locations/${locationId}`, `/assets/media/igloos/locations/sprites/${locationId}.webp`);
             await new Promise(resolve => {
@@ -838,7 +852,7 @@ export default class IglooEdit extends BaseScene {
             let [id, furnitureId, x, y, frame, rotation] = f.split('|')
             return {id, furnitureId, x, y, frame, rotation}
         })
-        
+
         for (let f of furniture) {
             if (this.textures.exists(`furniture/sprites/${f.furnitureId}`)) {
                 this.onFurnitureLoaded(container, f, `furniture/sprites/${f.furnitureId}`)
