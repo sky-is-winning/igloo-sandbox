@@ -13,6 +13,10 @@ export default class IglooFactory {
     }
 
     createIgloo(args) {
+        if (!args || args.length < 6) {
+            console.error('Invalid arguments for igloo creation.')
+            args = [1, [], 1, 0, 0, 1, []]
+        }
         let config = this.igloos[args[2]]
         let trueKey = `${config.key}-igloo`
 
