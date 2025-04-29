@@ -17,7 +17,6 @@ export default class IglooFactory {
         let trueKey = `${config.key}-igloo`
 
         if (trueKey in this.scene.manager.keys) {
-            console.log(args)
             this.scene.start(trueKey, {args: args})
 
             return this.scene.get(trueKey)

@@ -981,8 +981,6 @@ export default class IglooEdit extends BaseScene {
         let location = this.shell.room.args.location
         iglooData.igloos[currentIgloo] = `${type}%[]%${type}%${flooring}%${music}%${location}%${furniture.join(',')}`
 
-        console.log(`Saved igloo ${currentIgloo}: type ${type}, flooring ${flooring}, music ${music}, location ${location}, furniture ${furniture.join(',')}`)
-
         localStorage.iglooData = JSON.stringify(iglooData)
     }
 
@@ -1147,9 +1145,9 @@ export default class IglooEdit extends BaseScene {
     showMirror(id, x, y) {
         if (this.controls.state == 'minimised') return
         if (!this.mirrorItem) {
-            this.mirrorItem = this.add.image(`furniture/icon/furniture/${id}`, x, y)
+            this.mirrorItem = this.add.image(x, y, 'furniture', `@1.25x/${id}.webp`)
         } else if (this.mirrorItem.id != id) {
-            this.mirrorItem.setTexture(`furniture/icon/furniture/${id}`)
+            this.mirrorItem.setTexture('furniture', `@1.25x/${id}.webp`)
         }
         this.mirrorItem.x = x
         this.mirrorItem.y = y

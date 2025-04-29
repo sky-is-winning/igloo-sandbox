@@ -155,7 +155,6 @@ export default class IglooItem extends Phaser.GameObjects.Container {
         if (this.item.type == 'furniture') {
             this.furnitureLoader.loadFurniture(this.item.id)
             this.scene.shell.events.once(`furnitureLoaded-${this.item.id}`, (key) => {
-                console.log('loaded', key)
                 this.scene.shell.room.onFurnitureLoaded(this.item.id, pointer.x, pointer.y, key, 1, 1, this)
             })
 

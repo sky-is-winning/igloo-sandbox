@@ -33,15 +33,6 @@ export default class FurnitureSprite extends Phaser.GameObjects.Sprite {
             this.setAnim(this.frame.name)
         }
 
-        // Set frames
-        if (this.isWall && this.maxFrames[0] > 1) {
-            // Start new wall item at middle rotation
-            this.updateFrame(0, 2, true)
-        } else {
-            this.updateFrame(0, rotation, true)
-        }
-        this.updateFrame(1, frame, true)
-
         // Set input
         this.setInteractive({draggable: true, pixelPerfect: true})
         this.on('dragend', () => this.drop())
