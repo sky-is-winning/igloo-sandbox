@@ -2,7 +2,6 @@ const path = require('path')
 
 const BannerPlugin = require('./webpack_plugins/BannerPlugin')
 const DefinePlugin = require('webpack').DefinePlugin
-const WebpackObfuscator = require('webpack-obfuscator')
 
 let config = {
     mode: 'development',
@@ -66,10 +65,6 @@ module.exports = (env, argv) => {
                 'process.env.NODE_ENV': JSON.stringify('production'),
                 'VERSION': JSON.stringify(require('./package.json').version)
             }),
-            new WebpackObfuscator({
-                rotateStringArray: true,
-                reservedStrings: ['\s*']
-            }, []),
             new BannerPlugin({
                 banner: `Igloo Sandbox ${require('./package.json').version}. Some content from https://github.com/wizguin/yukon. License: MIT. ${new Date().toISOString()}`
             })
