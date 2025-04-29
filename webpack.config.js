@@ -8,7 +8,7 @@ let config = {
     entry: './src/Game.js',
     output: {
         filename: 'igloo-sandbox.js',
-        path: path.resolve(__dirname, 'dist/assets/scripts/client')
+        path: path.resolve(__dirname, 'assets/scripts/client')
     },
     optimization : {
         minimize: false
@@ -58,6 +58,7 @@ let config = {
 module.exports = (env, argv) => {
     config.output.filename = 'igloo-sandbox.min.js'
     if (argv.mode === 'production') {
+        config.output.path = path.resolve(__dirname, 'dist/assets/scripts/client')
         config.optimization.minimize = true
 
         config.plugins = [

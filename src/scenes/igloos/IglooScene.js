@@ -115,6 +115,8 @@ export default class IglooScene extends RoomScene {
 
         this.addInput()
         this.interface.iglooEdit.hideControls()
+
+        this.iglooEdit.saveIgloo()
     }
 
     addCrates() {
