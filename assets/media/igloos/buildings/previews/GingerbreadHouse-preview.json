@@ -1,0 +1,45 @@
+{
+  "name": "GingerbreadHouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/gingerbreadhouse/gingerbreadhouse-igloo-pack.json",
+    "key": "gingerbreadhouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "gingerbreadhouse-igloo",
+      "frame": "bg-lower",
+      "x": 117,
+      "y": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "gingerbreadhouse-igloo",
+      "frame": "door",
+      "x": 0,
+      "y": 72,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "gingerbreadhouse-igloo",
+      "frame": "bg-upper",
+      "x": 117,
+      "y": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "gingerbreadhouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 981.0723668360147,
+      "originX": 0.5,
+      "originY": 1.0219504065289033
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "DeluxeBlue",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/deluxeblue/deluxeblue-pack.json",
+    "key": "deluxeblue-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "floor",
+      "x": 760,
+      "y": 636,
+      "originX": 0.5003940110323088,
+      "originY": 0.5013477088948787
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "door",
+      "x": 253,
+      "y": 562,
+      "originX": 0.5909090909090909,
+      "originY": 0.9077669902912622
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "wall_1",
+      "x": 321,
+      "y": 389,
+      "originX": 0.5010266940451745,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "wall_2",
+      "x": 762,
+      "y": 295,
+      "originX": 0.5008695652173913,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "wall_3",
+      "x": 1210,
+      "y": 401,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "window",
+      "x": 1072,
+      "y": 485,
+      "originX": 0.5014164305949008,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "window",
+      "x": 529,
+      "y": 481,
+      "originX": 0.5014164305949008,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxeblue",
+      "frame": "chimney",
+      "x": 1127,
+      "y": 133,
+      "originX": 0.5050505050505051,
+      "originY": 0.5
+    }
+  ]
+}

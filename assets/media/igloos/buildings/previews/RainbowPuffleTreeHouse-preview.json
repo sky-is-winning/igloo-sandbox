@@ -1,0 +1,27 @@
+{
+  "name": "RainbowPuffleTreeHouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/rainbowpuffletreehouse/rainbowpuffletreehouse-igloo-pack.json",
+    "key": "rainbowpuffletreehouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "rainbowpuffletreehouse-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "rainbowpuffletreehouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 962.3233904207661,
+      "originX": 0.5,
+      "originY": 1.0024201983549648
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Restaurant",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/restaurant/restaurant-igloo-pack.json",
+    "key": "restaurant-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "restaurant-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "restaurant-igloo",
+      "frame": "door",
+      "x": 263.95654296875,
+      "y": 677.5613403320312,
+      "originX": 0.48485838785635743,
+      "originY": 0.8295572680227559
+    }
+  ]
+}

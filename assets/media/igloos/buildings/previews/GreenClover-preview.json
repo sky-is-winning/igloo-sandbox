@@ -1,0 +1,27 @@
+{
+  "name": "GreenClover",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/greenclover/greenclover-igloo-pack.json",
+    "key": "greenclover-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "greenclover-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "greenclover-igloo",
+      "frame": "door",
+      "x": 685.3360133153067,
+      "y": 316.0552770686766,
+      "originX": 0.43425859398167804,
+      "originY": 0.8752657551378683
+    }
+  ]
+}

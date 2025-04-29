@@ -1,0 +1,36 @@
+{
+  "name": "BambooHut",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/bamboohut/bamboohut-pack.json",
+    "key": "bamboohut-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "bamboohut",
+      "frame": "floor",
+      "x": 769,
+      "y": 691,
+      "originX": 0.5004468275245755,
+      "originY": 0.5017421602787456
+    },
+    {
+      "type": "image",
+      "key": "bamboohut",
+      "frame": "door",
+      "x": 428,
+      "y": 591,
+      "originX": 0.5494505494505495,
+      "originY": 0.9301470588235294
+    },
+    {
+      "type": "image",
+      "key": "bamboohut",
+      "frame": "wall",
+      "x": 760,
+      "y": 402,
+      "originX": 0.5004101722723544,
+      "originY": 0.5
+    }
+  ]
+}

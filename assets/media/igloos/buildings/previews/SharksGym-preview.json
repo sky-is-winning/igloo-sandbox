@@ -1,0 +1,45 @@
+{
+  "name": "SharksGym",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/sharksgym/sharksgym-igloo-pack.json",
+    "key": "sharksgym-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "sharksgym-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "sharksgym-igloo",
+      "frame": "door",
+      "x": 211,
+      "y": 754,
+      "originX": 0.6614634532434245,
+      "originY": 0.7539283342233536
+    },
+    {
+      "type": "image",
+      "key": "sharksgym-igloo",
+      "frame": "bg-upper",
+      "x": 746,
+      "y": 712,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "sharksgym-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 962.2032731464075,
+      "originX": 0.5,
+      "originY": 1.0022950761941745
+    }
+  ]
+}

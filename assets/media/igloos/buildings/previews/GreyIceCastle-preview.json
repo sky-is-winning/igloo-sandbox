@@ -1,0 +1,27 @@
+{
+  "name": "GreyIceCastle",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/greyicecastle/greyicecastle-igloo-pack.json",
+    "key": "greyicecastle-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "greyicecastle-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "greyicecastle-igloo",
+      "frame": "door",
+      "x": 757.8242352528688,
+      "y": 635.7270575860633,
+      "originX": 0.5148643960677305,
+      "originY": 0.9344977312105811
+    }
+  ]
+}

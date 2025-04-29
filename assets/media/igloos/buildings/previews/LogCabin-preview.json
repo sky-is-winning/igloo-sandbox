@@ -1,0 +1,45 @@
+{
+  "name": "LogCabin",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/logcabin/logcabin-pack.json",
+    "key": "logcabin-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "logcabin",
+      "frame": "floor_1",
+      "x": 760,
+      "y": 703,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "logcabin",
+      "frame": "floor_2",
+      "x": 748,
+      "y": 838,
+      "originX": 0.5,
+      "originY": 0.5070422535211268
+    },
+    {
+      "type": "image",
+      "key": "logcabin",
+      "frame": "wall",
+      "x": 760,
+      "y": 426,
+      "originX": 0.5003441156228493,
+      "originY": 0.5006896551724138
+    },
+    {
+      "type": "image",
+      "key": "logcabin",
+      "frame": "door",
+      "x": 418,
+      "y": 666,
+      "originX": 0.4594594594594595,
+      "originY": 0.9302325581395349
+    }
+  ]
+}

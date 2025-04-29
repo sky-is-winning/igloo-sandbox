@@ -1,0 +1,54 @@
+{
+  "name": "DeluxeSnow",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/deluxesnow/deluxesnow-pack.json",
+    "key": "deluxesnow-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "deluxesnow",
+      "frame": "floor",
+      "x": 760,
+      "y": 636,
+      "originX": 0.5003940110323088,
+      "originY": 0.5013477088948787
+    },
+    {
+      "type": "image",
+      "key": "deluxesnow",
+      "frame": "door",
+      "x": 252,
+      "y": 562,
+      "originX": 0.5818181818181818,
+      "originY": 0.9077669902912622
+    },
+    {
+      "type": "image",
+      "key": "deluxesnow",
+      "frame": "wall_1",
+      "x": 321,
+      "y": 389,
+      "originX": 0.5010266940451745,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxesnow",
+      "frame": "wall_2",
+      "x": 762,
+      "y": 295,
+      "originX": 0.5008695652173913,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "deluxesnow",
+      "frame": "wall_3",
+      "x": 1210,
+      "y": 401,
+      "originX": 0.5,
+      "originY": 0.5
+    }
+  ]
+}

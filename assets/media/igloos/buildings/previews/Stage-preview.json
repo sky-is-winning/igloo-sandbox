@@ -1,0 +1,45 @@
+{
+  "name": "Stage",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/stage/stage-igloo-pack.json",
+    "key": "stage-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "stage-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "stage-igloo",
+      "frame": "door",
+      "x": 137.6561528740181,
+      "y": 636.5712463139853,
+      "originX": 0.6593060095001967,
+      "originY": 0.717075180914005
+    },
+    {
+      "type": "image",
+      "key": "stage-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "stage-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 964.4392818771167,
+      "originX": 0.5,
+      "originY": 1.00462425195533
+    }
+  ]
+}

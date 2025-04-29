@@ -1,0 +1,63 @@
+{
+  "name": "SplitLevel",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/splitlevel/splitlevel-pack.json",
+    "key": "splitlevel-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "splitlevel",
+      "frame": "floor",
+      "x": 760,
+      "y": 630,
+      "originX": 0.5003861003861004,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "splitlevel",
+      "frame": "stairs_top",
+      "x": 763,
+      "y": 667,
+      "originX": 0.5,
+      "originY": 0.5035971223021583
+    },
+    {
+      "type": "image",
+      "key": "splitlevel",
+      "frame": "door",
+      "x": 246,
+      "y": 637,
+      "originX": 0.6,
+      "originY": 0.8932038834951457
+    },
+    {
+      "type": "image",
+      "key": "splitlevel",
+      "frame": "wall_1",
+      "x": 757,
+      "y": 380,
+      "originX": 0.5003615328994938,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "splitlevel",
+      "frame": "stairs",
+      "x": 777,
+      "y": 667,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "splitlevel",
+      "frame": "wall_2",
+      "x": 925,
+      "y": 811,
+      "originX": 0.5,
+      "originY": 0.5015197568389058
+    }
+  ]
+}

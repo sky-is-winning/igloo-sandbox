@@ -1,0 +1,36 @@
+{
+  "name": "CandySplitLevel",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/candysplitlevel/candysplitlevel-igloo-pack.json",
+    "key": "candysplitlevel-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "candysplitlevel-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candysplitlevel-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candysplitlevel-igloo",
+      "frame": "door",
+      "x": 247.14441145335877,
+      "y": 644.5391799276589,
+      "originX": 0.5740401041214434,
+      "originY": 0.890966892852713
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "CozyCottage",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/cozycottage/cozycottage-igloo-pack.json",
+    "key": "cozycottage-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "cozycottage-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "cozycottage-igloo",
+      "frame": "door",
+      "x": 228.4616230389906,
+      "y": 375.3638818594334,
+      "originX": 0.5335068898097584,
+      "originY": 0.9320638809646956
+    }
+  ]
+}

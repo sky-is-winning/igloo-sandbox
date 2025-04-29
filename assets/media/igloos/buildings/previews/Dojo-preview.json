@@ -1,0 +1,27 @@
+{
+  "name": "Dojo",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/dojo/dojo-igloo-pack.json",
+    "key": "dojo-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "dojo-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "dojo-igloo",
+      "frame": "door",
+      "x": 521.9537353515625,
+      "y": 607.684457871213,
+      "originX": 0.48974231971909804,
+      "originY": 0.8447979348966812
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "EzrasHideout",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/ezrashideout/ezrashideout-igloo-pack.json",
+    "key": "ezrashideout-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "ezrashideout-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "ezrashideout-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "ezrashideout-igloo",
+      "frame": "door",
+      "x": 392.46917750651227,
+      "y": 374.994848909551,
+      "originX": 0.5228235362270544,
+      "originY": 0.8269032650367347
+    },
+    {
+      "type": "image",
+      "key": "ezrashideout-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 985.707708299273,
+      "originX": 0.5,
+      "originY": 1.0267788628117427
+    }
+  ]
+}

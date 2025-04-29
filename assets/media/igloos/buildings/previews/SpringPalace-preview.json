@@ -1,0 +1,36 @@
+{
+  "name": "SpringPalace",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/springpalace/springpalace-igloo-pack.json",
+    "key": "springpalace-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "springpalace-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "springpalace-igloo",
+      "frame": "door",
+      "x": 175.03652281259787,
+      "y": 492.9391286456702,
+      "originX": 0.20568323939819524,
+      "originY": 0.6733095540872878
+    },
+    {
+      "type": "image",
+      "key": "springpalace-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 977.2632550553474,
+      "originX": 0.5,
+      "originY": 1.0179825573493202
+    }
+  ]
+}

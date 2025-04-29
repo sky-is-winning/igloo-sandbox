@@ -1,0 +1,45 @@
+{
+  "name": "FreshBakedGingerbreadHouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/freshbakedgingerbreadhouse/freshbakedgingerbreadhouse-igloo-pack.json",
+    "key": "freshbakedgingerbreadhouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "freshbakedgingerbreadhouse-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "freshbakedgingerbreadhouse-igloo",
+      "frame": "door",
+      "x": 378.6904602050781,
+      "y": 693.6478881835938,
+      "originX": 0.7120331394617873,
+      "originY": 0.9085156995062353
+    },
+    {
+      "type": "image",
+      "key": "freshbakedgingerbreadhouse-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "freshbakedgingerbreadhouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 963.3509157454945,
+      "originX": 0.5,
+      "originY": 1.0034905372348901
+    }
+  ]
+}

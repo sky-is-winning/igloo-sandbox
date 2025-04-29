@@ -1,0 +1,45 @@
+{
+  "name": "SpaceDome",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/spacedome/spacedome-igloo-pack.json",
+    "key": "spacedome-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "spacedome-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "spacedome-igloo",
+      "frame": "door",
+      "x": 294,
+      "y": 417,
+      "originX": 0.5541101037566035,
+      "originY": 0.8394827491226905
+    },
+    {
+      "type": "image",
+      "key": "spacedome-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "spacedome-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 964.9881605335881,
+      "originX": 0.5,
+      "originY": 1.005196000555821
+    }
+  ]
+}

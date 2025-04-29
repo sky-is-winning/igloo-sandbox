@@ -1,0 +1,27 @@
+{
+  "name": "Penthouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/penthouse/penthouse-igloo-pack.json",
+    "key": "penthouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "penthouse-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "penthouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 964.9881605335881,
+      "originX": 0.5,
+      "originY": 1.005196000555821
+    }
+  ]
+}

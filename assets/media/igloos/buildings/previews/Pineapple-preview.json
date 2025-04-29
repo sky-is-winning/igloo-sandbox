@@ -1,0 +1,36 @@
+{
+  "name": "Pineapple",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/pineapple/pineapple-igloo-pack.json",
+    "key": "pineapple-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "pineapple-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "pineapple-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "pineapple-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 962.1435010445438,
+      "originX": 0.5,
+      "originY": 1.0022328254060198
+    }
+  ]
+}

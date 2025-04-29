@@ -1,45 +1,77 @@
-const fs = require('fs')
-const path = require('path')
+const fs = require('fs');
+const path = require('path');
 
-// Function to generate a preview file based on a source file
-function generatePreview(sourceFilePath) {
-    const sourceFileName = path.basename(sourceFilePath, '.js')
-    const previewFileName = sourceFilePath.replace(sourceFileName, `${sourceFileName}-preview`)
+const inputDir = './src/scenes/igloos';     // adjust this to where your scene files are
+const outputDir = './preview-jsons'; // adjust this if you want output elsewhere
 
-    // Read the content of the source file
-    fs.readFile(sourceFilePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error(`Error reading source file: ${err}`)
-            return
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+
+function extractPreviewData(fileContent, filename) {
+    const assetPackMatch = fileContent.match(/this\.load\.pack\(\s*['"`](.+?)['"`]\s*,\s*['"`](.+?)['"`]\s*\)/);
+    if (!assetPackMatch) return null;
+
+    const [_, packKey, packPath] = assetPackMatch;
+
+    const lines = fileContent.split('\n');
+    const objects = [];
+
+    let lastAddedObject = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        const addMatch = line.match(/this\.add\.(image|sprite)\(\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*['"`](.+?)['"`]\s*,\s*['"`](.+?)['"`]\s*\)/);
+        if (addMatch) {
+            const [_, type, x, y, key, frame] = addMatch;
+            lastAddedObject = {
+                type,
+                key,
+                frame,
+                x: Number(x),
+                y: Number(y),
+                originX: 0.5,
+                originY: 0.5
+            };
+            objects.push(lastAddedObject);
+            continue;
         }
 
-        // Modify the content to generate the preview
-        let previewContent = data.replace(/super\([^)]*\)/, '')
-        previewContent = previewContent.replace('\n\n', '\n')
-        previewContent = previewContent.replace(/constructor\(\) {/, `constructor() {\n        super(\`${sourceFileName}-preview-\${Date.now()}\${Phaser.Math.Between(0,10000)}\`)`)
-        previewContent = previewContent.replace(/\/\* END-USER-CTR-CODE \*/, 'this.isPreview = true\n\n        /* END-USER-CTR-CODE *')
+        const originMatch = line.match(/\.setOrigin\(\s*([\d.]+)\s*,\s*([\d.]+)\s*\)/);
+        if (originMatch && lastAddedObject) {
+            lastAddedObject.originX = Number(originMatch[1]);
+            lastAddedObject.originY = Number(originMatch[2]);
+        }
+    }
 
-        // Write the modified content to the preview file
-        fs.writeFile(previewFileName, previewContent, 'utf8', (err) => {
-            if (err) {
-                console.error(`Error writing preview file: ${err}`)
-            } else {
-                console.log(`Preview file '${previewFileName}' generated successfully.`)
-            }
-        })
-    })
+    const sceneName = path.basename(filename).replace(/\.(js|ts)$/, '');
+    return {
+        name: sceneName,
+        assets: {
+            pack: packPath,
+            key: packKey
+        },
+        objects
+    };
 }
 
-// Call the function to generate the preview
-//generatePreview(sourceFilePath);
-
-let folders = fs.readdirSync('./src/scenes/igloos')
-folders.forEach((folder) => {
-    if (!folder.includes('crates') && !folder.includes('.')) {
-        fs.readdirSync(`./src/scenes/igloos/${folder}`).forEach((file) => {
-            if (file.includes('.js') && !file.includes('preview')) {
-                generatePreview(`./src/scenes/igloos/${folder}/${file}`)
+function walk(dir) {
+    const files = fs.readdirSync(dir);
+    for (const file of files) {
+        const full = path.join(dir, file);
+        if (fs.statSync(full).isDirectory()) {
+            walk(full);
+        } else if (file.endsWith('.js') || file.endsWith('.ts')) {
+            const content = fs.readFileSync(full, 'utf-8');
+            const data = extractPreviewData(content, file);
+            if (data && data.objects.length > 0) {
+                const outFile = path.join(outputDir, `${data.name}-preview.json`);
+                fs.writeFileSync(outFile, JSON.stringify(data, null, 2));
+                console.log(`✅ Created ${outFile}`);
+            } else {
+                console.warn(`⚠️  No objects found in ${file}`);
             }
-        })
+        }
     }
-})
+}
+
+walk(inputDir);

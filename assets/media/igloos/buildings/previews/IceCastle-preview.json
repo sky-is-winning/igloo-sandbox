@@ -1,0 +1,45 @@
+{
+  "name": "IceCastle",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/icecastle/icecastle-igloo-pack.json",
+    "key": "icecastle-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "icecastle-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 634,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "icecastle-igloo",
+      "frame": "door",
+      "x": 758.8427484645825,
+      "y": 639.3832146853995,
+      "originX": 0.5202249919188555,
+      "originY": 0.9532472547969204
+    },
+    {
+      "type": "image",
+      "key": "icecastle-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "icecastle-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    }
+  ]
+}

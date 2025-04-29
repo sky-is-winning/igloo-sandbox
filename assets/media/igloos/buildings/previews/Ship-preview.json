@@ -1,0 +1,27 @@
+{
+  "name": "Ship",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/ship/ship-igloo-pack.json",
+    "key": "ship-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "ship-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "ship-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 967.6529306464103,
+      "originX": 0.5,
+      "originY": 1.0079718027566773
+    }
+  ]
+}

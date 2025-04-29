@@ -1,0 +1,45 @@
+{
+  "name": "CreepyCavern",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/creepycavern/creepycavern-igloo-pack.json",
+    "key": "creepycavern-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "creepycavern-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "creepycavern-igloo",
+      "frame": "door",
+      "x": 687,
+      "y": 416,
+      "originX": 0.5228700011111012,
+      "originY": 0.7960958252944188
+    },
+    {
+      "type": "image",
+      "key": "creepycavern-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "creepycavern-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 1016.4177455978373,
+      "originX": 0.5,
+      "originY": 1.0587684849977472
+    }
+  ]
+}

@@ -7,6 +7,8 @@ import IglooFactory from '@engine/world/room/IglooFactory'
 import IglooMusic from './igloomusic/IglooMusic'
 import IglooItem from './IglooItem'
 
+import FurnitureSprite from '@engine/world/room/furniture/FurnitureSprite'
+
 /* START OF COMPILED CODE */
 
 export default class IglooEdit extends BaseScene {
@@ -594,6 +596,7 @@ export default class IglooEdit extends BaseScene {
     }
 
     create() {
+        this.isIglooEdit = true
         this._create()
 
         this.clientEmu = {
@@ -650,8 +653,6 @@ export default class IglooEdit extends BaseScene {
         if (this.boundaries == null) {
             this.setBoundaries(true)
         }
-
-        setInterval(() => this.checkForBrokenPreviews(), 500)
     }
 
     setBoundaries(enabled) {
@@ -762,103 +763,159 @@ export default class IglooEdit extends BaseScene {
         this.createPreviews()
     }
 
-    createPreviews() {
-        this.previews = []
+    async createPreviews() {
+        this.previews = [];
 
-        let main = this.iglooFactory.createIglooPreview(this.shell.room.argsToData(), 0)
+        const iglooData = JSON.parse(localStorage.iglooData);
 
-        if (main.created) {
-            this.scalePreview(main, 0)
-        } else {
-            main.events.once('create', () => {
-                this.scalePreview(main, 0)
-            })
-        }
+        const mainData = iglooData.igloos[0].split('%');
 
-        let iglooData = JSON.parse(localStorage.iglooData)
+        const mainPreview = await this.createPreviewFromJSON(mainData, 0);
+        this.scalePreviewContainer(mainPreview, 0);
+        this.previews.push(mainPreview);
 
+        // Create remaining previews (positions 1–4)
         for (let i = 0; i < 4; i++) {
-            let data = iglooData.igloos[i].split('%')
-            data[0] = i
-            setTimeout(() => this.createPreview(data), 10 + i * 10)
-        }
+            const data = iglooData.igloos[i]?.split('%');
+            if (!data) continue;
 
-        this.previews.push(main)
+            const preview = await this.createPreviewFromJSON(data, i);
+            preview.inputEnabled = true;
+            preview.setInteractive();
+            preview.on('pointerdown', () => this.switchIgloo(i));
+            this.scalePreviewContainer(preview, i+1);
+            this.previews.push(preview);
+        }
     }
 
-    createPreview(data) {
-        const id = parseInt(data[0])
-        data[0] = this.clientEmu.id + 2000
+    async createPreviewFromJSON(data, position) {
+        const iglooKey = this.shell.crumbs.scenes.igloos[data[0]].key;
+        const jsonPath = `assets/media/igloos/buildings/previews/${iglooKey}-preview.json`;
 
-        let preview = this.iglooFactory.createIglooPreview(data, id + 1)
-        if (preview.created) {
-            this.scalePreview(preview, id + 1)
-        } else {
-            preview.events.once('create', () => {
-                this.scalePreview(preview, id + 1)
+        const previewData = await fetch(jsonPath).then(res => res.json());
+
+        if (!this.textures.exists(previewData.assets.key)) {
+            this.load.pack(previewData.assets.key, previewData.assets.pack);
+    
+            await new Promise(resolve => {
+                this.load.once('complete', resolve);
+                this.load.start();
+            });
+        }
+
+        const container = this.add.container(0, 0);
+        container.setSize(800, 600);
+        container.setInteractive();
+
+        // Add location
+        const locationId = data[5];
+        
+        if (!this.textures.exists(`locations/${locationId}`)) {
+            this.load.image(`locations/${locationId}`, `/assets/media/igloos/locations/sprites/${locationId}.webp`);
+            await new Promise(resolve => {
+                this.load.once('complete', resolve);
+                this.load.start();
+            });
+        }
+
+        const location = this.add.image(0, 0, `locations/${locationId}`);
+        location.setOrigin(0, 0);
+        container.add(location);
+
+        for (const obj of previewData.objects) {
+            let item;
+            if (obj.type === 'image') {
+                item = this.add.image(obj.x, obj.y, obj.key, obj.frame);
+            } else if (obj.type === 'sprite') {
+                item = this.add.sprite(obj.x, obj.y, obj.key, obj.frame);
+            }
+            item.setOrigin(obj.originX, obj.originY);
+            container.add(item);
+        }
+
+        // Add furniture
+        let furniture = (data[6] || '').split(',').map((f) => {
+            let [id, furnitureId, x, y, frame, rotation] = f.split('|')
+            return {id, furnitureId, x, y, frame, rotation}
+        })
+        
+        for (let f of furniture) {
+            if (this.textures.exists(`furniture/sprites/${f.furnitureId}`)) {
+                this.onFurnitureLoaded(container, f, `furniture/sprites/${f.furnitureId}`)
+                continue
+            }
+
+            this.shell.room.loader.loadFurniture(f.furnitureId)
+            this.shell.events.once(`furnitureLoaded-${f.furnitureId}`, (key) => {
+                this.onFurnitureLoaded(container, f, key)
             })
         }
+        this.shell.room.loader.start()
 
-        preview.input.on('pointerdown', () => this.switchIgloo(id))
+        this.chooseIgloo.add(container);
 
-        this.previews.push(preview)
+        return container;
     }
 
-    scalePreview(preview, position) {
-        if (this.lastScale != window.currentScale) {
-            this.createMasks()
+    onFurnitureLoaded(container, f, key) {
+        let furniture = new FurnitureSprite(this, f.furnitureId, f.x, f.y, key, f.rotation, f.frame)
+        container.add(furniture)
+    }
+
+    scalePreviewContainer(container, position) {
+        if (this.lastScale !== window.currentScale) {
+            this.createMasks();
         }
-        this.lastScale = window.currentScale
-        this.shell.events.on('updateScaling', () => this.scalePreview(preview, position))
-        let scale, x, y, mask
+
+        this.lastScale = window.currentScale;
+        this.shell.events.on('updateScaling', () => this.scalePreviewContainer(container, position));
+
+        let scale, x, y, mask;
 
         switch (position) {
             case 0:
-                scale = 0.42
-                x = 160
-                y = 122
-                mask = this.previewMask0
-                break
+                scale = 0.42;
+                x = 160;
+                y = 122;
+                mask = this.previewMask0;
+                break;
             case 1:
-                scale = 0.21
-                x = 87
-                y = 626
-                mask = this.previewMask1
-                break
+                scale = 0.21;
+                x = 87;
+                y = 626;
+                mask = this.previewMask1;
+                break;
             case 2:
-                scale = 0.21
-                x = 428
-                y = 626
-                mask = this.previewMask2
-                break
+                scale = 0.21;
+                x = 428;
+                y = 626;
+                mask = this.previewMask2;
+                break;
             case 3:
-                scale = 0.21
-                x = 768
-                y = 626
-                mask = this.previewMask3
-                break
+                scale = 0.21;
+                x = 768;
+                y = 626;
+                mask = this.previewMask3;
+                break;
             case 4:
-                scale = 0.21
-                x = 1108
-                y = 626
-                mask = this.previewMask4
-                break
+                scale = 0.21;
+                x = 1108;
+                y = 626;
+                mask = this.previewMask4;
+                break;
         }
 
-        preview.cameras.main.setZoom(scale * window.currentScale)
-        preview.cameras.main.trueScale = scale
-        preview.cameras.main.setOrigin(0, 0)
-        preview.cameras.main.x = x * window.currentScale
-        preview.cameras.main.y = y * window.currentScale
-        preview.cameras.main.setMask(mask)
+        container.setScale(scale * window.currentScale);
+        container.x = x * window.currentScale;
+        container.y = y * window.currentScale;
 
-        this.shell.scene.bringToTop(preview)
+        container.setMask(mask);
+        this.shell.children.bringToTop(container);
     }
 
     closeChooseIgloo() {
         this.chooseIgloo.visible = false
 
-        this.previews.forEach((preview) => preview.stop())
         this.shell.events.off('updateScaling')
     }
 
@@ -866,23 +923,9 @@ export default class IglooEdit extends BaseScene {
         this.chooseIgloo.visible = false
         this.iglooMusic.close()
         this.shell.events.off('updateScaling')
-        this.previews.forEach((preview) => preview.stop())
         this.shell.room.hidePenguins()
         this.shell.room.enableFurnitureInput()
         this.showControls()
-    }
-
-    checkForBrokenPreviews() {
-        if (this.chooseIgloo.visible || !this.scene.isActive()) {
-            return
-        } else {
-            console.log('checking for broken previews')
-            this.scene.manager.scenes.forEach((scene) => {
-                if (scene.scene.key.includes('preview') && scene.scene.isActive()) {
-                    scene.stop()
-                }
-            })
-        }
     }
 
     onSaveClick() {
@@ -905,8 +948,6 @@ export default class IglooEdit extends BaseScene {
 
     saveIgloo() {
         if (!this.shell.room || !this.shell.room.args) return
-
-        console.log(this.shell.room.args)
 
         if (this.shell.room.selected) {
             this.shell.room.selected.drop()

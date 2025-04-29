@@ -1,0 +1,45 @@
+{
+  "name": "InHalf",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/inhalf/inhalf-igloo-pack.json",
+    "key": "inhalf-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "inhalf-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "inhalf-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "inhalf-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 997.435028120684,
+      "originX": 0.5,
+      "originY": 1.0389948209590458
+    },
+    {
+      "type": "image",
+      "key": "inhalf-igloo",
+      "frame": "fg-again",
+      "x": 760,
+      "y": 1003.5585195777335,
+      "originX": 0.5,
+      "originY": 1.0453734578934724
+    }
+  ]
+}

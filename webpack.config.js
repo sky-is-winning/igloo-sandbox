@@ -61,20 +61,19 @@ module.exports = (env, argv) => {
     if (argv.mode === 'production') {
         config.optimization.minimize = true
 
-        if (env.obfuscate === 'true') {
-            config.plugins.push(
-                new WebpackObfuscator({
-                    rotateStringArray: true,
-                    reservedStrings: ['\s*']
-                }, [])
-            )
-        }
-
-        config.plugins.push(
+        config.plugins = [
+            new DefinePlugin({
+                'process.env.NODE_ENV': JSON.stringify('production'),
+                'VERSION': JSON.stringify(require('./package.json').version)
+            }),
+            new WebpackObfuscator({
+                rotateStringArray: true,
+                reservedStrings: ['\s*']
+            }, []),
             new BannerPlugin({
                 banner: `Igloo Sandbox ${require('./package.json').version}. Some content from https://github.com/wizguin/yukon. License: MIT. ${new Date().toISOString()}`
             })
-        )
+        ]
     }
 
     return config

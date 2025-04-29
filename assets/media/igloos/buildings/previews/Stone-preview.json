@@ -1,0 +1,45 @@
+{
+  "name": "Stone",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/stone/stone-pack.json",
+    "key": "stone-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "stone",
+      "frame": "floor",
+      "x": 765,
+      "y": 639,
+      "originX": 0.5006337135614702,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "stone",
+      "frame": "wall_1",
+      "x": 570,
+      "y": 378,
+      "originX": 0.5010266940451745,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "stone",
+      "frame": "wall_2",
+      "x": 972,
+      "y": 388,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "stone",
+      "frame": "door",
+      "x": 501,
+      "y": 547,
+      "originX": 0.5909090909090909,
+      "originY": 0.8883495145631068
+    }
+  ]
+}

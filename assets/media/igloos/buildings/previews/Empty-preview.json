@@ -1,0 +1,8 @@
+{
+  "name": "Empty",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/empty/empty-pack.json",
+    "key": "empty-pack"
+  },
+  "objects": []
+}

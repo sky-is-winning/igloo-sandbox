@@ -22,19 +22,4 @@ export default class IglooFactory {
             return this.scene.add(config.key, config.scene, true, {args: args})
         }
     }
-
-    createIglooPreview(args, id) {
-        let config = this.igloos[args[2]]
-        let key = `${config.key}-preview-${id}`
-
-        if (key in this.scene.manager.keys) {
-            this.scene.start(key, {args: args})
-
-            this.shell.scene.bringToTop(key)
-            return this.scene.get(key)
-        } else {
-            this.shell.scene.bringToTop(key)
-            return this.scene.add(key, config.preview, true, {args: args})
-        }
-    }
 }

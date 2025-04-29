@@ -1,0 +1,72 @@
+{
+  "name": "BeachParty",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/beachparty/beachparty-igloo-pack.json",
+    "key": "beachparty-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "beachparty-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "beachparty-igloo",
+      "frame": "bg-middle",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "beachparty-igloo",
+      "frame": "door",
+      "x": 229,
+      "y": 330.95607374795964,
+      "originX": 0.5,
+      "originY": 0.7932161966612257
+    },
+    {
+      "type": "image",
+      "key": "beachparty-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "sprite",
+      "key": "beachparty-igloo",
+      "frame": "water-anim-lower0001",
+      "x": 1367,
+      "y": 661,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "sprite",
+      "key": "beachparty-igloo",
+      "frame": "water-anim-upper0001",
+      "x": 1334,
+      "y": 340,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "beachparty-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 980.0929316408556,
+      "originX": 0.5,
+      "originY": 1.0209301371258912
+    }
+  ]
+}

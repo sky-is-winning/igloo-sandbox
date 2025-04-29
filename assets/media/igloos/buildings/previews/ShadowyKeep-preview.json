@@ -1,0 +1,36 @@
+{
+  "name": "ShadowyKeep",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/shadowykeep/shadowykeep-igloo-pack.json",
+    "key": "shadowykeep-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "shadowykeep-igloo",
+      "frame": "bg-lower",
+      "x": 758,
+      "y": 639,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "shadowykeep-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "shadowykeep-igloo",
+      "frame": "door",
+      "x": 755,
+      "y": 643,
+      "originX": 0.5052631578947369,
+      "originY": 0.9666666666666667
+    }
+  ]
+}

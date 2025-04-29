@@ -1,0 +1,8 @@
+{
+  "name": "RoomBuffer",
+  "assets": {
+    "pack": "assets/media/rooms/town/town-pack.json",
+    "key": "town-pack"
+  },
+  "objects": []
+}

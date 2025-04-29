@@ -1,0 +1,45 @@
+{
+  "name": "CPAirliner",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/cpairliner/cpairliner-igloo-pack.json",
+    "key": "cpairliner-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "cpairliner-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "cpairliner-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 1010.2892524515606,
+      "originX": 0.5,
+      "originY": 1.0523846379703756
+    },
+    {
+      "type": "image",
+      "key": "cpairliner-igloo",
+      "frame": "door",
+      "x": 150.28874992305697,
+      "y": 559.7271871729922,
+      "originX": 0.36621742656648976,
+      "originY": 0.7701969928361644
+    },
+    {
+      "type": "image",
+      "key": "cpairliner-igloo",
+      "frame": "door2",
+      "x": 409.87744411491667,
+      "y": 330.156191757789,
+      "originX": 0.4912394456197931,
+      "originY": 1.006144588526023
+    }
+  ]
+}

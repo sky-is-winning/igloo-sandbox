@@ -1,0 +1,27 @@
+{
+  "name": "BlackPuffleTreeHouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/blackpuffletreehouse/blackpuffletreehouse-igloo-pack.json",
+    "key": "blackpuffletreehouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "blackpuffletreehouse-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "blackpuffletreehouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 1000.9141046033844,
+      "originX": 0.5,
+      "originY": 1.0426188589618588
+    }
+  ]
+}

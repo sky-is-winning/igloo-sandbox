@@ -1,0 +1,18 @@
+{
+  "name": "JackOLantern",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/jackolantern/jackolantern-igloo-pack.json",
+    "key": "jackolantern-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "jackolantern-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    }
+  ]
+}

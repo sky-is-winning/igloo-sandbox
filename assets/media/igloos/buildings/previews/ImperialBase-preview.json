@@ -1,0 +1,36 @@
+{
+  "name": "ImperialBase",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/imperialbase/imperialbase-igloo-pack.json",
+    "key": "imperialbase-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "imperialbase-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "imperialbase-igloo",
+      "frame": "door",
+      "x": 1463.5797817763448,
+      "y": 818.2601171409206,
+      "originX": 0.9194124436263208,
+      "originY": 0.8260854983351174
+    },
+    {
+      "type": "image",
+      "key": "imperialbase-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    }
+  ]
+}

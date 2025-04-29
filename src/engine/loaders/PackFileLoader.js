@@ -13,7 +13,7 @@ export default class PackFileLoader extends BaseLoader {
             return
         }
 
-        this.pack(key, url)
+        (process.env.NODE_ENV == "production") ? this.yaspak(key, url, this) : this.pack(key, url)
         this.start()
     }
 

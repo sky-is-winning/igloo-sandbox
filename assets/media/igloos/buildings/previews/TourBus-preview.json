@@ -1,0 +1,27 @@
+{
+  "name": "TourBus",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/tourbus/tourbus-igloo-pack.json",
+    "key": "tourbus-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "tourbus-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "tourbus-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 980.5598978210556,
+      "originX": 0.5,
+      "originY": 1.0214165602302663
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "WildlifeDen",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/wildlifeden/wildlifeden-igloo-pack.json",
+    "key": "wildlifeden-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "wildlifeden-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "wildlifeden-igloo",
+      "frame": "bg_upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "wildlifeden-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 964.9881605335881,
+      "originX": 0.5,
+      "originY": 1.005196000555821
+    }
+  ]
+}

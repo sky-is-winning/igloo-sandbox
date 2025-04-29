@@ -1,0 +1,36 @@
+{
+  "name": "GhostlyCavern",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/ghostlycavern/ghostlycavern-igloo-pack.json",
+    "key": "ghostlycavern-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "ghostlycavern-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "ghostlycavern-igloo",
+      "frame": "door",
+      "x": 644.2223192223685,
+      "y": 385.112469113158,
+      "originX": 0.539632606511901,
+      "originY": 0.8754847806601638
+    },
+    {
+      "type": "image",
+      "key": "ghostlycavern-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 969.9014391839448,
+      "originX": 0.5,
+      "originY": 1.0103139991499426
+    }
+  ]
+}

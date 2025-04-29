@@ -1,0 +1,27 @@
+{
+  "name": "Warehouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/warehouse/warehouse-igloo-pack.json",
+    "key": "warehouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "warehouse-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "warehouse-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    }
+  ]
+}

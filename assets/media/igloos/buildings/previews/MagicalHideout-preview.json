@@ -1,0 +1,27 @@
+{
+  "name": "MagicalHideout",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/magicalhideout/magicalhideout-igloo-pack.json",
+    "key": "magicalhideout-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "magicalhideout-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "magicalhideout-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 999.630172000273,
+      "originX": 0.5,
+      "originY": 1.041281429166951
+    }
+  ]
+}

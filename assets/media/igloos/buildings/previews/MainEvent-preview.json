@@ -1,0 +1,27 @@
+{
+  "name": "MainEvent",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/mainevent/mainevent-igloo-pack.json",
+    "key": "mainevent-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "mainevent-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "mainevent-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 980.9767912736692,
+      "originX": 0.5,
+      "originY": 1.021850813760958
+    }
+  ]
+}

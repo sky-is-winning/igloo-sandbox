@@ -1,0 +1,27 @@
+{
+  "name": "Theatre",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/theatre/theatre-igloo-pack.json",
+    "key": "theatre-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "theatre-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "theatre-igloo",
+      "frame": "door",
+      "x": 205.3322599034576,
+      "y": 638.7384703087979,
+      "originX": 0.5700189907853581,
+      "originY": 0.6648899182937672
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "WhalesMouth",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/whalesmouth/whalesmouth-igloo-pack.json",
+    "key": "whalesmouth-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "whalesmouth-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "whalesmouth-igloo",
+      "frame": "exit-en",
+      "x": 740,
+      "y": 316,
+      "originX": 0.5,
+      "originY": 0.5
+    }
+  ]
+}

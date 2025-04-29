@@ -2,6 +2,8 @@ import fonts from './fonts'
 import igloos from './igloos'
 import rooms from './rooms'
 
+import YaspakLoaderPlugin from '@engine/loaders/YaspakLoaderPlugin'
+
 if (!localStorage.getItem('webgl')) {
     localStorage.setItem('webgl', 'true')
 }
@@ -65,7 +67,11 @@ const game = {
             igloos: igloos,
             rooms: rooms
         }
-    }
+    },
+
+    plugins: {
+        global: [{ key: 'YaspakLoaderPlugin', plugin: YaspakLoaderPlugin, start: true }]
+    },
 }
 
 export default game

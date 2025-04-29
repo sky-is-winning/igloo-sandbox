@@ -1,0 +1,45 @@
+{
+  "name": "DragonsLair",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/dragonslair/dragonslair-igloo-pack.json",
+    "key": "dragonslair-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "dragonslair-igloo",
+      "frame": "bg-lower-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "dragonslair-igloo",
+      "frame": "bg-lower-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "dragonslair-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 656,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "dragonslair-igloo",
+      "frame": "door",
+      "x": 758,
+      "y": 674,
+      "originX": 0.48402590063732504,
+      "originY": 1.006368509208996
+    }
+  ]
+}

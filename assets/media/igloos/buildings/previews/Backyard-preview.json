@@ -1,0 +1,27 @@
+{
+  "name": "Backyard",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/backyard/backyard-igloo-pack.json",
+    "key": "backyard-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "backyard-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "backyard-igloo",
+      "frame": "door",
+      "x": 677.7786964525617,
+      "y": 314.9572825204803,
+      "originX": 0.39645371736436524,
+      "originY": 0.8507561659638476
+    }
+  ]
+}

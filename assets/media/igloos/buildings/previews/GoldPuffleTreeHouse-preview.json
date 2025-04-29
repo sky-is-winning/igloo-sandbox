@@ -1,0 +1,27 @@
+{
+  "name": "GoldPuffleTreeHouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/goldpuffletreehouse/goldpuffletreehouse-igloo-pack.json",
+    "key": "goldpuffletreehouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "goldpuffletreehouse-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "goldpuffletreehouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 1023.7504585647256,
+      "originX": 0.5,
+      "originY": 1.0664067276715892
+    }
+  ]
+}

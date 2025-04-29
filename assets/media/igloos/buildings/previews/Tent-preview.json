@@ -1,0 +1,27 @@
+{
+  "name": "Tent",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/tent/tent-igloo-pack.json",
+    "key": "tent-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "tent-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "tent-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 994.1047699026867,
+      "originX": 0.5097534998526223,
+      "originY": 0.9213511936332885
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Gymnasium",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/gymnasium/gymnasium-igloo-pack.json",
+    "key": "gymnasium-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "gymnasium-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "gymnasium-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 973.6767658005932,
+      "originX": 0.5,
+      "originY": 1.0142466310422846
+    },
+    {
+      "type": "image",
+      "key": "gymnasium-igloo",
+      "frame": "door",
+      "x": 204.67768430732596,
+      "y": 729.6797376891021,
+      "originX": 0.5786803602221623,
+      "originY": 0.7065359455831759
+    }
+  ]
+}

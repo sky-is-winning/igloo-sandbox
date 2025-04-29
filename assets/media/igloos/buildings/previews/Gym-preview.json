@@ -1,0 +1,54 @@
+{
+  "name": "Gym",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/gym/gym-pack.json",
+    "key": "gym-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "gym",
+      "frame": "wood",
+      "x": 1342,
+      "y": 742,
+      "originX": 0.5084745762711864,
+      "originY": 0.5185185185185185
+    },
+    {
+      "type": "image",
+      "key": "gym",
+      "frame": "wood",
+      "x": 177,
+      "y": 742,
+      "originX": 0.5084745762711864,
+      "originY": 0.5185185185185185
+    },
+    {
+      "type": "image",
+      "key": "gym",
+      "frame": "floor",
+      "x": 760,
+      "y": 753,
+      "originX": 0.5004095004095004,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "gym",
+      "frame": "wall",
+      "x": 760,
+      "y": 400,
+      "originX": 0.5003903200624512,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "gym",
+      "frame": "door",
+      "x": 337,
+      "y": 655,
+      "originX": 0.4745762711864407,
+      "originY": 0.9038461538461539
+    }
+  ]
+}

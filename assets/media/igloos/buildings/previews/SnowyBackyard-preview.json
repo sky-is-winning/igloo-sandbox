@@ -1,0 +1,27 @@
+{
+  "name": "SnowyBackyard",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/snowybackyard/snowybackyard-igloo-pack.json",
+    "key": "snowybackyard-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "snowybackyard-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "snowybackyard-igloo",
+      "frame": "door",
+      "x": 680,
+      "y": 318,
+      "originX": 0.4387755102040816,
+      "originY": 0.8557692307692307
+    }
+  ]
+}

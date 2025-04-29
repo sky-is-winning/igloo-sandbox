@@ -1,0 +1,45 @@
+{
+  "name": "TrainStation",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/trainstation/trainstation-igloo-pack.json",
+    "key": "trainstation-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "trainstation-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "trainstation-igloo",
+      "frame": "door",
+      "x": 213.32162953120633,
+      "y": 533.8495897445486,
+      "originX": 0.3490670182286467,
+      "originY": 0.7170441225472356
+    },
+    {
+      "type": "image",
+      "key": "trainstation-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "trainstation-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 962.2032731464072,
+      "originX": 0.5,
+      "originY": 1.0022950761941742
+    }
+  ]
+}

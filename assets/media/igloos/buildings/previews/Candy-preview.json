@@ -1,0 +1,63 @@
+{
+  "name": "Candy",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/candy/candy-pack.json",
+    "key": "candy-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "candy",
+      "frame": "floor",
+      "x": 765,
+      "y": 639,
+      "originX": 0.5006337135614702,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candy",
+      "frame": "wall_1",
+      "x": 570,
+      "y": 378,
+      "originX": 0.5010266940451745,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candy",
+      "frame": "wall_2",
+      "x": 972,
+      "y": 388,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candy",
+      "frame": "chimney",
+      "x": 887,
+      "y": 120,
+      "originX": 0.5050505050505051,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candy",
+      "frame": "window",
+      "x": 828,
+      "y": 476,
+      "originX": 0.5014164305949008,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "candy",
+      "frame": "door",
+      "x": 498,
+      "y": 551,
+      "originX": 0.5636363636363636,
+      "originY": 0.9077669902912622
+    }
+  ]
+}

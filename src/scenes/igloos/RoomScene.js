@@ -33,8 +33,6 @@ export default class RoomScene extends BaseScene {
 
         if (this.roomPhysics) this.addPhysics()
 
-        if (this.isPreview) return
-
         this.sound.pauseOnBlur = false
         if (!this.music) this.music = 0
         this.addMusic()

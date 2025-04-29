@@ -29,12 +29,11 @@ export default class IglooScene extends RoomScene {
     }
 
     init(data) {
-        console.log('IglooScene init', data)
         this.args = this.dataToArgs(data)
 
         this.id = this.args.igloo
         this.music = this.args.music
-        if (!this.isPreview) this.updateMusic(this.music)
+        this.updateMusic(this.music)
 
         this.loader = new FurnitureLoader(this)
 
@@ -97,7 +96,6 @@ export default class IglooScene extends RoomScene {
     }
 
     onShutdown() {
-        if (this.isPreview) return
         this.interface.hideIglooEdit()
     }
 
@@ -114,8 +112,6 @@ export default class IglooScene extends RoomScene {
         this.loadAllFurniture()
 
         this.created = true
-
-        if (this.isPreview) return this.scene.bringToTop(this)
 
         this.addInput()
         this.interface.iglooEdit.hideControls()
@@ -203,11 +199,19 @@ export default class IglooScene extends RoomScene {
 
     loadAllFurniture() {
         for (let f of this.args.furniture) {
-            console.log('loadAllFurniture', f)
             this.updateQuantity(f.furnitureId)
-            this.loader.loadFurniture(f.furnitureId, null, f.x, f.y, f.rotation, f.frame, this)
+            this.loader.loadFurniture(f.furnitureId)
+            this.shell.events.once(`furnitureLoaded-${f.furnitureId}`, (key) => {
+                this.onFurnitureLoaded(f.furnitureId, f.x, f.y, key, f.rotation, f.frame, this)
+            })
         }
         this.loader.start()
+    }
+
+    onFurnitureLoaded(item, x, y, key, rotation, frame, context = null) {
+        let sprite = new FurnitureSprite(this, item, x, y, key, rotation, frame)
+        if (context) context.setSprite(sprite)
+        this.add.existing(sprite)
     }
 
     updateFurniture(furniture) {
@@ -227,11 +231,14 @@ export default class IglooScene extends RoomScene {
         // Empty method to prevent errors
     }
 
-    loadFurniture(item) {
+    loadFurniture(item, x, y) {
         let crate = this.crumbs.furniture[item].type == 2 ? this.wallCrate : this.roomCrate
 
         this.updateQuantity(item)
-        this.loader.loadFurniture(item, crate, crate.defaultX, crate.defaultY)
+        this.loader.loadFurniture(item)
+        this.shell.events.once(`furnitureLoaded-${item}`, (key) => {
+            this.onFurnitureLoaded(item, crate.defaultX, crate.defaultY, key, 1, 1)
+        })
         this.loader.start()
     }
 

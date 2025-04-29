@@ -1,0 +1,45 @@
+{
+  "name": "EerieCastle",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/eeriecastle/eeriecastle-igloo-pack.json",
+    "key": "eeriecastle-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "eeriecastle-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "eeriecastle-igloo",
+      "frame": "door",
+      "x": 1121.3259676302932,
+      "y": 381.53758708663105,
+      "originX": 0.5649858591891015,
+      "originY": 0.8138015803309352
+    },
+    {
+      "type": "image",
+      "key": "eeriecastle-igloo",
+      "frame": "bg-upper",
+      "x": 1199,
+      "y": 354,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "eeriecastle-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 988.2498154572869,
+      "originX": 0.5,
+      "originY": 1.029426865557406
+    }
+  ]
+}

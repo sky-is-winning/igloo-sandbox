@@ -1,0 +1,36 @@
+{
+  "name": "MedievalManor",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/medievalmanor/medievalmanor-igloo-pack.json",
+    "key": "medievalmanor-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "medievalmanor-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "medievalmanor-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "medievalmanor-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 980.486100501291,
+      "originX": 0.5,
+      "originY": 1.0213396880221781
+    }
+  ]
+}

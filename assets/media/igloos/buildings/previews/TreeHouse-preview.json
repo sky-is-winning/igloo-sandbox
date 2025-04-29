@@ -1,0 +1,36 @@
+{
+  "name": "TreeHouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/treehouse/treehouse-igloo-pack.json",
+    "key": "treehouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "treehouse-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "treehouse-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "treehouse-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 966.8674310998953,
+      "originX": 0.5,
+      "originY": 1.007153574062391
+    }
+  ]
+}

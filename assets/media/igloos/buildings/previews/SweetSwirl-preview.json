@@ -1,0 +1,45 @@
+{
+  "name": "SweetSwirl",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/sweetswirl/sweetswirl-igloo-pack.json",
+    "key": "sweetswirl-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "sweetswirl-igloo",
+      "frame": "bg_lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "sweetswirl-igloo",
+      "frame": "door",
+      "x": 215.72656106823746,
+      "y": 625.4397284611821,
+      "originX": 0.6624402244165981,
+      "originY": 0.705483141024683
+    },
+    {
+      "type": "image",
+      "key": "sweetswirl-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "sweetswirl-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 975.6472409848757,
+      "originX": 0.5,
+      "originY": 1.0162992093592456
+    }
+  ]
+}

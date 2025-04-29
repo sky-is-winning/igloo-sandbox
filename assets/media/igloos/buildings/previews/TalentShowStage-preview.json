@@ -1,0 +1,27 @@
+{
+  "name": "TalentShowStage",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/talentshowstage/talentshowstage-igloo-pack.json",
+    "key": "talentshowstage-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "talentshowstage-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "talentshowstage-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 966.8674310998953,
+      "originX": 0.5,
+      "originY": 1.007153574062391
+    }
+  ]
+}

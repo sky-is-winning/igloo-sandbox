@@ -1,0 +1,36 @@
+{
+  "name": "Starship",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/starship/starship-igloo-pack.json",
+    "key": "starship-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "starship-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "starship-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "starship-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 968.0459003755292,
+      "originX": 0.5,
+      "originY": 1.0083811462245096
+    }
+  ]
+}

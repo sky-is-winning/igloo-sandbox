@@ -1,0 +1,36 @@
+{
+  "name": "Schoolhouse",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/schoolhouse/schoolhouse-igloo-pack.json",
+    "key": "schoolhouse-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "schoolhouse-igloo",
+      "frame": "bg",
+      "x": 0,
+      "y": 0,
+      "originX": 0,
+      "originY": 0
+    },
+    {
+      "type": "image",
+      "key": "schoolhouse-igloo",
+      "frame": "door",
+      "x": 349.806860413513,
+      "y": 422.78523116485115,
+      "originX": 0.5218785081236379,
+      "originY": 0.8172383677927505
+    },
+    {
+      "type": "image",
+      "key": "schoolhouse-igloo",
+      "frame": "roof",
+      "x": 0,
+      "y": 960,
+      "originX": 0,
+      "originY": 1
+    }
+  ]
+}

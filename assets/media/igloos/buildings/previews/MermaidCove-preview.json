@@ -1,0 +1,27 @@
+{
+  "name": "MermaidCove",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/mermaidcove/mermaidcove-igloo-pack.json",
+    "key": "mermaidcove-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "mermaidcove-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "mermaidcove-igloo",
+      "frame": "bridge",
+      "x": 478.71526559673634,
+      "y": 686.5007154026904,
+      "originX": 0.5517666298233039,
+      "originY": 0.09254678465999935
+    }
+  ]
+}

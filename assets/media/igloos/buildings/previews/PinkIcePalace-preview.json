@@ -1,0 +1,36 @@
+{
+  "name": "PinkIcePalace",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/pinkicepalace/pinkicepalace-igloo-pack.json",
+    "key": "pinkicepalace-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "pinkicepalace-igloo",
+      "frame": "bg-lower",
+      "x": 760,
+      "y": 634,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "pinkicepalace-igloo",
+      "frame": "bg-upper",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "pinkicepalace-igloo",
+      "frame": "door",
+      "x": 761,
+      "y": 644,
+      "originX": 0.5368421052631579,
+      "originY": 0.9769230769230769
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "FishBowl",
+  "assets": {
+    "pack": "assets/media/igloos/buildings/sprites/fishbowl/fishbowl-igloo-pack.json",
+    "key": "fishbowl-igloo-pack"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "key": "fishbowl-igloo",
+      "frame": "bg",
+      "x": 760,
+      "y": 480,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "type": "image",
+      "key": "fishbowl-igloo",
+      "frame": "fg",
+      "x": 760,
+      "y": 983.89076785164,
+      "originX": 0.5,
+      "originY": 1.024886216512125
+    }
+  ]
+}
