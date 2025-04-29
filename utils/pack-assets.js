@@ -3,7 +3,7 @@ const fsp = fs.promises;
 const path = require('path');
 const { spawn } = require('child_process');
 
-const srcDir = './assets';
+const srcDir = '.';
 const distDir = './dist';
 const distAssetsDir = path.join(distDir, 'assets');
 
@@ -11,9 +11,10 @@ const distAssetsDir = path.join(distDir, 'assets');
 async function copyAssets() {
     await fsp.rename(`${distAssetsDir}/scripts/client`, `${distAssetsDir}/../scripts`);
     await fsp.rm(distAssetsDir, { recursive: true, force: true });
-    await fsp.cp(srcDir, distAssetsDir, { recursive: true });
+    await fsp.cp(`${srcDir}/assets`, distAssetsDir, { recursive: true });
     await fsp.rm(`${distAssetsDir}/scripts/client`, { recursive: true, force: true });
     await fsp.rename(`${distAssetsDir}/../scripts`, `${distAssetsDir}/scripts/client`);
+    await fsp.cp("./index.html", `${distDir}/index.html`);
     console.log('Assets copied to dist/assets/');
 }
 
@@ -102,7 +103,7 @@ function getAssetsFromPack(assetPack) {
             const files = assetPack[key].files;
             for (const f in files) {
                 if (typeof files[f].url !== 'string') { files[f].url = files[f].url[0]; }
-                const fileUrl = path.join(distDir, files[f].url);
+                const fileUrl = path.join(srcDir, files[f].url);
                 const data = fs.readFileSync(fileUrl);
 
                 assets.push({
@@ -116,7 +117,7 @@ function getAssetsFromPack(assetPack) {
                     for (const texture of multiAtlas.textures) {
                         const atlas = texture.image;
                         const atlasUrl = path.join(files[f].path, atlas);
-                        const atlasData = fs.readFileSync(path.join(distDir, atlasUrl));
+                        const atlasData = fs.readFileSync(path.join(srcDir, atlasUrl));
                         assets.push({
                             key: atlas,
                             type: 'atlasimg',

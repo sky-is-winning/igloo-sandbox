@@ -2,13 +2,6 @@
     "section1": {
         "files": [
             {
-                "url": [
-                    "assets/media/interface/game/main/bag.webm"
-                ],
-                "type": "video",
-                "key": "bag_cooldown_vid"
-            },
-            {
                 "type": "multiatlas",
                 "url": "assets/media/interface/windows/prompt/banning.json",
                 "path": "assets/media/interface/windows/prompt",
