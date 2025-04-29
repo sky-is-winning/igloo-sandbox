@@ -784,6 +784,11 @@ export default class IglooEdit extends BaseScene {
 
         const iglooData = JSON.parse(localStorage.iglooData);
 
+        if (!iglooData.igloos[iglooData.currentIgloo] || !iglooData.igloos[iglooData.currentIgloo].includes('%')) {
+            iglooData.igloos[iglooData.currentIgloo] = `${1}%${[]}%${1}%${0}%${0}%${1}%${[]}`
+            localStorage.setItem('iglooData', JSON.stringify(iglooData))
+        }
+
         const mainData = iglooData.igloos[iglooData.currentIgloo].split('%');
 
         const mainPreview = await this.createPreviewFromJSON(mainData, 0);
@@ -792,6 +797,10 @@ export default class IglooEdit extends BaseScene {
 
         // Create remaining previews (positions 1–4)
         for (let i = 0; i < 4; i++) {
+            if (!iglooData.igloos[i] || !iglooData.igloos[i].includes('%')) {
+                iglooData.igloos[i] = `${1}%${[]}%${1}%${0}%${0}%${1}%${[]}`
+                localStorage.setItem('iglooData', JSON.stringify(iglooData))
+            }
             const data = iglooData.igloos[i]?.split('%');
             if (!data) continue;
 
