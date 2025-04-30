@@ -1202,7 +1202,7 @@ export default class IglooEdit extends BaseScene {
         }
         if (this.input.activePointer.x < x || this.input.activePointer.x > x + 297 || this.input.activePointer.y < y || this.input.activePointer.y > y + 187) return
 
-        this.saveIgloo()
+        this.onSaveClick()
         this.loadIgloo(id)
     }
 
