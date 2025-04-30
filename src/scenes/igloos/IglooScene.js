@@ -199,6 +199,7 @@ export default class IglooScene extends RoomScene {
 
     loadAllFurniture() {
         for (let f of this.args.furniture) {
+            console.log(f)
             this.updateQuantity(f.furnitureId)
 
             if (this.textures.exists(`furniture/sprites/${f.furnitureId}`)) {

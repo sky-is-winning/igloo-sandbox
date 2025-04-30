@@ -45,6 +45,9 @@ export default class FurnitureSprite extends Phaser.GameObjects.Sprite {
         // Last safe position
         this.safeX = this.x
         this.safeY = this.y
+
+        this.updateFrame(0, rotation, true) // Set rotation
+        this.updateFrame(1, frame, true) // Set variation
     }
 
     get iglooEdit() {
