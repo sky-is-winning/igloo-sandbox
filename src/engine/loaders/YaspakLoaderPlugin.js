@@ -17,8 +17,8 @@ function inferMimeType(filename) {
         bmp: 'image/bmp', svg: 'image/svg+xml',
 
         // Audio
-        mp3: 'audio/mpeg', ogg: 'audio/ogg', wav: 'audio/wav',
-        flac: 'audio/flac', aac: 'audio/aac', m4a: 'audio/mp4',
+        mp3: 'audio/mp3', ogg: 'audio/ogg', wav: 'audio/wav',
+        flac: 'audio/flac', aac: 'audio/aac', m4a: 'audio/m4a',
 
         // Video
         mp4: 'video/mp4', webm: 'video/webm', mkv: 'video/x-matroska'
